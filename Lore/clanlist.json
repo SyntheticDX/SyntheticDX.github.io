@@ -22204,7 +22204,7 @@
         "tag_extra" : "",
         "flag" : ["",""],
         "name" : "",
-        "gametype" : ["0a"],
+        "gametype" : ["0a","Mod"],
         "tier" : ["B","",""],
         "date" : ["isUncertain","2005-10-01","isUncertain","2005-12-01","isCertain",""],
         "founder" : ["MurderInc?", "Majestic?"],
@@ -22245,7 +22245,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "Late fifth year smaller clan of likely zero-aug focus and possibly with rudimentary auging capacity. Majestic advertised on HK forums where they appear to have issued a challenge. Source is also in archive under my 0a sshots.",
+        "description" : "Late fifth year smaller clan of seemingly AltFire focus and with rudimentary 0a and possibly auging capacity. Majestic advertised on HK forums where they appear to have issued a challenge. Source is also in archive under my 0a sshots.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -23382,6 +23382,9 @@
         "background" : [
             {
                 "backgroundStory" : ["","dwk","","DWK, or DreamWorld Kings was founded by {DWK}Nemo, as a low-gravity (z=-120) subdivision of the JTB 'Just The Basics' zero-augs clan founded by [JTB]SwissCheese.  DWK's leadership transferred hands over its year-long history before merging with the other 0-augs powerhouse, Evolution."]
+            },
+            {
+                "backgroundStory" : [" Posted: Oct 10 2005, 06:20 PM https://web.archive.org/web/20051221203823/http://s3.invisionfree.com:80/HunterKillerz/index.php?showtopic=429&amp;view=getlastpost","reclaimer","Reclaimer:","those of you eho remember DWK, know that the first cheats used were made and used by {DWK}LionHeart. hes once agian cheating -_-<br /><br />baltaron or hunter, if you either of yuou see him, plz ban him on sight.<br /><br />ppl hav informed me and he HAS admitted many times that he cheats, but he doesnt give a shit.<br /><br />Here is the proof: http://dxmpserver.byethost24.com/clips/"]
             }
         ],
         "news" : [
@@ -36631,7 +36634,7 @@
         "name" : "Hunter Killers",
         "gametype" : ["0a","Aug"],
         "tier" : ["B","A","S"],
-        "date" : ["isUncertain","2003-06-01","isUncertain","2007-11-16","isCertain","2010-01-01 ✝ with game"],
+        "date" : ["isUncertain","2003-06-01","isUncertain","2007-11-16","isCertain","2007-12-01 ✝ 2018-09-01"],
         "founder" : ["Reclaimer"],
         "members" : [
             {
@@ -36642,7 +36645,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["","elite\\Demolitions Sub-leader "]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -36650,35 +36653,27 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["","Rifleman Sub-leader "]
                     }
                 ]
             },
             {
                 "membergroup" : [
                     {
-                        "membergroupLabel" : ["","2004-2005"],
+                        "membergroupLabel" : ["https://web.archive.org/web/20050828164409/http://hkclan.t35.com:80/Roster.html","2004"],
                         "pidPlusName" : ["skillerboy","{HK}SkillerBoy"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : [""," Host/Mapper"]
+                        "stats" : ["","Sharpshooter(In training) Host/Mapper"]
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["jjbomber","{HK}JJBomber"],
+                        "pidPlusName" : ["homeboy","{HK}HomeBoy"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["sinner","{HK}Sinner"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["-=HK=-Homeboy: Drafted by RECLAIMER: Now an Elite (by Sept 2005)\n\nSomeones alias, leader cant recall anymore, inactive soon after joining"," Elite/Sniper Member "]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -36686,7 +36681,7 @@
                         "aliases" : ["Makaveli","Scarface (US)"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["makes [C] and challenges"," Member"]
+                        "stats" : ["makes [C] and challenges, he is likely in this clan between his stay with [DF] summer 2004 and before making of his [C]88 around October 2004, so chronologically we are probaby still later-mid-2004 with roster"," Member"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -36694,7 +36689,15 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["F",""]
+                        "stats" : ["F","elite\\Sniper Member "]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["boomernudge","{HK}BoomerNudge"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["BoomerNudge: Draft attempt by: RECLAIMER: Failed trial (by Sept 2005)\n\n'August 12, 2005: please let me back into HK bros! Im sorry for leaving you guys in the first place and I really want to join now. If you guys dont accept I dont know what Ill do. Theres always [CG].... I despise both [A] and [T] members for their constant admin ...read more'\n\nPossibly another alias, leader cant recall well and player soon went inactive"," Rifleman Member "]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -36702,7 +36705,15 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : [""," EliteMember"]
+                        "stats" : ["","Elite\\Rifleman Member "]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["whitenigger","{HK}WhiteNigger"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Leader figures today that member mustve been soon inactive","Riflman\\Host Member "]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -36710,7 +36721,28 @@
                         "aliases" : ["JJBomber","BigGayAl"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : [""," Host Member"]
+                        "stats" : ["{HK}Gohan: Drafted by RECLAIMER: Now an Elite"," Riflman\\Host Member "]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["matt_hk","{HK}Matt"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Leader figures this member went inactive soon later , I'd speculate player's related to DXM TSS A7X 0a beginner clans"," Modder Member "]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+
+                    {
+                        "membergroupLabel" : ["","2005"],
+                        "pidPlusName" : ["sinner","{HK}Sinner"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Also listed Nov 2007 roster",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -36719,6 +36751,14 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["jedi","{HK}Jedi"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Eligible Elites: (2005)\n\nSomeones alias",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -36734,7 +36774,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : ["i"],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Also listed Nov 2007",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -36742,7 +36782,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Also listed Nov 2007",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -36762,19 +36802,27 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["chandlerbong","{HK}ChandlerBong"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","ret from game 2005-10-14",""],
+                        "stats" : ["(HK)ChandlerBong: Drafted by: ZuLu and RECLAIMER: Unsuccesful trial (by Sept 2005)\n\nSomeones alias",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
                         "pidPlusName" : ["baltaron","{HK}Baltaron"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
-                        "membership" : ["","",""],
+                        "membership" : ["2005?","2005-10-14","2005-11-25"],
                         "stats" : ["",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["mook","{HK}MooK"],
-                        "aliases" : [""],
+                        "aliases" : ["BOOZY"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Also listed Nov 2007",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -36782,59 +36830,95 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["active Nov 2007",""]
+                        "stats" : ["active Nov 2007, roster lists in Nov 21",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","by Nov 21, 2007"],
+                        "pidPlusName" : ["reclaimer","${HK}TerminaTor$dM"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
                     },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["scop3","dM.Sc0p3[HK]"],
+                        "aliases" : ["HunterKiller"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Presumably alias, maybe SS",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","-(H K)~Ýáññì-dM"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","xxTECH{HK}N9NExxdM"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","-=DM=-MaxPayne"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","-=DM=-Roachman"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },               
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["bambi","{HK}Bambi"],
-                        "aliases" : [""],
+                        "aliases" : ["TommyGun"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["","NY, US"]
-                    }
-                ]
-            },
-            {
-                "membergroup" : [
-                    {
-                        "membergroupLabel" : ["","Briefly active"],
-                        "pidPlusName" : ["homeboy","{HK}HomeBoy"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["Someones alias"," Member"]
-                    },
+                        "stats" : ["Still listed 2013","NY, US"]
+                    },               
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["boomernudge","{HK}BoomerNudge"],
+                        "pidPlusName" : ["member","{HK}Mech"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Shortly inactive"," Member"]
-                    },
+                        "stats" : ["",""]
+                    },               
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["whitenigger","{HK}WhiteNigger"],
+                        "pidPlusName" : ["lars","[HK]~Lårs~"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Shortly inactive"," Host Member"]
-                    },
+                        "stats" : ["",""]
+                    },               
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["matt_hk","{HK}Matt"],
+                        "pidPlusName" : ["lethal","$HK$Lethal.dM"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : [""," Modder Member "]
-                    }
-                ]
-            },
-            {
-                "membergroup" : [
+                        "stats" : ["",""]
+                    },               
                     {
-                        "membergroupLabel" : ["","2008-2012"],
-                        "pidPlusName" : ["tbd","[HK]TBD"],
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","hk.Cortana"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -36842,15 +36926,67 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","~{HK}~ ~Þrödìgý~dM"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","~{HK}Çòrrüþtíón~dM"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["raiden","Råiden[HK]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Possibly before [T] if its the same Raiden",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","RedRussian[HK]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["tbd","-=HK=-TßÐ"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Nov 21, 2007 Roster includes",""]
+                    },
+                    {
+                        "membergroupLabel" : ["duplicate",""],
+                        "pidPlusName" : ["reclaimer","{HK}~RÈÇLÀÍMÉR~dM"],
+                        "aliases" : ["~ÅÑÔMÁLÝ~"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Nov 21, 2007 Roster includes, seems like joined [T] around the time of this roster, supposedly thus killing the clan",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","Feb 16, 2013"],
                         "pidPlusName" : ["anax","[HK]Anax"],
                         "aliases" : ["Knifeworld"],
                         "pastClanIDs" : [""],
-                        "membership" : ["","",""],
+                        "membership" : ["Jun 27 2012","",""],
                         "stats" : ["",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["labtec","[HK]Labtec"],
+                        "pidPlusName" : ["labtec","~(HK)LabTec~"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -36858,9 +36994,17 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["dcx","[HK]DcX"],
+                        "pidPlusName" : ["dcx","[HK]~DcX~"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["Khomeini","=[HK]=Articuno~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["triad"],
                         "membership" : ["","",""],
                         "stats" : ["",""]
                     },
@@ -36882,10 +37026,18 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["ricci","[HK]Ricci"],
+                        "pidPlusName" : ["ricci","{HK}Ricci"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["March 2012","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["tejas","{HK}Tejas"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["2012?","",""],
                         "stats" : ["",""]
                     }
                 ]
@@ -36893,9 +37045,9 @@
             {
                 "membergroup" : [
                     {
-                        "membergroupLabel" : ["",""],
+                        "membergroupLabel" : ["","Spies"],
                         "pidPlusName" : ["friedman","[HK]Bibi"],
-                        "aliases" : ["Friedman"],
+                        "aliases" : ["Friedman","HE-MAN"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["A spy from [THC]",""]
@@ -36955,6 +37107,74 @@
         ],
         "websites" : [
             {
+                "website" : ["Half-finished website found by archiver March 2005, main pages are populated, content indicates late summer 2004","https://web.archive.org/web/20050907190158/http://hkclan.t35.com/about.html","index"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["Dead forum setup with nothing preserved, of unknown brand","https://web.archive.org/web/*/http://hkclan.w4.clicdev.com:80/f/index.php*","dead"]
+            },
+            {
+                "forum" : ["Main forums early view from Oct 2004, 2012 era content available if you use z3 instead","https://web.archive.org/web/20051115121944/http://s3.invisionfree.com:80/HunterKillerz/index.php?showtopic=316&amp;view=getnewpost","featured"]
+            },
+            {
+                "forum" : ["Forums migrated to freehost's new format, clan closed sometime (well?) before Sept 2018","https://www.tapatalk.com/groups/hunterkillerz/?","live"]
+            }
+        ],
+        "description" : "A long-enduring clan from the summer of the third year, this older Counter Strike clan formed its DXMP wing on the initiative of its member Reclaimer the same summer that Void appeared out of Evo and DWK merge, not long after after GODZ. Slowly settling into the niche that JTB and the following DD and Evo had carved out known as zero-augs, the clan was already attracting veterans of all walks by early 2005, with the notable additions in shape of Sinner, JJBomber, then the closing [3] brought ex-members GoTTi, StealthMonk to the fold. Following years saw American playerbase in DXMP diminish, forcing members to play with unacceptable pings in public games, and 2007 server attacks were the final nail in the coffin that brought about clan closure as leader moved to [T] clan. It wasnt long until HK was back once more, this time growing its roster with the likes of HeY, TBD, Labtec, and by 2012 also listed Ricci and yet another triad Kale, all interested in challenging A!B that housed every other veteran auger. Clan appeared to conduct its challenges in a savvy enough manner to stack up a flawless record up until newly emerged clans either used Triad style re-interpretation of a lost war, or organized wars on clan's behalf without leader's direct involvement. Roster contains lot of aliases and unknown names to DXMP making it hard to count exact size in DXMP, currently some are marked as generic id until further clarifications.",
+        "background" : [
+            {
+                "backgroundStory" : ["","hk","","The ancient legendary Counter Strike clan is resurrected in Deus Ex. The clan now accepting more application but still maintaining its exclusive acceptence of skilled players. The most powerful of all are the {HK}Elites, the members that are singled out for their unorthadox ability to master any weapon and inflict utter devastation to their opponents. Only 4 Elite applications are accepted a YEAR, making their presence in the clan it self still individual. All alliances and merge offers are disavowed and ignored, the HunterKillerz are a single group of players that are not bound to any other guild. As the {HK} dynasty continues its seemingly unstoppable onslaught against opposing clans, they will allow the public into their forums, allowing them to be in the presence of the few and the almighty."]
+            },
+            {
+                "backgroundStory" : ["2024-03-28","reclaimer","Reclaimer:","The first players to wear the tag in DX were me and a friend of mine who played for HK in other games first. That was around summer 2003. It was after GODZ tho, that much I can recall. I seem to remember 2003 was when 0 augs took off first in JTB and Void servers and then finally with NoChanc's top of the list server. My friend back then played as Warrior23 and we were still pretty new and only really played 0 aug for the first year or so. By 2004 HK had more players coming from CounterStrike and UT coming to check out DXMP. That's also the year we got our forums set up.<br /><br />By 2005 HK was imo the top 0 aug clan in the US next to CG, Void, DWK, nMe and DCSB. Although we never did get to war those guys since by then nMe, Void and DWK were less organized, DCSB was mostly Euro. We talked about matching with CG but in the meantime went up against smaller clans like SoF and [Z] and [PNK]. <br /><br />The only reason I say we were good is cuz every time I or any other HK tag entered a US match we always dominated. And we had a 0 aug server back then, (HK)Baltaron's server based in Phoenix, Arizona. That was the only time I ever pinged below 80 in DXMP and I was able to beat all the tough players back then there including Grubby and a lot of the [IO] guys we were rivals with. Which reminds me we warred [IO] a couple times.<br />Baltaron also hosted our maps back when we even made those. Idk how many of them ever got saved in the DX Alpha archive unfortunately.<br /><br />This was 2005 still. In 05 him (Baltaron) and Ricci were the top players in the west. Flaw, Ricci, JJ, and DdM. Then in 0 augs there were others like me and CloudStrike and several HK's. Cajun and JACKTHERIPPER from [BTJ]. Dillinger and Malachai. <br /><br />Yea Sinner was in [HK] he played with us against [IO] and [SoF] and some other 0 aug clans. Oh I just remember 2005 was also when Gotti and Stealth Monk joined us. The first Triads to join. There was also Scarface, the American one who started Crazy 88's. He was from Oregon.<br /><br />Well we played a lot together and we were all cool with each other for the most part too so. We had good games and we were all good players. I think I played a lot with Gaz, Trauma, Kale and JJBOMBER in augs. I barely played augs before 2005. It was less popular than 0 aug and there were less aug servers. In 2006 I got decent at augs finally and stopped using active/deactivate all. <br /><br />I think 06 might have been when we started recruiting good Euro auggers like TBD and HeY. At some point we also recruited ScienceNerd, all three of those guys fresh from one of Shifter's newest clans Shen al'Calhar. 2006 might have been when Deja Vu dossed all the servers and the only American aug server was DrunKard's BTDM and the only clans we had to fight that weren't Euro based were EDH and DIOS. So activity slowed down in DXMP for a lot of American players. Cuz of some douchebag in Europe.<br /><br />(on JJBomber) Yea he played aliased as (HK)Gohan as a nod to [TCN]Goku.<br /><br />Then in 2006 when USA communities were pretty much gone [T] came back with their server hosted by JackOff called [T]ranscendation. That was when I really played ATDM more than BTDM for the first time. This was like late 2006 early 07. That was also when Flaw became the top USA player of all time. I think HK was still around during that time in other games and a little in DXMP so I joined [T] so I could play in some matches with Flaw and Vort and some other old players that I knew from back in the day.<br /><br />(on Soviet celebrating HK death) lmao<br />That dude was DXMP's biggest player hater next to Darko<br /><br />Anyways yea I think in 07 I was playing with [T] and having like inter clan scrimmages with and vs Flaw and Spaz and Shaun etc. Until the drama in their clan happened. Probably was back in HK by the end of 07 or early 08. Flaw and [T] were less active as well by then or rather Flaw was aliasing, he had also join [3] along with GrimRaper. <br /><br />But I think at that time he played mostly with no tags and just player aliased or used a random pseudonym like Messiah and Ricci and I used to do.<br /><br />By 2009 I was definitely back with HK and we were warring Sike's clan [B] and some others at the time, I'm pretty sure somebody recruited HeY to HK around 08/09.<br /><br />By 2010 the only Amereican servers that weren't Karky's party server or some funline or RPG server was the TAC servers hosted by LTK and then MIRK. So prtetty much the only way for Americans to play competetively by the turn of the decade was in infite bio servers with clyzm and tnag/altfire weapons.<br /><br />Also I can't remember if HK ever had a scroller logo on the bottom of some clan sites, I vaguely remember there being one that Shifter made. <br /><br />Well others founded HK in Counstrike but I founded the DXMP division. I saw all sorts of tags, originally it was (HK) but I saw others do [HK], {HK} and even /HK\\ and .:HK:. lmao<br />hell even hk. or .hk<br /><br />(on kool tags) I think it died off when cross play became big<br />console players use x's instead<br /><br />I think by 2011/12 I was barely playing. Only finding occasional games in TAC. Then I heard back from some Euro HK vets who were still getting regular games in ATDM servers that were too laggy for me and they were organizing some wars. That was around the time Kale and Ricci came into the fold I think <br /><br />I think Bambi hosted a USA ATDM server and that was where I got to play a lot with Ricci and Kale, great matches. The best 1v1's I ever had since my matches vs Flaw and Gaz in 2006<br /><br />(on a THC spy getting recruited) Yea that was Bambi's fault. He vouched for him and said he was a personal friend. He was a black dude from NY.<br /><br />(on Void creation) I feel like I remember them earlier than us"]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["https://web.archive.org/web/20051225022028/http://s3.invisionfree.com:80/HunterKillerz/index.php?showtopic=363&amp;view=getnewpost","2005-09-14","Elite Drafting Season","RECLAIMER","-=HK=-Homeboy: Drafted by RECLAIMER: Now an Elite<br />BoomerNudge: Draft attempt by: RECLAIMER: Failed trial<br />(HK)ChandlerBong: Drafted by: ZuLu and RECLAIMER: Unsuccesful trial<br />{HK}Gohan: Drafted by RECLAIMER: Now an Elite<br />----------------------------------------------------------------------------------<br />2005 drafting statistics:<br /><br />Locater: 0 drafts<br />RECLAIMER: 4 drafts<br />ZuLu: 1 draft<br />HQ: not qualified to draft (must wait until next season, new elites cannot draft the same season they were drafted)<br />Gohan: Not yet qualified to draft(must wait until next season)<br />--------------------------------------------------------<br />Eligible Elites:<br /><br />{HK}Jedi<br />{HK}Terminator<br />{hk}Gotti<br />(HK)ChandlerBong","members"]
+            }
+        ]
+    },
+    {
+        "id" : "hoh",
+        "tag" : ["tagFront","[","HoH","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Aug"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2002-10-01","isUncertain","2003-10-01","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["nightstalker","[HoH]Nightstalker"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["shadowlord","[HoH]ShadowLord"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["hoh_v_s2d","s2d","[S2D]","Loss 0:2","","S2D wrote: Well this was our secons clanwar, against [HoH] although they fought hard but fortunetly for us they lost 2 rounds nil with [HoH]Nightstalker leaving halfway through.\n\nWar Stats: 2 Rounds, Area 51, CMD, 2v2","isCertain"]
+            }
+        ],
+        "websites" : [
+            {
                 "website" : ["","",""]
             }
         ],
@@ -36963,13 +37183,612 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "A long-enduring clan from the summer of the third year, this older Counter Strike clan formed its DXMP wing on the initiative of its member Reclaimer the same summer that Void appeared out of Evo and DWK merge, not long after after GODZ. Slowly settling into the niche that JTB and the following DD and Evo had carved out known as zero-augs, the clan was already attracting veterans of all walks by early 2005, with the notable additions in shape of Sinner, JJBomber, then the closing [3] brought ex-members GoTTi, StealthMonk to the fold. Following years saw American playerbase in DXMP diminish, forcing members to play with unacceptable pings in public games, and 2007 server attacks were the final nail in the coffin that brought about clan closure as leader moved to [T] clan. It wasnt long until HK was back once more, this time growing its roster with the likes of HeY, TBD, Labtec, and by 2012 also listed Ricci and yet another triad Kale, all interested in challenging A!B that housed every other veteran auger. Clan appeared to conduct its challenges in a savvy enough manner to stack up a flawless record up until newly emerged clans either used Triad style re-interpretation of a lost war, or organized wars on clan's behalf without leader's direct involvement.",
+        "description" : "Likely a third year smaller clan of warring capability that judging by match results likely consisted of beginners, presumed aug clan, being close in time to JTB makes it more dubious but they warred a clan that warred a clan that warred an auged clan.",
         "background" : [
             {
-                "backgroundStory" : ["","hk","","The ancient legendary Counter Strike clan is resurrected in Deus Ex. The clan now accepting more application but still maintaining its exclusive acceptence of skilled players. The most powerful of all are the {HK}Elites, the members that are singled out for their unorthadox ability to master any weapon and inflict utter devastation to their opponents. Only 4 Elite applications are accepted a YEAR, making their presence in the clan it self still individual. All alliances and merge offers are disavowed and ignored, the HunterKillerz are a single group of players that are not bound to any other guild. As the {HK} dynasty continues its seemingly unstoppable onslaught against opposing clans, they will allow the public into their forums, allowing them to be in the presence of the few and the almighty."]
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "hs",
+        "tag" : ["tagFront","[","HS","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Hyper Snipers",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isCertain","2004-06-01","isUncertain","2004-06-14","isCertain",""],
+        "founder" : ["MagusC"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["magusc","[HS]MagusC"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["crowbar","[HS]Crowbar[WC]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "One-week clan from fourth year, MagusC apparently was in {EoD} after this. Months later some beginner (HS)BeNuS was playing though, possibly from a different clan. Crowbar also wore the tag in October together with [WC]. MagusC wears the tag after {EoD} death and before it turned into {MoH}, perhaps trying to revive it or it actually superceeded {EoD}.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "hs",
+        "tag" : ["tagFront","[","HS","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Herbal Supremacy",
+        "gametype" : ["Basic"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","","isUncertain","","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","[HS]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Listed by Hasharin of E.d.H.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "hsk",
+        "tag" : ["tagFront","{","HSK","}"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Basic"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","","isUncertain","","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","{HSK}"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Listed by Hasharin of E.d.H.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "hump",
+        "tag" : ["tagFront","(","HUMP",")"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Basic"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","","isUncertain","","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","(HUMP)"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Listed by Hasharin of E.d.H.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "hun",
+        "tag" : ["tagFront","[","HUn","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Basic"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","","isUncertain","","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","[HUn]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Listed by Hasharin of E.d.H.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "hvh",
+        "tag" : ["tagFront","(","HvH",")"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Aug"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2006-12-01","isUncertain","2006-12-01","isCertain",""],
+        "founder" : ["Sniperhell?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["sniperhell","(HvH)Sniperhell"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Late sixth year unknown tag of a likely beginner exploring auged gameplay brought about by server attacks, contemporary of another similar clan (SoK) that actually recruited someone, it was probably picked up from sshots of the era that can be found in archive.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "hvm",
+        "tag" : ["tagFront","~[",":¤:","]~"],
+        "tag_extra" : "[HVM]",
+        "flag" : ["",""],
+        "name" : "Hivemind",
+        "gametype" : ["0a","Aug"],
+        "tier" : ["B","A","S"],
+        "date" : ["isCertain","2013-01-12","isCertain","2014-12-31","isCertain",""],
+        "founder" : ["Ken", "Unkn0wn"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","March 21, 2013"],
+                        "pidPlusName" : ["ken","~[:¤:]~sÝñtHètÌç"],
+                        "aliases" : ["rand12om","UNDEAD"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["Founder","",""],
+                        "stats" : [""," (EE)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["clixor","~[:¤:]~Clix"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Generally playing from NL he was placed in China for the duration of this clan +8 GMT"," (Cn)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["cas","~[:¤:]~CäS"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : [""," (NO)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["psycho","~[:¤:]~þsýçhø~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","(Wales, UK)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["politra","~[:¤:]~Pó³Litra"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : [""," (PL)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["dominik","~[:¤:]~Dominik"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : [""," (PL)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["kiki","~[:¤:]~BadSanta"],
+                        "aliases" : ["Kiki"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["I kicked the member after clan's death which is a lame thing to do but he was defending a notorious cheater and that goes against everything this clan meant to represent - following the fate of the person he was defending since I also kicked Phantom out of REN after clan had closed down, as I did not want our legacy to have anything to do with what he was doing later."," (PL)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["konami","~[:¤:]~Konami"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Possibly for a short time or retired in clan sometime after March 2013"," (UK)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["price","~[:¤:]~Price"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Friend of Dani he was in clan for a while before leaving for his new clan"," (NL)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["specx","~[:¤:]~SpecX"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["I think he left some time after Unkn0wn made his own clan to support him there, but memory is vague"," (IN)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["tuler","~[:¤:]~Tuler"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["t"],
+                        "membership" : ["","",""],
+                        "stats" : ["US auged veteran, our mainly European clan likely couldnt provide enough activity on his continent"," (IN)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["russian","~[:¤:]~Russian"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Likely pruned for inactivity sometime after March 2013"," (RU?)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["vitali","~[:¤:]~Vitali"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Likely pruned for inactivity sometime after March 2013"," (RU?)"]
+                    }
+                ]
             },
             {
-                "backgroundStory" : ["2024-03-28","reclaimer","Reclaimer:","The first players to wear the tag in DX were me and a friend of mine who played for HK in other games first. That was around summer 2003. It was after GODZ tho, that much I can recall. I seem to remember 2003 was when 0 augs took off first in JTB and Void servers and then finally with NoChanc's top of the list server. My friend back then played as Warrior23 and we were still pretty new and only really played 0 aug for the first year or so. By 2004 HK had more players coming from CounterStrike and UT coming to check out DXMP. That's also the year we got our forums set up.<br /><br />By 2005 HK was imo the top 0 aug clan in the US next to CG, Void, DWK, nMe and DCSB. Although we never did get to war those guys since by then nMe, Void and DWK were less organized, DCSB was mostly Euro. We talked about matching with CG but in the meantime went up against smaller clans like SoF and [Z] and [PNK]. <br /><br />The only reason I say we were good is cuz every time I or any other HK tag entered a US match we always dominated. And we had a 0 aug server back then, (HK)Baltaron's server based in Phoenix, Arizona. That was the only time I ever pinged below 80 in DXMP and I was able to beat all the tough players back then there including Grubby and a lot of the [IO] guys we were rivals with. Which reminds me we warred [IO] a couple times.<br />Baltaron also hosted our maps back when we even made those. Idk how many of them ever got saved in the DX Alpha archive unfortunately.<br /><br />This was 2005 still. In 05 him (Baltaron) and Ricci were the top players in the west. Flaw, Ricci, JJ, and DdM. Then in 0 augs there were others like me and CloudStrike and several HK's. Cajun and JACKTHERIPPER from [BTJ]. Dillinger and Malachai. <br /><br />Yea Sinner was in [HK] he played with us against [IO] and [SoF] and some other 0 aug clans. Oh I just remember 2005 was also when Gotti and Stealth Monk joined us. The first Triads to join. There was also Scarface, the American one who started Crazy 88's. He was from Oregon.<br /><br />Well we played a lot together and we were all cool with each other for the most part too so. We had good games and we were all good players. I think I played a lot with Gaz, Trauma, Kale and JJBOMBER in augs. I barely played augs before 2005. It was less popular than 0 aug and there were less aug servers. In 2006 I got decent at augs finally and stopped using active/deactivate all. <br /><br />I think 06 might have been when we started recruiting good Euro auggers like TBD and HeY. At some point we also recruited ScienceNerd, all three of those guys fresh from one of Shifter's newest clans Shen al'Calhar. 2006 might have been when Deja Vu dossed all the servers and the only American aug server was DrunKard's BTDM and the only clans we had to fight that weren't Euro based were EDH and DIOS. So activity slowed down in DXMP for a lot of American players. Cuz of some douchebag in Europe.<br /><br />(on JJBomber) Yea he played aliased as (HK)Gohan as a nod to [TCN]Goku.<br /><br />Then in 2006 when USA communities were pretty much gone [T] came back with their server hosted by JackOff called [T]ranscendation. That was when I really played ATDM more than BTDM for the first time. This was like late 2006 early 07. That was also when Flaw became the top USA player of all time. I think HK was still around during that time in other games and a little in DXMP so I joined [T] so I could play in some matches with Flaw and Vort and some other old players that I knew from back in the day.<br /><br />(on Soviet celebrating HK death) lmao<br />That dude was DXMP's biggest player hater next to Darko<br /><br />Anyways yea I think in 07 I was playing with [T] and having like inter clan scrimmages with and vs Flaw and Spaz and Shaun etc. Until the drama in their clan happened. Probably was back in HK by the end of 07 or early 08. Flaw and [T] were less active as well by then or rather Flaw was aliasing, he had also join [3] along with GrimRaper. <br /><br />But I think at that time he played mostly with no tags and just player aliased or used a random pseudonym like Messiah and Ricci and I used to do.<br /><br />By 2009 I was definitely back with HK and we were warring Sike's clan [B] and some others at the time, I'm pretty sure somebody recruited HeY to HK around 08/09.<br /><br />By 2010 the only Amereican servers that weren't Karky's party server or some funline or RPG server was the TAC servers hosted by LTK and then MIRK. So prtetty much the only way for Americans to play competetively by the turn of the decade was in infite bio servers with clyzm and tnag/altfire weapons.<br /><br />Also I can't remember if HK ever had a scroller logo on the bottom of some clan sites, I vaguely remember there being one that Shifter made. <br /><br />Well others founded HK in Counstrike but I founded the DXMP division. I saw all sorts of tags, originally it was (HK) but I saw others do [HK], {HK} and even /HK\\ and .:HK:. lmao<br />hell even hk. or .hk<br /><br />(on kool tags) I think it died off when cross play became big<br />console players use x's instead<br /><br />I think by 2011/12 I was barely playing. Only finding occasional games in TAC. Then I heard back from some Euro HK vets who were still getting regular games in ATDM servers that were too laggy for me and they were organizing some wars. That was around the time Kale and Ricci came into the fold I think <br /><br />I think Bambi hosted a USA ATDM server and that was where I got to play a lot with Ricci and Kale, great matches. The best 1v1's I ever had since my matches vs Flaw and Gaz in 2006<br /><br />(on a THC spy getting recruited) Yea that was Bambi's fault. He vouched for him and said he was a personal friend. He was a black dude from NY.<br /><br />(on Void creation) I feel like I remember them earlier than us"]
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["killer_ua","~[:¤:]~KïÍÎëR"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : [""," (UA)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["ajit","~[:¤:]~::AjiT::"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : [""," (PR)"]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","ex-members"],
+                        "pidPlusName" : ["unkn0wn","~[:¤:]~Unkn0wn"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["Founder","asked to leave before March 21",""],
+                        "stats" : [""," (UK)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["sile","~[:¤:]~Sile"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["before July 20, 2013","",""],
+                        "stats" : ["I think he was kicked at some point for suiciding or something or retired and left on his own"," "]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["danisaggenza","~[:¤:]~Ðåñî¶ággêñzá"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["before July 20, 2013","around August 2014?",""],
+                        "stats" : ["Was kicked or left with a lot of friends before that happened, in second half of 2014 with legitimacy of play in question, formed clan NVM, later also BB, and a small M clan"," (ES)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["solid","~[:¤:]~Solid"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Friend of Dani he was in clan for a very short time"," (UK)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["machete","~[:¤:]~Machete"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Friend of Dani he was in clan for a while before quitting due to not finding competitive shooter gaming to his liking"," (UK)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["bajas","~[:¤:]~Bajas"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Dani's gf who was in the clan for a brief period alongside his other friends, even fights a successful war for the clan before finally leaving for Dani's new group. I think she was niece of [MTX]Biatch."," (SWE)"]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["fgs_v_hvm","fgs","[FGS]","Win 2:0","","Chinny's Newsletter 'February 2014': 'This month saw two matches between [FGS] (the longest running clan in Deus Ex multiplayer) vs Hivemind. The format was a zero aug configuration and “best of three”. The first showdown featured the maps DXMP_Smuggler and DXMP_Silo which saw Hivemind winning 2-0 thus no third map was played, shots and video below.'\n\nLineups:\n\n-FGS-\nKhaamilus\nMastakilla\nNobody?\nCozmo\n\n-HVM-\nKiki\nSynthetic\nMachete\nClixor\n\n(sshots have been moved to sshot archive, yt video of url O9UiOHzDfNc is no longer available)\n\nhttps://chinnysdeusexblog.wordpress.com/2014/02/01/chinnys-deus-ex-newsletter-february-2014/","isCertain"]
+            },
+            {
+                "match" : ["fgs_v_hvm_2","fgs","[FGS]","Win 2:0","","Chinny's Newsletter 'February 2014': 'The rematch played the following week headed the same result, 2-0 to Hivemind, the maps played were DXMP_Smuggler and DXMP_CS-Office. It’s great to see such an old gaming community still have the ability to organise clan wars between clans and I would like to congratulate all involved.'\n\nLineups:\n\n-FGS-\nKhaamilus\nMastakilla\nNobody\nChees\n\n-HVM-\nKiki\nAjit\nBajas\nKiller\n\n(sshots have been moved to sshot archive)\n\nKen: I switched to FGS side after we won 2 maps and played last optional map as my old name [FGS]Hidden, helping FGS win one map on CMD, but I dont remember which one of the several FGS wars it was, I seem to recall Psycho on HVM team on that map - February 2014 2 matches vs FGS were played in two weeks, but I dont know if we played more wars vs them over two years.","isCertain"]
+            },
+            {
+                "match" : ["fps_v_hvm","fps","[FPS]","","2013-02-07","I issued a challenge to 0a and any auged gametype they might agree to, but I believe the clan was on its way out then.","isDiscussed"]
+            },
+            {
+                "match" : ["hvm_v_nkz","nkz","[NKz]","Practice","2013-09-01","Friendly v NKz  won 0a, Sept 2013","isCertain"]
+            },
+            {
+                "match" : ["hk_v_hvm","hk","{HK}","Win 4:0","2014-06-23","Non-Aug war while an auged match was also in planning, played in [HK] member Hey's nice performance server the game spanned an unusual 4 maps there, perhaps initially planned to be taken to another continent but somehow that plan changed - perhaps seeing as how their team only had one player from North America on a good connection. HK featured Ricci, Hey, Labtec, and a more casual player DcX. HVM featured myself, Dani, Kiki, Dani's gf Bajas, with last and closest map played 3v3 - strongest performing HVM Kiki now in spectate and weakest performing HK member absent it was also the closest match won for HVM team only by 3 frags on Iceworld.\n\nMaps: Smuggler (105:64), Silo (78:45), Smuggles (127:73), Iceworld (89:86)","isCertain"]
+            },
+            {
+                "match" : ["hk_v_hvm_2","hk","{HK}","","2014-06-","Auged match is being discussed, I drew up some some quick diagrams illustrating how to gang up on Hey and who attacks him from behind and what positions our top players would take on maps, but it is unlikely that our clan could have done anything significant against Hey and Ricci. A likely loss were it to be played.\n\nLooking at drawings decade later, it appears we put AjiT on turret duty and presumed DcX would do same on enemy side, we expected Ricci and Lab to be on HK flanks as Hey tanks and HVM idea was to have me and Psycho take the hit up front with Bajas and Price supporting from second rank; we expected Anax and SilentScope to be somewhere behind us and our main strat was to put Kiki in the enemy backranks as well, ideally striking Hey from behind as me and Psy take on him from the front - unclear how well it wouldve worked out in real match.","isDiscussed"]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["Main site and forums of the clan, preserved are only the one-two snapshots of index","https://web.archive.org/web/20130914220031/http://hivemindx.enjin.com/","index"]
+            },
+            {
+                "website" : ["Server tracker profile of the clan","https://www.gametracker.com/clan/dxmp-hvm/","live"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["The only preserved page on this Enjin platform","https://web.archive.org/web/20150707040952/http://hivemindx.enjin.com:80/forum/m/10539883/viewthread/5824360-table-contents","index"]
+            }
+        ],
+        "description" : "Thirteenth year top zero-aug clan and competitive auged clan of considerable size for the dying game, contemporary of A!B, HK, THC, FGS.",
+        "background" : [
+            {
+                "backgroundStory" : ["","ken","Ken:","My last DXMP clan during its active days, I tried to lead it as we had led [REN] half a decade earlier, except this time with a much higher focus on auged gameplay which I wanted every member to learn and practice. Because some players first learned to aug in this clan it likely deserves B tier for it as well - training programme was very much a thing in the clan since experienced players were rare to recruit, but in general my goal was to rapidly boost them into at least advanced level of play by leveraging my experience from a decade of activity in the competitive scene.<br /><br />I made this clan after I became active in DXMP again and the disagreements over speedhacking in server led me to quit THC late 2012. Because I had led all previous clans with some more grounded leader figure supporting me, I decided on starting the clan up with some random guy I had seen a few times in zero aug server. Named Unknown he was from UK and for a clearly more amateur player he got such amazing shots that I decided to eventually kick him from the clan he helped found - it got to a point where it was either that or that I quit myself and watch the concept I had created turn into nothing - in hindsight I blame myself for overloading my partner with stress from all sorts of stories of past top tier matches, and while cute in a way, creating things with *ahem* unknown people probably doesnt lead to a much different outcome anyway.<br /><br />A separate problem our clan faced was lack of players: virtually impossible to recruit augers unless I somehow leveraged decade old connections, majority would end up in A!B, some in HK, maybe even THC, meanwhile I had to have winning chances in something so I made sure it was my forte zero-aug first. Even zero-aug recruitment was a nightmare at that point, most available players were beginners who were taught to cheat by Phantom in his various clans like NKz and FPS. I would occasionally gain help from old friends from REN like Clix, now playing with Chinese ping, or get lucky with the recruiting of a truly OG Norwegian zero-auger CaS who in addition to skilled play also helped us fund the server, yet majority of clan activity would revolve around teaching newer players how to play top tier zero-augs and competitive ATDM without hacking.<br /><br />Eventually our fairly large group reached a level where due to lack of match experience I think we would've still lost in ATDM against contemporary HK and THC top guns, not to mention A!B, yet in 0aug I don't think any of them were an issue. There was some drama about our clan hosting auged server in Europe where THC was attempting to gain center stage, but unlike there we didn't allow visible cheating in ours. Decade earlier Messiah would've deleted any mention of THC even existing on his site on grounds of them harboring cheaters, exactly as he had already done with another clan.<br /><br />At some point I picked up another player related to Phantom's circle called DaniSaggenza who quickly became the core member I'd frequently train with to keep skill up. He already showed some leadership skills himself, and players started to join who I could tell were part of his clique, among them his then-gf, and a couple members got in only because they were his friends. At some point we fell out as I became suspicious of his play style and that led to his friends quitting to form their own clan. That was already later into the last year of DXMP and technically the official serverlist was already dead for a few months. Overwhelmed by the situation where there was no limit to how fast you can shoot your guns, and with every player potentially shooting at different speeds, it felt like a good idea to end the game and the clan with the year 2014."]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "hydro",
+        "tag" : ["tagFront","[","HYDRO","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Hydro",
+        "gametype" : ["Aug","0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","","isUncertain","","isCertain",""],
+        "founder" : ["Carnage?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["carnage","[HYDRO]Carnage"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Obscure pre-2005 clan I've placed under both auged and non-auged categories due to likely having some experience with the large non-auged scene.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
             }
         ],
         "news" : [
