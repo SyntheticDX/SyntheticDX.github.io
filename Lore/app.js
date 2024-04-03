@@ -890,6 +890,16 @@ $(document).ready(function() {
     // Initialize tooltips for elements with the data-toggle="tooltip" attribute
     $('[data-toggle="tooltip"]').tooltip();
 
+    // Hide tooltips when mouse button is released anywhere on the document
+    $(document).on('mouseup', function() {
+        $('[data-toggle="tooltip"]').tooltip('hide');
+    });
+
+    // Hide tooltips when certain elements are clicked
+    $(document).on('click', 'a[data-toggle="tooltip"], input[data-toggle="tooltip"]', function() {
+        $(this).tooltip('hide');
+    });
+
 
     /***********/
 
