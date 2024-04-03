@@ -294,6 +294,7 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
     grid-template-columns: 250px 1fr;
     grid-template-rows: 150px 1fr;
 }
+
 #timelineGrid {
     grid-area: 1 / 1 / 2 / 2;
     #timelinelabel {
@@ -306,6 +307,17 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
         color: whitesmoke;
         border-bottom: 0.5px dashed rgba(192, 192, 192, 0.568);
     }
+}
+
+.workInProgress:after {
+    display: flex;
+    justify-content: space-around;
+    content: "WIP";
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    color: silver;
+    font-style: oblique;
+    font-size: 2em;
 }
 
 [data-style=mypops] + .popover {
