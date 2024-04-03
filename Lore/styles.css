@@ -310,8 +310,8 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
 }
 
 .workInProgress:after {
-    display: flex;
-    justify-content: space-around;
+    display: block;
+    text-align: center;
     content: "WIP";
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
