@@ -261,7 +261,7 @@
         "flag" : ["",""],
         "name" : "",
         "gametype" : ["Basic","?"],
-        "tier" : ["","",""],
+        "tier" : ["B","",""],
         "date" : ["isUncertain","","isUncertain","","isCertain",""],
         "founder" : [""],
         "members" : [
@@ -834,7 +834,7 @@
         "flag" : ["",""],
         "name" : "",
         "gametype" : ["Basic","?"],
-        "tier" : ["","",""],
+        "tier" : ["B","",""],
         "date" : ["isUncertain","","isUncertain","","isCertain",""],
         "founder" : [""],
         "members" : [
@@ -1105,7 +1105,7 @@
         "flag" : ["",""],
         "name" : "",
         "gametype" : ["Basic","?"],
-        "tier" : ["","",""],
+        "tier" : ["B","",""],
         "date" : ["isUncertain","","isUncertain","","isCertain",""],
         "founder" : [""],
         "members" : [
@@ -1573,7 +1573,7 @@
         "flag" : ["",""],
         "name" : "187",
         "gametype" : ["Basic", "?"],
-        "tier" : ["","",""],
+        "tier" : ["B","",""],
         "date" : ["isUncertain","","isUncertain","","isCertain",""],
         "founder" : [""],
         "members" : [
@@ -1624,7 +1624,7 @@
         "flag" : ["",""],
         "name" : "242",
         "gametype" : ["Basic", "?"],
-        "tier" : ["","",""],
+        "tier" : ["B","",""],
         "date" : ["isUncertain","","isUncertain","","isCertain",""],
         "founder" : [""],
         "members" : [
@@ -2072,7 +2072,7 @@
                 "match" : ["triad_v_da","da","[DA]","Win","2002-06-28","The clan match was supposed to be on 1st July but we moved it to 28th June. We had a nice 3 v 3 on DarkShadows server after the &#x005B;DEA&#x005D; server crashed because of the lag. We played Area51Bunker and Smuggler. Thanks for the nice time &#x005B;DA&#x005D;!","isCertain"]
             },
             {
-                "match" : ["triad_v_jtb","jtb","[JTB]","Win","2002-07-14","Thanks for the very nice clan match &#x005B;JTB&#x005D;, it was a pleasure for us to play the match with '&#x005B;JTB&#x005D; server style'. Good game everyone, let&apos;s do it again sometime.","isCertain"]
+                "match" : ["triad_v_jtb","jtb","[JTB]","Win","2002-07-14","Thanks for the very nice clan match &#x005B;JTB&#x005D;, it was a pleasure for us to play the match with '&#x005B;JTB&#x005D; server style'. Good game everyone, let&apos;s do it again sometime.\n\n-- It appears [3] lost one map by a frag and won second map with 14 point lead, seemingly in a 2 x A51 format - so this could actually be seen as a Draw, but lets assume for now that both sides agreed on the unusual 2-map victory conditions --\n\nMaps were with [3] scores 28-29, 35-21; A51 x2","isCertain"]
             },
             {
                 "match" : ["triad_v_i","i","[I]","Win","2002-09-06","After searching a good server for us, we finally found one from Strider&#x005B;DEA&#x005D; (thanks). The match was challenging and fun. Both teams were filled with skill that made the game even more exciting. You can check the shots at the &apos;Wars&apos; section if you wish to see them. Thank you &#x005B;I&#x005D; for a goood match.","isCertain"]
@@ -2500,7 +2500,7 @@
         "flag" : ["",""],
         "name" : "Duques De DeusEx",
         "gametype" : ["Basic","?"],
-        "tier" : ["","",""],
+        "tier" : ["B","",""],
         "date" : ["isUncertain","","isUncertain","","isCertain",""],
         "founder" : [""],
         "members" : [
@@ -2915,7 +2915,7 @@
         "flag" : ["",""],
         "name" : "Seventh Sign",
         "gametype" : ["0a"],
-        "tier" : ["","",""],
+        "tier" : ["B","",""],
         "date" : ["isUncertain","2006-12-01","isUncertain","2007-12-01","isCertain",""],
         "founder" : [""],
         "members" : [
@@ -2966,7 +2966,7 @@
         "flag" : ["",""],
         "name" : "8th Batalion",
         "gametype" : ["Basic","?"],
-        "tier" : ["","",""],
+        "tier" : ["B","",""],
         "date" : ["isUncertain","","isUncertain","","isCertain",""],
         "founder" : [""],
         "members" : [
@@ -3017,7 +3017,7 @@
         "flag" : ["",""],
         "name" : "",
         "gametype" : ["Basic"],
-        "tier" : ["","",""],
+        "tier" : ["B","",""],
         "date" : ["isUncertain","2009-01-01","isUncertain","2009-02-01","isCertain",""],
         "founder" : ["Sirzapix?"],
         "members" : [
@@ -3301,7 +3301,7 @@
         "flag" : ["",""],
         "name" : "",
         "gametype" : ["Basic","?"],
-        "tier" : ["","",""],
+        "tier" : ["B","",""],
         "date" : ["isUncertain","","isUncertain","","isCertain",""],
         "founder" : [""],
         "members" : [
@@ -4664,7 +4664,7 @@
         "flag" : ["",""],
         "name" : "",
         "gametype" : ["0a","Mod"],
-        "tier" : ["","",""],
+        "tier" : ["B","",""],
         "date" : ["isUncertain","2015-01-01","isUncertain","2015-02-01","isCertain",""],
         "founder" : [""],
         "members" : [
@@ -4714,7 +4714,7 @@
         "tag_extra" : "",
         "flag" : ["",""],
         "name" : "",
-        "gametype" : ["Aug"],
+        "gametype" : ["Aug","0a"],
         "tier" : ["B","",""],
         "date" : ["isUncertain","2002-10-01","isUncertain","2002-12-01","isCertain",""],
         "founder" : ["DaRkDeMoN?"],
@@ -4728,6 +4728,14 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["theguybehindhim","{AD}TheGuyBehindHim"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Playing 0a on [JTB]_petjuli sshot, hopefully not just alias of darkdemon and hence duplicate",""]
                     }
                 ]
             }
@@ -31058,7 +31066,7 @@
         "flag" : ["",""],
         "name" : "",
         "gametype" : ["0a"],
-        "tier" : ["","",""],
+        "tier" : ["B","",""],
         "date" : ["isUncertain","2005-04-01","isUncertain","2005-04-01","isCertain",""],
         "founder" : ["Deus666Ex?"],
         "members" : [
@@ -36165,8 +36173,8 @@
         "tag_extra" : "",
         "flag" : ["",""],
         "name" : "",
-        "gametype" : [""],
-        "tier" : ["","",""],
+        "gametype" : ["Aug"],
+        "tier" : ["B","A",""],
         "date" : ["isUncertain","2003-01-01","isUncertain","2003-12-01","isCertain",""],
         "founder" : ["Kaiser?"],
         "members" : [
@@ -36634,7 +36642,7 @@
         "name" : "Hunter Killers",
         "gametype" : ["0a","Aug"],
         "tier" : ["B","A","S"],
-        "date" : ["isUncertain","2003-06-01","isUncertain","2007-11-16","isCertain","2007-12-01 ✝ 2018-09-01"],
+        "date" : ["isUncertain","2003-06-01","isUncertain","2018-09-01","isCertain",""],
         "founder" : ["Reclaimer"],
         "members" : [
             {
@@ -36660,7 +36668,23 @@
             {
                 "membergroup" : [
                     {
-                        "membergroupLabel" : ["https://web.archive.org/web/20050828164409/http://hkclan.t35.com:80/Roster.html","2004"],
+                        "membergroupLabel" : ["","2004"],
+                        "pidPlusName" : ["terminator","${HK}TerminaTor$dM"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["CS and UT player, {HK} founder, RL friends with HunterKiller\n\nRec: '2004/5 was when I was trying to get all my friends into DX'",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["hunterkiller","dM.Sc0p3[HK]"],
+                        "aliases" : ["HunterKiller"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["CS and UT player, {HK} founder, RL friends with Terminator",""]
+                    },    
+                    {
+                        "membergroupLabel" : ["https://web.archive.org/web/20050828164409/http://hkclan.t35.com:80/Roster.html",""],
                         "pidPlusName" : ["skillerboy","{HK}SkillerBoy"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
@@ -36669,11 +36693,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["homeboy","{HK}HomeBoy"],
-                        "aliases" : [""],
+                        "pidPlusName" : ["stealthmonk","{HK}HomeBoy"],
+                        "aliases" : ["StealthMonk"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["-=HK=-Homeboy: Drafted by RECLAIMER: Now an Elite (by Sept 2005)\n\nSomeones alias, leader cant recall anymore, inactive soon after joining"," Elite/Sniper Member "]
+                        "stats" : ["-=HK=-Homeboy: Drafted by RECLAIMER: Now an Elite (by Sept 2005)\n\nRec: 'Might be StealthMonk alias'\n\n -- this is very obviously someones alias so for time being merging these two members in roster--"," Elite/Sniper Member "]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -36689,7 +36713,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["F","elite\\Sniper Member "]
+                        "stats" : ["Girl from Nevada","elite\\Sniper Member "]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -36746,19 +36770,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["stealthmonk","{HK}Stealthmonk"],
-                        "aliases" : [""],
+                        "pidPlusName" : ["flaw","{HK}Jedi"],
+                        "aliases" : ["Flaw?"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["jedi","{HK}Jedi"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["Eligible Elites: (2005)\n\nSomeones alias",""]
+                        "stats" : ["Eligible Elites: (2005)\n\nRec: Jedi was an alias of an oldy brought in by JJ (possibly Flaw)",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -36772,9 +36788,25 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["mirage","{HK}Mirage"],
                         "aliases" : [""],
-                        "pastClanIDs" : ["i"],
+                        "pastClanIDs" : ["i","na"],
                         "membership" : ["","",""],
                         "stats" : ["Also listed Nov 2007",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["lars","[HK]~Lårs~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["na"],
+                        "membership" : ["","",""],
+                        "stats" : ["Rec: 'N/A Lars, I think he came back same time as other oldies around 06/07, that was when Mirage and OlTimer joined'",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["trauma","{HK}Ol'Timer"],
+                        "aliases" : ["tRauMa"],
+                        "pastClanIDs" : ["dea","i"],
+                        "membership" : ["","",""],
+                        "stats" : ["Also listed Nov 2007, Reclaimer figures he was so inconsistent they didnt add him to roster then, but played in a clan 2v2 scrim at least once. 'He wore the tag once or twice but went inactive'",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -36782,7 +36814,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Also listed Nov 2007",""]
+                        "stats" : ["Also listed Nov 2007\n\nRec: 'he was a canadian dialup 0 augger. Very good sniper for a high pinger.'",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -36820,141 +36852,45 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["echelon","{HK}~Eçheløn~"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["cg"],
                         "membership" : ["","",""],
-                        "stats" : ["active Nov 2007, roster lists in Nov 21",""]
+                        "stats" : ["active Nov 2007, roster lists in Nov 21\n\nRec: 'I remember we had a player from CG named ECHELON who was from Fiji. Always had high ping but played very wel'","Fiji"]
                     }
                 ]
             },
             {
-                "membergroup" : [
+                "membergroup" : [        
                     {
                         "membergroupLabel" : ["","by Nov 21, 2007"],
-                        "pidPlusName" : ["reclaimer","${HK}TerminaTor$dM"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["scop3","dM.Sc0p3[HK]"],
-                        "aliases" : ["HunterKiller"],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["Presumably alias, maybe SS",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["member","-(H K)~Ýáññì-dM"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["member","xxTECH{HK}N9NExxdM"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["member","-=DM=-MaxPayne"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["member","-=DM=-Roachman"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },               
-                    {
-                        "membergroupLabel" : ["",""],
                         "pidPlusName" : ["bambi","{HK}Bambi"],
                         "aliases" : ["TommyGun"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["Still listed 2013","NY, US"]
-                    },               
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["member","{HK}Mech"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },               
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["lars","[HK]~Lårs~"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },               
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["lethal","$HK$Lethal.dM"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },               
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["member","hk.Cortana"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["member","~{HK}~ ~Þrödìgý~dM"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["member","~{HK}Çòrrüþtíón~dM"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["raiden","Råiden[HK]"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["Possibly before [T] if its the same Raiden",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["member","RedRussian[HK]"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },
+                    },                             
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["tbd","-=HK=-TßÐ"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Nov 21, 2007 Roster includes",""]
+                        "stats" : ["Nov 21, 2007 Roster includes","Belgium"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["yanni","-(H K)~Ýáññì-dM"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Rec: 'Yanni and his lil bro got into DX for awhike and got decent. He took over HK for awhile when I went solo. Kenny i think, they played alot of altfire and tac'",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["kenny_hk","{HK}Kenny"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Rec: 'Yanni and his lil bro got into DX for awhike and got decent. He took over HK for awhile when I went solo. Kenny i think, they played alot of altfire and tac'",""]
                     }
                 ]
             },
@@ -36982,7 +36918,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["","Lithuania, Vilnius"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -37035,6 +36971,92 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["A spy from [THC]",""]
+                    }
+                ]
+            }
+        ],
+        "members_2" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["duplicate","Non-DXMP"],
+                        "pidPlusName" : ["member","xxTECH{HK}N9NExxdM"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["duplicate",""],
+                        "pidPlusName" : ["member","-=DM=-MaxPayne"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["duplicate",""],
+                        "pidPlusName" : ["member","-=DM=-Roachman"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },   
+                    {
+                        "membergroupLabel" : ["duplicate",""],
+                        "pidPlusName" : ["member","{HK}Mech"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }, 
+                    {
+                        "membergroupLabel" : ["duplicate",""],
+                        "pidPlusName" : ["member","$HK$Lethal.dM"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },               
+                    {
+                        "membergroupLabel" : ["duplicate",""],
+                        "pidPlusName" : ["member","hk.Cortana"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["duplicate",""],
+                        "pidPlusName" : ["member","~{HK}~ ~Þrödìgý~dM"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["duplicate",""],
+                        "pidPlusName" : ["member","~{HK}Çòrrüþtíón~dM"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["duplicate",""],
+                        "pidPlusName" : ["member","Råiden[HK]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["UT player",""]
+                    },
+                    {
+                        "membergroupLabel" : ["duplicate",""],
+                        "pidPlusName" : ["member","RedRussian[HK]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
                     }
                 ]
             }
@@ -38731,13 +38753,13 @@
         ]
     },
     {
-        "id" : "",
+        "id" : "impac",
         "tag" : ["tagFront","[","IMPAC","]"],
         "tag_extra" : "",
         "flag" : ["🇩🇪",""],
         "name" : "",
-        "gametype" : [""],
-        "tier" : ["","",""],
+        "gametype" : ["Aug"],
+        "tier" : ["B","",""],
         "date" : ["isUncertain","2002-01-01","isUncertain","2002-06-01","isCertain",""],
         "founder" : ["Snake?"],
         "members" : [
@@ -39442,6 +39464,577 @@
             }
         ],
         "description" : "Clan of likely one or more Italians that was associated with the Basic community of E.d.H, IceValex advertises the clan there.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "j",
+        "tag" : ["tagFront","[","J","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Jeys Clan",
+        "gametype" : ["Aug"],
+        "tier" : ["","A",""],
+        "date" : ["isUncertain","2006-12-01","isUncertain","2007-01-01","isCertain","2009-07-01 ✝ 2010-12-01"],
+        "founder" : ["Shades"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","2006"],
+                        "pidPlusName" : ["shades","[J]Shades"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["t"],
+                        "membership" : ["","",""],
+                        "stats" : ["","UK"]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","2009?"],
+                        "pidPlusName" : ["duke","[J]Duke"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["t"],
+                        "membership" : ["","",""],
+                        "stats" : ["Possibly the Duke from Colombia",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["random","[J]Random "],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["t"],
+                        "membership" : ["","",""],
+                        "stats" : ["(idk who it is, maybe og random from Australia where he was from? Another by name Rand was from USA)",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","Another, BTDM [J]?"],
+                        "pidPlusName" : ["diabolik","=J=Zymer"],
+                        "aliases" : ["Diabolik"],
+                        "pastClanIDs" : ["t"],
+                        "membership" : ["","",""],
+                        "stats" : ["(Italy)",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["Applying for membership (both s3 and z3 dead): https://web.archive.org/web/20230000000000*/http://z3.invisionfree.com/Jeys_Clan/index.php?showtopic=1*","https://web.archive.org/web/*/http://z3.invisionfree.com/Jeys_Clan/*","dead"]
+            }
+        ],
+        "description" : "E.d.H contemporary aug clan from around the ninth year or even sixth year, and in case of former its placed between the 2007 and 2012 activity peaks. [J] features [T] founder and thus the group bears some connection to that clan, as well as is later seen enlisting some upcoming augers. Its possible this entry has multiple [J] clans fused into one, with 2006 [J] representing some kind of [T] side-venture until main clan got in gear with 2007, and 2009 [J] being a distinct new group by some more competitive Latino scene augers of Advanced experience. Due to severe lack of detail here the clans will be kept together. Lightninja posted links to this clan 13. July, 2009, but might've just discovered it, another piece of evidence points at tag existing December 2006.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "jah",
+        "tag" : ["tagFront","~","Jah","~"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Basic"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","","isUncertain","","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["","~Jah~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Listed by Hasharin of E.d.H.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "jitf",
+        "tag" : ["tagFront","[","JitF","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Basic"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","","isUncertain","","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","[JitF]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Listed by Hasharin of E.d.H.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "jlu",
+        "tag" : ["tagFront","[","JLU","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Basic"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","","isUncertain","","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","[JLU]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Listed by Hasharin of E.d.H.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "jtb",
+        "tag" : ["tagFront","[","JTB","]_"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Just The Basics",
+        "gametype" : ["0a","Mod"],
+        "tier" : ["B","A",""],
+        "date" : ["isUncertain","2002-01-01","isUncertain","2003-03-01","isCertain","2007-04-01 ✝ 2008-04-01"],
+        "founder" : ["Swisscheese"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","2002"],
+                        "pidPlusName" : ["swisscheese","[JTB]_Swisscheese"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["toysoldier","[JTB]_ToySoldier"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","Oct 17th, 2002",""],
+                        "stats" : ["Re: Goodbye all !!!!",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["jd","[JTB]_JD"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["JTB server admin, presumably in clan",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["rabidchipmunk","[JTB]_RabidChipmunk"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["JTB server admin, presumably in clan",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["romine","[JTB]_Romine"],
+                        "aliases" : ["ArmyOfOne"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["JTB server admin, presumably in clan",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["maligor","[JTB]_Maligor"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["JTB server admin, presumably in clan",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["smuggler","[JTB]_Smuggler"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["JTB mods & coding, presumably in clan as he's listed part of team - indeed JTB is more or less the only clan MTL site links back to","(DXMPL Mod)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["tazshedevil","[JTB]_TazSheDevil"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","inactive Oct 2002",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["soulsurvivor","[JTB]_S0ulSurviv0r"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["petjuli","[JTB]_petjuli"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Germany?",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["otis","[JTB]_Otis"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["JTB server admin",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["harras","[JTB]Harras"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","by Oct 17th, 2002",""],
+                        "stats" : ["T: goodbye JTB",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["adrix","[JTB]Adrix"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["amadeus","[JTB]Amadeus"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["bionicman","[JTB]Bionicman"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["billydkid","[JTB]Billydkid"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["greyseraph","[JTB]GreySeraph"],
+                        "aliases" : ["[DK]Dae"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["mental","[JTB]Mental"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["apocalypse","[JTB]apocalypse"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["osiris","[JTB]Osiris"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","inactive by October 2002",""],
+                        "stats" : ["(admin mid 2002)",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["dd300","[JTB]DD300?"],
+                        "aliases" : ["Kate"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","PC broken by October 2002",""],
+                        "stats" : ["My computer at the moment is not working due to the fact that my Windows got uninstalled somehow. The only reason why I am on is cause i'm at my friends house where I loged on .. so I will not be on probaly in time soon. Hope that it gets fixed. I may be on a few times if I am at a friends house i dunno... peace out . -Kate",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["taketwo","[JTB]TakeTwo"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","Oct 18th, 2002",""],
+                        "stats" : ["Hi guys, its hard to see, that many members leave jtb. And so its not easy too say, that i am leaving jtb too. At the last time i often playes CounterStrike - and shit -  it is a good game. I don't have time to play both games at same time. I will play DX from time to time. But i decided to play DX only in TeamMatches. So i have to travel the server. Perhaps we see us on a server and play together. Don't be angry about me and peace for all. bye TakeTwo",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["curlybilly","[JTB]CurlyBilly"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","Oct 18th, 2002",""],
+                        "stats" : ["hi all. i`m leaving JTB. this was not an easy step but i thought bout 2 weeks about it. and i finally decided to leave. This clan was my first and i really enjoyed it. That was really good work SwissCheese. keep on working on it when u get back! Wish you guys (and ladies) the best, especially Swiss and his family. greetings curlybilly \n\nJTB server admin, Germany?","German Translator"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["aviator","[JTB]Aviator"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Jan 2003, replying to JTB not dead thread: 'Great, sorry i'e been gone  these last few months(I have to go away again and I know not wither(when) I may return.) I have managed to go onto DXMP lately and always use my tag.'",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["duplicate","Revival 2007-2008"],
+                        "pidPlusName" : ["aviator","[JTB]Aviator[TLR]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["duplicate",""],
+                        "pidPlusName" : ["mental","[JTB]_Mental"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["imperial","[JTB]Imperial?"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["triad_v_jtb","triad","[3]","Loss","2002-07-14","Triad summary: 'Thanks for the very nice clan match &#x005B;JTB&#x005D;, it was a pleasure for us to play the match with '&#x005B;JTB&#x005D; server style'. Good game everyone, let&apos;s do it again sometime.'\n\n-- It appears [3] lost one map by a frag and won second map with 14 point lead, seemingly in a 2 x A51 format - so this could actually be seen as a Draw, but lets assume for now that both sides agreed on the unusual 2-map victory conditions --\n\nMaps were with [3] scores 28-29, 35-21; A51 x2","isCertain"]
+            },
+            {
+                "match" : ["jtb_v_rtk2","rtk2","[R2K]","","2008-02","Threads: vs [RTK] thread 3v3 challenge by Imperial in February 2008","isDiscussed"]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","https://web.archive.org/web/20031010080350/http://www.jtb.org.uk/","featured"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["99 registered already July 2002, this board contains only some 3 URLs of remote interest, the only one with actual posts being linked and fascinating enough to warrant featured label, another one is the thread view on those recent posts https://web.archive.org/web/20021023165551/http://forums.jtb.org.uk:80/YaBB.pl?board=publicforum","https://web.archive.org/web/20021024124747/http://forums.jtb.org.uk:80/YaBB.pl?action=recent","featured"]
+            },
+            {
+                "forum" : ["Dead forum link of an unknown period, likely around revival time","https://web.archive.org/web/*/http://www.jtb.wilkinsinc.net/forum/*","dead"]
+            },
+            {
+                "forum" : ["2007 revived JTB forums, nothing else seems to have survived","https://web.archive.org/web/20080321005355/http://jtb.deusexnetwork.com:80/forum/","index"]
+            }
+        ],
+        "description" : "The original Non-Aug clan in DXMP of size, its significance cannot be understated as it paved way to a decade of competitive counterstrike-like gameplay in DXMP and many clans that follow would dedicate to this easier way of playing, among them early on the (DD) and {Evo} clans. October 2002 clan went through management changes and was losing players, some moving to Counter Strike. Later years [JTB]_Mental remained the only regular to wear the tag, and in 2007 someone called [JTB]Aviator[TLR] is seen organizing reunion matches, attempting alliance with [CG] and announcing the [JTB] clan. February 2008 Imperial representing the clan challenged [RTK] for 3v3, so the revival had gained some success. This clan sprouted a Low-Grav subdivision called {DWK} that with its distinct leaders and large roster has its own entry, but used JTB forums much like another JTB-related tag formation [TLR] did.",
+        "background" : [
+            {
+                "backgroundStory" : ["","jtb","","Just the basics is one the two servers for Just The Basics and is designed to make fairer game play for regulars and newbie's alike.<br /><br />This server runs without the heavy weapons and with no augmentations. These settings are to remove some of the advantages from the experienced players and even the playing field where possible. See the server stats section for current server settings.<br /><br />The second Just The Basics' server is DreamWorld.<br /><br />This Server is probably not like any server you have played on before. DreamWorld runs a low gravity setting and tied in with the required speed augmentation is very unique. The low gravity setting adds the third dimension to the playing field. Players must be ready for air born attacks as well as the standard ground ones. The server is fast and furious and allows for some interesting matches.<br /><br />Just the basics' server is run by myself SwissCheese.<br /><br />DreamWorld is run by Nemo<br /><br />From myself and Nemo thanks again for taking the time to visit JTB and we might cross paths in Deus Ex."]
+            },
+            {
+                "backgroundStory" : ["","jtb","","DWK, or DreamWorld Kings was founded by {DWK}Nemo, as a low-gravity (z=-120) subdivision of the JTB 'Just The Basics' zero-augs clan founded by [JTB]SwissCheese."]
+            },
+            {
+                "backgroundStory" : ["","jtb","","Current Server Stats<br /><br />Server Running Times - 24/7<br />The connection is used for work between 9:30Am - 8:00Pm (GMT)<br />There are no guarantees to the speed and reliability of the connection between these times<br /><br />Game Info<br /><br />Server Name - Just The Basics<br />Starting Augs - 0<br />Augs Per Kill - 0<br />Starting Skill Points - 0<br />Skill Points Per Kill - 0<br />Starting Skill Level - Master<br /><br />Removed Weapons<br /><br />Guided Explosive Projectiles (GEP) & WP Ammo<br />LAW<br />Plasma Rifle<br />HE20 Ammo<br />Lam & Gas Grenades<br /><br />MODS<br /><br />DXMTL Mod Loader<br />DXMTL Weapons Selector<br />DXMTL Bugfix1<br />DXMTL Anti-Cheat<br />DXMTL courtesy of Smuggler"]
+            },
+            {
+                "backgroundStory" : ["CG forums (6/14/02 3:05:06 am)","osiris","Osiris:","Well, vs. matches are bein' worked on, havin' a problem gettin our members to visit the site and post, so it's kinda hard to know when a good match time would be and set up a team to play.<br /><br />[3] has challenged us and I'm hopin' to get something set up this weeked.<br /><br />What times are good for you guys?<br /><br />And do you usually have friendly fire on? Been thinking about that, hardly play team games..."]
+            },
+            {
+                "backgroundStory" : ["JTB forums (on: Oct 17th, 2002, 3:16am )","legions","Legions:","Hello all,<br /><br />Legions here, I'm still JTB.. I want to Wish Taz and Swiss the best.  I know how life can give you a beat down sometimes, Swiss if there is anything this silly american can do to help you lemme know, and I'll do my best.<br /><br />For now I've been playing BF1942 and messing around with UT2003 (which I don't think is that good).. but I check in Deus Ex every so often, just to keep the DX skills up.<br /><br />Miss killing you all<br /><br />[JTB]_Legions<br /><br />PS - I logged on today and everyone said JTB was done? I know my number 2 standings on ICX is toast now that I haven't played in months.. but as soon as swiss/taz get back on their feet please let me know and I'll be there "]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","2002-10-16","","SwissCheese.","Due to circumstances beyond my control JTB has to become idle for the time being. Please check the public forum for more details. More Information /.. link ../","clan"]
+            }
+        ]
+    },
+    {
+        "id" : "jw",
+        "tag" : ["tagFront","[","JW","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "J Warriors / Japanese Warlords",
+        "gametype" : ["0a","Mod"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2006-01-01","isUncertain","2007-01-01","isCertain",""],
+        "founder" : ["Klop?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["klop","[JW]Klop?"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","https://web.archive.org/web/*/http://www.kcorphq.co.uk/jwc*","dead"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Listed by both me and Hasharin of E.d.H, it's likely one of many short-lived clan attempts by a young beginner player.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
