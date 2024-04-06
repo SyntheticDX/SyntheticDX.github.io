@@ -1085,6 +1085,13 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
     width: 11vw;
 }
 
+    .listTinyIcon {
+        color: #1b4e96;
+        padding-left: 2px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
     .matchisCertain {
         font-weight: bold;
     }
@@ -1161,6 +1168,15 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
         top: 0; /* Adjust as needed */
         left: 0; /* Adjust as needed */
         content: "🔥";
+        font-size: xx-small;
+        vertical-align: top;
+    }
+
+    .cancer:after {
+        position: absolute;
+        top: 0; /* Adjust as needed */
+        left: 0; /* Adjust as needed */
+        content: "🤮";
         font-size: xx-small;
         vertical-align: top;
     }

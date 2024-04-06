@@ -379,13 +379,13 @@ $(document).ready(function() {
         return totalMatches;
     }
 
-    // Function to count all non-repeating IDs of pidPlusName[0] in the currently selected filter view
+    // Function to count all non-repeating IDs of pidPlusName[0] excluding "member"
     function countNonRepeatingIDs(data) {
         let ids = [];
         data.forEach(post => {
             post.members.forEach(member => {
                 member.membergroup.forEach(group => {
-                    if (!ids.includes(group.pidPlusName[0])) {
+                    if (group.pidPlusName[0] !== "member" && !ids.includes(group.pidPlusName[0])) {
                         ids.push(group.pidPlusName[0]);
                     }
                 });
@@ -512,7 +512,7 @@ $(document).ready(function() {
                 // Construct the HTML for the matches cell
                 matchesCellHTML = otherMatches.concat(discussedMatches).map(match => {
                     if (match.match[1] !== '') {
-                        return `<span data-toggle="tooltip" data-html="true" data-placement="auto bottom" title="${match.match[4]}\n${match.match[5]}"><div class='match${match.match[6]}'>${post.tag[1]}${post.tag[2]}${post.tag[3]} vs <a href="#${match.match[1]}" onclick="document.getElementById('${match.match[1]}').focus()">${match.match[2]}</a><span class='match${match.match[3]}'>${match.match[3]}</span></div></span>`;
+                        return `<span data-matchid="${match.match[0]}" data-toggle="tooltip" data-html="true" data-placement="auto bottom" title="${match.match[4]}\n${match.match[5]}"><div class='match${match.match[6]}'>${post.tag[1]}${post.tag[2]}${post.tag[3]} vs <span class="listTinyIcon"><a href="#${match.match[0]}">${match.match[2]}</a></span><span class='match${match.match[3]}'>${match.match[3]}</span></div></span>`;
                     }
                     return '';
                 }).join('');
@@ -561,8 +561,18 @@ $(document).ready(function() {
         const nonRepeatingIDsCount = countNonRepeatingIDs(data);
         filteredPlayerCountElement.text(nonRepeatingIDsCount);
 
-        // Initialize tooltips for forum links
-        $('[data-toggle="tooltip"]').tooltip();
+        // Initialize tooltips for elements with the data-toggle="tooltip" attribute
+        $('[data-toggle="tooltip"]').tooltip({
+            // Set the html option to true to allow HTML content in the tooltip
+            html: true,
+            // Use the title attribute to specify the tooltip content
+            title: function () {
+                // Get the tooltip content from the title attribute
+                var tooltipContent = $(this).attr('title');
+                // Format the tooltip content to replace \n with <br>
+                return formatTooltipContent(tooltipContent);
+            }
+        });
     }
 
     // Declare variables for filtered data and checkbox states
@@ -785,6 +795,54 @@ $(document).ready(function() {
         console.error('Error fetching or parsing JSON:', errorThrown);
     });
 
+    // Scroll to the other participant of the match, excluding certain elements
+    $(document).on('click', '.listTinyIcon', function(event) {
+        event.preventDefault(); // Prevent default anchor behavior
+
+        // Get the data-matchid attribute value from the clicked element
+        const matchId = $(this).closest('[data-matchid]').data('matchid');
+        const $clickedElement = $(this).closest('[data-matchid]');
+
+        // Find the next row with the corresponding data-matchid attribute
+        let $targetRow = $(`[data-matchid="${matchId}"]`).not($clickedElement);
+
+        // If the clicked element is the last one, go to the first one
+        if ($targetRow.length === 0) {
+            $targetRow = $(`[data-matchid="${matchId}"]:first`);
+        }
+
+        // Scroll to the target row if found
+        if ($targetRow.length > 0) {
+            // Define padding for the top of the viewport
+            const paddingTop = 500;
+
+            // Scroll to the target row with padding
+            $('html, body').animate({
+                scrollTop: $targetRow.offset().top - paddingTop
+            }, 200, function() {
+                // Animation complete callback
+                // Create a border overlay div
+                const $borderOverlay = $('<div class="border-overlay"></div>').css({
+                    position: 'absolute',
+                    top: $targetRow.offset().top - 2, // Adjusted top position with a little padding
+                    left: $targetRow.offset().left - 2, // Adjusted left position with a little padding
+                    width: $targetRow.outerWidth() + 4, // Adjusted width to make the border wider
+                    height: $targetRow.outerHeight() + 4, // Adjusted height to make the border wider
+                    border: '2px solid red',
+                    borderRadius: $targetRow.css('borderRadius'), // Match the border radius of the row
+                    pointerEvents: 'none', // Allow clicking through the overlay
+                    zIndex: 9999 // Ensure the overlay appears above other content
+                }).appendTo('body');
+
+                // Fade out the border overlay
+                $borderOverlay.fadeOut(2000, function() {
+                    // Remove the overlay after fading out
+                    $(this).remove();
+                });
+            });
+        }
+    });
+
     // Event listener for checkbox #toggleSiteNews
     $('#toggleSiteNews').change(function() {
         if (!$(this).prop('checked')) {
@@ -874,22 +932,21 @@ $(document).ready(function() {
         };
     }
 
+    /*
     // Scroll back up when any div, .clan_addedrows, or #longread loses focus
-    $('body').on('blur', 'div, .clan_addedrows, #longread', debounce(function() {
+    $('body').on('blur', 'div:not(.listTinyIcon), .clan_addedrows, #longread', debounce(function() {
         var padding = 200; // Adjust this value to set the desired padding
         var scrollPosition = $(this).offset().top - padding;
         $('html, body').animate({
             scrollTop: scrollPosition
         }, 200);
     }, 250)); // Debounce for 250 milliseconds
+    */
 
 
     /* *********************** TOOLTIPS ******************************************************************************************************************** */
 
-
-    // Initialize tooltips for elements with the data-toggle="tooltip" attribute
-    $('[data-toggle="tooltip"]').tooltip();
-
+    
     // Hide tooltips when mouse button is released anywhere on the document
     $(document).on('mouseup', function() {
         $('[data-toggle="tooltip"]').tooltip('hide');
