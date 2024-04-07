@@ -531,7 +531,7 @@ $(document).ready(function() {
 
             // Construct HTML for each clan row
             html += `
-                <tr class="clan_addedrows" tabindex="0" id="${post.id[0]}">
+                <tr class="clan_addedrows" tabindex="0" data-id="${post.id}">
                     <td><div id="clan_sticky_tier"><div class="tier${post.tier[0]}">${post.tier[0]}</div><div class="tier${post.tier[1]}">${post.tier[1]}</div><div class="tier${post.tier[2]}">${post.tier[2]}</div></td>
                     <td><div id="clan_sticky_tag">${post.tag[1]}${post.tag[2]}${post.tag[3]}</div></td>
                     <td><div id="clan_sticky_name"><div id="${post.id}">${post.name} <span data-toggle="tooltip" data-placement="auto top" title="${post.flag[1]}">${post.flag[0]}</span></div></div></td>
@@ -565,13 +565,6 @@ $(document).ready(function() {
         $('[data-toggle="tooltip"]').tooltip({
             // Set the html option to true to allow HTML content in the tooltip
             html: true,
-            // Use the title attribute to specify the tooltip content
-            title: function () {
-                // Get the tooltip content from the title attribute
-                var tooltipContent = $(this).attr('title');
-                // Format the tooltip content to replace \n with <br>
-                return formatTooltipContent(tooltipContent);
-            }
         });
     }
 
@@ -634,6 +627,57 @@ $(document).ready(function() {
 
         // Render clans based on sorted data
         renderClans(data);
+
+        // Add click event listener to anchor tags within marqueeMinibanners
+        $('.marqueeMinibanners a').on('click', function(event) {
+            // Prevent the default anchor behavior
+            event.preventDefault();
+
+            // Get the href attribute of the clicked link
+            var href = $(this).attr('href');
+
+            // Check if the href is an anchor link
+            if (href.startsWith('#')) {
+                // Extract the ID from the href (remove the leading '#')
+                var id = href.substring(1);
+
+                // Find the corresponding clan list row with the matching ID
+                var $targetRow = $('.clan_addedrows[data-id="' + id + '"]');
+
+                // Check if the target row exists
+                if ($targetRow.length > 0) {
+                    // Define padding for the top of the viewport
+                    const paddingTop = 200;
+
+                    // Scroll to the target row with padding
+                    $('html, body').animate({
+                        scrollTop: $targetRow.offset().top - paddingTop
+                    }, 500, function() {
+                        // Animation complete callback
+                        // Create a border overlay div
+                        const $borderOverlay = $('<div class="border-overlay"></div>').css({
+                            position: 'absolute',
+                            top: $targetRow.offset().top - 2, // Adjusted top position with a little padding
+                            left: $targetRow.offset().left - 2, // Adjusted left position with a little padding
+                            width: $targetRow.outerWidth() + 4, // Adjusted width to make the border wider
+                            height: $targetRow.outerHeight() + 4, // Adjusted height to make the border wider
+                            border: '2px solid red',
+                            borderRadius: $targetRow.css('borderRadius'), // Match the border radius of the row
+                            pointerEvents: 'none', // Allow clicking through the overlay
+                            zIndex: 9999 // Ensure the overlay appears above other content
+                        }).appendTo('body');
+
+                        // Fade out the border overlay
+                        $borderOverlay.fadeOut(2000, function() {
+                            // Remove the overlay after fading out
+                            $(this).remove();
+                        });
+                    });
+                } else {
+                    console.log('No matching row found for ID: ' + id);
+                }
+            }
+        });
 
         // Listen for changes in the filter select element
         $('#filterSelect').change(function() {
@@ -790,6 +834,7 @@ $(document).ready(function() {
 
         // Initial filtering and rendering with all data
         filterData(data, 'All');
+
     })
     .fail(function(jqXHR, textStatus, errorThrown) {
         console.error('Error fetching or parsing JSON:', errorThrown);
