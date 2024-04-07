@@ -512,7 +512,7 @@ $(document).ready(function() {
                 // Construct the HTML for the matches cell
                 matchesCellHTML = otherMatches.concat(discussedMatches).map(match => {
                     if (match.match[1] !== '') {
-                        return `<span data-matchid="${match.match[0]}" data-toggle="tooltip" data-html="true" data-placement="auto bottom" title="${match.match[4]}\n${match.match[5]}"><div class='match${match.match[6]}'>${post.tag[1]}${post.tag[2]}${post.tag[3]} vs <span class="listTinyIcon"><a href="#${match.match[0]}">${match.match[2]}</a></span><span class='match${match.match[3]}'>${match.match[3]}</span></div></span>`;
+                        return `<span data-matchid="${match.match[0]}" data-toggle="tooltip" data-html="true" data-placement="auto bottom" title="${match.match[4]}<br />${match.match[5]}"><div class='match${match.match[6]}'>${post.tag[1]}${post.tag[2]}${post.tag[3]} vs <a class="matchOpponent" href="#${match.match[0]}">${match.match[2]}</a><span id='matchResult' class='match${match.match[3]}'>${match.match[3]}</span></div></span>`;
                     }
                     return '';
                 }).join('');
@@ -796,7 +796,7 @@ $(document).ready(function() {
     });
 
     // Scroll to the other participant of the match, excluding certain elements
-    $(document).on('click', '.listTinyIcon', function(event) {
+    $(document).on('click', '.matchOpponent', function(event) {
         event.preventDefault(); // Prevent default anchor behavior
 
         // Get the data-matchid attribute value from the clicked element
@@ -934,7 +934,7 @@ $(document).ready(function() {
 
     /*
     // Scroll back up when any div, .clan_addedrows, or #longread loses focus
-    $('body').on('blur', 'div:not(.listTinyIcon), .clan_addedrows, #longread', debounce(function() {
+    $('body').on('blur', 'div:not(.matchOpponent), .clan_addedrows, #longread', debounce(function() {
         var padding = 200; // Adjust this value to set the desired padding
         var scrollPosition = $(this).offset().top - padding;
         $('html, body').animate({

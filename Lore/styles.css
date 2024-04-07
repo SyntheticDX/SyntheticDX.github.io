@@ -1079,19 +1079,20 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
         color: white;
     }
 
-
+/************* Matches ******************************/
 #clan_scroll_matches {
     display: block;
     width: 11vw;
 }
 
-    .listTinyIcon {
+    /*.listTinyIcon {
         color: #1b4e96;
         padding-left: 2px;
         text-align: center;
         vertical-align: middle;
-    }
+    }*/
 
+    /* Match status */
     .matchisCertain {
         font-weight: bold;
     }
@@ -1108,9 +1109,10 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
     .matchisDiscussed {
         opacity: 0.4;
         color: grey;
-        span:before {
+
+        #matchResult:before {
             margin-left: 5px;
-            content: "Discussed";
+            content: "Challenge";
         }
     }
 
@@ -1120,6 +1122,8 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
         margin-left: 5px;
         text-decoration: line-through;
     }
+
+    /* Match result */
     .matchWin {
         color: green;
         margin-left: 5px;
@@ -1177,6 +1181,15 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
         top: 0; /* Adjust as needed */
         left: 0; /* Adjust as needed */
         content: "🤮";
+        font-size: xx-small;
+        vertical-align: top;
+    }
+
+    .investigate:after {
+        position: absolute;
+        top: 0; /* Adjust as needed */
+        left: 0; /* Adjust as needed */
+        content: "🔎";
         font-size: xx-small;
         vertical-align: top;
     }
