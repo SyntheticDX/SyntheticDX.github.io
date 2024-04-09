@@ -493,7 +493,7 @@ $(document).ready(function() {
             if (post.background.length > 0 && post.background.some(item => item.backgroundStory[3] !== '')) {
                 // Construct the HTML for the background cell
                 backgroundCellHTML = post.background.map(background => {
-                    if (background.backgroundStory[1] !== '') {
+                    if (background.backgroundStory[3] !== '') {
                         return `<div class='clanBackground' data-toggle="tooltip" data-placement="auto top" title="${background.backgroundStory[0]}"><span class='clanAuthor'><a href='#${background.backgroundStory[1]}'>${background.backgroundStory[2]}</a></span><span class='clanStory'><q>${background.backgroundStory[3]}</q></span></div>`;
                     }
                     return '';
@@ -580,7 +580,7 @@ $(document).ready(function() {
             if (post.news.length > 0) {
                 // Construct the HTML for the news cell
                 newsCellHTML = post.news.map(news => {
-                    if (news.article[1] !== '') {
+                    if (news.article[4] !== '') {
                         return `<div id="${news.article[5]}" data-toggle="tooltip" data-placement="auto top" title="${news.article[0]}" class="clanNewsArt" data-date="${news.article[1]}"><div id="newsdate">${news.article[1]}</div><div id="newstitle">${news.article[2]}</div><div id="newsbody">${news.article[4]}</div><div id="newsauthor">- ${news.article[3]}</div></div>`;
                     }
                     return '';
