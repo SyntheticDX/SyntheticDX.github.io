@@ -379,46 +379,50 @@ $(document).ready(function() {
         return totalMatches;
     }
 
-    // Function to calculate the win percentage
     function calculateWinPercentage(matches) {
         let totalMatches = 0;
         let winMatches = 0;
-
-        // Count total and win matches
+        let lossMatches = 0;
+    
+        // Count total, win, and loss matches
         matches.forEach(match => {
             if (match.match[6] === "isCertain") {
                 totalMatches++;
                 if (match.match[3].includes("Win")) {
                     winMatches++;
+                } else if (match.match[3].includes("Loss")) {
+                    lossMatches++;
                 }
             }
         });
-
+    
         // Calculate the percentage of win matches
-        let winPercentage = totalMatches > 0 ? (winMatches / totalMatches) * 100 : 0;
-
+        let winPercentage = totalMatches > 0 ? (winMatches / (winMatches + lossMatches)) * 100 : 0;
+    
         // Return the win percentage as a numerical value
         return winPercentage;
     }
 
-    // Function to calculate the win percentage with color formatting
     function calculateWinPercentageWithColor(matches) {
         let totalMatches = 0;
         let winMatches = 0;
-
-        // Count total and win matches
+        let lossMatches = 0;
+    
+        // Count total, win, and loss matches
         matches.forEach(match => {
             if (match.match[6] === "isCertain") {
                 totalMatches++;
                 if (match.match[3].includes("Win")) {
                     winMatches++;
+                } else if (match.match[3].includes("Loss")) {
+                    lossMatches++;
                 }
             }
         });
-
+    
         // Calculate the percentage of win matches
-        let winPercentage = totalMatches > 0 ? (winMatches / totalMatches) * 100 : 0;
-
+        let winPercentage = totalMatches > 0 ? (winMatches / (winMatches + lossMatches)) * 100 : 0;
+    
         // Set the color based on percentile
         let color;
         if (winPercentage >= 66) {
@@ -428,7 +432,7 @@ $(document).ready(function() {
         } else {
             color = 'rgb(153, 5, 5)'; // Below 33% percentile or no results
         }
-
+    
         // Return the win percentage with color formatting
         return `<span style="color: ${color};" data-toggle="tooltip" data-placement="auto top" title="Success rate <br /><br />(nb: records are very incomplete!)">${winPercentage.toFixed(2)}%</span>`;
     }
