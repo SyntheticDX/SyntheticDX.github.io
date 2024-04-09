@@ -380,49 +380,65 @@ $(document).ready(function() {
     }
 
     function calculateWinPercentage(matches) {
-        let totalMatches = 0;
+        let totalRatedMatches = 0; // Unique variable to count matches labeled as "Win", "Loss", "Draw", "Disputed"
         let winMatches = 0;
         let lossMatches = 0;
+        let drawDisputedMatches = 0;
     
-        // Count total, win, and loss matches
+        // Count total, win, loss, draw, and disputed matches
         matches.forEach(match => {
             if (match.match[6] === "isCertain") {
-                totalMatches++;
-                if (match.match[3].includes("Win")) {
+                const matchResult = match.match[3];
+                if (matchResult.includes("Win")) {
                     winMatches++;
-                } else if (match.match[3].includes("Loss")) {
+                    totalRatedMatches++; // Increment totalRatedMatches only for valid matches
+                } else if (matchResult.includes("Loss")) {
                     lossMatches++;
+                    totalRatedMatches++; // Increment totalRatedMatches only for valid matches
+                } else if (matchResult.includes("Draw") || matchResult.includes("Disputed")) {
+                    drawDisputedMatches++;
+                    totalRatedMatches++; // Increment totalRatedMatches only for valid matches
                 }
             }
         });
     
-        // Calculate the percentage of win matches
-        let winPercentage = totalMatches > 0 ? (winMatches / (winMatches + lossMatches)) * 100 : 0;
+        // Calculate the win percentage using the provided formula
+        let winPercentage;
+        if (drawDisputedMatches === 0) {
+            // Calculate win percentage without considering draws or disputed matches
+            winPercentage = totalRatedMatches > 0 ? (winMatches / (winMatches + lossMatches)) * 100 : 0;
+        } else {
+            // Treat draw and disputed matches as draw and calculate win percentage accordingly
+            winPercentage = totalRatedMatches > 0 ? ((2 * winMatches + drawDisputedMatches) / (2 * totalRatedMatches)) * 100 : 0;
+        }
     
-        // Return the win percentage as a numerical value
         return winPercentage;
     }
 
     function calculateWinPercentageWithColor(matches) {
-        let totalMatches = 0;
+        let totalRatedMatches = 0; // Unique variable to count matches labeled as "Win", "Loss", "Draw", "Disputed"
         let winMatches = 0;
-        let lossMatches = 0;
-    
-        // Count total, win, and loss matches
+        let drawDisputedMatches = 0;
+      
+        // Count total, win, draw, and disputed matches
         matches.forEach(match => {
             if (match.match[6] === "isCertain") {
-                totalMatches++;
-                if (match.match[3].includes("Win")) {
+                const matchResult = match.match[3];
+                if (matchResult.includes("Win")) {
                     winMatches++;
-                } else if (match.match[3].includes("Loss")) {
-                    lossMatches++;
+                    totalRatedMatches++; // Increment totalRatedMatches only for valid matches
+                } else if (matchResult.includes("Draw") || matchResult.includes("Disputed")) {
+                    drawDisputedMatches++;
+                    totalRatedMatches++; // Increment totalRatedMatches only for valid matches
+                } else if (matchResult.includes("Loss")) {
+                    totalRatedMatches++; // Increment totalRatedMatches only for valid matches
                 }
             }
         });
-    
-        // Calculate the percentage of win matches
-        let winPercentage = totalMatches > 0 ? (winMatches / (winMatches + lossMatches)) * 100 : 0;
-    
+      
+        // Calculate the win percentage using the provided formula
+        const winPercentage = totalRatedMatches > 0 ? ((2 * winMatches + drawDisputedMatches) / (2 * totalRatedMatches)) * 100 : 0;
+      
         // Set the color based on percentile
         let color;
         if (winPercentage >= 66) {
@@ -432,7 +448,7 @@ $(document).ready(function() {
         } else {
             color = 'rgb(153, 5, 5)'; // Below 33% percentile or no results
         }
-    
+      
         // Return the win percentage with color formatting
         return `<span style="color: ${color};" data-toggle="tooltip" data-placement="auto top" title="Success rate <br /><br />(nb: records are very incomplete!)">${winPercentage.toFixed(2)}%</span>`;
     }
