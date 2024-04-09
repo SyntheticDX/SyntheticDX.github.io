@@ -315,7 +315,7 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
     content: "WIP";
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-    color: silver;
+    color: rgba(192, 192, 192, 0.281);
     font-style: oblique;
     font-size: 2em;
 }
@@ -1462,6 +1462,10 @@ input[type="checkbox"]{
     color: silver;
 }
 
+.matchesCountWrapper {
+    font-size: 1rem;
+    color: silver;
+}
 
 
 .deco{

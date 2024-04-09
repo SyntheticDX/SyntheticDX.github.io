@@ -379,6 +379,60 @@ $(document).ready(function() {
         return totalMatches;
     }
 
+    // Function to calculate the win percentage
+    function calculateWinPercentage(matches) {
+        let totalMatches = 0;
+        let winMatches = 0;
+
+        // Count total and win matches
+        matches.forEach(match => {
+            if (match.match[6] === "isCertain") {
+                totalMatches++;
+                if (match.match[3].includes("Win")) {
+                    winMatches++;
+                }
+            }
+        });
+
+        // Calculate the percentage of win matches
+        let winPercentage = totalMatches > 0 ? (winMatches / totalMatches) * 100 : 0;
+
+        // Return the win percentage as a numerical value
+        return winPercentage;
+    }
+
+    // Function to calculate the win percentage with color formatting
+    function calculateWinPercentageWithColor(matches) {
+        let totalMatches = 0;
+        let winMatches = 0;
+
+        // Count total and win matches
+        matches.forEach(match => {
+            if (match.match[6] === "isCertain") {
+                totalMatches++;
+                if (match.match[3].includes("Win")) {
+                    winMatches++;
+                }
+            }
+        });
+
+        // Calculate the percentage of win matches
+        let winPercentage = totalMatches > 0 ? (winMatches / totalMatches) * 100 : 0;
+
+        // Set the color based on percentile
+        let color;
+        if (winPercentage >= 66) {
+            color = 'green'; // Top 33% percentile
+        } else if (winPercentage >= 33) {
+            color = 'yellow'; // Middle 33% percentile
+        } else {
+            color = 'rgb(153, 5, 5)'; // Below 33% percentile or no results
+        }
+
+        // Return the win percentage with color formatting
+        return `<span style="color: ${color};" data-toggle="tooltip" data-placement="auto top" title="Success rate <br /><br />(nb: records are very incomplete!)">${winPercentage.toFixed(2)}%</span>`;
+    }
+
     // Function to count all non-repeating IDs of pidPlusName[0] excluding "member"
     function countNonRepeatingIDs(data) {
         let ids = [];
@@ -542,7 +596,7 @@ $(document).ready(function() {
                         </div></td>
                     <td><div id="clan_sticky_founder">${post.founder.join(', ')}</div></td>
                     <td id="clan_scroll_members">${membersCellHTML}${members2CellHTML}</td>
-                    ${matchesCellHTML ? `<td id="clan_scroll_matches"><div class="memberCountWrapper">(${calculateTotalMatches(post['matches'])})</div>${matchesCellHTML}</td>` : '<td id="clan_scroll_matches"></td>'}
+                    ${matchesCellHTML ? `<td id="clan_scroll_matches"><div class="matchesCountWrapper">(<span data-toggle="tooltip" data-placement="auto top" title="Number of confirmed matches <br /><br />(nb: records are very incomplete!)">${calculateTotalMatches(post['matches'])}</span>) ${calculateWinPercentageWithColor(post['matches'])}</div>${matchesCellHTML}</td>` : '<td id="clan_scroll_matches"></td>'}
                     ${websiteCellHTML ? `<td><div id="clan_sticky_site">${websiteCellHTML}</div></td>` : '<td><div id="clan_sticky_site"></div></td>'}
                     ${forumCellHTML ? `<td><div id="clan_sticky_site">${forumCellHTML}</div></td>` : '<td><div id="clan_sticky_site"></div></td>'}
                     <td id="clan_scroll_description"><span>${post.description}</span></td>
@@ -614,6 +668,7 @@ $(document).ready(function() {
         let ascendingOrderTag = true; // Variable to track current sort order for tag
         let ascendingOrderName = true; // Variable to track current sort order for name
         let ascendingOrderFounders = true; // Variable to track current sort order for founder
+        let sortByTotalMatches = true; // Define a flag variable to toggle between sorting by total matches and win percentage
 
         // Sort data based on the number of matches (initial sorting)
         data.sort(function(a, b) {
@@ -687,16 +742,24 @@ $(document).ready(function() {
 
         // Add event listener for sorting by number of matches
         $('#item-matches').click(function() {
-            // Sort data based on the total number of matches in descending order
-            data.sort(function(a, b) {
-                // Calculate the total number of matches for each post
-                const totalMatchesA = calculateTotalMatches(a.matches);
-                const totalMatchesB = calculateTotalMatches(b.matches);
-                
-                // Compare the total number of matches
-                return totalMatchesB - totalMatchesA;
+            // Sort filtered data based on the sorting criteria
+            filteredData.sort(function(a, b) {
+                if (sortByTotalMatches) {
+                    // Sort by total number of matches
+                    const totalMatchesA = calculateTotalMatches(a.matches);
+                    const totalMatchesB = calculateTotalMatches(b.matches);
+                    return totalMatchesB - totalMatchesA;
+                } else {
+                    // Sort by win percentage
+                    const winPercentageA = calculateWinPercentage(a.matches);
+                    const winPercentageB = calculateWinPercentage(b.matches);
+                    return winPercentageB - winPercentageA; // Sort by win percentage in descending order
+                }
             });
-            
+
+            // Toggle the sorting criteria for the next click
+            sortByTotalMatches = !sortByTotalMatches;
+
             // Re-render the clans with sorted data
             renderClansBasedOnCheckbox();
         });

@@ -1517,7 +1517,7 @@
                         "membergroupLabel" : ["", ""],
                         "pidPlusName" : ["rob","{17}Rob"],
                         "aliases" : [""],
-                        "pastClanIDs" : ["bts","n"],
+                        "pastClanIDs" : ["b2s","n"],
                         "membership" : ["","",""],
                         "stats" : ["",""]
                     }
@@ -2084,10 +2084,10 @@
                 "match" : ["triad_v_outlaw","outlaw","[OUTLAW]","Win","2002-11-24","Should we say, awesome or cool that we had another clan match. Thank you for the clan match &#x005B;OUTLAWS&#x005D;, it was fun.","isCertain"]
             },
             {
-                "match" : ["triad_v_dea","dea","[DEA]","Loss","2003-01-12","After 6 months waiting, &#x005B;DEA&#x005D; finally decided to face us. Good game.<br /><br />-- Appears that the more experienced clan found ways to defeat Triad by maps, forcing the brothers to quickly find alternate ways post-match to interpret it as a win instead, and thus save their supposedly flawless rating although already their TCN match was technically a draw but not counted as one. I could also mark it as disputed but as you can already tell from the really laconic newspost above, it really wasnt.<br />It also makes more sense to count frags if the maps are a draw, although such victory condition shouldve been agreed upon beforehand, but if youve lost a map there is no way you had more frags than the opponent that match anyway, and a good going on one single map out of three is circumstantial rather than showing anything. --","isCertain"]
+                "match" : ["triad_v_dea","dea","[DEA]","Loss 1:2","2003-01-12","After 6 months waiting, &#x005B;DEA&#x005D; finally decided to face us. Good game.<br /><br />-- A long-awaited match between two undefeated clans, it appears that the more experienced clan found ways to defeat Triad by maps, forcing the brothers to quickly find alternate ways post-match to interpret it as a win instead, and thus save their supposedly flawless rating - although already their [TCN] match was technically a draw but not counted as one. Since at least one clan in the community was presenting winning stats as total frags - the [N/A] clan that Messiah's young sister had been in - the idea to switch to that odd method likely came from there. Ultimately clans assume war is decided based on native game victory conditions, and unless both clans excplicitly agree on a victory condition then such shenanigans can happen. As I always made victory condition clear for all of my challenges, I believe [DEA] surely must've had that detail made very clear as well. In [N/A] case I believe they just liked presenting stats for website and none of their wars look like it was decided by total score. At least one map of this war is available on Youtube, uploaded by DBL. I believe I saw the leader decade later admitting to being overconfident going in.<br /> As a comical sidenote, a great fan of Messiah from a clan a decade later decided to turn his lost war into a victory using this same method. --","isCertain"]
             },
             {
-                "match" : ["triad_v_na","na","[N/A]","Win","2003-01-20","We had a match with &#x005B;N/A&#x005D;, good game.","isCertain"]
+                "match" : ["triad_v_na","na","[N/A]","Win 3:0","2003-01-19","'We had a match with &#x005B;N/A&#x005D;, good game.'<br /><br />Stats from [N/A] side:<br />Result: Loss<br />MVP: ICE<br /><br />CMD: 21 - 35<br />Silo: 21 - 40<br />Smuggler: 47 - 66<br />Total: 89 - 141<br /><br />Opponent's summary is laconic because week earlier they lost to [DEA] but decided to weasel out of it by switching to - ironically - the [N/A] statistics counting method for website. I think extra information (statistics) and a victory condition (displayed in game) were confused by some people.","isCertain"]
             },
             {
                 "match" : ["triad_v_el","el","[EL]","Win","2003-03-02","Thank you for the clan match &#x005B;EL&#x005D;, let&apos;s do it again. Good game guys.","isCertain"]
@@ -3758,7 +3758,7 @@
                 "forum" : ["[A]Dae gives their then forums address around 2006 as:","https://web.archive.org/web/*/http://assassins.servegame.com*","dead"]
             }
         ],
-            "description" : "Competitive early clan formed reportedly early 2001 and that at some point turns into [X] Factor, and back to [A] again, and merges with [TN], and comes back only to merge with [A]lpha an then come back as [A] again. The last, post-alliance revival would get absorbed into post-triad clan A!B. Unsure whose older alias Hittman was, maybe Trancekiller's but not all data matches - expect couple duplicates in roster. First German DXMP clan [GDoTS] reports emegence of second clan from the region thats formed May 24, happily links their homepage somewhere in menu but otherwise doesn't say anything else in newspost - since it would still be some 3 months until DXIN formation then this <em>could</em> be [A].",
+            "description" : "Competitive early clan formed reportedly early 2001 and that at some point turns into [X] Factor and back to [A] again, and merges with [TN] - possibly around November 2002 when neither clan is any longer listed - and comes back only to merge with [A]lpha an then come back as [A] again. The last, post-alliance revival would get absorbed into post-triad clan A!B. Unsure whose older alias Hittman was, maybe Trancekiller's but not all data matches - expect couple duplicates in roster. First German DXMP clan [GDoTS] reports emegence of second clan from the region thats formed May 24, happily links their homepage somewhere in menu but otherwise doesn't say anything else in newspost - since it would still be some 3 months until DXIN formation then this <em>could</em> be [A].",
         "background" : [
             {
                 "backgroundStory" : ["in flash format here https://web.archive.org/web/20150729222002/http://a-ssassin.tripod.com/history.swf","a","","The [A]ssassins clan was founded by DeViL in early 2001 however it started to fade later that year from lack of dedicated members. The remaining members decided on a second-generation clan identified only as [X] Faction. Relatively early in February 2002, [A]ssassins was reimbursed by the ex [A] leader and clan founder DeViL. Other leaders trancekiller and TheSeal were all given a third power over the clan, which was soon coming to an end due to TheSeal's negativity, towards the clan, resulting in multi-clanning. Recruiting was initiated immediately after it's reimbursement with new members snipemastaKEV, asterisk, and an ex [A]ssassin member, RoBo... Not very long after this, DeViL decided to retire from DXMP, we are still hoping one day he will make a comeback..."]
@@ -3844,11 +3844,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["jon","[A]Jon"],
+                        "pidPlusName" : ["faction","[A]Jon"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["","Country: UK?"]
+                        "stats" : ["I presume its {U}Faction and applied ID accordingly, needs to be fixed if incorrect","Country: UK?"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -8862,7 +8862,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["chineseDemocracy","[BIA]ChineseDemocracy"],
+                        "pidPlusName" : ["chinesedemocracy","[BIA]ChineseDemocracy"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -10731,7 +10731,7 @@
         ],
         "websites" : [
             {
-                "website" : ["","https://web.archive.org/web/20021005065758/http://membres.lycos.fr/b2jkryss/",""]
+                "website" : ["","https://web.archive.org/web/20021005065758/http://membres.lycos.fr/b2jkryss/","featured"]
             },
             {
                 "website" : ["Actual host is here https://web.archive.org/web/*/http://ibelgique.ifrance.com/borntojump/* but the design preserved better on the other url","https://web.archive.org/web/20020526215203/http://www.btj.clan.st/",""]
@@ -13400,7 +13400,7 @@
                 "match" : ["","phantom","(Phantom)","","2002-08-29","PissTheFirst: 'k i got some members to play so far, Piss(Phantom), Crisis(Phantom), Subzero(Phantom), BeYond(Phantom), and either Menti(Phantom), Ethan(Phantom), or Iron(Phantom). Iron may not be able to play cause of college and i will decide if he cant between the other 2 '<br /><br />GaretJax: at the moment the time is 10pm SATURDAY NIGHT!! 5 players 3 maps 20 minutes each map Smuggler, CMD, Silo , i've requested the DEA Closed Server","isDiscussed"]
             },
             {
-                "match" : ["cg_v_na","na","[N/A]","Loss","2002-09-21","DerianX: 'Anyhoo, we propose the following: Saturday, Sept. 21, 2002 at 12:00 pm Eastern (9:00 am Pacific).. 4v4, 5v5, 6v6 or 7v7. - Cathedral - CMD - Silo ; Server is DEA open, pass is 'common''<br /><br />Fro99: 'GG's it was fun N/A FISRst acculty clan match :)'","isDiscussed"]
+                "match" : ["cg_v_na","na","[N/A]","Loss 0:3","2002-09-21","DerianX: 'Anyhoo, we propose the following: Saturday, Sept. 21, 2002 at 12:00 pm Eastern (9:00 am Pacific).. 4v4, 5v5, 6v6 or 7v7. - Cathedral - CMD - Silo ; Server is DEA open, pass is 'common''<br /><br />Fro99: 'GG's it was fun N/A FISRst acculty clan match :)'<br /><br />In [N/A]'s first ever clan match, we managed to defeat [CG] by a total score of 143 - 101. Everyone was hard working and respectful throughout the game. We look forward to future matches against [CG].<br /><br />Date: Saturday, September 21, 2002<br />Result: Victory<br />Player voted MVP: TheBalrog<br />Cathedral: 54 - 17<br />CMD: 47 - 25<br />Silo: 42 - 34 Total: 143 - 101 ","isCertain"]
             },
             {
                 "match" : ["","a","[A] #2","","2002-09-21","","isDiscussed"]
@@ -15261,7 +15261,7 @@
         ],
         "matches" : [
             {
-                "match" : ["d_v_na","na","[N/A]","Win","2002-","[Ð] vs [N/A] Win, 2002","isCertain"]
+                "match" : ["d_v_na","na","[N/A]","Win 2:1","2002-11-09","Divine Intervention: While [N/A] was trying to recover from a loss to [DEA], we hit a roadblock known as [D]. In the third round (after 90% of [D] didn't return from a server crash), the match was reduced to 2v2 (which became 2v1 when [D]Jackoff left). The total score was 67 - 146.<br /><br />Date: Saturday, November 9, 2002<br />Result: Defeat<br />Player voted MVP: Fragbait<br />Smuggler: 38 - 90<br />Area51Bunker: 14 - 52<br />Silo: 15 - 4 Total: 67 - 146 ","isCertain"]
             },
             {
                 "match" : ["d_v_da","da","[DA]","Win","2002-12","[Ð] vs [DA] --presumed win-- Dec 2002","isCertain"]
@@ -15641,7 +15641,7 @@
         "tag" : ["tagFront","(","D12",")"],
         "tag_extra" : "",
         "flag" : ["🇺🇸","presumably mostly or entirely US"],
-        "name" : "Deadly Dozen",
+        "name" : "Distructive 12 / Deadly Dozen",
         "gametype" : ["Aug"],
         "tier" : ["B","A",""],
         "date" : ["isUncertain","2002-09-25","isUncertain","","isCertain","2003-04-06"],
@@ -15718,6 +15718,9 @@
             }
         ],
         "websites" : [
+            {
+                "website" : ["","https://web.archive.org/web/20021214155411/http://clandtwelve.koolhost.com/index.html","featured"]
+            },
             {
                 "website" : ["Only the rotating logo portion of the flash design works, header wont load and neither does news content","https://web.archive.org/web/20030212181007/http://d12.deusex-online.com/","flash"]
             }
@@ -16079,7 +16082,7 @@
                 "match" : ["da_v_tcn","tcn","[TCN]","","Sept 2002","Parallax in early Sept 2002: 'Thats right [DA]bLade has joined up once again and just in time to play in the DA V TCN war thats coming up this saturday!'<br /><br />https://web.archive.org/web/20030408182818/http://darkshadow32.hyperboards.com:80/index.cgi?action=display&board=ars&num=1049281748&start=0","isUncertain"]
             },
             {
-                "match" : ["da_v_na","na","[N/A]","Loss 35:92","2002-10-13","DarkShadow: Sounds Good. So you guyz will have DEA hijacked by saturday i presume? We'll Make The Match 6 on 6 for now. If everyone shows we will set it for 7 on 7<br /><br />Our Players Will Be :<br />DarkShadow<br />Belouga<br />BlinkMan<br />RonTheKiller<br />Parallax<br />Java<br />bLaDe <br /><br />DOOKIE: Line up looks something like this,but may change.<br />*Alex(though a chance he will not be able to make it)<br />Derian<br />Compudoc<br />Trystero<br />DOOKIE<br />downtime<br /><br />DerianX: Four of us in [N/A] are [DEA] server admins, so it's relatively easy to get one to use.<br /><br />GG guys, we had fun. You guys fought hard.<br /><br />I posted the results here:<br /><br />Date: Sunday, October 13, 2002<br />Result: Victory<br />Player voted MVP: downTime<br />Smuggler: 48 - 13<br />Silo: 32 - 13<br />Area51Bunker: 12 - 9 Total: 92 - 35 . ","isCertain"]
+                "match" : ["da_v_na","na","[N/A]","Loss 0:3","2002-10-13","DarkShadow: Sounds Good. So you guyz will have DEA hijacked by saturday i presume? We'll Make The Match 6 on 6 for now. If everyone shows we will set it for 7 on 7<br /><br />Our Players Will Be :<br />DarkShadow<br />Belouga<br />BlinkMan<br />RonTheKiller<br />Parallax<br />Java<br />bLaDe <br /><br />DOOKIE: Line up looks something like this,but may change.<br />*Alex(though a chance he will not be able to make it)<br />Derian<br />Compudoc<br />Trystero<br />DOOKIE<br />downtime<br /><br />DerianX: Four of us in [N/A] are [DEA] server admins, so it's relatively easy to get one to use.<br /><br />GG guys, we had fun. You guys fought hard.<br /><br />I posted the results here:<br /><br />Date: Sunday, October 13, 2002<br />Result: Victory<br />Player voted MVP: downTime<br />Smuggler: 48 - 13<br />Silo: 32 - 13<br />Area51Bunker: 12 - 9 Total: 92 - 35 . ","isCertain"]
             },
             {
                 "match" : ["","outlaw","[OUTLAW]","","2002-11","OUTLAWBigDawg challenge with 16 replies, mightve played the EL instead from start of next year","isDiscussed"]
@@ -17650,7 +17653,7 @@
                 "match" : ["","tt","[TT]","","2003-02-13","Yermaw managed to register again on DCSB 2nd forums, notes if DCSB wants challenge they ought to organize it themselves, suggesting Marvin of TCN may help (with server?). RogueJedi apparently challenged him directly.<br /><br />https://web.archive.org/web/20030214181206/http://www.dxcows.com:80/cgi-bin/yabb/YaBB.cgi/YaBB.cgi?action=recent<br /><br />--Ive marked potential Draw elsewhere, but I think there is confusion with a closely matched war that happened late 2004 against [TT]--","isDiscussed"]
             },
             {
-                "match" : ["dcsb_v_na","na","[N/A]","Loss","2003-03-14","DerianX starts heavily discussed challenge spring 2003","isCertain"]
+                "match" : ["dcsb_v_na","na","[N/A]","Loss 0:3","2003-03-07","DerianX starts heavily discussed challenge spring 2003<br /><br />[N/A] Stats:<br />Result: Victory<br />MVP: Mirage<br /><br />Smuggler: 58 - 20<br />Area51Bunker: 23 - 3<br />CMD: 30 - 4<br />Total: 111 - 27","isCertain"]
             },
             {
                 "match" : ["","a","[A]","","2003-04-06","Mole laughs DCSB guys arent even awake the time DejaVu suggests [A] vs [DCSB] war","isDiscussed"]
@@ -17758,7 +17761,7 @@
         "name" : "D-Devils",
         "gametype" : ["0a"],
         "tier" : ["B","A",""],
-        "date" : ["isUncertain","2002-07-04","isUncertain","2003-12-31","isCertain",""],
+        "date" : ["isUncertain","2002-05-03","isUncertain","2003-12-31","isCertain",""],
         "founder" : ["Geo", "Klaasvaak"],
         "members" : [
             {
@@ -17944,6 +17947,9 @@
             }
         ],
         "forums" : [
+            {
+                "forum" : ["Likely original forum, no posts here, aside index view this is the most interesting page","https://web.archive.org/web/20021005230817/http://ddevils.proboards12.com:80/index.cgi?board=General","featured"]
+            },
             {
                 "forum" : ["16.10.02 New Forum up and running","https://web.archive.org/web/20021008033523/http://www.pharcyde.dk:80/cgi-bin/yabb/YaBB.cgi?action=recent","featured"]
             },
@@ -18367,10 +18373,10 @@
                 "match" : ["bk_v_dea","bk","[BK]","Win","2001-12-16","Auselan: 'the match is done and dusted. Three games, three losses to BK.<br /><br />Thanks to Amigo and DuoMaxwell for playing. It is a sad reflection of events that one of our best players was mouse[EIS] who was drafted in at the last minute to bolster our pitiful numbers, and a chap called drurid or something.<br /><br />I will post a debrief of the match when I get home from holiday (not for a few weeks), but I will leave it by saying that although there are understandable reasons for absence, I am fed up of turning up for matches that aren't attended by our players - I was truly embarrassed tonight. We did not loose as badly as we could have (given the calibre of our opponents) and I don't think we gave ourselves the best chance.<br /><br />I will be on holiday until about January and may not have a chance to check emails until then. Happy Chrimbo!!!<br /><br />Tom Nichols aka [BK]Auselan","isCertain"]
             },
             {
-                "match" : ["dea_v_na","na","[N/A]","Win","2002?","","isCertain"]
+                "match" : ["dea_v_na","na","[N/A]","Win 3:0","2002-11-02","[N/A] Falls on the Battlefield: In a grueling battle, [DEA] proved why they are the undefeated kings of DXMP as they crushed the upstart [N/A] by a combined score of 257 - 124. Thanks to the members of both clans for an excellent turnout.<br /><br />Date: Saturday, November 2, 2002<br />Result: Defeat<br />Player voted MVP: AleX<br />CMD: 45 - 91<br />Titanium: 31 - 75<br />Cathedral: 48 - 91 Total: 124 - 257 ","isCertain"]
             },
             {
-                "match" : ["dea_v_triad","triad","[3]","Win","Jan 2003","Long-awaited match between two undefeated clans. At least one map is on Youtube, might've been from DBL. At the time [3] hurried to devise some kind of new mathematics to count it as their victory based on total frags across game, while later the leader admitted being overconfident going in.","isCertain"]
+                "match" : ["triad_v_dea","triad","[3]","Win 2:1","2003-01-12","After 6 months waiting, &#x005B;DEA&#x005D; finally decided to face us. Good game.<br /><br />-- A long-awaited match between two undefeated clans, it appears that the more experienced clan found ways to defeat Triad by maps, forcing the brothers to quickly find alternate ways post-match to interpret it as a win instead, and thus save their supposedly flawless rating - although already their [TCN] match was technically a draw but not counted as one. Since at least one clan in the community was presenting winning stats as total frags - the [N/A] clan that Messiah's young sister had been in - the idea to switch to that odd method likely came from there. Ultimately clans assume war is decided based on native game victory conditions, and unless both clans excplicitly agree on a victory condition then such shenanigans can happen. As I always made victory condition clear for all of my challenges, I believe [DEA] surely must've had that detail made very clear as well. In [N/A] case I believe they just liked presenting stats for website and none of their wars look like it was decided by total score. At least one map is on Youtube uploaded by DBL. I believe I saw the leader decade later admitting to being overconfident going in.<br /> As a comical sidenote, a great fan of Messiah from a clan a decade later decided to turn his lost war into a victory using this same method. --","isCertain"]
             },
             {
                 "match" : ["","bk","[BK]","","","vs [BK] RE - planned","isDiscussed"]
@@ -21531,7 +21537,7 @@
         ],
         "matches" : [
             {
-                "match" : ["dl_v_na","na","[N/A]","Loss","2003-","[DL] vs [N/A] Loss, 2003?","isCertain"]
+                "match" : ["dl_v_na","na","[N/A]","Loss 0:3","2003-05-04","Result: Victory<br />MVP: AleX<br /><br />Smuggler: 58 - 8<br />CMD: 61 - 3<br />Silo: 73 - 11<br />Total: 192 - 22","isCertain"]
             }
         ],
         "websites" : [
@@ -23847,8 +23853,8 @@
         ],
         "matches" : [
             {
-                "match" : ["dxa_v_na","na","[N/A]","Win 2:1","2003-06-15","[DXA] vs [N/A] 2-1 Win June 2003<br />15/06/2003 11:50am - Posted By Eagle<br /><br />After quite a struggle this morning, an somewhat understaffed DXA has emerged from the dust with a 2-1 victory over N/A. It was a great come from behind effort after losing CMD by the narrowest of margins (27-26 with 2 seconds left), great game to all of N/A, it was a fun match. The scores can be seen on the Wars page, with special note having to go to Jaster for carrying the team in the darker moments of play.","isCertain"]
-            }
+                "match" : ["dxa_v_na","na","[N/A]","Win 2:1","2003-06-14","[DXA] vs [N/A] 2-1 Win June 2003<br />15/06/2003 11:50am - Posted By Eagle<br /><br />After quite a struggle this morning, an somewhat understaffed DXA has emerged from the dust with a 2-1 victory over N/A. It was a great come from behind effort after losing CMD by the narrowest of margins (27-26 with 2 seconds left), great game to all of N/A, it was a fun match. The scores can be seen on the Wars page, with special note having to go to Jaster for carrying the team in the darker moments of play.<br /><br />[DXA] Defeats [N/A]: After a very slow paced first round that we won by one kill, the alliance turned things around for rounds two and three to secure the overall victory. We look forward to a rematch down the road. <br /><br />Result: Loss<br />MVP: AleX<br />CMD: 27 - 26<br />Area51Bunker: 5 - 29<br />Cathedral: 17 - 32<br />Total: 49 - 87","isCertain"]
+            }            
         ],
         "websites" : [
             {
@@ -24092,7 +24098,15 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Later(?) in [AK]","Latvia"]
+                        "stats" : ["Later in [H] and then [AK]","Latvia"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["smuggler_dxc","[DXC]Smuggler"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Unknown young player who shares player name with the MTL creator, also shows interest in joining [H] later but seems to have gotten virus",""]
                     }
                 ]
             }
@@ -24112,7 +24126,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "Seemingly a short-lived or failed clan of beginners that likely pre-dated [AK] by some months, probably active in some mods or 0a. Possibly evolves into [H] Hellraisers where GXC is with FlibEx after this DXC is dead. Definitely active in the {DWK} community.",
+        "description" : "Seemingly a short-lived or failed clan of young beginners that likely pre-dated [AK] by some months, probably active in some mods or 0a. Possibly evolves into [H] Hellraisers where GXC is with FlibEx after this DXC is dead. Definitely active in the {DWK} community.",
         "background" : [
             {
                 "backgroundStory" : ["","flib","FlibEx:"," Old DXC clan webpage. Clan is gone now"]
@@ -29362,7 +29376,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["bobmonkhouse","{EE}BobMonkHouse"],
+                        "pidPlusName" : ["bobmunkhouse","{EE}BobMonkHouse"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -30238,7 +30252,7 @@
                 "match" : ["ak_v_el","ak","[AK]","Win","2003-02","2003-02-06 - After some discussions, most of the members of the clan formally known as [AK] or Augmented Killers Decided to join forces with [~EL~]","isCertain"]
             },
             {
-                "match" : ["el_v_na","na","[N/A]","Loss 1:2","2003-","EL: 'This was a very close match but the LAW won last seconds of the map that we had the lead.'","isCertain"]
+                "match" : ["el_v_na","na","[N/A]","Loss 1:2","2003-02-18","EL: 'This was a very close match but the LAW won last seconds of the map that we had the lead.'<br /><br />[N/A] Stats:<br />Result: Victory<br />MVP: CoMpUdOc<br /><br />CMD: 40 - 34<br />Silo: 51 - 62<br />Cathedral: 52 - 42<br />Total: 143 - 138<br /><br />Judging by the details, this war might've been close to arriving at [DEA] vs [3] situation almost exactly a month earlier, and [N/A] odd method of counting results most likely inspired the losing side there. It sounds that before the final seconds LAW [EL] was going to win 2:1 yet [N/A] mightve still had the overall score lead, but in the end it never came to that.","isCertain"]
             },
             {
                 "match" : ["triad_v_el","triad","[3]","Loss 1:3","2003-03-02","EL: 'They won all 2 maps euro server we won one map usa server they won other map.'<br /><br />Messiah: 'Thank you for the clan match &#x005B;EL&#x005D;, let&apos;s do it again. Good game guys.'","isCertain"]
@@ -36085,7 +36099,7 @@
         ],
         "matches" : [
             {
-                "match" : ["","","","","","",""]
+                "match" : ["da_v_h","","","","","DarkShadow: Hey [H]. Nice Site You Got Here. Seeing As How You Have Three Members , How Would you like to take on myself, Blinkman , and [DA]Gauntlet, in a 3 on 3 clan war? We offer the challenge! Do You Accept? We Hope to see you and you leader (Who is a former DA member) In Battle Sometime Soon.<br /><br /> [AK]DeadalusGXC_:  sorry but to clan H has just joined clan MJ!3 and DXC so clan is not ready yet.... but soon we will know all memmbers and all stuff will be done!","isDiscussed"]
             }
         ],
         "websites" : [
@@ -36101,7 +36115,7 @@
         ],
         "forums" : [
             {
-                "forum" : ["","",""]
+                "forum" : ["Has a few threads","https://web.archive.org/web/20020922171941/http://clanh.hyperboards.com:80/index.cgi?board=general&action=display&num=1028365536","featured"]
             }
         ],
         "description" : "Second year smaller fun clan of likely younger beginners, presenting two sites for our enjoyment.",
@@ -39358,6 +39372,9 @@
             }
         ],
         "websites" : [
+            {
+                "website" : ["Very cool front entry page but thats all thats survived","https://web.archive.org/web/20021013122544/http://dxioi.tripod.com/","index"]
+            },
             {
                 "website" : ["Website of the revived iOi from 2003, its fully formed and all pages work, practically live","https://web.archive.org/web/20040211213526/http://www.freewebs.com/ioi2k3/","featured"]
             }
@@ -45217,6 +45234,875 @@
         "news" : [
             {
                 "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "n_1",
+        "tag" : ["tagFront","[","N","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Basic"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","","isUncertain","","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","[N]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Obscure tag from first four years of the game, its not even possible to tell which gametype, but everything indicates it was tiny and short-lived tag, perhaps only worn by a single person or for a very short time.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "n",
+        "tag" : ["tagFront","[","N","]"],
+        "tag_extra" : "",
+        "flag" : ["🇪🇺","Not exclusive to it, predominantly British Isles"],
+        "name" : "Nostalgia",
+        "gametype" : ["0a"],
+        "tier" : ["","A","S"],
+        "date" : ["isUncertain","2005-05-01","isUncertain","2005-08-01","isCertain","2005-11-28 ✝ 2008-02-01"],
+        "founder" : ["Calabria", "Rob"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["This roster is already some kind of revival, honorary marking who has already been in clan, most likely post-[V]","June 16, 2006"],
+                        "pidPlusName" : ["calabria","~[N]Calabria~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["nem"],
+                        "membership" : ["","inactive by autumn 2007",""],
+                        "stats" : ["Sander, Netherlands?"," -- Leader<br />"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["rob","~[N]Rob~ 🇬🇧"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["b2s"],
+                        "membership" : ["","",""],
+                        "stats" : [""," -- Co Leader/Admin/Web"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["laurens","~[N]dEVILZSPEEd~ 🇧🇪"],
+                        "aliases" : ["Laurens"],
+                        "pastClanIDs" : ["yen","moh","nem","ue","nem"],
+                        "membership" : ["","inactive by autumn 2007",""],
+                        "stats" : [""," -- Honary Member"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["marije","~[N]Asuka~ 🇳🇱"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","ex-member by Oct 18, 2007",""],
+                        "stats" : ["Simultaneously [A]Catwoman and other clan tags, [DcsB]LaBlueGirl earlier year"," -- Honary Member"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["tharasticgirl","~[N]TharasticGirl~ 🇬🇧"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","ex-member by Oct 18, 2007",""],
+                        "stats" : [""," -- Honart Member"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["helios","~[N]Helios~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Dan, UK?"," -- Honary Member"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["guardiandevil","~[N]GuardianDevil~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Dave, UK?"," -- Member"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["bobmunkhouse","~[N]BobMonkHouse~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","ex-member by Oct 18, 2007",""],
+                        "stats" : ["Later in M3, UK?<br />I've corrected ID to munkhouse with a 'u' and hopefully its same player and theres not two of them"," -- Member<br />Passed his trial! "]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","Ex ~[N]ostalgia~ members"],
+                        "pidPlusName" : ["ken","~[N]Leprauchan~ 🇪🇪"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Left due to multi-clanner drama",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["vancha","~[N]Vancha~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","2007-05-04",""],
+                        "stats" : ["In the [g3] auged training, I think this one mightve been Irish perhaps<br />Left clan to pursue augs training",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["forgotten","~[N]forgotten~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["g","b"],
+                        "membership" : ["","",""],
+                        "stats" : ["Member left for [G] clan, not to mixed up with forgetten",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","Oct 18, 2007"],
+                        "pidPlusName" : ["heros","~[N]Heros~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : [""," -- Member"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["jammydodger","~[N]JammyDodger~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : [""," -- Member "]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["chinesedemocracy","~[N]Chin.Democ~ 🇬🇧"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["bia"],
+                        "membership" : ["","2007-10-01",""],
+                        "stats" : ["Chin.Democ has departed from the clan for some differences between members.<br /><br />Afterwards in [FGS]"," -- Member"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["shadow_nl","~[N]Bullet~ 🇳🇱"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["eod","df","nem","nano"],
+                        "membership" : ["","",""],
+                        "stats" : ["Later co-founder of [REN]"," -- Member "]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["cyrus","~[N]100%irishbeef~ 🇮🇪"],
+                        "aliases" : ["Cyrus"],
+                        "pastClanIDs" : ["n","v"],
+                        "membership" : ["","",""],
+                        "stats" : ["Eric, was Irish but I think he was from N-I"," -- Honary Member <br />DUBLIN, Ireland"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["zantinzuken","~[N]Sayre~ 🇮🇪"],
+                        "aliases" : ["Zantinzuken"],
+                        "pastClanIDs" : ["gs"],
+                        "membership" : ["","2007-08-01",""],
+                        "stats" : ["Keith, friend of Eric this one is also Irish, total perhaps third Irish member here"," -- Member "]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["raiden","~[N]Raiden~ 🇬🇧"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["dg","tcf","ak","tt","dcsb","alliance","f"],
+                        "membership" : ["","",""],
+                        "stats" : ["Anton"," -- Honary Member"]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","Members On Trial"],
+                        "pidPlusName" : ["chenyoung","~[N]ChenYoung[T]~ "],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","Ex ~[N]ostalgia~ members"],
+                        "pidPlusName" : ["sheikyerbouti","~[N]Sheikyurbouti~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["io"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["freestyle","~[N]fr33styl3~ 🇮🇹"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["monkeyboy","~[N]MonkeyBoy~ 🇧🇪"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["db","tss","moh","nem"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["panda","~[N]Panda~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","2007-04-15",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["harry","~[N]Harry~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["faction","~[N]Jon~ 🇬🇧"],
+                        "aliases" : ["Faction"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["applied June 16, 2006","",""],
+                        "stats" : ["Hey, As most of you will realise, I was in {U} the last time we had a war. Since that time, I have taken it upon myself to leave {U}, and search for other clans for a less... responsible clan rank. The best clan I would think of, was [N]ostalgia, in no small part due to the attitudes shown in our last clan war.<br />My Details:<br /><br />Name in Deus Ex: Faction<br />Name outside of the game: Jon<br />Age: 16<br />Nationality: British<br />Previous Clans: {U}topia<br />Weapon Preference: Sniper Rifle<br />Default Map Choice Preference: DXMP_Smuggler<br />Augmentation Preference: 0 Augs",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["mekrable","~[N]Mekrable~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["littleplick","~[N]Plick~ 🇬🇧"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["bia"],
+                        "membership" : ["","",""],
+                        "stats" : ["I presume the previous name was Littleplick, either that or its a relative, likely Welsh",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","Jan 20, 2008"],
+                        "pidPlusName" : ["","~[N]Token~ 🇫🇷"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["nem"],
+                        "membership" : ["2007-11-06","",""],
+                        "stats" : ["I think this friendly French player was in my [NEM] clan and not in the voices clan before that"," -- Member"]
+                    }
+                ]
+            }
+        ],
+        "members_2" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","CS:S Division"],
+                        "pidPlusName" : ["greatdane","[N]Eskimoen"],
+                        "aliases" : ["GreatDane"],
+                        "pastClanIDs" : ["eod","moh","nem"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["n_v_u","u","{U}","Win 2:0","2006-01-25","Clan war with {U} was a success, i would like to thank both Utopian members and Nostalgia members for the great war, no bitching etc.. even though the server was crap. GG! screenshots here.","isCertain"]
+            },
+            {
+                "match" : ["n_v_sof","sof",".:SoF:.","","2006-03","Match is discussed","isDiscussed"]
+            },
+            {
+                "match" : ["g_v_n","g","[G]","Win 3:0","2006-06-","Before June 16, 2006, possibly it was 4v4 since its their target format","isCertain"]
+            },
+            {
+                "match" : ["n_v_u_2","u","{U}","Win 3:0","2006-03-27","[N] beat {U} at another clan war, screenshots can be found here.","isCertain"]
+            },
+            {
+                "match" : ["n_v_ren","ren","[ReN]","Loss 0:1","2006-11-08","8th November - After a long inactive period of N clan, lots has happened. /../, we lost against ren a 3 vs 3 little fun scrim, was very fun and well done to all who played, screenshots are available here. ","isCertain"]
+            },
+            {
+                "match" : ["alpha_v_n","alpha","[A]","Win 3:0","2007-04-15","Alpha info: Conditions: Zero-aug    Server: DXMS Server    Maps: smuggler, cmd, silo<br /><br />15th April - [N] Beat [A] at a 0 aug clan war, shots of the scores can be found here. /../<br /> Clan: [A] Score: 3/3 Games played : 3 Win/loose: Win","isCertain"]
+            },
+            {
+                "match" : ["arm_v_n","arm","[ARM]","Win 3:0","2007-08-01","1 aug 2007 RtK server<br /><br />1st August - Nostalgia beat [ARM] in a clan war today, we won all 3 games, screenshots can be found here.","isCertain"]
+            },
+            {
+                "match" : ["seventeen_v_n","seventeen","{17}","Win 2:0","2007-10-10","Planned was 4 vs 4 OR 8 vs 8<br />10th ctober - /../ we have just won a war with the clan {17}which is our first dx 0 aug league match! more clan wars to come! for shots, see forums!","isCertain"]
+            },
+            {
+                "match" : ["n_v_u_3","u","{U}","","2006-06-","Third match as 4v4 is discussed but opponent mightve disintegrated before","isDiscussed"]
+            },
+            {
+                "match" : ["blackiron_v_n","blackiron","[Blackiron]","","","Late 2007 or early 2008 match is discussed, 4 vs 4 or 5 vs 5","isDiscussed"]
+            },
+            {
+                "match" : ["arm_v_n_2","arm","[ARM]","","","Late 2007 match is discussed, 4 vs 4 OR 8 vs 8 ","isDiscussed"]
+            },
+            {
+                "match" : ["n_v_rtk2","rtk2","[R2K]","","","Late 2007 or early 2008 match is discussed","isDiscussed"]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["Wonderfully preserved site","https://web.archive.org/web/20081008122438/http://www.nostalgiaclan.co.uk/index.htm","featured"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["Their second and main forums, about a dozen threads have survived here","https://web.archive.org/web/20060624061015/http://nostalgiaclan.co.uk:80/forums/viewtopic.php?p=5432&amp;sid=409b3fd7fb220442c0ef7591d9358b08","featured"]
+            }
+        ],
+        "description" : "Fifth year late spring non-aug clan of already slightly more experienced players predominantly from the UK, Ireland, Netherlands. A solid group with plenty wins to show for their matches and enduring longer than most, most of the members were from British Isles or just across the channel.",
+        "background" : [
+            {
+                "backgroundStory" : ["","n","","Nostalgia was first born in May 2005, after the death of [P] and (GS). Rob and Calabria decided to create a clan with other friends such as Cyrus, and T girl. The clan went well until many members left the clan/game causing the clan to crash and break up. Many members scattered to various clans, however after a while Rob and Calabria decided they missed [N]. So started their beloved ~[N]ostalgia~ again.<br />We hope to stay this time!<br />Nostalgia means 'wanting to go back to the good old days'. As a clan we remember the community when it used to be alive with activity. This is what fuels the clan, knowing how great Deus Ex used to be.<br /><br />The brother hood will live on...<br />Nostalgia has recently ventured onto 2 new games. CS:CZ and Jedi Knight 2. After MuLe died on JK2, Rob rounded up the members and made the announcement that [N] was born. [N] in jk2 has 2 sides, CTF and FFA. Its ran by 7 council members, consisting of 3 ffa members and 4 ctf members. [N] Sadly died in jk2, but however it has moved into counter strike source! under the leadership of Cyrus. We are currently recruiting in the game, and are hoping to get a server in the summer. "]
+            },
+            {
+                "backgroundStory" : ["","ken","Ken:","I was briefly in this clan fairly early on as [N]Leprechaun, probably after my [NEM] clan was shut down first or second time. Some members like Calabria were my old clanmates, also Rob from even earlier clan, but they recruited a multi-clanner and one of the leaders in particular believed the fake story over me pointing the aliased multi-clanning out to them, so I quit the clan and my adventures continued.<br /><br />According to my memory I'd like to place them in mid tier, but they've really won against so many contemporaries that they deserve that S tier - after all, they won against the clan that REN lost to - it probably helped that Marije who was in every clan could choose which clan to fight for, be it as [N]Chris or [A]Catwoman. Most likely the clan simply evolved from average to top tier in the years after I left and joined REN. I think Cyrus and Spaz both played as beginners in this clan, possibly Spaz' friend GrimRaper also, but not entirely sure about that anymore. I also think there must've been some flow of members to and from [V] clan, with [N] serving as a starting point to some members but them returning back to [N] afterwards, perhaps."]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","2005","28th November 2005",""," - Nostalgia is BACK! Site is Finished, a few bits are still under construction, please mail me for any mistakes! Enjoy! New member Helios, welcome to the clan mate, have a good stay.","clan"]
+            },
+            {
+                "article" : ["","2005","16th December",""," - Rage has been on trail for a couple of weeks now and has passed, we hope you have a good stay in Nostalgia!, Welcome. Also Fr33styl3 joined us again, welcome back buddy!","members"]
+            },
+            {
+                "article" : ["","2005","17th December",""," - Clan war with {U} coming up soon, on the 23rd, visit forums for details and to answer any questions you have. To view the team playing go to the forums.","wars"]
+            },
+            {
+                "article" : ["","2006","25th January",""," - Clan war with {U} was a success, i would like to thank both Utopian members and Nostalgia members for the great war, no bitching etc.. even though the server was crap. GG! screenshots here. ","wars"]
+            },
+            {
+                "article" : ["","2006","3rd March",""," - {U} have challenged us yet again, no date set yet, but stay tuned, date will be posted asap. New member Guardian Devil, and New tral member Vancha, i would like to say welcome lads, have a great stay here at Nostalgia! Nostalgia are thinking of challenging .:SoF:. to a clanwar.","clan"]
+            },
+            {
+                "article" : ["","2006","9th March",""," - Vancha has passed his trail, welcome aboard matey. Forums have been changed. They are now hosted on nostalgiaclan webspace. www.nostalgiaclan.co.uk/forums/","clan"]
+            },
+            {
+                "article" : ["","2006","27th March",""," - Forgotten leaves Nostalgia to go to Guardians, he will be missed. Leprechaun rejoins Nostalgia! welcome mate. [N] beat {U} at another clan war, screenshots can be found here. ","clan"]
+            },
+            {
+                "article" : ["","2006","10th April",""," - Leprechaun leaves the clan, he will be missed :(","members"]
+            },
+            {
+                "article" : ["","2006","4th May",""," - Vancha leaves [N] to persue his auging skills, he will be missed. ","members"]
+            },
+            {
+                "article" : ["","2006","8th November",""," - After a long inactive period of N clan, lots has happened. [N] went into jk2 and became a very good clan however it died recently. [N] dx side has recruited 3 new members, welcome to Jammy, Harry and Panda. [N] also has clanwars coming up, we lost against ren a 3 vs 3 little fun scrim, was very fun and well done to all who played, screenshots are available here. ","clan"]
+            },
+            {
+                "article" : ["","2007","15th January 2007",""," - [N] has moved into counter strike source, under the leadership of Calabria and Cyrus. The dx side is still going, with a clanwar with [A] expected... info on the war visit our forums. DX has been messed up by a player named Dejavu, making it hard to keep [N] active in deus ex. [N] has registered on clanbase.com for the css side. ","clan"]
+            },
+            {
+                "article" : ["","2007","15th April",""," - [N] Beat [A] at a 0 aug clan war, shots of the scores can be found here. [N] is recruiting in DX and CSS, to apply go to our forums! Panda has left Nostalgia, and will be missed! Deus Ex is currently in a bad state with hacking and other things going on. ","clan"]
+            },
+            {
+                "article" : ["","2007","9th July",""," - [N] has entered the DXC 0 aug league, results on matches will be announced on the forums and on the clan wars page. We have 2 new members, Bullet, and trial member Chen Young. Welcome, and all the best wiht your trial ChenYoung. Team. N in css is thinking about changing its clan tag, more on that on the forums. Harry has left [N] on both CSS and DX side of things, all the best to him. Helios has left the CSS side of N to become a CSS football player. He is still in the Deus Ex sie of the clan. ","clan"]
+            },
+            {
+                "article" : ["","2007","21st July",""," - Updating website, added a new honary member ~[N]100%irishbeef~, welcome! i added a few more EX nostalgia members to the roster, so check that out! There is news of a possible upcoming war with the clan [ARM]! Download links have been fixed. ","clan"]
+            },
+            {
+                "article" : ["","2007","1st August",""," - Nostalgia beat [ARM] in a clan war today, we won all 3 games, screenshots can be found here. Also we have a new member sayre! welcome!","clan"]
+            },
+            {
+                "article" : ["","2007","8th September",""," -Welcome back to Raiden! and we have a cw planned with the clan {17}.","clan"]
+            },
+            {
+                "article" : ["","2007","10th ctober",""," - Chin.Democ has departed from the clan for some differences between members. Keith has become co leader in the clan now! and we have just won a war with the clan {17} which is our first dx 0 aug league match! more clan wars to come! for shots, see forums!","clan"]
+            },
+            {
+                "article" : ["","2007","6th November",""," - Token has joined the clan! welcome to him. I have gone inactive in deus ex to try and get the css side up and running, we have a war planned with a clan named Blackiron! Eski (commonly known as Greatdane) has joined our css side! welcome to him too :).","clan"]
+            }
+        ]
+    },
+    {
+        "id" : "na",
+        "tag" : ["tagFront","[","N/A","]"],
+        "tag_extra" : "",
+        "flag" : ["🇺🇸","Predominantly N-America but not exclusive to it"],
+        "name" : "Not Applicable",
+        "gametype" : ["Aug"],
+        "tier" : ["B","A","S"],
+        "date" : ["isCertain","2002-02-24","isCertain","2003-08-26","isCertain",""],
+        "founder" : ["Compudoc", "DerianX", "Alex"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["alex","[N/A]AleX 🇺🇸"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["dmi"],
+                        "membership" : ["2002-02-24","",""],
+                        "stats" : ["Half of everything is puppies<br />Alex, b '86","Country: USA<br /><br />Favorites:<br />Default map: Cathedral<br />User map: Nucleus<br />Weapon: Dragon's Tooth Sword<br />Augmentation: Speed<br />Opponent: Eiex <br /><br />Rank: Leader / Retired<br />Favorite Default Map: CMD<br />Favorite User Map: Nucleus<br />Favorite Weapon: Dragon's Tooth Sword<br />Favorite Augmentation: Speed Enhancement<br /><br />Rating: 9.58<br />Record: 8/9/0<br />Points: 16<br />Kills/Deaths: 255/171<br />Kill %: 60"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["compudoc","[N/A]CoMpUdOc 🇺🇸"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["dmi"],
+                        "membership" : ["2002-02-24","",""],
+                        "stats" : ["Smurfs rule<br />Brandon b'85","Country: USA<br /><br />Favorites:<br />Default map: Smuggler<br />User map: Titanium<br />Weapon: Lightweight Attack Munition<br />Augmentation: Speed<br />Opponent: Player<br /><br />Rank: Retired<br /><br />Rating: 5.33<br />Record: 8/7/0<br />Points: 16<br />Kills/Deaths: 87/174<br />Kill %: 33"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["derianx","[N/A]DerianX 🇨🇦"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["dmi"],
+                        "membership" : ["2002-02-24","",""],
+                        "stats" : ["Honor over glory<br />Mike b'77","Country: Canada<br /><br />Favorites:<br />Default map: Cathedral<br />User map: Orius<br />Weapon: Sawed-off shotgun<br />Augmentation: Regen<br />Opponent: DOOKIE[N/A]<br /><br />Rank: Retired<br /><br />Favorite Default Map: CMD<br />Favorite User Map: Outpost<br />Favorite Augmentation: Cloak<br /><br />Rating: 12<br />Record: 12/8/0<br />Points: 24<br />Kills/Deaths: 147/147<br />Kill %: 50"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["trystero","[N/A]Trystero 🇺🇸"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["March 3, 2002","",""],
+                        "stats" : ["Don't crush that Dwarf<br />David b'80","Country: USA<br /><br />Favorites:<br />Default map: Cathedral<br />User map: Towers<br />Weapon: Throwing Knives<br />Augmentation: Speed<br />Opponent: Melkor[DEA]<br /><br />Clan Match Stats:<br />Rating: 2.12<br />Record: 2/3/0<br />Points: 4<br />Kills/Deaths: 28/25<br />Kill %: 53% "]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["dookie","[N/A]DOOKIE 🇺🇸"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["ex","u"],
+                        "membership" : ["2002-05-09","",""],
+                        "stats" : ["?<br />Wayne b'72","Country: USA<br /><br />Favorites:<br />Default map: Cathedral<br />User map: Nucleus<br />Weapon: Assault Shotgun<br />Augmentation: ?<br />Opponent: ? <br /><br />Rank: Retired<br />Favorite Augmentation: Speed Enhancement<br /><br />Rating: 1.24<br />Record: 2/7/0<br />Points: 4<br />Kills/Deaths: 68/152<br />Kill %: 31"]
+                    }
+                    
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","Trial"],
+                        "pidPlusName" : ["sambluedolphin","[N/A]SamBlueDolphin"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","failed trial",""],
+                        "stats" : ["Due to the fact that we have not heard from him in a few months, we can only assume that Sam is no longer interested in being a member of [N/A].",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["havok","[N/A]HaVoK 🇺🇸"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["'I shot you a thousand times and you didn't die... You must be cheating!' No I'm not cheating I'm just that good!<br />Tyler b '88<br /><br />Silver marked as favorite opponent should be the pre-TCN nickname Laura used, later known as ScoobyDoo or Mahou","Country: USA<br /><br />Favorites:<br />Default map: CMD<br />User map: Smuggles2<br />Weapon: Throwing Knives<br />Augmentation: Speed<br />Opponent: Silver "]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["dark","[N/A][daRk] 🇫🇮"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["around early March 2002","around September-October 2002",""],
+                        "stats" : ["Good game :D<br />Heta b'90<br /><br />Messiah's very young sister who came here instead joining her brothers' clan, but she'll eventually join them end of year after a brief stay in [DA]<br /><br />A 'Dark' Day for [N/A]: In a sad turn of events, [daRk] has decided to announce her retirement from [N/A] and subsequently, DXMP. We wish her great hapiness in her future endeavors. ","Country: Finland<br /><br />Favorites:<br />Default map: Area51Bunker<br />User map: Towers<br />Weapon: Assault Rifle<br />Augmentation: Targeting<br />Opponent: [3]Messiah "]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["fragbait","[N/A]Fragbait"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["2002-06-30","",""],
+                        "stats" : ["November 9, 2002 [D] War voted MVP<br />Charlie, b '87","Rank: Retired<br />Location: USA<br /><br />Favorite Default Map: Cathedral<br />Favorite User Map: Titanium<br />Favorite Weapon: Plasma Rifle<br />Favorite Augmentation: Speed Enhancement<br /><br />Rating: 1.16<br />Record: 2/6/0<br />Points: 4<br />Kills/Deaths: 44/108<br />Kill %: 29"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["fro99","[N/A]Fro99"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["2002-07-09","",""],
+                        "stats" : ["Josh, '87","Rank: Veteran<br />Location: USA<br /><br />Favorite Default Map: CMD<br />Favorite User Map: Towers (1-3)<br />Favorite Weapon: Guided Explosive Projectile (GEP) Gun<br />Favorite Augmentation: Energy Shield<br /><br />Rating: 4.49<br />Record: 6/5/0<br />Points: 12<br />Kills/Deaths: 138/231<br />Kill %: 37"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["lars","[N/A]Lars"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["2002-08-07","",""],
+                        "stats" : ["Lars Has Survived Boot Camp : That's right folks, after surviving a brutal two weeks as a recruit, Lars has earned his stripes and is now a full-fledged member of [N/A]. Congrats Lars!<br />Lawrence, b '76","Rank: Retired<br />Location: USA<br /><br />Favorite Default Map: Smuggler<br />Favorite User Map: Towers<br />Favorite Weapon: Throwing Knife<br />Favorite Augmentation: Speed Enhancement<br /><br />Rating: 0<br />Record: 0/1/0<br />Points: 0<br />Kills/Deaths: 4/23<br />Kill %: 15"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["downtime","[N/A]downTime 🇺🇸"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["August 12, 2002","",""],
+                        "stats" : ["David, '75","Country: USA<br /><br />Favorites:<br />Default Map: CMD<br />User Map: Towers<br />Weapon: Baton<br />Augmentation: Targeting<br /><br />Clan Match Stats:<br />Rating: 1.84<br />Record: 2/2/0<br />Points: 4<br />Kills/Deaths: 42/49<br />Kill %: 46% "]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["thebalrog","[N/A]TheBalrog 🇺🇸"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["August 15, 2002","",""],
+                        "stats" : ["ThePromotion: Congratulations to a hapless chode named TheBalrog on his promotion to full [N/A] member!<br />Derek, b '86","<br />Country: USA<br /><br />Favorites:<br />Default Map: CMD<br />User Map: Titanium<br />Weapon: Assault Rifle<br />Augmentation: Speed<br /><br />Clan Match Stats:<br />Rating: 2.56<br />Record: 4/8/0<br />Points: 8<br />Kills/Deaths: 87/184<br />Kill %: 32% "]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["trauma","[N/A]tRauMa 🇺🇸"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["around October 2002","not listed later on",""],
+                        "stats" : ["Rolling the Dice: We've decided to take a risk and accept tRauMa as a recruit. Due to his documented fear of commitment he must pass a three month recruit phase, but nonetheless, he's been given the chance. We sincerely hope he finally decides to make a permanent home for himself.<br /><br /> To those who doubt our intentions and think we only took him on for our upcoming clan matches - recruits aren't permitted to play in clan matches.<br /><br />Congratulations, tRauMa, we really hope you like it here. <br /><br />Matthew b '88<br /><br />--He signs his name as Joseph elsewhere--","Country: USA, NYC"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["silky","[N/A]Silky 🇺🇸"],
+                        "aliases" : ["Singularity"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["2002-11-17","",""],
+                        "stats" : ["Rolling in the Recruits: We would like to welcome our newest recruit to the team - da Silkster. Silky is a returning veteran and a great person to know. Welcome aboard, we hope you enjoy the ride.<br />Dana, '72","Rank: Veteran<br />Location: USA<br /><br />Favorite Default Map: Area51Bunker<br />Favorite User Map: Canyon Base<br />Favorite Weapon: Guided Explosive Projectile (GEP) Gun<br />Favorite Augmentation: Cloak<br /><br />Rating: 4.31<br />Record: 3/0/0<br />Points: 6<br />Kills/Deaths: 28/11<br />Kill %: 72"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["mirage","[N/A]Mirage 🇺🇸"],
+                        "aliases" : ["WHODAT"],
+                        "pastClanIDs" : ["cg","ex","s"],
+                        "membership" : ["2002-11-19","",""],
+                        "stats" : ["[N/A] Beefs Up: Two new recruits to report today. One is a retired spammer, the other is a returning vet. Please put your hands together for Mirage and WhiteTiger.<br /><br />-- Mirage is coming from collapsed [S] revival, with a stop in [eX] before that, later years also resurfaces in {HK} --<br />Chris, b '84","Rank: Veteran<br />Location: USA<br /><br />Favorite Default Map: Silo<br />Favorite User Map: Outpost<br />Favorite Weapon: Crowbar<br />Favorite Augmentation: Light<br /><br />Rating: 12.86<br />Record: 9/2/0<br />Points: 18<br />Kills/Deaths: 155/62<br />Kill %: 71"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["whitetiger","[N/A]WhiteTiger 🇺🇸"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["2002-11-19","",""],
+                        "stats" : ["[N/A] Beefs Up: Two new recruits to report today. One is a retired spammer, the other is a returning vet. Please put your hands together for Mirage and WhiteTiger.<br />Mat, b '76","Country: USA<br /><br />Favorites:<br />Default Map: CMD<br />User Map: Titanium<br />Weapon: Mini Crossbow<br />Augmentation: Power Recirculation<br /><br />Clan Match Stats:<br />Rating: 0.00<br />Record: 0/2/0<br />Points: 0<br />Kills/Deaths: 9/34<br />Kill %: 21% "]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["ice","[N/A]ICE"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["bk","tn"],
+                        "membership" : ["2002-12-27","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["pm","[N/A]GWA"],
+                        "aliases" : ["PM"],
+                        "pastClanIDs" : ["c22","du","eis","dea"],
+                        "membership" : ["","ret from game 2003-03-14",""],
+                        "stats" : ["Due to real life circumstances, GWA has left the clan and essentially retired from DXMP. We would like to thank our friend, GWA - aka PM - for all the good times over the years that we've known him. <br /><br />US?",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["instapotato","[N/A]InStapotato 🇺🇸"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["cg"],
+                        "membership" : ["2003-01-18","",""],
+                        "stats" : ["Andy, b '77","Rank: Retired<br />Location: USA<br /><br />Favorite Default Map: Silo<br />Favorite User Map: Outpost<br />Favorite Weapon: Sniper Rifle<br />Favorite Augmentation: Vision Enhancement<br /><br />Rating: 1.79<br />Record: 2/0/0<br />Points: 4<br />Kills/Deaths: 35/43<br />Kill %: 45"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["melkor","[N/A]Melkor 🇺🇸"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["eis","dea"],
+                        "membership" : ["2003-05-24","",""],
+                        "stats" : ["Jon b '73","Rank: Retired<br />Location: USA<br /><br />Favorite Default Map: Silo<br />Favorite User Map: Outpost<br />Favorite Weapon: Assault Shotgun<br />Favorite Augmentation: Ballistic Protection<br /><br />Rating: 0<br />Record: 0/2/0<br />Points: 0<br />Kills/Deaths: 5/26<br />Kill %: 16"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["contaminated","[N/A]CoNtAmInAtEd 🇺🇸"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["2003-07-10","",""],
+                        "stats" : ["Guy, b '73","Rank: Retired<br />Location: USA"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["parallax","[N/A]Parallax 🇬🇧"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["2003-07-25","",""],
+                        "stats" : ["Ciarán, b '86","Rank: Member<br />Location: England"]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["cg_v_na","cg","[CG]","Win 3:0","2002-09-21","DerianX: 'Anyhoo, we propose the following: Saturday, Sept. 21, 2002 at 12:00 pm Eastern (9:00 am Pacific).. 4v4, 5v5, 6v6 or 7v7. - Cathedral - CMD - Silo ; Server is DEA open, pass is 'common''<br /><br />Fro99: 'GG's it was fun N/A FISRst acculty clan match :)'<br /><br />In [N/A]'s first ever clan match, we managed to defeat [CG] by a total score of 143 - 101. Everyone was hard working and respectful throughout the game. We look forward to future matches against [CG].<br /><br />Date: Saturday, September 21, 2002<br />Result: Victory<br />Player voted MVP: TheBalrog<br />Cathedral: 54 - 17<br />CMD: 47 - 25<br />Silo: 42 - 34 Total: 143 - 101 ","isCertain"]
+            },
+            {
+                "match" : ["da_v_na","da","[DA]","Win 3:0","2002-10-13","DarkShadow: Sounds Good. So you guyz will have DEA hijacked by saturday i presume? We'll Make The Match 6 on 6 for now. If everyone shows we will set it for 7 on 7<br /><br />Our Players Will Be :<br />DarkShadow<br />Belouga<br />BlinkMan<br />RonTheKiller<br />Parallax<br />Java<br />bLaDe <br /><br />DOOKIE: Line up looks something like this,but may change.<br />*Alex(though a chance he will not be able to make it)<br />Derian<br />Compudoc<br />Trystero<br />DOOKIE<br />downtime<br /><br />DerianX: Four of us in [N/A] are [DEA] server admins, so it's relatively easy to get one to use.<br /><br />GG guys, we had fun. You guys fought hard.<br /><br />I posted the results here:<br /><br />Date: Sunday, October 13, 2002<br />Result: Victory<br />Player voted MVP: downTime<br />Smuggler: 48 - 13<br />Silo: 32 - 13<br />Area51Bunker: 12 - 9 Total: 92 - 35 . ","isCertain"]
+            },
+            {
+                "match" : ["dea_v_na","dea","[DEA]","Loss 0:3","2002-11-02","[N/A] Falls on the Battlefield: In a grueling battle, [DEA] proved why they are the undefeated kings of DXMP as they crushed the upstart [N/A] by a combined score of 257 - 124. Thanks to the members of both clans for an excellent turnout.<br /><br />Date: Saturday, November 2, 2002<br />Result: Defeat<br />Player voted MVP: AleX<br />CMD: 45 - 91<br />Titanium: 31 - 75<br />Cathedral: 48 - 91 Total: 124 - 257 ","isCertain"]
+            },
+            {
+                "match" : ["d_v_na","d","[Ð]","Loss 1:2","2002-11-09","Divine Intervention: While [N/A] was trying to recover from a loss to [DEA], we hit a roadblock known as [D]. In the third round (after 90% of [D] didn't return from a server crash), the match was reduced to 2v2 (which became 2v1 when [D]Jackoff left). The total score was 67 - 146.<br /><br />Date: Saturday, November 9, 2002<br />Result: Defeat<br />Player voted MVP: Fragbait<br />Smuggler: 38 - 90<br />Area51Bunker: 14 - 52<br />Silo: 15 - 4 Total: 67 - 146 ","isCertain"]
+            },
+            {
+                "match" : ["na_v_tcn","tcn","[TCN]","Loss 0:3","2002-12-07","TCNdko'ed: After some confusion between [N/A] and [TCNdk] concerning the time of the match (oops), we managed to get enough people onto the [TCNdk] server for three furious rounds of fragging.<br /><br />Congrats to [TCNdk] on their victory. The final score was 98 - 183.<br /><br />Date: Saturday, December 7, 2002<br />Result: Defeat<br />Player voted MVP: CoMpUdOc<br />CMD: 43 - 88<br />Area51Bunker: 39 - 54<br />Silo: 16 - 41 Total: 98 - 183 ","isCertain"]
+            },
+            {
+                "match" : ["triad_v_na","triad","[3]","Loss 0:3","2003-01-19","'We had a match with &#x005B;N/A&#x005D;, good game.'<br /><br />Result: Loss<br />MVP: ICE<br /><br />CMD: 21 - 35<br />Silo: 21 - 40<br />Smuggler: 47 - 66<br />Total: 89 - 141<br /><br />Opponent's summary is laconic because week earlier they lost to [DEA] but decided to weasel out of it by switching to - ironically - the [N/A] statistics counting method for website. I think extra information (statistics) and a victory condition (displayed in game) were confused by some people.","isCertain"]
+            },
+            {
+                "match" : ["el_v_na","el","[EL]","Win 2:1","2003-02-18","EL: 'This was a very close match but the LAW won last seconds of the map that we had the lead.'<br /><br />Date: 2003-02-18<br />Result: Victory<br />MVP: CoMpUdOc<br /><br />CMD: 40 - 34<br />Silo: 51 - 62<br />Cathedral: 52 - 42<br />Total: 143 - 138<br /><br />Judging by the details, this war might've been close to arriving at [DEA] vs [3] situation almost exactly a month earlier, and [N/A] odd method of counting results most likely inspired the losing side there. It sounds that before the final seconds LAW [EL] was going to win 2:1 yet [N/A] mightve still had the overall score lead, but in the end it never came to that.","isCertain"]
+            },
+            {
+                "match" : ["dcsb_v_na","dcsb","[DCSB]","Win 3:0","2003-03-07","DerianX starts heavily discussed challenge spring 2003<br /><br />Result: Victory<br />MVP: Mirage<br /><br />Smuggler: 58 - 20<br />Area51Bunker: 23 - 3<br />CMD: 30 - 4<br />Total: 111 - 27","isCertain"]
+            },
+            {
+                "match" : ["na_v_w","w","[W]","Win 3:0","2003-04-12","Result: Victory<br />MVP: Mirage<br /><br />CMD: 39 - 17<br />Silo: 52 - 15<br />Cathedral: 73 - 15<br />Total: 164 - 47","isCertain"]
+            },
+            {
+                "match" : ["dl_v_na","dl","[DL]","Win 3:0","2003-05-04","Result: Victory<br />MVP: AleX<br /><br />Smuggler: 58 - 8<br />CMD: 61 - 3<br />Silo: 73 - 11<br />Total: 192 - 22","isCertain"]
+            },
+            {
+                "match" : ["dxa_v_na","dxa","[DXA]","Loss 1:2","2003-06-14","[DXA] vs [N/A] 2-1 Win June 2003<br />15/06/2003 11:50am - Posted By Eagle<br /><br />After quite a struggle this morning, an somewhat understaffed DXA has emerged from the dust with a 2-1 victory over N/A. It was a great come from behind effort after losing CMD by the narrowest of margins (27-26 with 2 seconds left), great game to all of N/A, it was a fun match. The scores can be seen on the Wars page, with special note having to go to Jaster for carrying the team in the darker moments of play.<br /><br />[DXA] Defeats [N/A]: After a very slow paced first round that we won by one kill, the alliance turned things around for rounds two and three to secure the overall victory. We look forward to a rematch down the road. <br /><br />Result: Loss<br />MVP: AleX<br />CMD: 27 - 26<br />Area51Bunker: 5 - 29<br />Cathedral: 17 - 32<br />Total: 49 - 87","isCertain"]
+            }            
+        ],
+        "websites" : [
+            {
+                "website" : ["Navigation is dead so its hard to get around but pages have content, Rules and also Members page specifically","https://web.archive.org/web/20020609064432/http://www.dxnation.com/notapplicable/","featured"]
+            },
+            {
+                "website" : ["Site of DerianX and perhaps some associate","https://web.archive.org/web/20020607143029/http://planetdeusex.com/meetingplace/","index"]
+            },
+            {
+                "website" : ["","https://web.archive.org/web/20031002152038/http://na.clanned.net/","featured"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["Contains 2 threads (only interesting one linked here) as well as very interesting general board view https://web.archive.org/web/20020930075918/http://pub82.ezboard.com:80/fnotapplicableforumsfrm1<br />Only other board view is of help section (and post by derianx)","https://web.archive.org/web/20020930080028/http://pub82.ezboard.com:80/fnotapplicableforumsfrm1.showMessage?topicID=43.topic&index=2","featured"]
+            },
+            {
+                "forum" : ["June 22, 2002, new (and main) forums, unfortunately this seems to be the only thread thats preserved, couple board views also exist and index","https://web.archive.org/web/20050116060255/http://na.clanned.net:80/forums/viewtopic.php?p=13195&amp","featured"]
+            }
+        ],
+        "description" : "Second year prominent and competitive auged clan formed by three [DMI] veterans and growing steadily, thus offering competition to the other dominant groups. N/A being finished is discussed April 3, 2003, thats two months later than date provided here.",
+        "background" : [
+            {
+                "backgroundStory" : ["https://web.archive.org/web/20020610012907/http://www.dxnation.com:80/notapplicable/rules.html","na","","[N/A] is all about honor and respect. You don't need to be the most elite player to join us (although it doesn't hurt).<br />We are basically looking for good players who follow the rules and respect other players. We would rather have players who lose than players who cheat.<br /><br />[N/A] members are bound to guidelines for conduct, this is to ensure those who play against us that they will not be cheated or harrased.<br /><br />Honor over glory, click here to apply. "]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["Soon after 2002-02-24","","Our First Recruits","","We would like to welcome HaVoK and [daRk] to the team as our first two recruits. Congratulations to both, we're glad to have you aboard.","members"]
+            },
+            {
+                "article" : ["","","SamBlueDolphin","","Due to the fact that we have not heard from him in a few months, we can only assume that Sam is no longer interested in being a member of [N/A]. We wish him well. ","members"]
+            },
+            {
+                "article" : ["","","Recruiting Changes","","Our recruiting policy has changed. New recruits will have a probationary 2 week period where they will wear (n/a) as their tag. After the two weeks are up then the entire clan will vote on whether or not to allow full membership with majority ruling. If a recruit is not voted full member ship then they will remain as a recruit for another two week after which there will be another vote to determine full acceptance.","clan"]
+            },
+            {
+                "article" : ["","","Site Redesigned","","The site has been completely redesiogned due to the fact that the old design wasn't very nice to look at and it was also difficult to update. ","site"]
+            },
+            {
+                "article" : ["","","Titanium Released","","DXMP_Titanium has been officially released and can be found on the MeetingPlace website.","site"]
+            },
+
+
+
+            {
+                "article" : ["From new site with some entries likely missing before June 24, it doesnt mention new forums either","","Lars Has Survived Boot Camp ","","That's right folks, after surviving a brutal two weeks as a recruit, Lars has earned his stripes and is now a full-fledged member of [N/A]. Congrats Lars! ","members"]
+            },
+            {
+                "article" : ["","","upTime for downTime","","That's right, it's promotion time again! This week's lucky winner is downTime! Congatulations, you've won a brand new car!<br /><br />Prize must me claimed in person by downTime. Prize must be claimed in Sydney, Australia by midnight, August 13, 2002, Eastern time. ","members"]
+            },
+            {
+                "article" : ["","2002-09","Congratulations to Trystero","","Thank you to our friend Trystero who has stuck with us for a greuling six months. For his loyalty and honor, we proudly promote Trystero to the rank of [N/A] Veteran.<br /><br />Thank you, Trystero. Thank you for your dedication. Here's to another six months! ","members"]
+            },
+            {
+                "article" : ["","","AirBase ","","For the next 24h the [N/A] server will be running [NSF]Jazz's DXMP_AirBase as a favor. Server downloads are still disabled but you can get the map here. ","server"]
+            },
+            {
+                "article" : ["","","ThePromotion","","Congratulations to a hapless chode named TheBalrog on his promotion to full [N/A] member! ","members"]
+            },
+            {
+                "article" : ["","","A 'Dark' Day for [N/A] ","","In a sad turn of events, [daRk] has decided to announce her retirement from [N/A] and subsequently, DXMP. We wish her great hapiness in her future endeavors. ","members"]
+            },
+            {
+                "article" : ["","","[N/A] Server Update ","","The maps available in the MeetingPlace have changed. BigSteel, CarPark, Jailbreak and Smuggles have been taken out of rotation and replaced with DXMorpheus, HangarStorage, Smuggles2_revisited and SpaceShip. DXMorpheus and SpaceShip require the TNAG mod. The new maps have been added to the links section and the map pack has been updated.","server"]
+            },
+            {
+                "article" : ["","","MTL Update","","The version of DXMTL on the server has been upgraded from 1.51 to 1.52b1. Changes include lag reduction as well as then new commands BindKey and BindAug. For more details check the DXCBP section of the DEA forums.","community"]
+            },
+            {
+                "article" : ["","","Server News ","","Blurs of the [CG] clan has been added to the list of [N/A] server admins. In addition, the [N/A] server will be used for the [CG] All-time Tournament. Visit the [CG] site to find out more.","server"]
+            },
+            {
+                "article" : ["","","No more [N/A] server","","The [N/A] server is now being used for DXLeague.com and is no longer open to the public.","server"]
+            },
+            {
+                "article" : ["","2002-09-21","[N/A] Wins First Clan Match! ","","In [N/A]'s first ever clan match, we managed to defeat [CG] by a total score of 143 - 101. Everyone was hard working and respectful throughout the game. We look forward to future matches against [CG].","wars"]
+            },
+            {
+                "article" : ["","2002-10-13","[N/A] Wins Again!","","In [N/A]'s second ever clan match, we were up to the challenge of [DA] and managed to win by a total score of 92 - 35. Thanks to all who participated, we had fun.","wars"]
+            },
+            {
+                "article" : ["","","Rolling the Dice","","We've decided to take a risk and accept tRauMa as a recruit. Due to his documented fear of commitment he must pass a three month recruit phase, but nonetheless, he's been given the chance. We sincerely hope he finally decides to make a permanent home for himself.<br /><br />To those who doubt our intentions and think we only took him on for our upcoming clan matches - recruits aren't permitted to play in clan matches.<br /><br />Congratulations, tRauMa, we really hope you like it here. ","members"]
+            },
+            {
+                "article" : ["","2002-10-17","Rolling in the Recruits ","","We would like to welcome our newest recruit to the team - da Silkster. Silky is a returning veteran and a great person to know. Welcome aboard, we hope you enjoy the ride.","members"]
+            },
+            {
+                "article" : ["","2002-11-02","[N/A] Falls on the Battlefield","","In a grueling battle, [DEA] proved why they are the undefeated kings of DXMP as they crushed the upstart [N/A] by a combined score of 257 - 124. Thanks to the members of both clans for an excellent turnout.","wars"]
+            },
+            {
+                "article" : ["","2002-11-19","[N/A] Beefs Up","","Two new recruits to report today. One is a retired spammer, the other is a returning vet. Please put your hands together for Mirage and WhiteTiger.","members"]
+            },
+            {
+                "article" : ["","","DOOKIE Promoted","","It seems like only yesterday that we got an application from DOOKIE to join [N/A].<br /><br />During his time with [N/A], DOOKIE has endured many challenges in the real world that would have forced many into retirement. Not only did DOOKIE stick around, but he shared his story with us on many occasions.<br /><br />Over the last six months, DOOKIE has represented [N/A] with great honor.<br /><br />For his outstanding loyalty, respect and courage, it is a privelege to promote DOOKIE to the rank of [N/A] Veteran.<br /><br />Thank you, DOOKIE. ","members"]
+            },
+            {
+                "article" : ["","2002-11-09","Divine Intervention ","","While [N/A] was trying to recover from a loss to [DEA], we hit a roadblock known as [D]. In the third round (after 90% of [D] didn't return from a server crash), the match was reduced to 2v2 (which became 2v1 when [D]Jackoff left). The total score was 67 - 146.","wars"]
+            },
+            {
+                "article" : ["","","Smooth Transition","","Congratulations to smooth Silky on his smooth promotion to smooth full member... smooth.","members"]
+            },
+            {
+                "article" : ["","","The Car and the Cat","","Mirage has transformed into a full member. WhiteTiger has pounced on full member status as well. Congrats to both!","members"]
+            },
+            {
+                "article" : ["","2002-12-07","TCNdko'ed","","After some confusion between [N/A] and [TCNdk] concerning the time of the match (oops), we managed to get enough people onto the [TCNdk] server for three furious rounds of fragging.<br /><br />Congrats to [TCNdk] on their victory. The final score was 98 - 183. ","wars"]
+            },
+
+
+            {
+                "article" : ["","","One Year Anniversary","","",""]
+            },
+            {
+                "article" : ["","2003-02-24","Score","- Fro99 -","now i can post here and people may acculty read it :O wahhooooo one year anney. derianx perment COOKIES4LIfe","clan"]
+            },
+            {
+                "article" : ["","(2003-03-01","Why give Fro this ability","- downTime -","Can't we atleast create a separate area where he can only post and no one else can? Call it Frotown or something, select some music that's appropriate (god, what would be?) close the bars behind him and then remove the chains.","clan"]
+            },
+            {
+                "article" : ["","","Got Milk?","","",""]
+            },
+            {
+                "article" : ["","","No More Ads","","We are happy to announce that the advertisements on our site are now gone! <br />icon_bounce.gif icon_bounce.gif icon_bounce.gif icon_bounce.gif icon_bounce.gif","site"]
+            },
+            {
+                "article" : ["","2003-03-14","Reduced Canadian Content","- DerianX -","Due to real life circumstances, GWA has left the clan and essentially retired from DXMP.<br /><br />We would like to thank our friend, GWA - aka PM - for all the good times over the years that we've known him. ","members"]
+            },
+            {
+                "article" : ["","","A Brave New World","","",""]
+            },
+            {
+                "article" : ["","2003-03-27","Silkless","- DerianX -"," Silky has left the clan stating that he feels he can't perform at a high enough level to contribute. We tried to talk him out of it but he insisted, and we will honor his wishes. We wish Silky all the best...<br /></aprilfools> ","clan"]
+            },
+            {
+                "article" : ["","","Sad Day","- DerianX -","WhiteTiger & downTime have been kicked from N/A for treason. The two tried to destroy N/A with false accusations and deceipt. We would like to appologize for the inconvenience...<br /><br /></aprilfools> ","clan"]
+            },
+            {
+                "article" : ["","2003-04-01","</aprilfools>","- DerianX -","Some of you fell for it, some of you didn't. Some were in-between and some simply couldn't care less.<br /><br />- Silky never left N/A.<br />- WhiteTiger and downTime were not kicked out of N/A.<br />- WhiteTiger probably couldn't hack his way out of a paper bag.<br />- N/A does not use, endorse or condone the use of cheats and/or bugs.<br />- The 'Members' forum that was 'exposed' was completely fake. <br /><br />Sorry to anyone who feels we went to far and thanks to those who have a sense of humor.<br /><br />We'll try to do better next time. ","clan"]
+            },
+            {
+                "article" : ["","","Unforunate News","","",""]
+            },
+            {
+                "article" : ["","","Weird War","","",""]
+            },
+            {
+                "article" : ["","2003-04-12","kthxbyewubu","- CoMpUdOc -","Well, it’s been a fun ride. But after two years of this game, it’s time to turn in my augs.<br /><br />Special thanks to (in no particular order) BigCountry, DerianX, slicer, Trystero, Melkor, Strider, all of N/A, most of the former DEA, and everybody on DXMP.net staff.<br /><br />Maybe I’ll come back sometime in the future. Two things could get me to return. 1: A closed server system. Or, 2: the ability to remove chat from the server. Get one of those two going, and I’m back in the saddle again. This game is nothing but an ego-fest anymore. I only have fun in clan matches and closed servers, open playing is crap. I’ll also most likely return if there’s a DX:IWMP (DeusExInvisibleWarMultiplayer). I’ll also continue to kibitz the forums around these parts and be an Armchair community member (somewhat like all thems retired Generals on CNN). I also plan to get more involved in the SP community for DX:IW, probably posting news on deus-ex.org and/or working at DXEditing…or something. Also, BF1942 has some promise.<br /><br />From the part of Kang’s jungle that got overrun by logging companies,<br />Brandon CoMpUdOc[N/A] Flynn,<br />Retired. ","members"]
+            },
+            {
+                "article" : ["","","[N/A] Defeats [DL]","","",""]
+            },
+            {
+                "article" : ["","","New Recruit","","",""]
+            },
+            {
+                "article" : ["","2003-05-16","New Name for Silky","- DerianX -","Silky has decided that it's time for a change. From now on da' Silkster will go by the name of Singularity.","members"]
+            },
+            {
+                "article" : ["","2003-05-17","Congrats to Da Silkster","- DerianX -","Well, I guess he's Da Singster now. icon_laugh.gif<br /><br />As of today, the artist formerly known as Silky is a [N/A] Veteran. icon_bounce.gif","members"]
+            },
+            {
+                "article" : ["","2003-05-19","Dual Veteranship","- DerianX -","Please congratulate Mirage & WhiteTiger on their promotion to [N/A] Veteran. Over the last six months both have been active and enthusiastic members of the clan, and we look forward to the next six. ","members"]
+            },
+            {
+                "article" : ["","2003-05-24","It's Official...","- DerianX -"," Please congratulate Melkor on his promotion to the rank of [N/A] Member.<br /><br />Here is his sig: ","members"]
+            },
+            {
+                "article" : ["","2003-06-14","[DXA] Defeats [N/A]","- DerianX -","After a very slow paced first round that we won by one kill, the alliance turned things around for rounds two and three to secure the overall victory.<br /><br />We look forward to a rematch down the road. ","wars"]
+            },
+            {
+                "article" : ["","2003-06-27","Icy","- DerianX -","Congrats to ICE on his promotion to [N/A] Veteran.","members"]
+            },
+            {
+                "article" : ["","2003-07-10","Two New Recruits","- DerianX -","Please congratulate CoNtAmInAtEd and Parallax on their acceptance as recruits.","members"]
+            },
+            {
+                "article" : ["","2003-07-18","Would you like fries with that?","- DerianX -","Congratulations to InStapotato on his promotion to [N/A] Veteran.","members"]
+            },
+            {
+                "article" : ["","2003-07-25","Promotions!","- DerianX -","Please welcome Contaminated and Parallax to the ranks of full [N/A] Member. icon_thumbs.gif","members"]
+            },
+            {
+                "article" : ["","2003-08-26","The Bell Tolls","- DerianX -","Four members of [N/A] have recently called it quits.<br /><br />WhiteTiger and InStapotato have quietly informed the clan that they are retiring from the game.<br />downTime has announced on DXMP.net's forums that he is finished.<br />The other person leaving the game is yours truly.<br /><br />I think I speak for all of us when I say that it has been an honor to serve this clan. I am truly proud to have stood along side the people in this clan. Although we weren't a dominant clan, I wouldn't have changed a thing.<br /><br />Thank you to everyone who has helped this game survive as long as it has. Thank you to everyone who respected us and treated us with courtesy. Thank you to everyone who befriended us over the last few years.<br /><br />Thanks for the memories, I'll never forget this experience. ","clan"]
             }
         ]
     },
