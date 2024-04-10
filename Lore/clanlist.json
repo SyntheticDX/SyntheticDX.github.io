@@ -1008,7 +1008,7 @@
         "description" : "[TSS]-shed competitive beginners clan formed by 3 members and quickly growing in days looking for promising skilled players. Sort-of evolved into [NEM] later and had at least two members still around for even later [REN].",
         "background" : [
             {
-                "backgroundStory" : ["2023","ken","Ken:","My first clan after me and 2 friends left TSS, recruited Sidewinder as first member and most of us moved to EoD and NEM later, some also made it to much later REN.<br /><br />It was born from TSS members and it died into EoD+Y or now MoH.<br /><br />TSS had over a hundred or more members with dozen or two active, so at some point our trio me, Belgian Laurens, Brit Laurie felt like we could leave Psycho's brother's clan and make our own thing. I dont know whose idea it was but it seemed natural to everybody, so I took up the task to tell Survive and then later also set forums up for our new clan. With the support from my friends I immediately began recruiting anyone promising for our level back then.<br /><br />In very large decentralized social bodies it is natural for various nuclei to emerge, which makes larger groups more challenging to manage as periodic shedding occurs."]
+                "backgroundStory" : ["2023","ken","Ken:","My first clan after me and 2 friends left TSS, recruited Sidewinder as first member and most of us moved to EoD and NEM later, some also made it to much later REN.<br /><br />It was born from TSS members and it died into EoD+Y or now MoH.<br /><br />TSS had over a hundred or more members with dozen or two active, so at some point our trio me, Belgian Laurens, Brit Laurie felt like we could leave Psycho's brother's clan and make our own thing. I dont know whose idea it was but it seemed natural to everybody, so I took up the task to tell Survive and then later also set forums up for our new clan.<br /><br />In very large decentralized social bodies it is natural for various nuclei to emerge, which makes larger groups more challenging to manage as periodic shedding occurs.<br /><br />With the support from my friends I immediately began recruiting anyone promising for our level back then.<br /><br />Early on we picked up my soon-friend Esnight sometime after he was in {HK}: we then went on to {MoH} and finally [NEM]. He was quite competitive player with some SOCOM experience on console, but girls eventually took his attention away from games. Although he lived many many hours in the future we must've been similar enough that leader of {HK} actually confused us two for a single person. I remember he set a goal that if he defeats hardest difficulty minesweeper then he goes and asks girl he likes out. He did both of those things and to my recollection got a positive answer."]
             }
         ],
         "news" : [
@@ -3191,7 +3191,7 @@
         ],
         "matches" : [
             {
-                "match" : ["","nkz","[NKz]","","Sept 2013","KilleR left or multiclanned NKz for this clan and challenged them Sept 2013, but seems it was never played","isDiscussed"]
+                "match" : ["ato_v_nkz","nkz","[NKz]","","2013-09","?NKz Vs A-TO Sept 2013 ?<br />KilleR left or multiclanned NKz for this clan and challenged them Sept 2013, but seems it was never played","isDiscussed"]
             }
         ],
         "websites" : [
@@ -3266,7 +3266,10 @@
         ],
         "matches" : [
             {
-                "match" : ["","","","","","",""]
+                "match" : ["aib_v_nkz","nkz","[NKz]","Win 2:0","2012-02-22","Ken: [A!B] was an aug clan that was perceived to avoid strong non-aug challenges, but somehow they agreed to play against this haxy bunch, perhaps due to extremely large roster requiring action. I then randomly happened upon Phantom waiting in public before scheduled match - ex clan mate in REN and now one leader figure in this clan - and I decided to throw away my mortal feud with him and asked if he can give me war password. To my surprise he did, probably realizing the strength of the opponent. He even sorted out which member is absent that can lend me the name and tag - it turned out to be the young and fierce Frenchman (NKz)Bam whose role I then assumed. In hindisight I am not sure if I joined for the first map or if it was already the second map in shape of CMD and the first one had not gone so well.<br /><br />I had a good strong going on CMD headshotting Spaz just seconds in, Fullmoon very soon quit the match, Phantom lasted entire map but did not stay for Silo. I believe my score was nicely positive which against the likes of Monkee and Ste and Spaz and whoelse happened to be there was good, Phantom I believe was struggling to maintain an even score even with his speedhack and camping - I remember him having something like 21-22 or something like that, other NKz who played were not a threat to opponent. On Silo I just chilled with who I think were two brothers, from Italy or US or Im not sure from where, we were possibly a man down and at this point it was A!B hunting me on an open map. Later I heard that the mysteriously good performance of some noob called Bam was creating discussion among opponent behind the scenes as the match progressed, and Dani who saw the screenshots figured Bam mustve played the game of his life. Considering Bam said he'd stab me during some discussion on forums a while earlier, it made it all the more funnier. NKz never stood a chance in this war and A!B was aware of it, likely just focusing on outsmarting the speedhacking powercouple Phantom-Fullmoon.","isCertain"]
+            },
+            {
+                "match" : ["aib_v_nkz_2","nkz","[NKz]","","2012-01-27","ATDM war discussion but thread died down, clan wanted to fight THC first","isDiscussed"]
             }
         ],
         "websites" : [
@@ -4826,7 +4829,7 @@
         "name" : "Apexenvisioned",
         "gametype" : ["Aug"],
         "tier" : ["B","A",""],
-        "date" : ["isUncertain","2002-05-01","isUncertain","2002-10-01","isCertain","2003-07-03 ✝ 2003-12-01"],
+        "date" : ["isUncertain","2002-05-01","isUncertain","2002-10-01","isCertain","2003-03-01 ✝ 2003-12-01"],
         "founder" : ["System?"],
         "members" : [
             {
@@ -4874,6 +4877,14 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["Later briefly in [DES] and then in my 2005 clan [NEM]","UK"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["ddm","DdM|AE|?"],
+                        "aliases" : ["DdM","Mayhem"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Later in [R] apparently as Hoppe[R], but probably with a stop in [DK] first","US"]
                     }
                 ]
             }
@@ -4886,6 +4897,9 @@
         "websites" : [
             {
                 "website" : ["It does appear that website content mightve been deleted similarly to forums content by Autumn or half a year after clan peak activity. Sunrise.jpeg","https://web.archive.org/web/20020609011506/http://www.angelfire.com/clone/apexenvisioned/intro.htm","death"]
+            },
+            {
+                "website" : ["Not clear if this is a website or actually just url for forums, apparently for 2003 revival, by November it just redirects to another dead url https://web.archive.org/web/20040000000000*/http://www.ug.totalconversions.com/ae","https://web.archive.org/web/20030901000000*/http://aeclan.org","dead"]
             }
         ],
         "forums" : [
@@ -5336,7 +5350,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["mike","[AK]Mike"],
+                        "pidPlusName" : ["mike_ak","[AK]Mike"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -11619,10 +11633,10 @@
         "matches" : [
             {
                 "match" : ["c_8_v_thc","thc","[THC]","Loss","2011","They played THC and lost miserably","isCertain"]
-            },
+            },          
             {
-                "match" : ["","nkz","[NKz]","","Nov 11 2011","Challenged NKz but seemingly not played","isDiscussed"]
-            }  
+                "match" : ["c_8_v_nkz","nkz","[NKz]","","2011-11-17","Challenging Clan: [C]<br />GameType:btdm or 0. preferably 0 ^-^<br />Number of Players: 2vs2, 3vs3, 4vs4 or 5vs5. as you like<br />Server: Unfortunately I have no idea<br />Maps: Smuggler, Silo , Smuggles<br />Date: Now we can also decide<br /><br />I already posted on the site of the [C] Clan. We just need to know the exact date! ;)","isDiscussed"]
+            } 
         ],
         "websites" : [
             {
@@ -16841,7 +16855,7 @@
         "description" : "Likely a fairly short-lived clan of a couple zero-augers set continents apart who with their more serious and mature attitude made a good fit also for my later clans where both leading figures would end up in by late 2004 and early 2005.",
         "background" : [
             {
-                "backgroundStory" : ["","ken","Ken:","My friend Esnight was in it sometime between being in {HK} and joining my first clan '¥', we then went on to {MoH} and finally [NEM]. He was quite competitive player with some SOCOM experience on console, but girls eventually took his attention away from games. Although he lived many many hours in the future we must've been similar enough that leader of {HK} actually confused us two for a single person. I remember he set a goal that if he defeats hardest difficulty minesweeper then he goes and asks girl he likes out. He did both of those things and to my recollection got a positive answer.<br /><br />The other guy from US, Casper, is part of the reason this clan list exists at all, although back then we eventually had an emotional disagreement about future of DXMP that led us separate ways. He himself had a website very similar in purpose to what you're seeing here, some 20 years ago."]
+                "backgroundStory" : ["","ken","Ken:","I am confused whether the crawler person is the Belgian 0auger Dirk, who already more advanced compared to other beginners - we shared two or more clans over years - or if it is my Australian friend Esnight who used some kind of similar name and was in {HK} sometime around this timeperiod too. <br /><br />The other guy from US, Casper, is part of the reason this clan list exists at all, although back then we eventually had an emotional disagreement about future of DXMP that led us separate ways. He himself had a website very similar in purpose to what you're seeing here, some 20 years ago."]
             }
         ],
         "news" : [
@@ -19037,7 +19051,7 @@
         ],
         "matches" : [
             {
-                "match" : ["","naked",".[Naked]","","","Challenger: .[Naked]  -  Result: .[Naked] forfeit by disbanding as a clan.","isDiscussed"]
+                "match" : ["des_v_naked","naked",".[Naked]","","2003-?","Challenger: .[Naked]  -  Result: .[Naked] forfeit by disbanding as a clan.","isDiscussed"]
             },
             {
                 "match" : ["","ak","[AK]","","2004-03-","Challenger: [AK] - Result: Match date pending.","isDiscussed"]
@@ -37203,7 +37217,13 @@
             },
             {
                 "match" : ["hk_v_rtk2","rtk2","[R2K]","Win","2008?","[HK] vs [RTK] mentioned by leader","isUncertain"]
-            },            
+            }, 
+            {
+                "match" : ["hk_v_nkz","nkz","[NKz]","Win 4:2","2012-02-25","NKz Vs HK (2:4) Feb 25 2012 A","isCertain"]
+            },
+            {
+                "match" : ["hk_v_nkz_2","nkz","[NKz]","","2012-03-","NKz Vs HK Fail? March 2012","isUncertain"]
+            },           
             {
                 "match" : ["hk_v_thc","thc","[THC]","Win 2:1","2012?","Opponent decared itself the winner after losing 2 out of 3 maps, leader a big fan of one certain clan in this list this is the second time it has happened in DXMP history.","isCertain"]
             },
@@ -45372,10 +45392,10 @@
                     {
                         "membergroupLabel" : ["","Ex ~[N]ostalgia~ members"],
                         "pidPlusName" : ["ken","~[N]Leprauchan~ 🇪🇪"],
-                        "aliases" : [""],
+                        "aliases" : ["Synthetic","UNDEAD","Rand12oM"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Left due to multi-clanner drama",""]
+                        "stats" : ["It should actually say Leprechaun there, I left due to multi-clanner drama",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -45539,7 +45559,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["","Jan 20, 2008"],
-                        "pidPlusName" : ["","~[N]Token~ 🇫🇷"],
+                        "pidPlusName" : ["token","~[N]Token~ 🇫🇷"],
                         "aliases" : [""],
                         "pastClanIDs" : ["nem"],
                         "membership" : ["2007-11-06","",""],
@@ -46106,7 +46126,1715 @@
             }
         ]
     },
-
+    {
+        "id" : "noob",
+        "tag" : ["tagFront","[","n00b","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Noob ? / Noob Master ?",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2006-01-01","isUncertain","2006-12-01","isCertain",""],
+        "founder" : ["AceWiggles", "Jfk"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["acewiggles","[n00b]AceWiggles"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["jfk","[n00b]Jfk"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","https://web.archive.org/web/20240000000000*/http://www.freewebs.com/n00b_master/index.htm","dead"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Obscure clan from seemingly around the sixth year, we can presume it was non-augers, possibly from the Americas. Although not very likely to have been a large or enduring group, they do have a website and two founders. Perhaps picked up from Imperial's 2006-2008 list of clans and links.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "naked",
+        "tag" : ["tagFront","[","Naked","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Team Naked",
+        "gametype" : ["Aug"],
+        "tier" : ["","A",""],
+        "date" : ["isUncertain","2003-03-01","isUncertain","2003-12-01","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["naked","[Naked]NaK3D!"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["triad"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["stigmata","[Naked]STigMAta"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["d"],
+                        "membership" : ["","",""],
+                        "stats" : ["I don't know all aliases of this player who seemingly was also in [D] earlier",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["des_v_naked","des","[DES]","","2003-?","Challenger: .[Naked]  -  Result: .[Naked] forfeit by disbanding as a clan.","isDiscussed"]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","https://web.archive.org/web/*/http://www.teamnaked.2ya.com/*","dead"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Third year spring-summer auged clan of already more seasoned veterans, its contemporary of a similar clan [AE] Apex Envisioned that appears revived around same time. One or more members seen active on community forums <a href='https://web.archive.org/web/20040128220321/http://www.dxmp.net:80/forums/viewtopic.php?p=10909%26amp'>here</a>.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nano",
+        "tag" : ["tagFront","[","NaNo","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Nano",
+        "gametype" : ["0a"],
+        "tier" : ["","A",""],
+        "date" : ["isUncertain","2005-02-01","isUncertain","2005-06-01","isCertain",""],
+        "founder" : ["Marije"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["marije","[NaNo]Tech 🇳🇱"],
+                        "aliases" : ["Marije","BattleAngel"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["shadow_nl","[NaNo]Death 🇳🇱"],
+                        "aliases" : ["Shadow"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Shadow was in this clan, but I am guessing this name is his alias there",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["majin","[DXS]DarkDragon[NaNo] 🇺🇸"],
+                        "aliases" : ["John", "Majin"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Approximately fifth year short-lived non-aug clan of a multi-clanner from the Netherlands, it appears to have had a few members while leader was almost certainly in a number of different clans at the time (for example [A], [DCSB] until outed, [N], etc etc). DF Battleangel and DF Shadow would've formed the core of it most likely, and she mightve briefly joined my [NEM] clan after it alongside Shadow.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "naruto",
+        "tag" : ["tagFront","(","Naruto",")"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Basic"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","","isUncertain","","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","(Naruto)"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Listed by Hasharin of E.d.H.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nb",
+        "tag" : ["tagBack","(","NB",")"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Aug"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2001-06-22","isUncertain","2001-12-01","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","????(NB)"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Unknown leader",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["csmakio","csmakio(NB)"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","Possibly unrelated [NB]"],
+                        "pidPlusName" : ["gonor","[NB]Gonor"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Seen year after the first (NB) clan",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Early clan in DXMP from the summer of the first year, they appear to be energetic beginner players announcing their clan in June <a href='https://web.archive.org/web/20010907041056/http://pub50.ezboard.com:80/fsclansbsboardfrm2'>here</a>. Year later the tag is seen again but it is likely a different clan thats merged into this one entry here, seemingly involved with the young beginners of the second year seen <a href='http://clanh.20m.com/fsguestbook.html'>here</a>.",
+        "background" : [
+            {
+                "backgroundStory" : ["(6/22/01 5:26:05 am)","csmakio","(NB)csmakio:","Hello- My name is Nick and I am part of in my opinion one of the greatest clans around (notice how I didnt say best) we are great but not the best! We are currently recuriting new members and each new member must go through a brief training session with either myself or the leader. In the sesson we go one on one with the newbie and show them bugs tricks and cool things most people woldnt even think about. Now my email is /../ and you may see me on Deus as csmakio(NB) so if you are intrested in joining or having a clan war email me. I thank you for your time. Nick"]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nbk",
+        "tag" : ["tagFront","[","NBK","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Natural Born Killer",
+        "gametype" : ["Aug"],
+        "tier" : ["B","A",""],
+        "date" : ["isUncertain","2002-05-14","isUncertain","2002-09-01","isCertain",""],
+        "founder" : ["HaVoK?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["havok","[NBK]HaVoK"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["na"],
+                        "membership" : ["","",""],
+                        "stats" : ["Player with this name was in [N/A] around March 2002, this clan however is from May.",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["morg","[NBK]Morg"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["laura","[NBK]Silver"],
+                        "aliases" : ["Gr8ttiger","Mahou"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : [" May 2002",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","https://web.archive.org/web/20240000000000*/http://nbk34.tripod.com/main.htm","death"]
+            },
+            {
+                "website" : ["","https://web.archive.org/web/*/http://tsw16.tripod.com/nbk/*","dead"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["Nothing here","https://web.archive.org/web/*/pub57.ezboard.com/bnbkclanforums*","dead"]
+            }
+        ],
+        "description" : "A short-lived clan from May of the second year, one of the members gets banned within weeks from [CG]. Likely younger but already more competitive players, they probably all played JTB style non-augs as well.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nem",
+        "tag" : ["tagFront","[","NEM","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Nemesis",
+        "gametype" : ["0a","Aug"],
+        "tier" : ["B","A",""],
+        "date" : ["isCertain","2005-01-01","isCertain","2005-04-01","isCertain","2005-07-01 ✝ 2006-03-01"],
+        "founder" : ["Ken","GreatDane"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["greatdane","[NEM]GreatDane"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["eod"],
+                        "membership" : ["Founder","",""],
+                        "stats" : ["","Denmark"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["ken","[NEM]UNDEAD"],
+                        "aliases" : ["rand12om","Synthetic"],
+                        "pastClanIDs" : ["tss","yen"],
+                        "membership" : ["Founder","",""],
+                        "stats" : ["","Estonia"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["shadow_nl","[NEM]SHADOW"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["eod","df"],
+                        "membership" : ["","",""],
+                        "stats" : ["","Netherlands"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["marije","[NEM]Marije"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["df"],
+                        "membership" : ["","",""],
+                        "stats" : ["Very shortly in this clan, perhaps on Shadow's urging, dont recall how she left but bunch of us were trying to track her aliases in various clans and multiclanning was strictly forbidden in NEM.","Netherlands"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["mastakilla","[NEM]Angerfist"],
+                        "aliases" : ["MastaKilla","DarkRaver"],
+                        "pastClanIDs" : ["aod","df"],
+                        "membership" : ["","",""],
+                        "stats" : ["","Netherlands"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["calabria","[NEM]Çalabria"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Later founds [N]<br />Sander, maybe from Netherlands iirc",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["token","[NEM]Token"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","France"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["gothikaspawn","[NEM]gothikaspawn ?"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Trainee or full member",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["laurens","[NEM]Laurens"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["yen","moh"],
+                        "membership" : ["","",""],
+                        "stats" : ["","Belgium"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["ace","[NEM]Ace"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["a7x"],
+                        "membership" : ["","",""],
+                        "stats" : ["Maybe UK",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["lazystoner","[NEM]LazyStoner"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["des","gs"],
+                        "membership" : ["","",""],
+                        "stats" : ["Max","UK"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["labtech","[NEM]Labtech"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["dcsb"],
+                        "membership" : ["","",""],
+                        "stats" : ["","UK"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["monkeyboy","[NEM]Monkeyboy"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["tss"],
+                        "membership" : ["","",""],
+                        "stats" : ["","Belgium"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["sidewinder","[NEM]Sidewinder"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","ex member later",""],
+                        "stats" : ["","UK"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["konami","[NEM]konami"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","ex member later",""],
+                        "stats" : ["","UK"]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","US Squad"],
+                        "pidPlusName" : ["casper","[NEM]Casper"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["db"],
+                        "membership" : ["","ex member later",""],
+                        "stats" : ["","USA"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["nukem","[NEM]Nukem"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["tdh"],
+                        "membership" : ["","",""],
+                        "stats" : ["","USA"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["coldkilla","[NEM]ColdKilla"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["tdh"],
+                        "membership" : ["","",""],
+                        "stats" : ["Somehow I have at least 3 [TDH] in my roster, probably joining due to their social network, starting with Sly already 2004, I dont think this player was very active under the tag","USA"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["sly","[NEM]Crypt"],
+                        "aliases" : ["SnakeyPoo","Sly"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Very briefly in clan, I think he got kicked among first days or left on his own, came from my previous noob clan and was among several [TDH] in my roster<br />USA?",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["daemon","[NEM]DAEMON"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["I think this guy was relative of GODZ Bean maybe",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["majestic","[NEM]Majestic"],
+                        "aliases" : ["DarkAssassin"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["changed name to DarkAssassin",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["excsm","[NEM]Excsm"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["void"],
+                        "membership" : ["","",""],
+                        "stats" : ["","USA"]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","Later [UE] Additions:"],
+                        "pidPlusName" : ["member","[NEM]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["io_v_nem","io","[IO]","1:0","2005-02-19","[NEM] vs [IO] 1-0 Win? 19 Feb 2005<br /><br />Ken: 'Depending who was playing this zero-aug match couldve gone either way, I cant tell which side won without more evidence. With players like Nukem, Lazystoner and potentially Labtec, I suspect we won, though.'","isCertain"]
+            },
+            {
+                "match" : ["nem_v_v","v","[V]","Loss","","Memory is fuzzy about the match and I really remember getting obliterated by [V] in lower Smuggler spawn. I think we tried to put up a solid fight but the score mustve been nasty.","isCertain"]
+            },
+            {
+                "match" : ["nem_v_sof","sof",".:SoF:.","","","[NEM]vs .:SoF:. Win? 2005. If this match took place it should've been our victory, opponent as less experienced through and through, but while it seems fairly certain to have taken place I dont have evidence of results.","isCertain"]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","https://web.archive.org/web/20050208214344/http://www.plougsgaard.dk:80/","index"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","https://web.archive.org/web/20050410041920/http://phpbb-host.com:80/phpbb/index.php?mforum=dxnemesis","index"]
+            }
+        ],
+        "description" : "Fifth year intermediate non-aug clan that was also training in augs, it had a shorter ca 3 month phase right with the start of the year, and later incorporating short-lived [UE] revival into its ranks it made a longer, ca six month comeback with the second half of the year. Its essentially combining some remnants of a more advanced beginner clan {EoD} and a fresh beginner clan Voice From Within after their destructive merge - soon after also picking up members from the disintegrating {EoD} follow-up {MoH} by another leader figure of that clan. Plenty players who obtained skill in this clan would later make it to [REN]. Not clear how clan would've reacted to auged challenge but since we got steamrolled by pros in both it wouldn't have really mattered.",
+        "background" : [
+            {
+                "backgroundStory" : ["","ken","Ken:","I tried merging my beginner clan ¥ into {EoD} because I was getting bored and wanted cool things to happen, the merge as most all merges ended up killing both clans, I think in part because I quit soon after and enjoyed a brief period of being clanless. Me and GD then went on to make [NEM] last moments of 2004 - my second clan - JCmental made {MoH} with {EoD} remnants already a month before that. MoH endured a while but without GreatDane's presence offering stability it didn't manage to do so indefinitely, as for [NEM]: it came and went in two waves, as I was able to focus on one single clan increasingly longer periods of time but it was still fairly little, going from 1.5 months in first clan to 3 months second clan and over 6 months revival. If I remember correctly, we put [NEM] on a pause instead of outright killing it in spring 2005.<br /><br />We grew rapidly and had practice sessions, including augs which I forced everyone to play in these training games and watching like a hawk that everyone would get their practice in and not try to weasel out of augs. Its a fine line between forcing people to play something they're not used to, or instead motivating them while respecting the limits, and I did my best to fall into the latter category. Watching GreatDane with plasma rifle was great. I do think though that I was probably not the only player whose computer couldnt handle auged action framerate, or truth be told: couldnt handle the game in general.<br /><br />More noteworthy moments with this clan were that in spite of being very ambitious and active, we were not really a match to any of the top players for most part, some like me and Psycho were hardware-limited for years, and others simply lacked the experience. A typical mid-tier clan.<br /><br />Another moment is that as I gained experience I ended up hanging out with some questionable characters, recruiting [TDH]Nukem, even the infamous multiclanner Marije around same time, and more problematically got pretty close with a couple UK botters who I let play for my clan here, most notably Labtec who joined through his friend and our mutual contact LazyStoner. He was sort of my secret weapon. For a short while I suddenly had a fairly obnoxious attitude akin to the chavs at the time, and turned a blind eye to the two-three most sus members. Labtec, who had been kicked out of DCSB not long before, really didnt care anymore about the game and I think the rare times he came to play he was always botting, LazyStoner however played with me and GS guys quite a lot normally as well, maybe only putting it on if someone pissed him off. I dont remember these individuals affecting any of our wars, of which there mustve been around six or aroundabouts.<br /><br />The clan was very large and in no time at all we were building up USA division, featuring players like Excsm and Blaze, others. This was also largely in thanks to most of the [UE] inactive roster ending up in our clan and whom I never saw play after that. I dont think DestroyerZero was among those who came over, though, as we had our disagreements by then that likely provoked me to bring [NEM] back.<br /><br />I think a memory from the first [NEM]: I focused on clan democracy and when two members Calabria and MastaKilla had a fierce falling out I tried to get them to apologize to one another, as that failed we held a poll and Calabria had a little bit more support than Masta so I was forced to kick the player I knew better of the two, as people had decided so. Both of them would go on to make their own clans soon.<br /><br />The two times I shut it down with GreatDane it was some kind of mix of boredom and burning out, but my focus was improving with every clan. He would go on to try Counter Strike Source with [DF]Spike under that tag, and at some point was playing that game for [N].<br /><br />Non-aug super groups of time,[TT], [DCSB], the short but bright [V], they would come and go in this time, preparing scene for the [REN] clan next year."]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nfld",
+        "tag" : ["tagFront","[","NFLD","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Basic"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","","isUncertain","","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","[NFLD]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Listed by Hasharin of E.d.H.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nfma",
+        "tag" : ["tagFront","[","NFMA","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Aug"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2003-01-01","isUncertain","2003-04-01","isCertain",""],
+        "founder" : ["Josh?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["josh","[NFMA]Josh"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Later in [DK]",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Obscure clan perhaps from early third year or even from the second year, its member is later in revived [DK]. Assumed auged but probably not very big nor long-lived.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "ng",
+        "tag" : ["tagFront","[","NG","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Aug","0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2003-01-01","isUncertain","2003-01-01","isCertain",""],
+        "founder" : ["DemolitionHawk?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["demolitionhawk","[NG]DemolitionHawk"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["nukem","[NG]Nukem"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Likely later [TDH]",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Less known third year or late second year clan playing beginner or intermediate level augs, but looking at Nukem there I suspect it was from the JTB non-auged community and also playing or even focusing on non-augs. Marked both for now.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "ng2",
+        "tag" : ["tagFront","[","NG2","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "No Guts No Glory",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2013-06-01","isUncertain","2013-12-01","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","[NG2]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","https://web.archive.org/web/*/http://ng2dx.enjin.com/*","dead"]
+            }
+        ],
+        "description" : "Thirteenth year obscure clan, birth of which is described in Chinny's Monthly. Making the assumption its non-auged, although it falls into a period in time where it could've been either. Most certainly not very long-lived and unlikely to have grown big.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "ngp",
+        "tag" : ["tagFront","[","NGP","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "New Generation of Players",
+        "gametype" : ["Aug"],
+        "tier" : ["B","A",""],
+        "date" : ["isCertain","2002-04-03","isUncertain","2002-05-04","isCertain",""],
+        "founder" : ["Da_Terminator"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["daterminator","[NGP]Da_Terminator"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["cg","iisnet"],
+                        "membership" : ["","",""],
+                        "stats" : ["USA?",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["dirtbikr","[NGP]Dirtbikr"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["d","",""]
+            },
+            {
+                "website" : ["","https://web.archive.org/web/*/http://clan-ngp.clanpages.com/*","dead"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["Nothing besides index views","https://web.archive.org/web/20020909201624/http://ngp.clanned.net/forums/","index"]
+            }
+        ],
+        "description" : "Second year clan project by Da_Terminator announced on CG <a href='https://web.archive.org/web/20020907122317/http://pub82.ezboard.com:80/fcgclandxmpforum95142frm1.showMessage?topicID=42.topic'>here</a>, also on Triad forums <a href='https://web.archive.org/web/20020409223524/http://triad.deusex-online.com:80/cgi-bin/triadbb/YaBB.cgi?board=GeneralForum'>here</a>, it didn't seem to lead to anything. There are signs its a revival of a clan formed sometime earlier and likely following same fate.",
+        "background" : [
+            {
+                "backgroundStory" : ["CG forums April 28, 2002","ngp","","Announcing [NGP] Clan..blah blah :) I would have posted here when i first announced it to everyone..but i forgot..*yea go figured me out!*<br /><br />- Homepage of our clan have moved..my clanmate Dirt tells me clanpages.com hosting is better..so we're trying out their hosting.. so this is the new homepage> clan-ngp.clanpages.com/ , probally will be official too..since its better then my old amateur basic..html masterpiece :)<br /><br />- Forums is still at ngp.clanned.net/forums/ ..but we might move forums..that is if i can't get the PHp2BB hacked..yea we plan on customizing it a bit to our taste :D .<br /><br />- Recruitment is still open, obviously.. and Dirtbikr, my clanmate have agree to host rounds of server for us DX wankers..so far the testing are good at 6 players max, perhaps try to squeeze out two more..but that will hav to wait after some more testing next week.<br /><br />- Rules and regulations will be the basic (No intentional SK, TeamK, TypeK, Camping, harrasment, threat on any reasoning..) and we perhaps may have the 'no iddling' rule..although DXMP haven't had been graced with many of those..but i just though to kick out players that haven't moved for 10 minutes and up..to provide more server space thats all.<br /><br />- Also, yes the admining will be extensive..Zero tolerance on those who decide to test my patient, and im serious about this!. Im discussing with Dirt on the possibility of possibly assigning admin status to several more people beside me, of course these assigned admins should be more then qualified in order to take the job..since i can't be there all the time the server is being hosted..That is if Dirt decide to host more extensively..if not in which case anyway, i will try to host extensive for the community..once i get my DSL connection..soon hopefully..*sigh*.<br /><br />Any comment or suggestion are welcome here or if personal should once again go to (your untruly) /../ ! ;)"]
+            },
+            {
+                "backgroundStory" : ["April 13, 2002","garetjax","GaretJax:","How's that [NGP] revival going?"]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "ngsf",
+        "tag" : ["tagFront","[","NGSF","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Basic"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2012-10-01","isUncertain","2012-10-01","isCertain",""],
+        "founder" : ["AEON?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["ocelot","[NGSF]Ocelot"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["AEON? 538 ping in Europe",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Twelfth year obscure tag of likely very short duration and possibly without additional members, marked auged in earlier notes but placed into Basic to be safe as I suspect gametype is irrelevant in this case. We can speculate that it was possibly a tag created by AEON from Australia, as the player bearing tag on a sshot had 538 ping in Europe, or someone from another distant continent.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "ni",
+        "tag" : ["tagFront","[","пї","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2003-03-01","isUncertain","2003-09-01","isCertain",""],
+        "founder" : ["Genesis?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["genesis","~[пї]~Genesis"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","~[пї]~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Placeholder as clan was war-capable",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["ni_v_sz","sz","[SZ]","","2003-07?","Tried to war [SZ] mid 2003 but it died","isDiscussed"]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Unknown third year clan that was looking for wars over summer, it is difficult to assign a gametype here and most likely they were non-augers within JTB and now Void communities, considering timeframe and that they challenged seemingly young non-aug kids. Labeled as 0a for now.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "night",
+        "tag" : ["tagFront","[","NighT","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Basic"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","","isUncertain","","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","[NighT]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Listed by Hasharin of E.d.H.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nightmare",
+        "tag" : ["tagFront","[","NIGHTMARE","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Nightmare",
+        "gametype" : ["Aug"],
+        "tier" : ["B","A",""],
+        "date" : ["isUncertain","2002-01-01","isUncertain","2003-01-01","isCertain",""],
+        "founder" : ["Kaiser"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["kaiser","[NIGHTMARE]Kaiser"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","Canada"]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "A few week clan from one of the first three years of the game, it likely had one or more members. The Canadian leader would often move between clans.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nk_1",
+        "tag" : ["tagFront","[","NK","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Noob Killerz",
+        "gametype" : ["Aug"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2002-03-01","isUncertain","2002-06-01","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["mutant","[NK]Mutant"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["A friend of DeVil, was in some NK, possibly this one, ",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["kotek","[NK]Kotek"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : [" (active ~ May 20, 2002) maybe meant         KoKeT980",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["snipa","[NK]Snipa"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["cg"],
+                        "membership" : ["","",""],
+                        "stats" : ["From [CG], active ~ May 20, 2002",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["cg_v_nk_0","cg","[CG]","","2002-05-","NK vs [CG] May 20 it was among upcoming matches according to Blurs","isUncertain"]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["Its technically dead, but surprisingly one of the urls is also.. live. Neither s3 or z3 give results for that forum.","http://www.clan-nk.2ya.com/","death"]
+            }
+        ],
+        "description" : "Short-lived summer clan from the second year with one or more ex-cg members, they were likely younger but competitive players looking for action. Marked auged although the members most likely partook in JTB server games also.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nk_2",
+        "tag" : ["tagFront","[","NK","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2008-02-01","isUncertain","2008-04-01","isCertain",""],
+        "founder" : ["UnwanteD?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["unwanted","[NK]UnwanteD"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","[NK]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","[NK]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","[NK]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["nk_2_v_ren","ren","[REN]","","2008-02-22","REN had a 4v4 match scheduled: NK match: Friday (22nd)??? RTK server (4vs4) - details to be announced","isUncertain"]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Obscure eighth year clan of likely non-aug focus, they received a 4v4 challenge from [REN] so there were enough members, but group was otherwise likely short-lived. End of february they offered to host server for [BoB] clan. In my notes I have Noob Killerz forum links spilled over both of the NK entries, so it needs to be clarified which one is correct.",
+        "background" : [
+            {
+                "backgroundStory" : ["","ken","Ken:","I organized war but dont remember them; Id guess this war did not happen, but I am missing at least one war from REN stats. Randomly guessing the clan birth and death here, war was scheduled 22 Feb with REN in 4v4 format but since I have no memory this clan even existed it mustve been short-lived one. Or it mightve lasted a few months longer but possibly did not show for war 22 February."]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nkz",
+        "tag" : ["tagFront","[","NKz","]"],
+        "tag_extra" : "",
+        "flag" : ["🇮🇹","Not exclusive to it"],
+        "name" : "Night KillerZ",
+        "gametype" : ["0a","Basic"],
+        "tier" : ["B","A",""],
+        "date" : ["isUncertain","2010-12-01","isUncertain","2012-02-01","isCertain",""],
+        "founder" : ["Alessi"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["alessi","[NKz]Alessi"],
+                        "aliases" : ["Killjoy"],
+                        "pastClanIDs" : ["gs"],
+                        "membership" : ["","",""],
+                        "stats" : ["Seems it is the Italian clanmate of mine from REN called Ales, previously ~(GS)~Raven (iirc), later Alessi, Killjoy; might've formed NKz after a year break since REN died early 2009 and this clan was definitely up last months of 2010.","Italy"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["sorrow","[NKz]Sorrow"],
+                        "aliases" : ["Razor"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["EdH Razor, Italy or US?",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["croissant","[NKz]Croissant"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["I think brother of Sorrow? Croissant97",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["fury","[NKz]Fury"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Fury96","Italy"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["alayanah ","[NKz]Alayanah"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["unisons","[NKz]Unisons"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Maybe alias of some Italian",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["ct9a","*-NKz-Ct9a*-T-"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["around 2011-01-27","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["killer","~[NKz]KilleR~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Killer left to make A-TO.","Ukraine"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["fullmoon","[NKz]Fullmoon"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Left to make FPS with Solid and Mango.","France"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["bam","(NKz)ßam"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["before 2011-11-17","",""],
+                        "stats" : ["","France"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["majin","~[NKz]LordMajin~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["around 2013","",""],
+                        "stats" : ["","US"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["anax","~[NKz]Anax~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Later in HK","UK"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["labtec","~[NKz]Javascript~"],
+                        "aliases" : ["Labtec"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Mightve come from shared clan with Anax or made one afterwards, later for a while in HK","UK"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["solid","~[NKz]Solid~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Later in A!B","UK"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["sile","~[NKz]Sile~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["I think this one was from Poland?",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["kiki","[NKz]Kiki"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Kiki, Killer, briefly Solid, later end up in HVM also.","Poland"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["monkee","[NKz]DominusMortis"],
+                        "aliases" : ["Monkee"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Monkee aliased, also in THC as Mr.Hat","Norway"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["mango","[NKz]Mango"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","Italy"]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["nkz_v_xkt","xkt","[XKT]","Win 2:1","2010-12-22","Croissant97: Clanwar vs xkt started at 8pm. instead of a 3vs3 has been carried out, and instead of silo was used as a dust map.<br /><br />DXMP_CMD = 1st Round =<br />NKz Vs XKT<br />31 --- 37<br /><br />DXMP_Smuggler = 2nd Round =<br />NKz Vs XKT<br />63 --- 58<br /><br />DXMS_Dust = 3rd Round =<br />NKz Vs XKT<br />57 --- 56<br /><br />~TOTAL~<br />NKz=2<br />XKT=1<br /><br />NKz Won","isCertain"]
+            },
+            {
+                "match" : ["nkz_v_urt","urt","[URT]","Win 4:0","2010-12-26","Unisons: NKz challenge URT clan. GG GUYS!<br />We play on SunnySide server (0aug).<br /><br />Players:<br />NKz: Alayanah, Croissant & Fury<br />URT: Eugene, Jim & Enigma<br /><br />1st Round:<br />Map:DXMP_Paris_Cathedral<br />NKz: 20<br />URT: 3<br />WIN<br /><br />2nd Round:<br />Map:DXMP_Smuggler<br />NKz: 20<br />URT: 0<br />WIN<br /><br />3th Round:<br />Map:DXMP_Area51Bunker<br />NKz: 20<br />URT: 4<br />WIN<br /><br />Finally:<br />NKz: 60<br />URT: 7<br />WIN<br /><br />We WIN!","isCertain"]
+            },
+            {
+                "match" : ["nkz_v_xkt_2","xkt","[XKT]","Win 2:0","2011-01-11","Croissant97: DXMP_Dust = 1st Round =<br />NKz Vs XKT<br />46 ----- 34<br /><br />DXMP_Smuggler = 2nd Round =<br />NKz Vs XKT<br />51 ----- 35<br /><br />~TOTAL~<br />NKz=2<br />XKT=0<br /><br />NKz Win","isCertain"]
+            },
+            {
+                "match" : ["nkz_v_xkt_3","xkt","[XKT]","Win","2011-02-07","Fury96: this has been a battle so much to have a good time him and he has not absolutely been difficult and with the help of sorrow he has been easy even more......xD !!!! :)<br />[NKz]Ct9a: NOT BAD nkz~~~ keep it up","isCertain"]
+            },
+            {
+                "match" : ["c_8_v_nkz","c_8","[C]","","2011-11-17","Challenging Clan: [C]<br />GameType:btdm or 0. preferably 0 ^-^<br />Number of Players: 2vs2, 3vs3, 4vs4 or 5vs5. as you like<br />Server: Unfortunately I have no idea<br />Maps: Smuggler, Silo , Smuggles<br />Date: Now we can also decide<br /><br />I already posted on the site of the [C] Clan. We just need to know the exact date! ;)","isDiscussed"]
+            },
+            {
+                "match" : ["nkz_v_thc","thc","[THC]","Loss 0:3","2012-01-16","Fury: 'We are organizing a clan war versus thc clan on Gardens of Thc Server... The players that partecipate are: Fury, Sorrow, Croissant and maybe Alayanah ... The oters partecipate on a next clan war :D'<br /><br />PsychoTHC: 'Good game guys, you really played well :) You played a very good, rifling game. I'm sure your clan will be a top clan soon.'<br /><br />https://nkzclan.forumcommunity.net/?t=49444736<br /><br />Seemingly a BTDM match","isCertain"]
+            },
+            {
+                "match" : ["nkz_v_thc_2","thc","[THC]","Loss 1:2","2012-01-20","Croissant97: We losed the clanwar 2-1 . :angry: FIRST GAME :angry:<br />:) SECOND GAME :)<br />:( THIRD GAME :(<br /><br />In the third game we lost for 6 kills. But it was a Good Game. ;)","isCertain"]
+            },
+            {
+                "match" : ["nkz_v_thc_3","thc","[THC]","1:0","2012-02-04","NKz Vs THC (1:0)? Feb 4 2012 0a","isCertain"]
+            },
+            {
+                "match" : ["aib_v_nkz","aib","[A!B]","Loss 0:2","2012-02-22","Ken: [A!B] was an aug clan that was perceived to avoid strong non-aug challenges, but somehow they agreed to play against this haxy bunch, perhaps due to extremely large roster requiring action. Realizing they will never fight my strong clan, I randomly happened upon Phantom waiting in public before scheduled match - ex clan mate in REN and now one leader figure in this clan - and I decided to throw away my mortal feud with him and asked if he can give me war password. To my surprise he did, probably realizing the strength of the opponent. He even sorted out which member is absent that can lend me the name and tag - it turned out to be the young and fierce Frenchman (NKz)Bam whose role I then assumed. In hindisight I am not sure if I joined for the first map or if it was already the second map in shape of CMD and the first one had not gone so well.<br /><br />I had a good strong going on CMD headshotting Spaz just seconds in, Fullmoon very soon quit the match, Phantom lasted entire map but did not stay for Silo. I believe my score was nicely positive which against the likes of Monkee and Ste and Spaz and whoelse happened to be there was good, Phantom I believe was struggling to maintain an even score even with his speedhack and camping - I remember him having something like 21-22 or something like that, other NKz who played were not a threat to opponent. On Silo I just chilled with who I think were two brothers, from Italy or US or Im not sure from where, we were possibly a man down and at this point it was A!B hunting me on an open map. Later I heard that the mysteriously good performance of some noob called Bam was creating discussion among opponent behind the scenes as the match progressed, and Dani who saw the screenshots figured Bam mustve played the game of his life. Considering Bam said he'd stab me during some discussion on forums a while earlier, it made it all the more funnier. NKz never stood a chance in this war and A!B was aware of it, likely just focusing on outsmarting the speedhacking powercouple Phantom-Fullmoon.","isCertain"]
+            },
+            {
+                "match" : ["aib_v_nkz_2","aib","[A!B]","","2012-01-27","ATDM war discussion but thread died down, clan wanted to fight THC first","isDiscussed"]
+            },
+            {
+                "match" : ["hk_v_nkz","hk","{HK}","Loss 2:4","2012-02-25","NKz Vs HK (2:4) Feb 25 2012 A","isCertain"]
+            },
+            {
+                "match" : ["hk_v_nkz_2","hk","{HK}","","2012-03-","NKz Vs HK Fail? March 2012","isUncertain"]
+            },
+            {
+                "match" : ["nkz_v_thc_4","thc","[THC]","0:1","2012-06-10","NKz Vs THC 0:1? June 10 2012 A","isCertain"]
+            },
+            {
+                "match" : ["nkz_v_fps","fps","[FP$]","","2012-","?NKz Vs FP$ ? End of 2012?","isUncertain"]
+            },
+            {
+                "match" : ["nkz_v_fgs","fgs","[FGS]","","2012-","?NKz Vs FGS ? End of 2012?<br />Forum discussion indicates game and clan are both inactive","isDiscussed"]
+            },
+            {
+                "match" : ["hvm_v_nkz","hvm","[:¤:]","Practice","2013-09-01","Friendly v NKz  won 0a, Sept 2013","isCertain"]
+            },
+            {
+                "match" : ["hvm_v_nkz_2","hvm","[:¤:]","","2013-","","isDiscussed"]
+            },
+            {
+                "match" : ["ato_v_nkz","ato","[A-TO]","","2013-09","?NKz Vs A-TO Sept 2013 ?<br />KilleR left or multiclanned NKz for this clan and challenged them Sept 2013, but seems it was never played","isDiscussed"]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","https://nkzclan.forumcommunity.net/","live"]
+            }
+        ],
+        "description" : "Late tenth year Italy based clan that later features more French and international members, they focused on non-aug but most also had the EdH-scene Basic experience and occasionally took those challenges also. In a game now exceedingly vulnerable to speedhacking the clan came into focus particularly as Phantom was recruited and formed his own cheating cluster around him, later departing to form [FPS] clan which could put up 6 players vs now diminished [NKz] ranks. Perhaps due to past ties, [FPS] Italian member Mango apparently had suggested alliance to Alessi.",
+        "background" : [
+            {
+                "backgroundStory" : ["","dani","Dani:","Alessi and Phantom clan, mostly composed by french and italians, aimed to become one of the best 0a clans.<br /><br />It died around 2013, their only active member back then was Fury, which shortly quit until 2014 after he got banned on HVM 0a server and was the only active server back then.<br /><br />0aug mostly as Fury was the only 'auger', they did play BTDM vs THC however."]
+            },
+            {
+                "backgroundStory" : ["","ken","Ken:","I was never in this clan but I pretended to be a member in order to fight a war, against a clan led by a player who actually was in this clan and pretended not to be in other clans. Just DX things. (referring to [NKz] vs [A!B] 0a war)"]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nm",
+        "tag" : ["tagFront","[","NM","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "No Merci?",
+        "gametype" : ["0a","Basic"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2006-06-01","isUncertain","2006-06-01","isCertain",""],
+        "founder" : ["Ale?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["ale","[NM]Ale"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Should likely merge this ID with alessi / ales",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["jackson","JACKSON-[NM]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Seemingly a sixth year clan also listed by Hasharin of E.d.H this likely small and short-lived group might've played both Basic as well as non-aug.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nma",
+        "tag" : ["tagFront","[","nMa","]"],
+        "tag_extra" : "",
+        "flag" : ["🇫🇷",""],
+        "name" : "",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2005-01-01","isUncertain","2005-01-01","isCertain",""],
+        "founder" : ["TueurDivin ?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["tueurdivin","(nMa)TueurDivin"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["shadow_fr","[nma]Shadow"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "A seemingly French smaller clan of around fifth year that focused likely on non-aug and perhaps some mods, and wears a tag suspiciously similar to the American non-aug clan [nMe] Enemy, making me ponder the possibilities of what the French name might've meant, and whether this group was trolling them. Not clear if they had connection to (mud) or [AG] which should be similarly tiny French groups of roughly same era.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nme",
+        "tag" : ["tagFront","[","nMe","]"],
+        "tag_extra" : "[Enemy]",
+        "flag" : ["",""],
+        "name" : "Enemy",
+        "gametype" : ["0a"],
+        "tier" : ["B","A",""],
+        "date" : ["isUncertain","2004-03-20","isUncertain","2005-01-01","isCertain",""],
+        "founder" : ["Aztek", "TheInformant"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["concept","[nMe]ConcepT"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["aztek","[nMe]AZTeK"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["sicknes","[nMe]SiCI<NES"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["acid","[nMe]Acid"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["riddlez","[nMe]RiDDLez"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["I think its an alias like many names here",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","2007"],
+                        "pidPlusName" : ["silentscope","[nMe]SilentScope"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","https://web.archive.org/web/20040420140242/http://theinformant.jaywebdesigns.com:80/","index"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["nothing here besides index","https://web.archive.org/web/20040606141235/http://theinformant.jaywebdesigns.com/modules.php?name=Forums","index"]
+            }
+        ],
+        "description" : "Fourth year non-aug group formed of [BA] and [UE] Alliance, these were already somewhat more experienced players. Hasharin lists a tag [Enemy] thats either this clan or a completely separate Basic clan not yet listed. Roster contains likely aliases and duplicates.",
+        "background" : [
+            {
+                "backgroundStory" : ["","nme","","Welcome<br /><br />Welcome to the new [Ba] [UE] Colaboration website. please feel free to look around. and make sure u are properly registerd. if u have any questions or need help feel free to contact any staff members.<br /><br />--[nMe]-- Staff"]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["@ 13:36:47 EST (12 reads) (Read More... | 1 comment | Score: 4.5)","2004-03-04","Hello Ladies!","TheInformant","Well well, I am begining to hate the look of this site, so next week I will be pimping this site out, so please be checking sometime next week.<br /><br />PIMPAGE!","site"]
+            },
+            {
+                "article" : ["Posted by  on Friday, March 05 @ 21:46:40 EST (4 reads) (comments? | Score: 0)","2004-03-05","BA/nMe clan","aztek23","hey guys. you guys own. im glad to be one of the founders of this great clan. this ~BA~ Brother hood wouldent be possible with out the 7 of you. and now having ~UE~ involved in the mix, well things just got better. Kick ass nMe!","clan"]
+            },
+            {
+                "article" : ["Posted on Saturday, March 06 @ 02:17:37 EST (4 reads) (comments? | Score: 0)","2004-03-06","Website Additions","TheInformant","Hello all;<br />As of late last night, the website now has some new features such as the rosters. If you are a member and would like to modify any of those things in the profile please PM TheInformant for more informantion.<br /><br />Thanks again;<br />TI","site"]
+            }
+        ]
+    },
     {
         "id" : "nok",
         "tag" : ["tagFront","[","NOK","]"],
@@ -46224,6 +47952,823 @@
             }
         ]
     },
+    {
+        "id" : "nol",
+        "tag" : ["tagFront","{","NoL","}"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Mod","0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2006-09-01","isUncertain","2006-09-01","isCertain",""],
+        "founder" : ["ModernNinja ?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["modernninja","{NoL}ModernNinja"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Obscure sixth year tag found in Arx Genus mod sshots, perhaps even dedicated to it or just visiting, it likely wasnt very long-lived and its doubtful it had many members.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nr",
+        "tag" : ["tagFront","[","nR","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Night Raiderz",
+        "gametype" : ["Aug"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2001-06-01","isUncertain","2002-01-01","isCertain",""],
+        "founder" : ["Spetsnaz"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["spetsnaz","[nR]Spetsnaz"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["norwegianboy","[nR]NorwegianBoy"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["will","[nR]Will"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["parn","[nR]Parn"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["Design has mostly nicely survived sans the flash buttons","https://web.archive.org/web/20020604074528/http://nightraiderz.clanned.net:80/","index"]
+            },
+            {
+                "website" : ["This url is dead already by August 2002","https://web.archive.org/web/*/http://www.sphosting.com/nraiderz/*","dead"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Early DXMP clan that also listed the restless Will from NYC who would end up in most all clans at the time and make one or more of his own, occasionally getting in trouble.",
+        "background" : [
+            {
+                "backgroundStory" : ["","nr","","We are the Night Raiderz Clan, the newest to the DX league clan community. Our Clan is firmly based on having fun, and making some good mates in the DX community. Our goal is to kick all your arses sometime later when we develop some real skills. [nR] is steadily growing with about five members, pretty soon we'll have a whole army! So sit back, relax, grab some pop-corn, and watch us kick arse - its gonna be a long night folks! IF YOU WISH TOO HAVE A CLAN MATCH, PLEASE E-MAIL ME ON /../.<br /><br />But.. If you're not just another lazy internet 'surfer' moron who mistook this for a porn site, have a look at the different sections of this site, and join us for a round of DX sometime. Who knows, if you're good enough we might even let you join us (I see you're already gasping in awe!).<br /><br />Cya's around -[nR]Spetsnaz"]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nrg",
+        "tag" : ["tagFront","(","NRG",")"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Basic"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","","isUncertain","","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","(NRG)"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Listed by Hasharin of E.d.H.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "ns",
+        "tag" : ["tagFront","[","NS","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Natural Selection",
+        "gametype" : ["0a"],
+        "tier" : ["B","A",""],
+        "date" : ["isUncertain","2004-06-01","isUncertain","2005-02-01","isCertain",""],
+        "founder" : ["PsychoPath"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["psychopath","[NS]PsychoPath"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["NewZealand?",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["dice","[NS]Dice"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["This probably points to same site https://web.archive.org/web/*/http://www.dxns.tk/*","https://web.archive.org/web/*/http://www.naturalselection.cjb.net/*","dead"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","https://web.archive.org/web/20240000000000*/https://phpbb-host.com/phpbb/index.php?mforum=hgclanforums*","dead"]
+            },
+            {
+                "forum" : ["d","",""]
+            }
+        ],
+        "description" : "Fourth year less known clan of likely non-aug focus and small size, some members are registering early 2005 on Casper's community boards. Leader might've been from NZ and a year later active on Alpha boards, then also auging with Hybrid who was roughly from same region.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nsf_1",
+        "tag" : ["tagBack","[","NSF","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Invisible Online",
+        "gametype" : ["Mod","Aug"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2000-03-01","isUncertain","2003-10-01","isCertain",""],
+        "founder" : ["Dark"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","December 2001"],
+                        "pidPlusName" : ["dark","Dark[NSF] "],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","Rank: [NSF] Leader<br />Coder"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["govpatsy","govpatsy[NSF] "],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","not listed by April 17, 2002",""],
+                        "stats" : ["","Rank: Trooper "]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["chvirus","Ch ViRuS[NSF] "],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["tn"],
+                        "membership" : ["","",""],
+                        "stats" : ["Most likely coming from [TN] clan and mentioned by TicTacToad",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["kakkarot","Kakkarot[NSF] "],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","April 17, 2002"],
+                        "pidPlusName" : ["mike_nsf","Mike[NSF] "],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","Rank: Executioner "]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["deathcoil","Deathcoil[NSF] "],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","Rank: Executioner "]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["dan_nsf"," Dan[NSF]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","Rank: Henchman "]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["cg_v_nsf","cg","[CG]","","2002-04-27","CG VS NSF<br />[CG]Blurs: Hey guys just wondering if you are still interested in having a clan match (6 vs 6).<br /><br />If you need something our web site is: http://www.mac-land.com/new_CG/index.html<br />hope to hear from you..<br /><br />Dark[NSF]: Sure... Once I get the clan up and running, alot of people have been wanting to join.<br /><br />Does anyone have enough resources to host [NSF] Clan Server? At least until I can?","isDiscussed"]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["2000 on - mostly modding related, domain pointing at these sites is https://web.archive.org/web/20021128152631/http://www.invisibleonline.net:80/","https://web.archive.org/web/20021011020928/http://www.angelfire.com/fl4/Invisible/","featured"]
+            },
+            {
+                "website" : ["2003 design - domain pointing at these sites is https://web.archive.org/web/20021128152631/http://www.invisibleonline.net:80/","https://web.archive.org/web/20130525012214/http://www.planetdeusex.com/invisible/","featured"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["Appears to be their new forum, contains number of threads, also this view on index https://web.archive.org/web/20110506090620/http://www.network54.com/Forum/181163/","https://web.archive.org/web/20080605172002/http://www.network54.com:80/Forum/181163/thread/1012875782/last-1019777739/New+Forum","featured"]
+            }
+        ],
+        "description" : "An interesting group and clan that in some capacity was formed before Multiplayer and perhaps even Singleplayer, they seem to have mainly focused on creating mods - and early on with the game release also MP mods - but at some point, perhaps later into 2001, they have created a separate and distinct MP clan with its own roster thats unrelated to the modding team and steadily growing next year.",
+        "background" : [
+            {
+                "backgroundStory" : ["","ninja","Ninja:","Merged into other NSF, the Never Stop Fragging after its revival by Ninja and FBI. It was a Modding group, the 'other' NSF."]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["Many news articles on site","","December 23, 2000","Dark","Today I started coding for Deus Ex and I am thinking about making a small multiplayer mod with new models. I updated the joing page and put the new occupations in. So if you wanna help the mod out please contact me. ","clan"]
+            },
+            {
+                "article" : ["","","June 6, 2002","Dark","Beta Test is underway. We should have all of the bugs filtered out by the end of the week, then expect a public beta release. I am updating Shade vs Human and the Star Wars mod and adding a little more quality (since I did them on my spare time). ***Note to Beta Testers*** You should get an email within the next day or two about downloading and server info. Also I would like to announce our first modeler that will actually do something for the mod :), welcome Kryss...","clan"]
+            }
+        ]
+    },
+    {
+        "id" : "nsf_2",
+        "tag" : ["tagFront","[","NSF","]"],
+        "tag_extra" : "■NSF■",
+        "flag" : ["",""],
+        "name" : "Never Stop Fragging",
+        "gametype" : [""],
+        "tier" : ["B","A",""],
+        "date" : ["isUncertain","2001-06-01","isUncertain","2002-01-01","isCertain","2002-12-01 ✝ 2003-09-01"],
+        "founder" : ["GEIST001","Ninja","ZeroPresence"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["geist001","[NSF]Playerbigdick"],
+                        "aliases" : ["Geist001"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["zeropresence","[NSF]FBI"],
+                        "aliases" : ["ZeroPresence"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["stevexr8","[NSF]STEVExr8[AP] "],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["dreamstation","[NSF]dreamstation "],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["raptor","[NSF]Raptor "],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["ninja","[NSF]SilentKilla"],
+                        "aliases" : ["Ninja", "Phil"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Later revives the clan with FBI in 2003",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["blackarcher","[NSF]BlackArcher "],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["daedalus","[NSF]Daedalus "],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["nimrod","[NSF]Nimrod "],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["snipzz","[NSF]SnipzZ "],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["cumdripinanus","[NSF]cumdripinanus "],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["discodenny","[NSF]DiscoDenny"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["(hosted server)",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["summoner","[NSF]Summoner"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["","[NSF]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["jazz","[NSF]Jazz"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","Revival"],
+                        "pidPlusName" : ["ninja","[NSF]Ninja"],
+                        "aliases" : ["Phil"],
+                        "pastClanIDs" : ["nsf"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["darkshadow","[NSF]DarkShadow"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["da"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["zeropresence","[NSF]ZeroPresence"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["nsf"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["Dead already by April 2002","https://web.archive.org/web/20020803000000*/http://www.angelfire.com:80/empire/nsfclansite","dead"]
+            },
+            {
+                "website" : ["","https://web.archive.org/web/*/http://nsf.50megs.com/*","dead"]
+            },
+            {
+                "website" : ["","https://web.archive.org/web/20010909082236/http://neverstopfragging.homestead.com:80/Main.html","death"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["pointed at also dead https://web.archive.org/web/20040904170419fw_/http://www.hostingeveryone.com/grayfoxes_server/index.html","https://web.archive.org/web/*/http://www.grayfoxes-server.tk*","dead"]
+            },
+            {
+                "forum" : ["d","",""]
+            }
+        ],
+        "description" : "Larger beginner clan of young, mainly American players, they exitedly explored the possibilities of the SDK as well as had their own scene in the game. Between their first steps in 2001 and later revival and merge with the other NSF clan, it likely was evolving into intermediate level already. Ninja and ZeroPresence who were involved in reviving the clan are also active in the community two decades later.",
+        "background" : [
+            {
+                "backgroundStory" : ["","nsf_2","","make map's,mod's,and piss on the courpses of unatco scum!"]
+            },
+            {
+                "backgroundStory" : ["","ninja","Ninja:","First NSF belong to DarkShadow, which had another name, he retired, and Phil and Zero took NSF as NeverStopFragging, and to differenciate it from old NSF they added dots around the tag. Never Stop Fragging, which in retrospect didn't fit us very well since we weren't as skilled/prominent/competitive as others<br /><br />The confusion is that when Dark's NSF clan emerged, we adjusted our clantags to accommodate there being two different clans ([NSF] ==> [~NSF~]) I do remember this being a little bit of a pain though admittedly, Geist (playerbigdick) picking a name like NSF to begin with wasn't a fantastic idea"]
+            },
+            {
+                "backgroundStory" : ["","zeropresence","ZeroPresence (FBI):","ours was begun by playerbigdick, also used the name geist, and I remember someone that had a name that started with M, Majestic, or something? Who started his own NSF, but just merged with us and got into mapping a little bit.<br /><br />we had Jazz 'try out' for NSF when he joined the server while we were all testing my DXMP_Airport map"]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "ntl",
+        "tag" : ["tagFront","[","ntl","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2005-02-01","isUncertain","2005-02-01","isCertain",""],
+        "founder" : ["leadslayerdxm?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["leadslayerdxm","[ntl]leadslayerdxm"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Obscure fifth year tag picked up from non-aug sshots that likely represents just a single person effort of a short duration, or a smaller GODZ scene beginner group.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nubs",
+        "tag" : ["tagFront","[","NubS","]"],
+        "tag_extra" : "[S]",
+        "flag" : ["🇪🇺",""],
+        "name" : "Nubian Supremacy",
+        "gametype" : ["0a"],
+        "tier" : ["","A","S"],
+        "date" : ["isUncertain","2010-01-01","isUncertain","2010-03-01","isCertain",""],
+        "founder" : ["Ken","Shadow ?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["ken","[NubS]Mugabe"],
+                        "aliases" : ["Ken","UNDEAD","Synthetic","rand12om"],
+                        "pastClanIDs" : ["ren"],
+                        "membership" : ["","",""],
+                        "stats" : ["","Estonia"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["clixor","[NubS]Robbert"],
+                        "aliases" : ["Clix"],
+                        "pastClanIDs" : ["ren"],
+                        "membership" : ["","",""],
+                        "stats" : ["","Netherlands"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["shadow_nl","[NubS]Malak"],
+                        "aliases" : ["Shadow"],
+                        "pastClanIDs" : ["eod","df","ren"],
+                        "membership" : ["","",""],
+                        "stats" : ["","Netherlands"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["chaos","[NubS]Chaos?"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","Italy"]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["delta_v_nubs","delta","[/\\]","Win 2:1","2010-","Close win<br />Possibly also a rematch existed, initial match the (ex-REN) members largely copied Clix' name to confuse opponent, in re-match they mightve returned the favor (according to my memory -Ken)","isCertain"]
+            },
+            {
+                "match" : ["delta_v_nubs_2","delta","[/\\]","Win","2010-","Possible rematch","isUncertain"]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["-","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["It had some freehosted forums with black theme","",""]
+            }
+        ],
+        "description" : "Tenth year short-lived clan of whats essentially [REN] core members invited to play again by me nearly a year after clan was shut down. We did manage to get around two exciting matches against MastaKilla and Marije's clan Delta with close scores and some shenanigans with swapping names.",
+        "background" : [
+            {
+                "backgroundStory" : ["","ken","Ken:","Africa themed, [REN] remnants brought back together for a short-lived clan. Bit troll clan concept with many ex-REN members I believe even including Chaos, also Clixor and maybe Shadow, but my memory of this short lived clan in the more quiet years of DXMP is vague (I actually discovered I had this clan from some old forum posts on FGS)."]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nvm",
+        "tag" : ["tagFront","[","NVM","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Nevermind",
+        "gametype" : ["0a","Aug"],
+        "tier" : ["","A",""],
+        "date" : ["isUncertain","2014-11-01","isUncertain","2015-01-01","isCertain",""],
+        "founder" : ["DaniSaggenza"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["danisaggenza","[NVM]Dani"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","Spain"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["machete","[NVM]Machete"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","UK"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["price","[NVM]Price"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","Netherlands"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["bajas","[NVM]Bajas"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","Sweden"]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["ato_v_nvm","ato","[A-TO]","Win ?","","NVM vs A-TO<br />NVM roster was me, machete and price<br />A-TO was B-Dawg, Cat and Anax aliasing as Fear","isCertain"]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["This platform doubled as website with portal component","https://web.archive.org/web/*/https://nevermindx.enjin.com/*","dead"]
+            }
+        ],
+        "description" : "Fourteenth year clan made by Dani after falling out with HVM leader, it carried over his group of friends and had a fairly decently sized roster from get-go. Non-aug focused but most of the members did play augs together so I've marked them as both. It'll eventually lead to [BB] clan not long after.",
+        "background" : [
+            {
+                "backgroundStory" : ["","danisaggenza","Dani:","I decided to make a separate clan with former Hivemind teammates which was aimed only to 0a, as I couldn't aug for shit."]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "nzk",
+        "tag" : ["tagFront","[","NZK","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2013-12-01","isUncertain","2013-12-01","isCertain",""],
+        "founder" : ["Poptypop ?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["poptypop","[NZK]Poptypop"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["AEON? 333 ping in Europe",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Thirteenth year clan attempt of likely non-aug focus that has all the markings of being another tag created by serial clan maker AEON from Australia, looking at timeframe and the 333 ping in Europe. Its unlikely to have had many of any other members, and probably was replaced with another new tag soon after.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+
     {
         "id" : "s",
         "tag" : ["tagFront","[","S","]"],
