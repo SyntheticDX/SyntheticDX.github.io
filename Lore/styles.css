@@ -384,12 +384,14 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
         z-index: auto;
     }
 }
+
 .timelineBtnTxt{
     padding-top:0.5vh;
     text-justify: auto;
     font-size: 0.7vw;
     color: whitesmoke;
 }
+
 .timelineBtnTag{
     font-size: large;
 }
@@ -397,6 +399,7 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
 #periods{
     z-index: -1;
 }
+
 .lineP1104fm {
     display: flex;
     flex-direction: row;
@@ -414,6 +417,7 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
     font-size: 0.4vw;
     z-index: 0;
 }
+
 .lineP1109fm {
     display: flex;
     flex-direction: row;
@@ -431,6 +435,7 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
     font-size: 0.4vw;
     z-index: 0;
 }
+
 .lineP1112fm {
     display: flex;
     flex-direction: row;
@@ -453,6 +458,7 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
     display: flex;
     position: absolute;
 }
+
 #timelineElement button,#timelineElementGroup button {
     display: flex;
     justify-content: first baseline;
@@ -462,15 +468,30 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
     height: inherit;
     width: inherit;
 }
+
 #timelineElement:hover{
     opacity: 1.0;
 }
+
 #maplink {
     color: white;
 }
+
 #timelineFiller {
     height: 160vh;
 }
+
+.mergeElement {
+    position: absolute;
+}
+.mergeElement::after {
+    content: "🔗";
+    display: inline-block;
+    color: rgba(35, 93, 141, 0.582);
+}
+
+/*  Archive */
+
 .archDumpTitle {
     display: flex;
     flex-direction: row;
@@ -482,10 +503,12 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
         border-radius: 3px;
     }
 }
+
 .archFirstSet {
     display:block;
     background-color: #1b4e9641;
 }
+
 .archSecondSet {
     display:block;
     background-color:#0edb8627;
