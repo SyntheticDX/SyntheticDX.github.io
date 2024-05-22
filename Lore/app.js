@@ -53,6 +53,51 @@ $(document).ready(function() {
     });
 
 
+    /* *********************** Construct Sidemenu ******************************************************************************************************************* */
+
+
+    var container = $(window); // Use window as the scrollable container
+    var sections = $('.chapter'); // Select all sections with class 'chapter'
+    var menuLinks = $('.pageMenu a');
+    var topPadding = 100; // Adjust the top detection padding
+    var bottomPadding = 20; // Adjust the bottom detection padding
+
+    container.scroll(function() {
+        var scrollPosition = container.scrollTop();
+
+        sections.each(function() {
+            var top = $(this).offset().top - topPadding;
+            var bottom = top + $(this).outerHeight() + bottomPadding;
+
+            if (scrollPosition >= top && scrollPosition < bottom) {
+                var id = $(this).attr('id');
+                menuLinks.removeClass('active');
+                menuLinks.filter('[href="#' + id + '"]').addClass('active');
+            }
+        });
+    });
+
+    // Smooth scrolling to section when clicking on menu links
+    menuLinks.click(function(event) {
+        event.preventDefault(); // Prevent the default behavior of anchor links
+
+        var targetId = $(this).attr('href');
+        var targetSection = $(targetId);
+        if (targetSection.length) {
+            var scrollTop = targetSection.offset().top;
+
+            // For the last section, scroll a little deeper into the element
+            if ($(this).is(':last-child')) {
+                scrollTop += bottomPadding; // Adjust this value as needed
+            }
+
+            $('html, body').animate({
+                scrollTop: scrollTop
+            }, 100); // Adjust the duration as needed
+        }
+    });
+
+
     /* *********************** Construct STORIES ******************************************************************************************************************** */
 
 
@@ -193,48 +238,67 @@ $(document).ready(function() {
     /* *********************** Construct LINKS ******************************************************************************************************************** */
 
 
-    let cachedLinks = null;
-
     // Function to fetch links
     function fetchLinks() {
-        return fetch('./linklist.json').then(res => res.json());
+        return fetch('./linklist.json')
+            .then(res => res.json())
+            .then(data => data.filter(item => item.linkContent || item.threadContent)); // Filter out items without linkContent or threadContent
     }
 
-    // Function to render links
+    // Function to render web links
     function renderLinks(data) {
-        const linkRows = data.map(post => {
-            const link2 = post.linkContent[5].length === 0 ? '' : `<td class="link2"><a class="pagelink" href="${post.linkContent[5]}">${post.linkContent[6]}</a></td>`;
+        const linkRows = data.filter(item => item.linkContent).map(post => {
+            const linkContent = post.linkContent;
+            const link2 = linkContent[5] ? `<td class="link2"><a class="pagelink" href="${linkContent[5]}">${linkContent[6]}</a></td>` : '<td class="link2"></td>';
             return `
                 <tr id="listitem">
-                    <td class="linkWeight">${post.linkContent[1]}</td>
-                    <td class="linkYear">${post.linkContent[0]}</td>
-                    <td class="linkDescription">${post.linkContent[2]}</td>
-                    <td class="link1"><a class="pagelink" href="${post.linkContent[3]}">${post.linkContent[4]}</a></td>
+                    <td class="linkWeight">${linkContent[1]}</td>
+                    <td class="linkYear">${linkContent[0]}</td>
+                    <td class="linkDescription">${linkContent[2]}</td>
+                    <td class="link1"><a class="pagelink" href="${linkContent[3]}">${linkContent[4]}</a></td>
                     ${link2}
-                    <td id="linkExtra">${post.linkContent[7]}</td>
+                    <td id="linkExtra">${linkContent[7]}</td>
                 </tr>
             `;
         }).join('');
-        linkContainer.append(linkRows);
+        $('.commlinks').append(linkRows);
         linkContainer.data('linksLoaded', true);
         window.location.hash = 'pagelinks';
         bindSortingFunction();
     }
 
-    // Function to fetch and render links if necessary
+    // Function to render thread links
+    function renderThreads(data) {
+        const threadRows = data.filter(item => item.threadContent).map(post => {
+            const threadContent = post.threadContent;
+            // Render thread content here
+            return `
+                <tr id="listitem">
+                    <td class="linkWeight">${threadContent[1]}</td>
+                    <td class="linkYear">${threadContent[0]}</td>
+                    <td class="linkDescription">${threadContent[2]}</td>
+                    <td class="link1"><a class="pagelink" href="${threadContent[3]}">${threadContent[4]}</a></td>
+                    ${link2}
+                    <td id="linkExtra">${threadContent[7]}</td>
+                </tr>
+            `;
+        }).join('');
+        $('.threadlinks').append(threadRows);
+        linkContainer.data('linksLoaded', true);
+        window.location.hash = 'pagelinks';
+        bindSortingFunction();
+    }
+
+    // Fetch and render links and threads
     function fetchAndRenderLinks() {
-        if (!linkContainer.data('linksLoaded')) {
-            if (cachedLinks) {
-                renderLinks(cachedLinks);
-            } else {
-                fetchLinks().then(data => {
-                    cachedLinks = data;
-                    renderLinks(data);
-                }).catch(err => {
-                    console.error('Error fetching links:', err);
-                });
-            }
-        }
+        fetchLinks()
+            .then(data => {
+                renderLinks(data);
+                renderThreads(data);
+            })
+            .catch(err => {
+                console.error('Error fetching links:', err);
+            });
     }
 
     // Function to check if #pagelinks is in the URL
@@ -257,9 +321,9 @@ $(document).ready(function() {
     window.addEventListener('hashchange', loadLinksIfPageLinksInURL);
 
     // Function to sort the table by column index
-    function sortTable(n) {
+    function sortTable(tableClass, n) {
         var rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-        rows = linkContainer[0].rows;
+        rows = $(`.${tableClass}`)[0].rows;
         switching = true;
         dir = "asc";
         while (switching) {
@@ -294,12 +358,16 @@ $(document).ready(function() {
     }
 
     // Function to bind sorting function to the header elements
-    function bindSortingFunction() {
-        $('.commlinks th').on('click', function() {
+    function bindSortingFunction(tableClass) {
+        $(`.${tableClass} th`).on('click', function() {
             var index = $(this).index();
-            sortTable(index);
+            sortTable(tableClass, index);
         });
     }
+
+    // Call bindSortingFunction for both commlinks and threadlinks tables
+    bindSortingFunction('commlinks');
+    bindSortingFunction('threadlinks');
 
 
 /* *********************** Construct TIMELINE  ******************************************************************************************************************** */
@@ -328,7 +396,7 @@ $(document).ready(function() {
 
     // Function to initialize popover for timeline elements
     function initializePopover(trigger, content) {
-        trigger.popover({ html: true, content: () => content.html() });
+        trigger.popover({ html: true, content: () => content.html(), container: 'body' }); // Set container to 'body' to ensure the popover is not constrained by parent z-index
     }
 
     // Function to load data and initialize popovers when the page loads
@@ -344,24 +412,39 @@ $(document).ready(function() {
     // Load page data when the page loads
     loadPageData();
 
-    // Event listener for clicks on nav elements with a link to #pagetimeline
-    navClanlist.on('click', 'a[href="#pagetimeline"]', function(event) {
-        event.preventDefault();
-        window.location = '#pagetimeline';
+    // Function to calculate the highest z-index in the DOM
+    function calculateHighestZIndex() {
+        var elements = $('*');
+        var maxZIndex = Math.max.apply(null, $.map(elements, function(element) {
+            var zIndex = parseInt($(element).css('zIndex'));
+            return isNaN(zIndex) ? 0 : zIndex;
+        }));
+        return maxZIndex;
+    }
+
+    // Function to set z-index for popover content
+    function setPopoverZIndex() {
+        var highestZIndex = calculateHighestZIndex();
+        var popoverContent = $('.popover-content');
+        var newZIndex = highestZIndex + 1; // Increase z-index by 1 to ensure popover content is on top
+        popoverContent.css('z-index', newZIndex);
+    }
+
+    // Event listener for clicks on popover content
+    $('body').on('mousedown', '.popover', function(e) {
+        e.preventDefault();
+        setPopoverZIndex(); // Update z-index when popover is clicked
     });
 
-    // Add event listener for clicks on popover content
-    body.on('mousedown', '.popover', function(e) {
-        console.log("clicked inside popover");
-        e.preventDefault();
-    });
+    // Call setPopoverZIndex initially to set z-index for existing popovers
+    setPopoverZIndex();
 
     // Scroll to the popover content if it's far outside the viewport
     $(document).on('shown.bs.popover', '[data-style=mypops]', function() {
         var popoverTopOffset = $('.popover').offset().top;
         $('html, body').animate({
             scrollTop: popoverTopOffset
-        }, 200);
+        }, 100);
     });
 
 

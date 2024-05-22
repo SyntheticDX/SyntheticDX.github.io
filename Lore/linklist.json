@@ -357,7 +357,7 @@
         "linkContent" : ["2001","6","Early DXMP Server Provider","https://web.archive.org/web/20020324180910/http://dnagames.net/","http://dnagames.net","","",""]
     },
     {
-        "linkContent" : ["2003","1","Obscure DX site from 2003","https://web.archive.org/web/20040205163343/http://deus-ex.biz/","","","",""]
+        "linkContent" : ["2003","1","Obscure DX site from 2003","https://web.archive.org/web/20040205163343/http://deus-ex.biz/","http://deus-ex.biz","","",""]
     },
     {
         "linkContent" : ["2003","6","Deus Ex (2) Files Site","https://web.archive.org/web/20030810105811/http://www.de2files.com/","www.de2files.com","https://web.archive.org/web/20040617075123/http://de2.filefront.com/","de2.filefront.com","<a href='https://web.archive.org/web/20030821222546/http://www.gamingforums.com/forumdisplay.php?s=&forumid=78' class='pagelink'>Forums</a>"]
@@ -376,5 +376,19 @@
     },
     {
         "linkContent" : ["2002","6","German Deus Ex Portal","https://web.archive.org/web/20021017120552/http://deusexzone.info/","http://deusexzone.info","https://web.archive.org/web/20030604045537fw_/http://dxzone.exp-network.de/forum/index.php","http://dxzone.exp-network.de/forum/",""]
+    },
+
+
+
+
+
+    {
+        "threadContent" : ["2001","9","🧵DeusExLeague DXL: 2001 December Retrospectively","https://web.archive.org/web/20011220183504/http://forums.deusexleague.com:80/viewthread.php?tid=42","Discussion","","",""]
+    },
+    {
+        "threadContent" : ["2001","8","🧵DeusExLeague DXL: 2001 December Game Balance","https://web.archive.org/web/20011220184742/http://forums.deusexleague.com:80/viewthread.php?tid=44","Discussion","https://web.archive.org/web/20011204024033/http://forums.deusexleague.com:80/viewthread.php?tid=31","Tips",""]
+    },
+    {
+        "threadContent" : ["2011","8","🧵Transcend [T] Forums: DXMP History Thread","https://www.tapatalk.com/groups/clantranscend/old-demos-and-sshots-t103.html","Discussion","","",""]
     }
 ]

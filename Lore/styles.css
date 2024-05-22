@@ -73,6 +73,41 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
     transform: translateY(50%); /* Use transform to vertically center */
     z-index: 1000; /* Ensure it's above other content */
 }
+
+/* ********* Menu for pages ********* */
+.pageMenu {
+    position: fixed;
+    top: 50%; /* Position the menu block at 50% from the top of the viewport */
+    transform: translateY(-50%); /* Translate the menu block upward by half of its own height */
+    width: fit-content;
+    left: 2%;
+    z-index: 1000;
+
+    li a {
+        text-decoration: none;
+        color: #337ab7;
+    }
+
+    li a.active {
+        font-weight: bold;
+        filter: brightness(185%);
+        border-bottom: red;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    li a:visited {
+        text-decoration: none;
+    }
+}
+
 #pageguide{
 [data-toggle="tooltip"]{border-bottom: 0.5px dotted silver;}
 }
@@ -85,7 +120,7 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
     text-decoration: none;
 }
 
-#h1 {
+.h1 {
     text-align: center;
     padding-top: 30px;
     font-weight: bolder;
@@ -109,7 +144,7 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
             margin-right: 10vw;
             z-index: auto;
 }
-#h2 {
+.h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -121,7 +156,7 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
     font-weight: 100;
     padding-bottom: 20px;
 }
-#h3 {
+.h3 {
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -129,7 +164,7 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
     font-size: x-large;
     padding-left: 50px;
 }
-#h4 {
+.h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -150,10 +185,11 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
     }
 }*/
 
-#chapter{
+.chapter{
     display: flex;
     flex-direction: column;
     justify-content: top;
+    height: fit-content;
     width: 100%;
     color: rgb(235, 235, 235);
     background-color: #393f3d1c;
@@ -174,6 +210,7 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
         margin: 20px;
     }
 }
+
 .emphasis {
     display: block;
     background-color: rgba(192, 192, 192, 0.267);
@@ -285,7 +322,7 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
 }
 
 
-/********************************************************************************************************/
+/***************************************************************  Timeline  *************************************************************/
 
 
 #timelineMap {
@@ -319,48 +356,6 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
     font-style: oblique;
     font-size: 2em;
 }
-
-[data-style=mypops] + .popover {
-    background: rgb(58, 56, 56);color: whitesmoke; min-width: fit-content; /* the minimum width */
-    }
-    [data-style=mypops] + .popover.bottom .arrow:after {
-    border-bottom-color: rgba(25, 59, 253, 0.384); 
-    }
-    
-    [data-style=mypops] + .popover-content {
-        /* Position the popover content absolutely */
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        /* Keep existing styles */
-        width: max-content;
-        display: flex;
-        z-index: 9999;
-    }
-
-    .popovermenu {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-    z-index: 9;
-    width: flex;
-    }
-
-    .popovermenu li {
-        display: flex;
-        flex-direction: row;
-        width: max-content;
-    }
-    .popovermenu li a {
-    color: #fff;
-    }
-    .popovermenu li div {
-        margin: 5px;
-        }
 
 #timelineElements {
     grid-area: 1 / 1 / 2 / 2;
@@ -490,7 +485,55 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
     color: rgba(35, 93, 141, 0.582);
 }
 
-/*  Archive */
+
+/* *** Popovers *** */
+
+.popover {
+    background: rgb(58, 56, 56);
+    color: whitesmoke; 
+    min-width: fit-content; /* the minimum width */
+}
+
+.popover.bottom .arrow:after {
+    border-bottom-color: rgba(25, 59, 253, 0.384); 
+}
+    
+[data-style=mypops] + .popover-content {
+    /* Position the popover content absolutely */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    display: flex;
+}
+
+.popovermenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: flex;
+}
+
+.popovermenu li {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+}
+
+.popovermenu li a {
+    color: #fff;
+}
+
+.popovermenu li div {
+    margin: 5px;
+}
+
+/***************************************************************  Archive ***************************************************************/
+
 
 .archDumpTitle {
     display: flex;
@@ -771,7 +814,7 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
     }
 }
 
-.commlinks {
+.commlinks, .threadlinks {
     display: grid;
     justify-content: space-around;
     tr {
@@ -809,6 +852,7 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
         }
     }
 }
+
 #questionAnswerPair {
     display: flex;
     justify-content:flex-start;
