@@ -7322,7 +7322,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["fukhead","[B]fukHead 🇺🇸"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["s","da"],
                         "membership" : ["","",""],
                         "stats" : ["","parkesburg pa"]
                     },
@@ -15199,7 +15199,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["frost","[Ð]Frost"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["bk"],
                         "membership" : ["","",""],
                         "stats" : ["Ends up in [T] some point, perhaps as early as end of this clan alongside AlCapone","Country: Australia?"]
                     },
@@ -15719,7 +15719,7 @@
         "name" : "Distructive 12 / Deadly Dozen",
         "gametype" : ["Aug"],
         "tier" : ["B","A",""],
-        "date" : ["isUncertain","2002-09-25","isUncertain","","isCertain","2003-04-06"],
+        "date" : ["isUncertain","2002-09-25","isUncertain","2003-04-06","isCertain",""],
         "founder" : ["SilentScope"],
         "members" : [
             {
@@ -16118,7 +16118,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["khamas","[DA]Khamas"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["triad","dml","d"],
                         "membership" : ["","",""],
                         "stats" : ["Not clear when Khamas had time to be in [DA] or if it is someone impersonating him - if he returned to game in 2003 its possible, but would leave unclear why his departure is not mentioned by [3]. Currently suspect entry.",""]
                     }
@@ -17444,7 +17444,7 @@
                         "membergroupLabel" : ["","2004 Roster"],
                         "pidPlusName" : ["raiden",".:ÐÇsß:.Raiden"],
                         "aliases" : [""],
-                        "pastClanIDs" : ["tt","tcf"],
+                        "pastClanIDs" : ["tcf","tt","ak","a"],
                         "membership" : ["","22 Feb 2004",""],
                         "stats" : ["(left due to personal issues 22 Feb 2004)",""]
                     },
@@ -21655,7 +21655,7 @@
     },
     {
         "id" : "dl_2",
-        "tag" : ["tagFront","<","DL",">"],
+        "tag" : ["tagFront","&lt;","DL","&gt;"],
         "tag_extra" : "",
         "flag" : ["",""],
         "name" : "",
@@ -25592,7 +25592,7 @@
                         "membergroupLabel" : ["duplicate",""],
                         "pidPlusName" : ["konami","[DXR]Konami"],
                         "aliases" : ["aK"],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["ca"],
                         "membership" : ["","",""],
                         "stats" : ["Marking this as duplicate because I got a feeling hes already in upper roster","UK"]
                     },
@@ -30140,7 +30140,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["jej","[EL]JeJ"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["b"],
                         "membership" : ["","",""],
                         "stats" : ["The things I'd do for 30 pieces of silver!<br /><br />February 6th. 1976 ",""]
                     }
@@ -31832,7 +31832,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["mastaninja","[F][F]Masterninja"],
+                        "pidPlusName" : ["mastaninja","[F]Masterninja"],
                         "aliases" : ["Mastaninja"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -31842,7 +31842,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["raiden","[F]Layzie"],
                         "aliases" : ["Raiden?"],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["dg","tcf","tt","ak","alliance","dcsb"],
                         "membership" : ["","",""],
                         "stats" : ["I take a guess here that its the Bone Thugs fan Raiden, and not Lazystoner or someone else",""]
                     }
@@ -36360,7 +36360,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["raiden","[h3rB]Raiden? 🇬🇧"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["tcf","tt","ak","alliance","dcsb"],
                         "membership" : ["","",""],
                         "stats" : ["",""]
                     },
@@ -36368,7 +36368,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["konami","[h3rB]Konami? 🇬🇧"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["ca","dxr"],
                         "membership" : ["","",""],
                         "stats" : ["",""]
                     },
@@ -36882,10 +36882,10 @@
         "tag" : ["tagFront","{","HK","}"],
         "tag_extra" : "[HK].dM",
         "flag" : ["",""],
-        "name" : "Hunter Killers",
+        "name" : "Hunter Killerz",
         "gametype" : ["0a","Aug"],
         "tier" : ["B","A","S"],
-        "date" : ["isUncertain","2003-06-01","isUncertain","2018-09-01","isCertain",""],
+        "date" : ["isUncertain","2004-06-07","isCertain","2018-09-01","isCertain",""],
         "founder" : ["Reclaimer"],
         "members" : [
             {
@@ -36986,7 +36986,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["jjbomber","{HK}Gohan(Tankz)"],
                         "aliases" : ["JJBomber","BigGayAl"],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["dwk","void","ue"],
                         "membership" : ["","",""],
                         "stats" : ["{HK}Gohan: Drafted by RECLAIMER: Now an Elite"," Riflman\\Host Member "]
                     },
@@ -37840,7 +37840,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["konami","~[:¤:]~Konami"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["ca","dxr","h3rb","nem","t","ren"],
                         "membership" : ["","",""],
                         "stats" : ["Possibly for a short time or retired in clan sometime after March 2013"," (UK)"]
                     },
@@ -46909,7 +46909,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["konami","[NEM]konami"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["ca","dxr","h3rb"],
                         "membership" : ["","ex member later",""],
                         "stats" : ["","UK"]
                     }
@@ -48052,7 +48052,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["acid","[nMe]Acid"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["dl"],
                         "membership" : ["","",""],
                         "stats" : ["",""]
                     },
@@ -49174,7 +49174,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["jjbomber","{0}JJBomber"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["dwk"],
                         "membership" : ["","",""],
                         "stats" : ["","inactive member"]
                     },
@@ -53837,9 +53837,9 @@
                         "membergroupLabel" : ["","ex-members"],
                         "pidPlusName" : ["konami","[REN]Konami 🇬🇧"],
                         "aliases" : ["aK"],
-                        "pastClanIDs" : ["ca"],
+                        "pastClanIDs" : ["ca","dxr","h3rb","nem","t"],
                         "membership" : ["","",""],
-                        "stats" : ["(pruned)",""]
+                        "stats" : ["(pruned)<br />Probably from T same year",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -59221,7 +59221,7 @@
         "tag" : ["tagFront","(","SZ",")"],
         "tag_extra" : "",
         "flag" : ["",""],
-        "name" : "",
+        "name" : "Sub Zero",
         "gametype" : ["0a"],
         "tier" : ["B","",""],
         "date" : ["isUncertain","2003-04-01","isUncertain","2003-08-01","isCertain",""],
@@ -59435,9 +59435,1225 @@
             }
         ]
     },
+    {
+        "id" : "t",
+        "tag" : ["tagFront","[","T","]"],
+        "tag_extra" : "[DXT]",
+        "flag" : ["",""],
+        "name" : "Transcend",
+        "gametype" : ["Aug"],
+        "tier" : ["B","A",""],
+        "date" : ["isCertain","2001-09-01","isUncertain","2002-09-01","isCertain","2003-03-01"],
+        "founder" : ["Shades", "Firerunner"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["shades","[T]SHADES"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Left for [I] originally, over the years moved back and forth between his clan and other groups, most recently core member in A!B, the Triad follow-up.",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["firerunner","[T]FIRERUNNER"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Left for BK, marked inactive during revival",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["souljah","[T]Souljah"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Presumably [T]Soul","(Inactive) (lead)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["teammossad","[T]TeamMossad"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["alcapone","[T]AlCapone"],
+                        "aliases" : ["Russ","GodEx"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","Leader after founders quit"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["orangeblood","[T]Orangeblood"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["borntosnipe","[T]Born2Snipe"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","USA"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["nomad","[T]Nomad"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["There seem to be at least two concurrent Nomads",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["titank","[T]TITANK"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["2002 French tanker, marked inactive during revival",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["trauma","[T]Trauma"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["dea"],
+                        "membership" : ["","",""],
+                        "stats" : ["2002 pro from DEA",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["kago","[T]Kago"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["will","[T]Will"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["kingpin","[T]Kingpin"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["aurnie","[T]Aurnie"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["w","dcsb"],
+                        "membership" : ["","",""],
+                        "stats" : ["multiclanned in DCSB until kicked from there",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["https://web.archive.org/web/20041010061333/http://transcend.liquidkill.com/index.php?page=members","2003 revival"],
+                        "pidPlusName" : ["weeirdoo","[T]WeEiRdOo"],
+                        "aliases" : ["Yahweh"],
+                        "pastClanIDs" : ["dk","w"],
+                        "membership" : ["","",""],
+                        "stats" : ["","USA<br />(lead)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["frost","[T]Frost"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["bk","d","w"],
+                        "membership" : ["","",""],
+                        "stats" : ["","Australia"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["vortell","[T]Vortell"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["dk","w","dk"],
+                        "membership" : ["","",""],
+                        "stats" : ["Likely coming from DK revival after it merged with I",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["kao","[T]Kao"],
+                        "aliases" : ["Kizzao"],
+                        "pastClanIDs" : ["aid","a","ak","dk"],
+                        "membership" : ["","",""],
+                        "stats" : ["Likely coming from DK which he got kicked from",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["neurotic","[T]Neurotic"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["cervantes","[T]Cervantes"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["stun","[T]Stun"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["btj"],
+                        "membership" : ["","",""],
+                        "stats" : ["Was in BTJ in same year, possibly joining T from there after clan death",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","[T]Ricer"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["(is this Kao twicelisted? adding as duplicate for now)",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["jjbomber","[T]DudeInAThong"],
+                        "aliases" : ["JJBOMBER","BigGayAl"],
+                        "pastClanIDs" : ["dwk","void","ue","hk"],
+                        "membership" : ["","",""],
+                        "stats" : ["Presumably JJBomber coming from HK and likely with several of its members",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["valhalla","[T]Valhalla"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Probably an alias, marked inactive later",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["seraphiel","[T]Seraphiel"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["i"],
+                        "membership" : ["","",""],
+                        "stats" : ["Likely from [I], he is in DCSB by next year",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["silentscope","[T]SilentScope"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["d12","phantom","dwk","ug"],
+                        "membership" : ["","",""],
+                        "stats" : ["Probably from his D12, or UG clan and-or DWK / Phantom revival, he is later in nMe",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["majik","[T]Majik"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["khamas","[T]TempoGuisto"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["triad","dml","da","d","dk"],
+                        "membership" : ["December 03 2003","",""],
+                        "stats" : ["Seemingly Khamas joining from the DK revival project when they merged with I<br /><br />'Welcome Khamas to the clan, he'll be playing as [T]empoGiusto. I hope you like it here, man.'",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["truepothead","[T]TruePotHead"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Likely an alias, but adding it as unique ID for now.. marked inactive and absent from auged scene",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["hawk","[T]Hawk"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["bk"],
+                        "membership" : ["","",""],
+                        "stats" : ["Presumably BK Hawk",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["unr3al","[T]unr3al"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["i","a2","des"],
+                        "membership" : ["2004","",""],
+                        "stats" : ["Likely joined from his [DES] clan in 2004, ended year already in [eN], possibly same time",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","2005"],
+                        "pidPlusName" : ["jej","[T]JeJ"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["b","el"],
+                        "membership" : ["","",""],
+                        "stats" : ["Joined from either related clans B or EL",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["jackoff","[T]Jackoff"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["bk","d","w"],
+                        "membership" : ["","",""],
+                        "stats" : ["Possibly joining from W, admin with jEj and Shaun",""]
+                    },
 
-
-    
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["antighandi","[T]antigandhi"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["tn","apc","bk","d","w"],
+                        "membership" : ["","",""],
+                        "stats" : ["later marked inactive",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["dartanian","[T]D'artanian"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["oak","ue"],
+                        "membership" : ["","",""],
+                        "stats" : ["Probably joined from the short-lived UE revival of 2005, later marked inactive",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["mumbojumbo","[T]Exodus"],
+                        "aliases" : ["MumboJumbo"],
+                        "pastClanIDs" : ["y","mjx","bk","d","des"],
+                        "membership" : ["","",""],
+                        "stats" : ["Probably joined from DES with Predator / unr3al, later marked inactive",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["vengence","[T]vengence"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Possibly an alias, marked inactive",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["fukhead","[T]Fuky"],
+                        "aliases" : ["fukHead"],
+                        "pastClanIDs" : ["s","da","b"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["ddm","[T]John"],
+                        "aliases" : ["DdM"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Presumably its ddm",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["mirage","[T]Mirage"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Guessing he's joining from HK along with couple others",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["thebalrog","[T]TheBalrog"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["na","des"],
+                        "membership" : ["","",""],
+                        "stats" : ["Seemingly joining from DES with couple others",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["spaz","[T]Spaz"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Might've joined from something like N or Shen and-or Z, later in his own joke clans with friends and also in Ascendancy",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["joker888","[T]Joker888"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["ak","d12"],
+                        "membership" : ["","",""],
+                        "stats" : ["In EL later by 2007",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["bobodaknifa","[T]Bobo"],
+                        "aliases" : ["BoboDaKnifa"],
+                        "pastClanIDs" : ["lordz","df","alliance","alpha"],
+                        "membership" : ["Afer 07-13-2005","",""],
+                        "stats" : ["Possibly joining from Alliance / Alpha",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["acid","[T]Acid"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["dl","nme","ue"],
+                        "membership" : ["Afer 01-31-2006","",""],
+                        "stats" : ["Possibly joining from nMe",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["https://web.archive.org/web/20070114170503/http://comms.clan-transcend.com:80/showgroups.php?s=182471cd6f1f17432c418fdeab1a5210","2007"],
+                        "pidPlusName" : ["raiden","[T]Raiden"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["dg","tcf","ak","tt","dcsb","alliance","f","n"],
+                        "membership" : ["","",""],
+                        "stats" : ["Possibly joining from [N]",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["leon","[T]Leøn"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Likely from Assassins",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","[T]riglidè"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Unknown alias, marked as duplicate",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["konami","[T]Konami"],
+                        "aliases" : ["aK"],
+                        "pastClanIDs" : ["ca","dxr","h3rb","nem"],
+                        "membership" : ["","",""],
+                        "stats" : ["Ends up in my [REN] clan sometime around this year, six years later in my last clan HVM",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["fbf_v_t","fbf","[FBF]","Win","2001-12","A scrim between couple members of each clan (likely 2v2) to determine who has the right to wear [FBF] tag which [T] was also branded as then.","isCertain"]
+            },
+            {
+                "match" : ["b_v_t","b","[B]","Loss","2003?","[B] War finished: Final Scores were undeterminable, but it was a [B] Victory<br /><br />'[T] vs [B] from like 03 or something.'<br /><br />SS<br />Capone<br />Majik<br />TITANK<br /><br />Vs<br /><br />SoS<br />KaGo<br />Ricci<br />jEj","isCertain"]
+            },
+            {
+                "match" : ["f_v_t","f","[F]","Loss 109-157","2004-","Was a great game. We lost unfortunately. Final outcome was 157-109 in [F]s Favor.","isCertain"]
+            },
+            {
+                "match" : ["el_v_t","el","[EL]","Loss","","The date of this match could be any time either clan was back, spanning decade.","isCertain"]
+            },
+            {
+                "match" : ["alpha_v_t","alpha","[A]","Win","2007-01-13","Conditions: 13.01.07    ATDM    Server: Gods Kitchen    Maps: silo, cmd","isCertain"]
+            },
+            {
+                "match" : ["triad_v_t","triad","[3]","Loss","2007-07-14","","isCertain"]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["Seemingly their first site, while host is still live the site is not","https://web.archive.org/web/*/http://www.t35.com/dxtclan/*","dead"]
+            },
+            {
+                "website" : ["News start from late 2003, some content overlap with next url","https://web.archive.org/web/20040608211842/http://transcend.liquidkill.com/","featured"]
+            },
+            {
+                "website" : ["News start from late 2003, some content overlap with next url","https://web.archive.org/web/20040608233343/http://di.parallaxed.net/Transcend/","featured"]
+            },
+            {
+                "website" : ["News start from late 2003","https://web.archive.org/web/20050206173433/http://dx.clantranscend.com/","featured"]
+            },
+            {
+                "website" : ["News start from 2005","https://web.archive.org/web/20201025030105/https://clan-transcend.com/index.html","featured"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","https://web.archive.org/web/20041026012646/http://transcend.liquidkill.com/Forums/","dead"]
+            },
+            {
+                "forum" : ["","https://web.archive.org/web/20050127065617/http://dx.clantranscend.com:80/Forums/index.php?act=Members","locked"]
+            },
+            {
+                "forum" : ["Long-living url but largely locked from visitors","https://web.archive.org/web/20070114170503/http://comms.clan-transcend.com:80/showgroups.php?s=182471cd6f1f17432c418fdeab1a5210","index"]
+            },
+            {
+                "forum" : ["","https://web.archive.org/web/20121219150731/http://z15.invisionfree.com/Clan_Transcend/index.php?showtopic=364&st=0&#last","featured"]
+            },
+            {
+                "forum" : ["","https://web.archive.org/web/20230203175517/https://forum.clan-transcend.com/","locked"]
+            },
+            {
+                "forum" : ["Still used today","https://www.tapatalk.com/groups/clantranscend/old-demos-and-sshots-t103-s15.html#p1233548","live"]
+            }
+        ],
+        "description" : "A later first year auged clan that with it's mix of semi-serious players is a strong pretendant for the title of the longest running clan in the game. Revived with death of [D]ivine by Capone / GodEx ca March 2003 and absorbed some of W clan for it's second activity wave.",
+        "background" : [
+            {
+                "backgroundStory" : ["On THC forums, also in our Stories section","shades","Shades","I befriended a young US targeter called Firerunner. Eventually we decided to make our own clan and call it [FBF]ForgedByFire. Some guys complained that we stole their tag and wanted to war us for the rights to it. Once they realised how good FIRERUNNER was they said we could keep it, but we let them have it instead, and I came up with the [T] tag.<br /><br />We recruited rapidly, basically trying to recruit anyone who could beat us. FIRERUNNER grabbed a guy called Souljah who was a good all round player. [DEA] made a few attempts to recruit FIRERUNNER iirc, backtracking on their earlier cheat accusations against him. But like me, he disliked the monopoly DEA had on the game. I wasn't having much luck recruiting as everyone I tried to recruit was holding out for a slot in DEA. e.g., I tried to recruit Darkiuxx, but he joined DEA instead. Then one day I played against a guy called GodExMachina in Silo who was pretty amazing with Plasma. I thought he was an alias for [BK]Auselan who was also good with plasma. But when I kept seeing this GodEx ([T]AlCapone) guy owning all the time even with other weapons, and noticed that he kept pretty quiet and cool, I thought I'd try and recruit him. I was surprised and excited when he said yes straight away.<br /><br />People wanted to join [T] when they saw how good FIRERUNNER was. I think he got two other players: Orangeblood and Born2Snipe, who were pretty decent riflers, although I never played them much. OrangeBlood came back a year or two ago because I remember playing a few maps with him. I've played Born2Snipe about 18 months ago too. I even saw some guy from FIRERUNNER's old clan [DXA] in A51 about 6 months ago: 'Azzkicker'. He couldn't believe it when I remembered him from a decade ago. We also recruited a friend of FIRERUNNER's first clan leader (MajorKickAss) called Nomad, who was an interesting person to talk to on MSN.<br /><br />I used to stay up til 3am in the morning on school nights waiting for FIRERUNNER and Souljah to come on AIM so we could go in the US servers.<br /><br />A few months later, when my GCSEs were done with, I came back and the Euro servers were pretty dead. TCN had permabanned Messiah and his brother DBL iirc. I decided to start recruiting for [T] again so we could challenge the likes of [DEA] and a now strong [3]. Around that time I recruited a French tanker called TITANK who was improving at a quick rate.<br /><br />After even more months of inactivity, I made another come back and finally managed to get a new dedicated 128mb ASUS A7V8X graphics card too. I was also pleased to get hold of one of the best players this game has seen who most people know as [I]Trauma. He was banned from [DEA] when I managed to persuade him to leave their clan for [T]. Everyone warned me that he would leave straight away because he was a serial multiclanner/name changer, but I ignored their warnings. This started off a lot of shit talk with [DEA]. They realised that [T] was now a threat to them because we had one of DXs best players. TonyMontana claimed that before that he had never even heard of us, and tried to downplay our threat.<br /><br />I thought [T] was on the ascendancy when we recruited Trauma, but Souljah started to make joke tags like [DWIP] (something to do with insect porn). He also tried to persuade us into coming into servers to teamkill with him. When Trauma told him to stop Souljah accused him of being gay etc etc and they fell out. In the meantime he had recruited a few members but my memory is hazy over exactly who: TeamMossad and Kago, I think. Trauma also used a new alias every game so that people such as Messiah would contact me on MSN asking who our new players were. Everyone thought we had an army of good players, when in reality they were all Trauma under alias; and in reality we still had very few active members; and those that were active usually spent most of the time teamkilling.<br /><br />I also took a chance on recruiting a kid called Will, which probably didn't add to our reputation. Even though everyone hated Will and mocked him, I found him to be kind of likeable - if a bit annoying - and so decided to stick up for the underdog. Some examples of the gay things he used to do though include: going in [DEA] server with dynamic IP and using 'reloadcount 0' to throw multiple lams around the server until it lagged out. At the time [DEA] could find no real way to stop him - I can't even remember if MTL existed then - so he was like a little terrorist. Another time, he made a webcam video mimicking [I]Hitokiri, in which he mocked Hitokiri's ghetto Azn demeanor. In the video Will was topless, waving his fingers around, and wearing a cap saying: “Yoyoyo, gangster yo, I'm Hito and I'll bust a cap in yo' ass.” To be fair, I think this was in response to some [I]mmortal members leaving calls on Will's family home answering machine - probably saying something about his mother - but I can't remember.<br /><br />Firerunner and I did virtually quit, but we were just thoughtful enough not to do the old 'DX is dying, I quit thread' that most other attention-whores used to break up their clans. Instead we decided to carry on in a ghost role, so others could carry on if they wanted to, and so we could maybe come back one day.<br /><br />In our absence [T] managed to maintain a cult following just enough to keep it alive. Firerunner had made some good recruits in the past that came back from time to time and gave the clan a bit of a legacy. Unfortunately, [T] was also known for another legacy because of a small contingent of hangers on, who enjoyed aliasing and teamkilling. It got to the point where I didn't like the direction the clan was taking, but since I'd already gave up my responsibilities and relinquished control of the clan by then, it would've been unfair of me to start dictating how I wanted it run. That said, I left [T] officially for [I]. Firerunner wasn't too happy when he found out, but I think he understood.<br /><br />Nevertheless, despite its lack of any substantial backing e.g., a dedicated fast server, scheduled clan wars, forums, or active members, it managed to go a long way. Edit for clarity: We didn't have all this when I was active, but later on when I'd already left [T]AlCapone provided all this. It probably helped that we had always promoted the idea of no central leadership. It is just a shame that the cheesy name 'Transcend' also seemed to attract a certain contingent of players who seemed to join more as a joke than anything else. Sadly, they were the same ones prone to suicide gepping, teamkilling, and multiple aliases. When I left I expected [T] would just fade into obscurity, but [T]AlCapone (Russ/GodEx) did a good job of turning the clan around and giving it a second lease of life. For a while they became pretty competitive again, but that is a story someone like Jej could probably tell better.<br /><br />And Russ played DXMP much less actively /../, yet still managed to keep a clan going /../. Also, Russ wasn't around at the times you probably think he was - and was probably our most inactive member before I quit. He became his most active after Firerunner and I had already left in an official capacity for other clans. I'm not trying to call him out because he was a good guy and I know he had a lot of passion for [T]; the same passion that I wish I still had. But the truth remains that he had to come back from months at a time of inactivity to resurrect a - for most intents and purposes - already dead at the time [T]. I think maybe Kingpin and a few suicide gep newbs using multiple aliases still kept it running. And if I'd wanted to be super-gay, I could've asked Firerunner (who still hadn't left for [BK] yet iirc), to claim ownership of the clan and stop Russ when he came back to resurrect the tag a couple of months later.<br /><br />The fact that [T] managed to make a comeback under the guidance of [T]AlCapone; with only one or two of the original members, and the fact that it managed to redeem a tarnished reputation of being so full of aliases, teamkillers and aimbotters, is testament to the fact that [A!B] has as much, if not more, of a chance at survival than [T] because even we don't act as gay as the levels [T] reached at some points. Even if our reputation hasn't been perfect, and even if no one does take us seriously, history is on our side. We currently have 4 or 5 members who have played this game for a long time, and will likely be here until the end."]
+            },
+            {
+                "backgroundStory" : ["On THC forums, also in our Stories section","jej","jEj","No major problem with any of this except to perhaps give you some more info I have on Russ. Apart from being a supremely nice guy, he's spent money and time on the clan. I'm fairly certain he's the one who pays for the http://clan-transcend.com domain or w/e you call it and was instrumental in bringing back the clan forums, along with flaw and unr3al, after Spaz ([A!B] Member) posted naked pics of Shauns fat sister and he ran off with the database. Another story. As far as his activity, I joined [T] DX in 2005 so I can't speak to that. I will say that when [T] played Project Snowblind, Russ bought the game along with other [T] members and played it.<br /><br />I'll take exception with the aimbotting bit. I never saw anyone in [T] use a bot (for suicide gepping wtf?) although System said somewhere that Shaun apparently ported it. Shaun denied it. Can't get on board with the history being on your side bit.<br /><br />Below is a portion of the [T] history compiled by clan members in 2005 or so. I referred to this in a previous post. Putting it in here now for completion. I'll just post comments and random info for the rest here. Question (to Shades): I haven't noticed you mentioning time periods to go with the events...? I'm especially curious as to the approximate start of [T] (Capone had it as Sep 2001 below)...<br /><br />This history doesn't include Spaz posting naked pictures of Shaun's(he was [W]eeirdoo if you remember) sister and his(Shaun's) subsequent sacking of the old website and forums.<br />Spaz (don't know if you know him), a [T] member, got sent pictures of Shaun's sister from Shaun's sister. Spaz then asked the clan if he should post them, shaun and unr3al said no, the rest said yes. then the forums and site and shaun were gone.<br />this is a new forums etc. that was spearheaded by flaw and unr3al and capone or something started earlier this year or late last year."]
+            },
+            {
+                "backgroundStory" : ["[T] forums, reposted on [THC] forums by jEj","t","","The first incarnation of [T] was created in September of 2001 when Shades and FireRunner sought to fill a vacuum in the multiplayer clan landscape of Deus Ex. A roster was quickly filled by players including [T]eamMossad, [T]itank and [T]AlCapone. During this time, [T] did not lose a clan battle and was one of the dominant groups of gamers in the Deus Ex world. Unfortunately, time passed and [T] eventually faded to one or two members who were rarely in contact. Some stopped playing and some moved on to other clans. This was not the end, though.<br /><br />Rebirth: In 2003, [T]AlCapone, who had reverted to wearing the tag again after the meltdown of [Ð], decided to bring back [T]. With the help of former [DK] and [W] member WeEiRdOo, a clan infrastructure was organized making [T] a recognised name again. The eventual collapse of [W] provided [T] with fRoSt and Vortell near this time. A fiery young asian boy began associating with the clan during this period as well. Constantly begging for change, he was finally admitted to [T] on a lark in the hopes that he would soon do something to get himself kicked. Alas, Kao, aka. The Jap, is still with us..<br /><br />In March of 2005 [T] became one of the first, and one of two, dominant clans in Project: Snowblind. Touted as the next game in the Deus Ex series, Project: Snowblind failed to live up to expectations. This didn’t stop two players, [T]JeJ[DX] and [T]Aris666, from winning worldwide scoring competitions and representing [T] on a global stage.<br /><br />Today, [T] has a wide and varied assemblage of personnel with members on 4 different continents. The clan is the most irreverent grouping in the Deus Ex world - typified by the world famous [T]fukHead whose battle cry of, “Yeaaaaaaaaaaaaaa” is often imitated but never duplicated. [T] hopes to exist well into the future and maybe, just maybe, piss you off."]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tr",
+        "tag" : ["tagFront","[","T•R","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "The Revolution",
+        "gametype" : ["0a"],
+        "tier" : ["B","A",""],
+        "date" : ["isUncertain","2003-07-01","isUncertain","2003-09-01","isCertain",""],
+        "founder" : ["Flip"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["thecobra","[T•R]TheCobra"],
+                        "aliases" : ["Flip","MajikMaker"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["grunger","[T•R]Grunger"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","3 threads visible maybe 2 or 3 challenges on the board, not know if any played",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["d","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","https://web.archive.org/web/20050508051444/http://dxrevolution.proboards22.com/index.cgi","index"]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "t9h",
+        "tag" : ["tagFront","[","T9h","]"],
+        "tag_extra" : "",
+        "flag" : ["🇮🇹","Probably 100%"],
+        "name" : "",
+        "gametype" : ["Basic","Aug"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2009-08-01","isUncertain","2009-12-01","isCertain",""],
+        "founder" : ["Valex?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["valex","[T9h]BushFire"],
+                        "aliases" : ["Valex"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "ta",
+        "tag" : ["tagFront","(","TA",")"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2004-01-01","isUncertain","2004-01-01","isCertain",""],
+        "founder" : ["K3?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["k3","(TALEADER)K3"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["blackwidow","(TA)Blackwidow"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["shadowninja","(TA)Shadowninja"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["greatdane","(TA)GreatDane"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Maybe before EoD?",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["fc_v_ta","fc","[FC]","Loss 0:3","2004","(TA) vs [FC] 0:3 Loss 2004-2005","isCertain"]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tb_1",
+        "tag" : ["tagFront","[","TB","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Aug"],
+        "tier" : ["B","",""],
+        "date" : ["isCertain","2001-04-16","isUncertain","2001-10-16","isCertain",""],
+        "founder" : ["Punisher"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["punisher","[S]Punisher[TB]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["s"],
+                        "membership" : ["","",""],
+                        "stats" : ["","NL"]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","https://web.archive.org/web/20240000000000*/http://pub50.ezboard.com/fsclansbsboardfrm12","dead"]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tb_2",
+        "tag" : ["tagFront","[","TB","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Aug"],
+        "tier" : ["","A",""],
+        "date" : ["isUncertain","2004-06-01","isUncertain","2004-06-01","isCertain",""],
+        "founder" : ["LeCaVileR?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["lecaviler","[TB]LeCaVileR"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tb_3",
+        "tag" : ["tagFront","(","TB",")"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2008-07-01","isUncertain","2008-07-01","isCertain",""],
+        "founder" : ["Sam?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["","(TB)"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tc",
+        "tag" : ["tagFront","{","TC","}"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Toxic Creations",
+        "gametype" : ["0a"],
+        "tier" : ["B","A",""],
+        "date" : ["isUncertain","2005-09-01","isUncertain","2005-12-01","isCertain",""],
+        "founder" : ["Vampeneze?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["vampeneze","{TC}Vampeneze"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Soon in Makaveli's C",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","https://web.archive.org/web/20070218011555/http://www.freeyabb.com/phpbb/index.php?mforum=tcclan","dead"]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tca",
+        "tag" : ["tagBack","[","TCA","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Aug"],
+        "tier" : ["","A",""],
+        "date" : ["isUncertain","2004-07-01","isUncertain","2005-01-01","isCertain",""],
+        "founder" : ["ChiefRocka?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["chiefrocka","ChiefRocka[TCA]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tcd",
+        "tag" : ["tagFront","[","TCD","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Aug"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2001-07-01","isUncertain","2001-09-01","isCertain",""],
+        "founder" : ["Scott?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["scott","[TCD]Scott"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Possibly same one who is in TSD after this",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tcf",
+        "tag" : ["tagFront","[","TCF","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Training Clan Facility",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2003-01-01","isUncertain","2004-01-01","isCertain",""],
+        "founder" : ["Flip"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["","[TCF]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["d","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","https://web.archive.org/web/20050826230338/http://s4.invisionfree.com/DXTCF","index"]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tcn",
+        "tag" : ["tagFront","[","TCN","]"],
+        "tag_extra" : "[TCNdk] [GHOST]",
+        "flag" : ["",""],
+        "name" : "The Claymore Nation",
+        "gametype" : ["Aug"],
+        "tier" : ["B","A","S"],
+        "date" : ["isUncertain","2001-07-01","isUncertain","2004-01-01","isCertain",""],
+        "founder" : ["JohnnyBravo"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["",""],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tco",
+        "tag" : ["tagFront","[","tCO","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Aug"],
+        "tier" : ["B","A",""],
+        "date" : ["isUncertain","2001-06-01","isUncertain","2001-06-01","isCertain",""],
+        "founder" : ["Bubbles?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["merlin","[TCO]Merlin"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["bubbles","[TCO]Bubbles"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Are these two same TCO?",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "td",
+        "tag" : ["tagFront","[","TD","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "The Disciples",
+        "gametype" : ["Aug"],
+        "tier" : ["B","A",""],
+        "date" : ["isCertain","2002-12-16","isUncertain","2003-01-01","isCertain",""],
+        "founder" : ["TonySoprano?", "Kryss?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["","[TD]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","https://web.archive.org/web/*/http://td.deusex-online.com/*","dead"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
     {
         "id" : "tda",
         "tag" : ["tagFront","[","TDA","]"],
@@ -59508,8 +60724,779 @@
             }
         ]
     },
-    
-
+    {
+        "id" : "tdg",
+        "tag" : ["tagFront","[","TDG","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Aug"],
+        "tier" : ["B","A",""],
+        "date" : ["isUncertain","2002-05-01","isUncertain","2002-06-01","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["sprite","[TDG]Sprite"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Maybe an alias, Will was in it",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tdh",
+        "tag" : ["tagFront","[","TDH","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "The Devils Hitmen",
+        "gametype" : ["Aug","0a"],
+        "tier" : ["B","A",""],
+        "date" : ["isUncertain","2002-12-01","isUncertain","2004-12-01","isCertain",""],
+        "founder" : ["Nukem"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["","[TDH]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["Same result on real url https://web.archive.org/web/20050116024415/http://www.freewebs.com/tdh-clan/","https://web.archive.org/web/20040411120838/http://www.tdhclan.tk:80/","dead"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","https://web.archive.org/web/*/http://tdhdxclan2003.proboards.com/*","dead"]
+            }
+        ],
+        "description" : "Incomplete entry, also may have been mistyped as TDN",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tdt",
+        "tag" : ["tagFront","[","TDT","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "The Dragons Tooth",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2003-01-01","isUncertain","2004-01-01","isCertain",""],
+        "founder" : ["Nash", "mrBlack"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["","[TDT]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["d","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "te",
+        "tag" : ["tagFront","[","te","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Mod","0a"],
+        "tier" : ["B","A",""],
+        "date" : ["isUncertain","2008-06-01","isUncertain","2008-07-01","isCertain",""],
+        "founder" : ["Skilgannon?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["","[te]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tebr",
+        "tag" : ["tagFront","{","TE-BR","}"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Basic"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","","isUncertain","","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["member","{TE-BR}"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Listed by Hasharin of E.d.H.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tec",
+        "tag" : ["tagFront","[","TEC","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2004-03-01","isUncertain","2004-04-01","isCertain",""],
+        "founder" : ["BelsePunk"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["","[TEC]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","http://web.archive.org/web/20041009140741/tec.dcsb.co.uk/index.html","featured"]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","https://web.archive.org/web/20050122222853/http://tec.dcsb.co.uk:80/cgi-bin/yabb/YaBB.pl?board=matches","featured"]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tek",
+        "tag" : ["tagFront","[","TEK","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "Totall Extreme Killers",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2004-01-01","isUncertain","2004-05-01","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["","[TEK]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tf_1",
+        "tag" : ["tagFront","[","TF","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Mod","ctf"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2002-01-01","isUncertain","2002-01-01","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["","[TF]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tf_2",
+        "tag" : ["tagFront","[","TF","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2005-10-01","isUncertain","2005-10-01","isCertain",""],
+        "founder" : ["Kappa?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["","[TF]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tg",
+        "tag" : ["tagFront","(","TG",")"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Aug"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","","isUncertain","","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["uzi","(TG)uzi"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["crimsonghost","(TG)CrimsonGhost"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "tgu",
+        "tag" : ["tagFront","[","TGU","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "The Great Union",
+        "gametype" : ["0a","Mod","Aug"],
+        "tier" : ["B","A",""],
+        "date" : ["isUncertain","2002-11-01","isCertain","2003-06-21","isCertain",""],
+        "founder" : ["ShadowmasterTheOne"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["","[TGU]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "th",
+        "tag" : ["tagFront","&lt;","TH","&gt;"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2004-09-01","isUncertain","2004-10-01","isCertain",""],
+        "founder" : ["Spike?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["","&lt;TH&gt;Spike"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "thc_1",
+        "tag" : ["tagFront","[","THC","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Aug"],
+        "tier" : ["B","A",""],
+        "date" : ["isUncertain","2001-05-01","isUncertain","2001-05-01","isCertain",""],
+        "founder" : ["ChemicalAGENT?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["chemicalagent","[THC]ChemicalAGENT"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Later in [I]?",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Obscure first year clan presumably from summer period, perhaps before listed member joined [I]",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "thc_2",
+        "tag" : ["tagFront","(","THC",")"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2006-12-01","isUncertain","2006-12-01","isCertain",""],
+        "founder" : ["him61?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["him61","(THC)him61"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Late sixth year clan tag in what is likely non-augs source, probably short-lived.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "thc",
+        "tag" : ["tagFront","[","THC","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "THC",
+        "gametype" : ["Aug","0a"],
+        "tier" : ["B","A",""],
+        "date" : ["isUncertain","2010-10-01","isUncertain","2014-01-01","isCertain",""],
+        "founder" : ["Smokey", "Kronic"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["","[THC]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Incomplete entry",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
     {
         "id" : "tkb",
         "tag" : ["tagFront","[","TKB","]"],
@@ -61041,7 +63028,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["scott","[TSD]Scott"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["tcd"],
                         "membership" : ["","",""],
                         "stats" : ["(bulldog6139)",""]
                     },
@@ -62678,7 +64665,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["raiden","[UE]Raiden"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["tt"],
                         "membership" : ["","",""],
                         "stats" : ["",""]
                     },
@@ -62686,9 +64673,9 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["jjbomber","~[UE]~JJBOMBER"],
                         "aliases" : ["BigGayAl"],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["dwk","void"],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Later in T",""]
                     }
                 ]
             }
@@ -64677,7 +66664,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["jackoff","~¤[W]åçkôff¤~"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["bk","d"],
                         "membership" : ["","",""],
                         "stats" : ["Assumed its Jackoff<br />Austin, b~'86","Mercenary --<br />"]
                     },
