@@ -668,7 +668,7 @@ $(document).ready(function() {
 
                 // Helper function to determine match type class
                 const getMatchTypeClass = (matchString) => {
-                    if (/\b0a\b|\bs0a\b|\bstandard 0a\b|\bstandard zero-aug\b|\bstandard zero-augs\b|\bnon-aug\b|\b|\bzero aug\b|\bzero augs\b|\bzero-aug\b|\bzero-augs\b|\b0 Aug\b|\b0A\b/i.test(matchString)) {
+                    if (/\b0a\b|\bs0a\b|\bstandard 0a\b|\bstandard zero-aug\b|\bstandard zero augs\b|\bnon-aug\b|\b|\bzero aug\b|\bzero augs\b|\bzero-aug\b|\bzero-augs\b|\b0 Aug\b|\b0A\b/i.test(matchString)) {
                         return 'matchtype0a';
                     } else if (/\bATDM\b|\batdm\b/i.test(matchString)) {
                         return 'matchtypeATDM';
