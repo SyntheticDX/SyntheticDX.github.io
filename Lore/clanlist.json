@@ -4066,7 +4066,7 @@
         "id" : "alliance",
         "tag" : ["tagFront","[","A","]"],
         "tag_extra" : "",
-        "flag" : ["🇪🇺","Merger of overwhelmingly UK Alpha and German Assassins"],
+        "flag" : ["",""],
         "name" : "Alliance",
         "gametype" : ["Aug","0a"],
         "tier" : ["B","A","S"],
@@ -9710,7 +9710,7 @@
         ],
         "matches" : [
             {
-                "match" : ["bk_v_y","y","[Y]","Failed","2001-06-10"," Second attempt at Yakuza match has failed - see match page","isCertain"]
+                "match" : ["bk_v_y","bk","[BK]","Failed","2001-06-10"," Second attempt at Yakuza match has failed - see match page","isCertain"]
             },
             {
                 "match" : ["bk_v_dmi","dmi","[DMI]","","2001-07-04","encounter with some DMI chaps - see matches page","isCertain"]
@@ -11693,8 +11693,8 @@
         ],
         "matches" : [
             {
-                "match" : ["c_8_v_thc","thc","[THC]","Loss","2011","They played THC and lost miserably","isCertain"]
-            },          
+                "match" : ["c_8_v_thc","thc","[THC]","Loss 0:3","May 14 2011","War #6 <br />Clans: THC vs C<br />Date: May 14 2011<br />Gametype: 0 Aug<br />Result: THC Victory 3-0 <br /><br />Round 1: Smuggler<br />Round 2: Smuggles<br />Round 3: Iceworld","isCertain"]
+            },         
             {
                 "match" : ["c_8_v_nkz","nkz","[NKz]","","2011-11-17","Challenging Clan: [C]<br />GameType:btdm or 0. preferably 0 ^-^<br />Number of Players: 2vs2, 3vs3, 4vs4 or 5vs5. as you like<br />Server: Unfortunately I have no idea<br />Maps: Smuggler, Silo , Smuggles<br />Date: Now we can also decide<br /><br />I already posted on the site of the [C] Clan. We just need to know the exact date! ;)","isDiscussed"]
             } 
@@ -29423,10 +29423,10 @@
                 "match" : ["dios_v_edh","dios","[DIOS]","Loss","","Possibly long before July 2, 2008 , it is likely a non-MTL BTDM match with possibly even infbio<br />Lost screen shot0002rd3112.png , from https://web.archive.org/web/20080702103321/http://www.palimpalem.com:80/1/Clan-Dios/body8.html","isCertain"]
             },
             {
-                "match" : ["","","[EX]","","","?[EX] vs [EDH] ?? Sept 2010","isDiscussed"]
+                "match" : ["edh_v_thc","edh","{E.d.H}","Loss 0:3","Aug 6 2010","THC War #1 <br />Clans: THC vs EDH<br />Date: Aug 6 2010<br />Gametype: 0 Aug<br />Result: THC Victory 3-0 <br /><br />Round 1: Smuggler<br />Round 2: Cmd<br />Round 3: Silo","isCertain"]
             },
             {
-                "match" : ["","thc","[THC]","","","?[THC] vs [E.d.H] ?? Jan 2011","isDiscussed"]
+                "match" : ["","","[EX]","","","?[EX] vs [EDH] ?? Sept 2010","isDiscussed"]
             },
             {
                 "match" : ["","","~[C]~","","","?~[C]~ vs [E.d.H] April 2011","isDiscussed"]
@@ -39758,7 +39758,7 @@
         ],
         "matches" : [
             {
-                "match" : ["","","","","","",""]
+                "match" : ["ixn_v_thc","thc","[THC]","Loss 0:3","Dec 12 2010","THC War #4 <br />Clans: THC vs IxN<br />Date: Dec 12 2010<br />Gametype: 0 Aug<br />Result: THC Victory 3-0 <br /><br />Round 1: Smuggler<br />Round 2: Silo<br />Round 3: Cmd","isCertain"]
             }
         ],
         "websites" : [
@@ -47823,19 +47823,22 @@
                 "match" : ["nkz_v_xkt_2","xkt","[XKT]","Win 2:0","2011-01-11","Croissant97: DXMP_Dust = 1st Round =<br />NKz Vs XKT<br />46 ----- 34<br /><br />DXMP_Smuggler = 2nd Round =<br />NKz Vs XKT<br />51 ----- 35<br /><br />~TOTAL~<br />NKz=2<br />XKT=0<br /><br />NKz Win","isCertain"]
             },
             {
+                "match" : ["nkz_v_thc_0","thc","[THC]","Loss 0:3","2011-01-23","War #5 <br />Clans: THC vs NKz<br />Date: Jan 23 2011<br />Gametype: BTDM<br />Result: THC Victory 3-0 <br /><br />Round 1: Silo<br />Round 2: Smuggles<br />Round 3: Smuggler","isCertain"]
+            },
+            {
                 "match" : ["nkz_v_xkt_3","xkt","[XKT]","Win","2011-02-07","Fury96: this has been a battle so much to have a good time him and he has not absolutely been difficult and with the help of sorrow he has been easy even more......xD !!!! :)<br />[NKz]Ct9a: NOT BAD nkz~~~ keep it up","isCertain"]
             },
             {
                 "match" : ["c_8_v_nkz","c_8","[C]","","2011-11-17","Challenging Clan: [C]<br />GameType:btdm or 0. preferably 0 ^-^<br />Number of Players: 2vs2, 3vs3, 4vs4 or 5vs5. as you like<br />Server: Unfortunately I have no idea<br />Maps: Smuggler, Silo , Smuggles<br />Date: Now we can also decide<br /><br />I already posted on the site of the [C] Clan. We just need to know the exact date! ;)","isDiscussed"]
             },
             {
-                "match" : ["nkz_v_thc","thc","[THC]","Loss 0:3","2012-01-16","Fury: 'We are organizing a clan war versus thc clan on Gardens of Thc Server... The players that partecipate are: Fury, Sorrow, Croissant and maybe Alayanah ... The oters partecipate on a next clan war :D'<br /><br />PsychoTHC: 'Good game guys, you really played well :) You played a very good, rifling game. I'm sure your clan will be a top clan soon.'<br /><br />https://nkzclan.forumcommunity.net/?t=49444736<br /><br />Seemingly a BTDM match","isCertain"]
+                "match" : ["nkz_v_thc_1","thc","[THC]","Loss 0:3","Jan 16 2012","War #7 <br />Clans: THC vs NKz<br />Date: Jan 16 2012<br />Gametype: BTDM<br />Result: THC Victory 3-0 <br /><br />Round 1: Smuggler<<br />Round 2: Cmd<br />Round 3: Smuggles<br /><br />Fury: 'We are organizing a clan war versus thc clan on Gardens of Thc Server... The players that partecipate are: Fury, Sorrow, Croissant and maybe Alayanah ... The oters partecipate on a next clan war :D'<br /><br />PsychoTHC: 'Good game guys, you really played well :) You played a very good, rifling game. I'm sure your clan will be a top clan soon.'<br /><br />https://nkzclan.forumcommunity.net/?t=49444736","isCertain"]
             },
             {
-                "match" : ["nkz_v_thc_2","thc","[THC]","Loss 1:2","2012-01-20","Croissant97: We losed the clanwar 2-1 . :angry: FIRST GAME :angry:<br />:) SECOND GAME :)<br />:( THIRD GAME :(<br /><br />In the third game we lost for 6 kills. But it was a Good Game. ;)","isCertain"]
+                "match" : ["nkz_v_thc_2","thc","[THC]","Loss 1:2","Jan 19 2012","War #8 <br />Clans: THC vs NKz<br />Date: Jan 19 2012<br />Gametype: 0 Aug<br />Result: THC Victory 2-1 <br /><br />Round 1: Smuggler<<br />Round 2: Smuggles<br />Round 3: Cmd<br /><br />Croissant97: We losed the clanwar 2-1 . :angry: FIRST GAME :angry:<br />:) SECOND GAME :)<br />:( THIRD GAME :(<br /><br />In the third game we lost for 6 kills. But it was a Good Game. ;)","isCertain"]
             },
             {
-                "match" : ["nkz_v_thc_3","thc","[THC]","1:0","2012-02-04","NKz Vs THC (1:0)? Feb 4 2012 0a","isCertain"]
+                "match" : ["nkz_v_thc_3","thc","[THC]","Loss 0:3","Feb 4 2012","War #8 <br />Clans: THC vs NKz<br />Date: Feb 4 2012<br />Gametype: 0 Aug<br />Result: THC Victory 3-0 <br /><br />Round 1: Smuggler<<br />Round 2: Silo<br />Round 3: Cmd","isCertain"]
             },
             {
                 "match" : ["aib_v_nkz","aib","[A!B]","Loss 0:2","2012-02-22","Ken: [A!B] was an aug clan that was perceived to avoid strong non-aug challenges, but somehow they agreed to play against this haxy bunch, perhaps due to extremely large roster requiring action. Realizing they will never fight my strong clan, I randomly happened upon Phantom waiting in public before scheduled match - ex clan mate in REN and now one leader figure in this clan - and I decided to throw away my mortal feud with him and asked if he can give me war password. To my surprise he did, probably realizing the strength of the opponent. He even sorted out which member is absent that can lend me the name and tag - it turned out to be the young and fierce Frenchman (NKz)Bam whose role I then assumed. In hindisight I am not sure if I joined for the first map or if it was already the second map in shape of CMD and the first one had not gone so well.<br /><br />I had a good strong going on CMD headshotting Spaz just seconds in, Fullmoon very soon quit the match, Phantom lasted entire map but did not stay for Silo. I believe my score was nicely positive which against the likes of Monkee and Ste and Spaz and whoelse happened to be there was good, Phantom I believe was struggling to maintain an even score even with his speedhack and camping - I remember him having something like 21-22 or something like that, other NKz who played were not a threat to opponent. On Silo I just chilled with who I think were two brothers, from Italy or US or Im not sure from where, we were possibly a man down and at this point it was A!B hunting me on an open map. Later I heard that the mysteriously good performance of some noob called Bam was creating discussion among opponent behind the scenes as the match progressed, and Dani who saw the screenshots figured Bam mustve played the game of his life. Considering Bam said he'd stab me during some discussion on forums a while earlier, it made it all the more funnier. NKz never stood a chance in this war and A!B was aware of it, likely just focusing on outsmarting the speedhacking powercouple Phantom-Fullmoon.","isCertain"]
@@ -47850,7 +47853,7 @@
                 "match" : ["hk_v_nkz_2","hk","{HK}","","2012-03-","NKz Vs HK Fail? March 2012","isUncertain"]
             },
             {
-                "match" : ["nkz_v_thc_4","thc","[THC]","0:1","2012-06-10","NKz Vs THC 0:1? June 10 2012 A","isCertain"]
+                "match" : ["nkz_v_thc_4","thc","[THC]","Loss 0:3","June 10 2012","War #9 <br />Clans: THC vs NKz<br />Date: June 10 2012<br />Gametype: ATDM<br />Result: THC Victory 3-0 <br /><br />Round 1: Smuggler<<br />Round 2: Silo<br />Round 3: Area51Bunker","isCertain"]
             },
             {
                 "match" : ["nkz_v_fps","fps","[FP$]","","2012-","?NKz Vs FP$ ? End of 2012?","isUncertain"]
@@ -56464,7 +56467,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "Odd small clan from approximately the twelfth year mainly seen in aug servers playing at whats likely a basic level.",
+        "description" : "Odd small clan from approximately the twelfth year mainly seen in aug servers playing at whats likely a basic level. Unknown if related to contemporary clan zXc.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -61572,7 +61575,37 @@
         ],
         "matches" : [
             {
-                "match" : ["hk_v_thc","hk","{HK}","Draw 1:1","2012-07-07","For THC its War #11<br />Clans: THC vs HK<br />Date: July 7 2012<br />Gametype: ATDM<br />Result: Draw 1-1<br /><br />Round 1: Smuggler EURO https://www.youtube.com/watch?v=WnloCCm6wt8<br /><br />Round 2: Smuggler US https://www.youtube.com/watch?v=gaYMlhOzZU4<br /><br />Total Kills | Deaths:<br />THC - 108 | 126<br />HK - 103 | 129 <br /><br /><br />-- It appears the results were later debated rather than previously agreeing on the conditions, but although THC teased the idea of counting it as a win by frags the official result by both clans seems to be agreed as a draw --","isCertain"]
+                "match" : ["edh_v_thc","edh","{E.d.H}","Win 3:0","Aug 6 2010","War #1 <br />Clans: THC vs EDH<br />Date: Aug 6 2010<br />Gametype: 0 Aug<br />Result: THC Victory 3-0 <br /><br />Round 1: Smuggler<br />Round 2: Cmd<br />Round 3: Silo","isCertain"]
+            },
+            {
+                "match" : ["thc_v_zxc","zxc","[zXc]","Win 3:0","Aug 7 2010","War #2 <br />Clans: THC vs zXc<br />Date: Aug 7 2010<br />Gametype: ATDM<br />Result: THC Victory 3-0 <br /><br />Round 1 : Cathedral<br />Round 2: Cmd<br />Round 3: Silo<br />Round 4: Smuggles","isCertain"]
+            },
+            {
+                "match" : ["thc_v_xkt","xkt","[XKT]","Win 3:0","Oct 25 2010","War #3 <br />Clans: THC vs XKT<br />Date: Oct 25 2010<br />Gametype: 0 Aug<br />Result: THC Victory 3-0 <br /><br />Round 1: Smuggler<br />Round 2: Area51Bunker<br />Round 3: Smuggles","isCertain"]
+            },
+            {
+                "match" : ["ixn_v_thc","ixn","[IxN]","Win 3:0","Dec 12 2010","War #4 <br />Clans: THC vs IxN<br />Date: Dec 12 2010<br />Gametype: 0 Aug<br />Result: THC Victory 3-0 <br /><br />Round 1: Smuggler<br />Round 2: Silo<br />Round 3: Cmd","isCertain"]
+            },
+            {
+                "match" : ["nkz_v_thc_0","nkz","[NKz]","Win 3:0","Jan 23 2011","War #5 <br />Clans: THC vs NKz<br />Date: Jan 23 2011<br />Gametype: BTDM<br />Result: THC Victory 3-0 <br /><br />Round 1: Silo<br />Round 2: Smuggles<br />Round 3: Smuggler","isCertain"]
+            },
+            {
+                "match" : ["c_8_v_thc","c_8","[C]","Win 3:0","May 14 2011","War #6 <br />Clans: THC vs C<br />Date: May 14 2011<br />Gametype: 0 Aug<br />Result: THC Victory 3-0 <br /><br />Round 1: Smuggler<br />Round 2: Smuggles<br />Round 3: Iceworld","isCertain"]
+            },
+            {
+                "match" : ["nkz_v_thc_1","nkz","[NKz]","Win 3:0","Jan 16 2012","War #7 <br />Clans: THC vs NKz<br />Date: Jan 16 2012<br />Gametype: BTDM<br />Result: THC Victory 3-0 <br /><br />Round 1: Smuggler<<br />Round 2: Cmd<br />Round 3: Smuggles","isCertain"]
+            },
+            {
+                "match" : ["nkz_v_thc_2","nkz","[NKz]","Win 2:1","Jan 19 2012","War #8 <br />Clans: THC vs NKz<br />Date: Jan 19 2012<br />Gametype: 0 Aug<br />Result: THC Victory 2-1 <br /><br />Round 1: Smuggler<<br />Round 2: Smuggles<br />Round 3: Cmd","isCertain"]
+            },
+            {
+                "match" : ["nkz_v_thc_3","nkz","[NKz]","Win 3:0","Feb 4 2012","War #8 <br />Clans: THC vs NKz<br />Date: Feb 4 2012<br />Gametype: 0 Aug<br />Result: THC Victory 3-0 <br /><br />Round 1: Smuggler<<br />Round 2: Silo<br />Round 3: Cmd","isCertain"]
+            },
+            {
+                "match" : ["nkz_v_thc_4","nkz","[NKz]","Win 3:0","June 10 2012","War #9 <br />Clans: THC vs NKz<br />Date: June 10 2012<br />Gametype: ATDM<br />Result: THC Victory 3-0 <br /><br />Round 1: Smuggler<<br />Round 2: Silo<br />Round 3: Area51Bunker","isCertain"]
+            },
+            {
+                "match" : ["hk_v_thc","hk","{HK}","Draw 1:1","2012-07-07","For THC its War #11<br />Clans: THC vs HK<br />Date: July 7 2012<br />Gametype: ATDM<br />Result: Draw 1-1<br /><br />Round 1: Smuggler EURO https://www.youtube.com/watch?v=WnloCCm6wt8<br />Round 2: Smuggler US https://www.youtube.com/watch?v=gaYMlhOzZU4<br /><br />Total Kills | Deaths:<br />THC - 108 | 126<br />HK - 103 | 129 <br /><br /><br />-- It appears the results were later debated rather than previously agreeing on the conditions, but although THC teased the idea of counting it as a win by frags the official result by both clans seems to be agreed as a draw --","isCertain"]
             }
         ],
         "websites" : [
@@ -68393,7 +68426,7 @@
         ],
         "matches" : [
             {
-                "match" : ["","","","","","",""]
+                "match" : ["thc_v_xkt","thc","[THC]","Loss 0:3","Oct 25 2010","War #3 <br />Clans: THC vs XKT<br />Date: Oct 25 2010<br />Gametype: 0 Aug<br />Result: THC Victory 3-0 <br /><br />Round 1: Smuggler<br />Round 2: Area51Bunker<br />Round 3: Smuggles","isCertain"]
             }
         ],
         "websites" : [
@@ -69320,6 +69353,101 @@
             }
         ],
         "description" : "Seemingly a very short-lived clan from the first three years, presumed to have played augs due to the way it was sourced.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "zxc",
+        "tag" : ["tagFront","(","zXc",")"],
+        "tag_extra" : "[ZXC]",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["0a","Aug","Mod","Basic"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2010-04-15","isUncertain","2015-01-01","isCertain",""],
+        "founder" : ["Morpheus ?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["morpheus","[The_Merc]Morpheus"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["guillotine","(zXc)Guillotine"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["edh"],
+                        "membership" : ["","",""],
+                        "stats" : ["Perhaps from E.d.H",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["kostya","(zXc)Kostya"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["deadlywarrior","(zXc)deadlywarrior"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["leonardo","(zXc)leonardo"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","Ex-Members"],
+                        "pidPlusName" : ["karky","(zXc)Karky"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["thc_v_zxc","thc","[THC]","Loss 0:3","Aug 7 2010","THC War #2 <br />Clans: THC vs zXc<br />Date: Aug 7 2010<br />Gametype: ATDM<br />Result: THC Victory 3-0 <br /><br />Round 1 : Cathedral<br />Round 2: Cmd<br />Round 3: Silo<br />Round 4: Smuggles","isCertain"]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["Last post 2020","https://www.tapatalk.com/groups/clan_zxc/","live"]
+            }
+        ],
+        "description" : "Approximately tenth year or earlier clan built on younger beginner players from other related groups such as the LTK from seventh year, it would appear that somehow they've even managed to play a war during the many years that the group endured, likely dying only with the game itself.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]

@@ -2,9 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scrollbar-width: none;
+    scrollbar-width: thin;
+    scrollbar-color: #8f0808 #000000;
     scroll-behavior: smooth;
 }
+
+/* For WebKit-based browsers 
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #4043ec2d;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ad1414;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d558e6;
+  }*/
+  
 a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover { text-decoration: none; } a:active { text-decoration: none; } 
 
 .arrow {
