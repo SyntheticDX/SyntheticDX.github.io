@@ -1247,6 +1247,7 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
         border-radius: 2px;
         font-size: xx-small;
     }
+    
     .matchtypeATDM:before {
         position: relative;
         content: "ATDM";
@@ -1256,6 +1257,7 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
         border-radius: 2px;
         font-size: xx-small;
     }
+
     .matchtypeBTDM:before {
         position: relative;
         content: "BASIC";
@@ -1265,6 +1267,7 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
         border-radius: 2px;
         font-size: xx-small;
     }
+
     .matchtypeCTDM:before {
         position: relative;
         content: "CTDM";
@@ -1274,6 +1277,7 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
         border-radius: 2px;
         font-size: xx-small;
     }
+
     .matchtypeMod:before {
         position: relative;
         content: "MOD";
