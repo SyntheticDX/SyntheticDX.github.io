@@ -2078,7 +2078,7 @@
                 "match" : ["triad_v_da","da","[DA]","Win","2002-06-28","The clan match was supposed to be on 1st July but we moved it to 28th June. We had a nice 3 v 3 on DarkShadows server after the &#x005B;DEA&#x005D; server crashed because of the lag. We played Area51Bunker and Smuggler. Thanks for the nice time &#x005B;DA&#x005D;!","isCertain"]
             },
             {
-                "match" : ["triad_v_jtb","jtb","[JTB]","Win","2002-07-14","Thanks for the very nice clan match &#x005B;JTB&#x005D;, it was a pleasure for us to play the match with '&#x005B;JTB&#x005D; server style'. Good game everyone, let&apos;s do it again sometime.<br /><br />-- It appears [3] lost one map by a frag and won second map with 14 point lead, seemingly in a 2 x A51 format - so this could actually be seen as a Draw, but lets assume for now that both sides agreed on the unusual 2-map victory conditions --<br /><br />Maps were with [3] scores 28-29, 35-21; A51 x2","isCertain"]
+                "match" : ["triad_v_jtb","jtb","[JTB]","Disputed","2002-07-14","Thanks for the very nice clan match &#x005B;JTB&#x005D;, it was a pleasure for us to play the match with '&#x005B;JTB&#x005D; server style'. Good game everyone, let&apos;s do it again sometime.<br /><br />-- It appears [3] lost one map by a frag and won second map with 14 point lead, seemingly in a 2 x A51 format - so this could actually be seen as a Draw, unless both sides agreed to count frags. Game type is 0a. I am unable to verify with the other clan whether they accepted [3] interpretation of this being a win on frags in this unusual 2 map war. Most likely they intended to play just 1 map, which they then lost to JTB. --<br /><br />Maps were with [3] scores 28-29, 35-21; A51 x2","isCertain"]
             },
             {
                 "match" : ["triad_v_i","i","[I]","Win","2002-09-06","After searching a good server for us, we finally found one from Strider&#x005B;DEA&#x005D; (thanks). The match was challenging and fun. Both teams were filled with skill that made the game even more exciting. You can check the shots at the &apos;Wars&apos; section if you wish to see them. Thank you &#x005B;I&#x005D; for a goood match.","isCertain"]
@@ -13483,9 +13483,7 @@
             {
                 "match" : ["cg_v_i_2","i","[I] #2","Loss","2002 Sept","","isCertain"]
             },
-            {
-                "match" : ["","outlaw","(OUTLAW)","","2002-10-05","Aquainas: 'OFFICIAL WAR TIME: to be confirmed PLAYERS: 6 vs 6- or -5 vs 5 -Aquinas -InStaPotato -Never -ElcoolMagnefico -DarthYoda -DevilKilr backups -LightModem (ShadowFax) - SERVER: one of the DEA's SETTINGS: -3 initial augs, and 1 aug per kill -starting in advanced skill level, to avoid huge killing sprees, and to make the game even(i dunno in who's advantage) -2000 skil points per kill -The victory is time limit: 30 mins MAPS: SMUGGLER: for close combat SILO: for medium, long and close combat A51: for long range combat: geps, snipers, and medium: ass. weapons. This clan match has been specially thought for defining the superiority in different combat styles, close, medium or long. We have also thought of a way to avoid huge killing sprees and found that the perfect choice would be the advanced skill points. THIS WAR IS OFFICIAL; I SPOKE WITH BIGDAWG so, it is not fake. -- Rescheduled'<br /><br />Nordy21: The match will be now held on October the 5th. Which is a Saturday. I am checking details. But here is what we are shooting for. Match at 9 PM EST 6 vs 6 3 augs to start normal skill points The line-up will stay the same unless because of the new date you can not make it then the back-ups will take ur spot. I have taken care of the server as well. We should have a DEA server. As long as they don't forget.","isCertain"]
-            },
+
             {
                 "match" : ["","a","[A] #2","","Sept 2002","","isDiscussed"]
             },
@@ -13494,6 +13492,12 @@
             },
             {
                 "match" : ["","dwk","{DWK}","","Sept 2002","ElCool: Some d00d at the JTB forum said i should email this guy for getting a war cuz {DWK} doesnt read those forums.<br /><br />GreySeraph: Well, Blurs, I've never gotten any email from you, so somethings up with that. I've emailed you, so if you don't get that, then somethings wrong with our accounts. I'm not sure if this post will even work, so I'm not going to write lots and discuss details. Oh yes, Insta said that having it set on Lo-Gravity shouldn't be a problem. It is a bit of one though. If it's on regular gravity, you'll smash us. If it's on our gravity, well smash you. I guess more things to discuss. ","isDiscussed"]
+            },
+                        {
+                "match" : ["cg_v_outlaw_1","outlaw","(OUTLAW)","Loss?","2002-10-05","Aquainas: 'OFFICIAL WAR TIME: to be confirmed PLAYERS: 6 vs 6- or -5 vs 5 -Aquinas -InStaPotato -Never -ElcoolMagnefico -DarthYoda -DevilKilr backups -LightModem (ShadowFax) - SERVER: one of the DEA's SETTINGS: -3 initial augs, and 1 aug per kill -starting in advanced skill level, to avoid huge killing sprees, and to make the game even(i dunno in who's advantage) -2000 skil points per kill -The victory is time limit: 30 mins MAPS: SMUGGLER: for close combat SILO: for medium, long and close combat A51: for long range combat: geps, snipers, and medium: ass. weapons. This clan match has been specially thought for defining the superiority in different combat styles, close, medium or long. We have also thought of a way to avoid huge killing sprees and found that the perfect choice would be the advanced skill points. THIS WAR IS OFFICIAL; I SPOKE WITH BIGDAWG so, it is not fake. -- Rescheduled'<br /><br />Nordy21: The match will be now held on October the 5th. Which is a Saturday. I am checking details. But here is what we are shooting for. Match at 9 PM EST 6 vs 6 3 augs to start normal skill points The line-up will stay the same unless because of the new date you can not make it then the back-ups will take ur spot. I have taken care of the server as well. We should have a DEA server. As long as they don't forget.<br /><br />CTDM","isCertain"]
+            },
+            {
+                "match" : ["cg_v_outlaw_2","outlaw","(OUTLAW)","Loss?","2002-09-","vs [CG] Re sep 2002 (im not sure if - and then where and how - I managed to confirm this match, it looks so)","isUncertain"]
             },
             {
                 "match" : ["","td","[TD]","","Dec 2002","","isDiscussed"]
@@ -50218,10 +50222,10 @@
         ],
         "matches" : [
             {
-                "match" : ["cg_v_outlaw","cg","[CG]","Win ?","2002-09-","vs [CG] Re sep 2002 (im not sure if - and then where and how - I managed to confirm this match, it looks so)","isUncertain"]
+                "match" : ["cg_v_outlaw_1","cg","[CG]","Win?","2002-10-05","Aquainas: 'OFFICIAL WAR TIME: to be confirmed PLAYERS: 6 vs 6- or -5 vs 5 -Aquinas -InStaPotato -Never -ElcoolMagnefico -DarthYoda -DevilKilr backups -LightModem (ShadowFax) - SERVER: one of the DEA's SETTINGS: -3 initial augs, and 1 aug per kill -starting in advanced skill level, to avoid huge killing sprees, and to make the game even(i dunno in who's advantage) -2000 skil points per kill -The victory is time limit: 30 mins MAPS: SMUGGLER: for close combat SILO: for medium, long and close combat A51: for long range combat: geps, snipers, and medium: ass. weapons. This clan match has been specially thought for defining the superiority in different combat styles, close, medium or long. We have also thought of a way to avoid huge killing sprees and found that the perfect choice would be the advanced skill points. THIS WAR IS OFFICIAL; I SPOKE WITH BIGDAWG so, it is not fake. -- Rescheduled'<br /><br />Nordy21: The match will be now held on October the 5th. Which is a Saturday. I am checking details. But here is what we are shooting for. Match at 9 PM EST 6 vs 6 3 augs to start normal skill points The line-up will stay the same unless because of the new date you can not make it then the back-ups will take ur spot. I have taken care of the server as well. We should have a DEA server. As long as they don't forget.<br /><br />CTDM","isCertain"]
             },
             {
-                "match" : ["cg_v_outlaw","cg","[CG]","","2002-09-","vs [CG] Match sep 2002 (im not sure if - and then where and how - I managed to confirm this match, it looks so)","isUncertain"]
+                "match" : ["cg_v_outlaw_2","cg","[CG]","Win ?","2002-09-","vs [CG] Re sep 2002 (im not sure if - and then where and how - I managed to confirm this match, it looks so)","isUncertain"]
             },
             {
                 "match" : ["oak_v_outlaw","oak","[OAK]","Disputed","2002-10","OUTLAW claims win as OAK leaves server, OAK claims conditions werent met and addresses sploiting.<br />Match likely took place sometime Fall 2002, but its not clear if [EL] counted this match in their score by transfering it from [OUTLAW] stats - my speculation but the lifespan of this clan appears short while EL is an evolution of OUTLAW. For now, Ive marked both here, as per available data.","isCertain"]
@@ -61564,7 +61568,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["labtech","[THC]Labtech"],
+                        "pidPlusName" : ["labtech","[THC]Labtec"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],

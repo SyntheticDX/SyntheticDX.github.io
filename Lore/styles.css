@@ -1238,6 +1238,51 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
         margin-left: 5px;
     }
 
+    .matchtype0a:before {
+        position: relative;
+        content: "ZERO";
+        padding-left: 2px;
+        padding-right: 2px;
+        background-color: rgba(0, 0, 255, 0.5);
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    .matchtypeATDM:before {
+        position: relative;
+        content: "ATDM";
+        padding-left: 2px;
+        padding-right: 2px;
+        background-color: rgba(255, 0, 0, 0.5);
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    .matchtypeBTDM:before {
+        position: relative;
+        content: "BASIC";
+        padding-left: 2px;
+        padding-right: 2px;
+        background-color: rgba(0, 128, 0, 0.5);
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    .matchtypeCTDM:before {
+        position: relative;
+        content: "CTDM";
+        padding-left: 2px;
+        padding-right: 2px;
+        background-color: rgba(255, 166, 0, 0.5);
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    .matchtypeMod:before {
+        position: relative;
+        content: "MOD";
+        padding-left: 2px;
+        padding-right: 2px;
+        background-color: rgba(255, 147, 165, 0.733);
+        border-radius: 2px;
+        font-size: xx-small;
+    }
     
 /****************** Clanlist URLs */
 #clan_sticky_site {

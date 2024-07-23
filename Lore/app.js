@@ -666,10 +666,35 @@ $(document).ready(function() {
                     }
                 });
 
+                // Helper function to determine match type class
+                const getMatchTypeClass = (matchString) => {
+                    if (/\b0a\b|\bs0a\b|\bstandard 0a\b|\bstandard zero-aug\b|\bzero aug\b|\bzero augs\b|\bzero-aug\b|\b0 Aug\b|\b0A\b/i.test(matchString)) {
+                        return 'matchtype0a';
+                    } else if (/\bATDM\b|\batdm\b/i.test(matchString)) {
+                        return 'matchtypeATDM';
+                    } else if (/\bBTDM\b|\bbtdm\b/i.test(matchString)) {
+                        return 'matchtypeBTDM';
+                    } else if (/\bCTDM\b|\bctdm\b|\bCustom TDM\b/i.test(matchString)) {
+                        return 'matchtypeCTDM';
+                    } else if (/\bctf\b|\bmod\b|\bdxag\b|\brpg\b|\bcdx\b/i.test(matchString)) {
+                        return 'matchtypeMod';
+                    }
+                    return '';
+                };
+
                 // Construct the HTML for the matches cell
                 matchesCellHTML = otherMatches.concat(discussedMatches).map(match => {
                     if (match.match[1] !== '') {
-                        return `<span data-matchid="${match.match[0]}" data-toggle="tooltip" data-html="true" data-placement="auto bottom" title="${match.match[4]}<br />${match.match[5]}"><div class='match${match.match[6]}'>${post.tag[1]}${post.tag[2]}${post.tag[3]} vs <a class="matchOpponent" href="#${match.match[0]}">${match.match[2]}</a><span id='matchResult' class='match${match.match[3]}'>${match.match[3]}</span></div></span>`;
+                        const matchTypeClass = getMatchTypeClass(match.match[5]); // Determine the match type class
+                        return `
+                            <span data-matchid="${match.match[0]}" data-toggle="tooltip" data-html="true" data-placement="auto bottom" title="${match.match[4]}<br />${match.match[5]}">
+                                <div class='match${match.match[6]}'>
+                                    ${post.tag[1]}${post.tag[2]}${post.tag[3]} vs <a class="matchOpponent" href="#${match.match[0]}">${match.match[2]}</a>
+                                    <span id='matchResult' class='match${match.match[3]}'>${match.match[3]}</span>
+                                    ${matchTypeClass ? `<span class="${matchTypeClass}"></span>` : ''}
+                                </div>
+                            </span>
+                        `;
                     }
                     return '';
                 }).join('');
