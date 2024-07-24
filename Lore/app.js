@@ -462,47 +462,91 @@ $(document).ready(function() {
         return totalMatches;
     }
 
-    function calculateWinPercentage(matches) {
-        let totalRatedMatches = 0; // Unique variable to count matches labeled as "Win", "Loss", "Draw", "Disputed"
-        let winMatches = 0;
-        let lossMatches = 0;
-        let drawDisputedMatches = 0;
+    function calculateOpponentPercentage(matches) {
+        const opponentResults = {}; // Store results for each unique opponent ID
     
-        // Count total, win, loss, draw, and disputed matches
-        matches.forEach(match => {
-            if (match.match[6] === "isCertain") {
+        // Group matches by opponent ID
+        const groupedMatches = matches.reduce((acc, match) => {
+            if (match.match[6] === "isCertain" && 
+                (match.match[3].includes("Win") || 
+                match.match[3].includes("Loss") || 
+                match.match[3].includes("Draw") || 
+                match.match[3].includes("Disputed"))) {
+    
+                const opponentID = match.match[1];
+                if (!acc[opponentID]) {
+                    acc[opponentID] = [];
+                }
+                acc[opponentID].push(match);
+            }
+            return acc;
+        }, {});
+    
+        // Process each group of matches
+        for (const [opponentID, group] of Object.entries(groupedMatches)) {
+            let totalRatedMatches = 0;
+            let winMatches = 0;
+            let drawDisputedMatches = 0;
+    
+            // Count total, win, draw, and disputed matches for the current opponent ID
+            group.forEach(match => {
                 const matchResult = match.match[3];
                 if (matchResult.includes("Win")) {
                     winMatches++;
-                    totalRatedMatches++; // Increment totalRatedMatches only for valid matches
-                } else if (matchResult.includes("Loss")) {
-                    lossMatches++;
-                    totalRatedMatches++; // Increment totalRatedMatches only for valid matches
+                    totalRatedMatches++;
                 } else if (matchResult.includes("Draw") || matchResult.includes("Disputed")) {
                     drawDisputedMatches++;
-                    totalRatedMatches++; // Increment totalRatedMatches only for valid matches
+                    totalRatedMatches++;
+                } else if (matchResult.includes("Loss")) {
+                    totalRatedMatches++;
                 }
+            });
+    
+            // Calculate the win percentage for this opponent ID
+            const winPercentage = totalRatedMatches > 0 ? ((2 * winMatches + drawDisputedMatches) / (2 * totalRatedMatches)) * 100 : 0;
+    
+            // Categorize the result based on the win percentage
+            if (winPercentage > 50) {
+                opponentResults[opponentID] = 'Win';
+            } else if (winPercentage < 50) {
+                opponentResults[opponentID] = 'Loss';
+            } else {
+                opponentResults[opponentID] = 'Draw';
             }
-        });
+        }
+    
+        return opponentResults;
+    }
+    
+    function calculateWinPercentage(finalResults) {
+        let totalRatedMatches = 0; // Total count of matches with any status
+        let winMatches = 0;
+        let drawDisputedMatches = 0;
+    
+        // Count occurrences based on finalResults
+        for (const result of Object.values(finalResults)) {
+            if (result === 'Win') {
+                winMatches++;
+                totalRatedMatches++; // Increment totalRatedMatches for a Win
+            } else if (result === 'Draw') {
+                drawDisputedMatches++;
+                totalRatedMatches++; // Increment totalRatedMatches for a Draw
+            } else if (result === 'Loss') {
+                totalRatedMatches++; // Increment totalRatedMatches for a Loss
+            }
+        }
     
         // Calculate the win percentage using the provided formula
-        let winPercentage;
-        if (drawDisputedMatches === 0) {
-            // Calculate win percentage without considering draws or disputed matches
-            winPercentage = totalRatedMatches > 0 ? (winMatches / (winMatches + lossMatches)) * 100 : 0;
-        } else {
-            // Treat draw and disputed matches as draw and calculate win percentage accordingly
-            winPercentage = totalRatedMatches > 0 ? ((2 * winMatches + drawDisputedMatches) / (2 * totalRatedMatches)) * 100 : 0;
-        }
+        const winPercentage = totalRatedMatches > 0 ? ((2 * winMatches + drawDisputedMatches) / (2 * totalRatedMatches)) * 100 : 0;
     
         return winPercentage;
     }
 
-    function calculateWinPercentageWithColor(matches) {
+    function calculateWinPercentageAll(matches) {
         let totalRatedMatches = 0; // Unique variable to count matches labeled as "Win", "Loss", "Draw", "Disputed"
         let winMatches = 0;
         let drawDisputedMatches = 0;
-      
+    
         // Count total, win, draw, and disputed matches
         matches.forEach(match => {
             if (match.match[6] === "isCertain") {
@@ -518,10 +562,17 @@ $(document).ready(function() {
                 }
             }
         });
-      
+    
         // Calculate the win percentage using the provided formula
         const winPercentage = totalRatedMatches > 0 ? ((2 * winMatches + drawDisputedMatches) / (2 * totalRatedMatches)) * 100 : 0;
-      
+    
+        return winPercentage;
+    }
+
+    function calculateWinPercentageWithColor(matches) {
+        const finalResults = calculateOpponentPercentage(matches);
+        const winPercentage = calculateWinPercentage(finalResults);
+        
         // Set the color based on percentile
         let color;
         if (winPercentage >= 66) {
@@ -531,9 +582,26 @@ $(document).ready(function() {
         } else {
             color = 'rgb(153, 5, 5)'; // Below 33% percentile or no results
         }
-      
+        
         // Return the win percentage with color formatting
         return `<span style="color: ${color};" data-toggle="tooltip" data-placement="auto top" title="Success rate <br /><br />(nb: records are very incomplete!)">${winPercentage.toFixed(2)}%</span>`;
+    }
+    
+    function calculateWinPercentageAllWithColor(matches) {
+        const winPercentage = calculateWinPercentageAll(matches);
+    
+        // Set the color based on percentile
+        let color;
+        if (winPercentage >= 66) {
+            color = 'green'; // Top 33% percentile
+        } else if (winPercentage >= 33) {
+            color = 'yellow'; // Middle 33% percentile
+        } else {
+            color = 'rgb(153, 5, 5)'; // Below 33% percentile or no results
+        }
+    
+        // Return the win percentage with color formatting
+        return `<span style="color: ${color};" data-toggle="tooltip" data-placement="auto top" title="Overall win rate <br /><br />(nb: records are very incomplete!)">${winPercentage.toFixed(2)}%</span>`;
     }
 
     // Function to count all non-repeating IDs of pidPlusName[0] excluding "member"
@@ -724,7 +792,7 @@ $(document).ready(function() {
                         </div></td>
                     <td><div id="clan_sticky_founder">${post.founder.join(', ')}</div></td>
                     <td id="clan_scroll_members">${membersCellHTML}${members2CellHTML}</td>
-                    ${matchesCellHTML ? `<td id="clan_scroll_matches"><div class="matchesCountWrapper">(<span data-toggle="tooltip" data-placement="auto top" title="Number of confirmed matches <br /><br />(nb: records are very incomplete!)">${calculateTotalMatches(post['matches'])}</span>) ${calculateWinPercentageWithColor(post['matches'])}</div>${matchesCellHTML}</td>` : '<td id="clan_scroll_matches"></td>'}
+                    ${matchesCellHTML ? `<td id="clan_scroll_matches"><div class="matchesCountWrapper">(<span data-toggle="tooltip" data-placement="auto top" title="Number of confirmed matches <br /><br />(nb: records are very incomplete!)">${calculateTotalMatches(post['matches'])}</span>) ${calculateWinPercentageWithColor(post['matches'])} (Total ${calculateWinPercentageAllWithColor(post['matches'])})</div>${matchesCellHTML}</td>` : '<td id="clan_scroll_matches"></td>'}
                     ${websiteCellHTML ? `<td><div id="clan_sticky_site">${websiteCellHTML}</div></td>` : '<td><div id="clan_sticky_site"></div></td>'}
                     ${forumCellHTML ? `<td><div id="clan_sticky_site">${forumCellHTML}</div></td>` : '<td><div id="clan_sticky_site"></div></td>'}
                     <td id="clan_scroll_description"><span>${post.description}</span></td>

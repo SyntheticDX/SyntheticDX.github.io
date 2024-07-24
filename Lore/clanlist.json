@@ -13494,10 +13494,10 @@
                 "match" : ["","dwk","{DWK}","","Sept 2002","ElCool: Some d00d at the JTB forum said i should email this guy for getting a war cuz {DWK} doesnt read those forums.<br /><br />GreySeraph: Well, Blurs, I've never gotten any email from you, so somethings up with that. I've emailed you, so if you don't get that, then somethings wrong with our accounts. I'm not sure if this post will even work, so I'm not going to write lots and discuss details. Oh yes, Insta said that having it set on Lo-Gravity shouldn't be a problem. It is a bit of one though. If it's on regular gravity, you'll smash us. If it's on our gravity, well smash you. I guess more things to discuss. ","isDiscussed"]
             },
                         {
-                "match" : ["cg_v_outlaw_1","outlaw","(OUTLAW)","Loss?","2002-10-05","Aquainas: 'OFFICIAL WAR TIME: to be confirmed PLAYERS: 6 vs 6- or -5 vs 5 -Aquinas -InStaPotato -Never -ElcoolMagnefico -DarthYoda -DevilKilr backups -LightModem (ShadowFax) - SERVER: one of the DEA's SETTINGS: -3 initial augs, and 1 aug per kill -starting in advanced skill level, to avoid huge killing sprees, and to make the game even(i dunno in who's advantage) -2000 skil points per kill -The victory is time limit: 30 mins MAPS: SMUGGLER: for close combat SILO: for medium, long and close combat A51: for long range combat: geps, snipers, and medium: ass. weapons. This clan match has been specially thought for defining the superiority in different combat styles, close, medium or long. We have also thought of a way to avoid huge killing sprees and found that the perfect choice would be the advanced skill points. THIS WAR IS OFFICIAL; I SPOKE WITH BIGDAWG so, it is not fake. -- Rescheduled'<br /><br />Nordy21: The match will be now held on October the 5th. Which is a Saturday. I am checking details. But here is what we are shooting for. Match at 9 PM EST 6 vs 6 3 augs to start normal skill points The line-up will stay the same unless because of the new date you can not make it then the back-ups will take ur spot. I have taken care of the server as well. We should have a DEA server. As long as they don't forget.<br /><br />CTDM","isCertain"]
+                "match" : ["cg_v_outlaw_1","outlaw","(OUTLAW)","Lost?","2002-10-05","Aquainas: 'OFFICIAL WAR TIME: to be confirmed PLAYERS: 6 vs 6- or -5 vs 5 -Aquinas -InStaPotato -Never -ElcoolMagnefico -DarthYoda -DevilKilr backups -LightModem (ShadowFax) - SERVER: one of the DEA's SETTINGS: -3 initial augs, and 1 aug per kill -starting in advanced skill level, to avoid huge killing sprees, and to make the game even(i dunno in who's advantage) -2000 skil points per kill -The victory is time limit: 30 mins MAPS: SMUGGLER: for close combat SILO: for medium, long and close combat A51: for long range combat: geps, snipers, and medium: ass. weapons. This clan match has been specially thought for defining the superiority in different combat styles, close, medium or long. We have also thought of a way to avoid huge killing sprees and found that the perfect choice would be the advanced skill points. THIS WAR IS OFFICIAL; I SPOKE WITH BIGDAWG so, it is not fake. -- Rescheduled'<br /><br />Nordy21: The match will be now held on October the 5th. Which is a Saturday. I am checking details. But here is what we are shooting for. Match at 9 PM EST 6 vs 6 3 augs to start normal skill points The line-up will stay the same unless because of the new date you can not make it then the back-ups will take ur spot. I have taken care of the server as well. We should have a DEA server. As long as they don't forget.<br /><br />CTDM","isCertain"]
             },
             {
-                "match" : ["cg_v_outlaw_2","outlaw","(OUTLAW)","Loss?","2002-09-","vs [CG] Re sep 2002 (im not sure if - and then where and how - I managed to confirm this match, it looks so)","isUncertain"]
+                "match" : ["cg_v_outlaw_2","outlaw","(OUTLAW)","Lost?","2002-09-","vs [CG] Re sep 2002 (im not sure if - and then where and how - I managed to confirm this match, it looks so)","isUncertain"]
             },
             {
                 "match" : ["","td","[TD]","","Dec 2002","","isDiscussed"]
@@ -39365,7 +39365,7 @@
         ],
         "matches" : [
             {
-                "match" : ["io_v_nem","nem","[NEM]","1:0","2005-02-19","[NEM] vs [IO] 1-0 Loss? 19 Feb 2005<br /><br />Ken: 'NEM was my clan and depending who was playing this zero-aug match couldve gone either way, I cant tell which side won without more evidence. With players like Nukem, Lazystoner and potentially Labtec, I suspect we won, though.'","isCertain"]
+                "match" : ["io_v_nem","nem","[NEM]","1:0","2005-02-19","[NEM] vs [IO] 1-0 Lost? 19 Feb 2005<br /><br />Ken: 'NEM was my clan and depending who was playing this zero-aug match couldve gone either way, I cant tell which side won without more evidence. With players like Nukem, Lazystoner and potentially Labtec, I suspect we won, though.'","isCertain"]
             },
             {
                 "match" : ["io_v_ue","ue","[UE]","Loss 0:2","2005-06-09","Unreal Entities won Illuminated Ones in USA vs USA match 3 vs 3 with score 138 - 59 2 maps out of 3 were played and after being annihilated on Silo IO withdraw and A51 was never played. IO gave us a nice game. Sadly IO was closed down the day after the defeat. RIP IO ","isCertain"]
@@ -46994,13 +46994,13 @@
         ],
         "matches" : [
             {
-                "match" : ["io_v_nem","io","[IO]","1:0","2005-02-19","[NEM] vs [IO] 1-0 Win? 19 Feb 2005<br /><br />Ken: 'Depending who was playing this zero-aug match couldve gone either way, I cant tell which side won without more evidence. With players like Nukem, Lazystoner and potentially Labtec, I suspect we won, though.'","isCertain"]
+                "match" : ["io_v_nem","io","[IO]","1:0","2005-02-19","[NEM] vs [IO] 1-0 Won? 19 Feb 2005<br /><br />Ken: 'Depending who was playing this zero-aug match couldve gone either way, I cant tell which side won without more evidence. With players like Nukem, Lazystoner and potentially Labtec, I suspect we won, though.'","isCertain"]
             },
             {
                 "match" : ["nem_v_v_4","v","[V]","Loss","","Memory is fuzzy about the match and I really remember getting obliterated by [V] in lower Smuggler spawn. I think we tried to put up a solid fight but the score mustve been nasty.","isCertain"]
             },
             {
-                "match" : ["nem_v_sof","sof",".:SoF:.","","","[NEM]vs .:SoF:. Win? 2005. If this match took place it should've been our victory, opponent as less experienced through and through, but while it seems fairly certain to have taken place I dont have evidence of results.","isCertain"]
+                "match" : ["nem_v_sof","sof",".:SoF:.","","","[NEM]vs .:SoF:. Won? 2005. If this match took place it should've been our victory, opponent as less experienced through and through, but while it seems fairly certain to have taken place I dont have evidence of results.","isCertain"]
             }
         ],
         "websites" : [
@@ -50222,7 +50222,7 @@
         ],
         "matches" : [
             {
-                "match" : ["cg_v_outlaw_1","cg","[CG]","Win?","2002-10-05","Aquainas: 'OFFICIAL WAR TIME: to be confirmed PLAYERS: 6 vs 6- or -5 vs 5 -Aquinas -InStaPotato -Never -ElcoolMagnefico -DarthYoda -DevilKilr backups -LightModem (ShadowFax) - SERVER: one of the DEA's SETTINGS: -3 initial augs, and 1 aug per kill -starting in advanced skill level, to avoid huge killing sprees, and to make the game even(i dunno in who's advantage) -2000 skil points per kill -The victory is time limit: 30 mins MAPS: SMUGGLER: for close combat SILO: for medium, long and close combat A51: for long range combat: geps, snipers, and medium: ass. weapons. This clan match has been specially thought for defining the superiority in different combat styles, close, medium or long. We have also thought of a way to avoid huge killing sprees and found that the perfect choice would be the advanced skill points. THIS WAR IS OFFICIAL; I SPOKE WITH BIGDAWG so, it is not fake. -- Rescheduled'<br /><br />Nordy21: The match will be now held on October the 5th. Which is a Saturday. I am checking details. But here is what we are shooting for. Match at 9 PM EST 6 vs 6 3 augs to start normal skill points The line-up will stay the same unless because of the new date you can not make it then the back-ups will take ur spot. I have taken care of the server as well. We should have a DEA server. As long as they don't forget.<br /><br />CTDM","isCertain"]
+                "match" : ["cg_v_outlaw_1","cg","[CG]","Won?","2002-10-05","Aquainas: 'OFFICIAL WAR TIME: to be confirmed PLAYERS: 6 vs 6- or -5 vs 5 -Aquinas -InStaPotato -Never -ElcoolMagnefico -DarthYoda -DevilKilr backups -LightModem (ShadowFax) - SERVER: one of the DEA's SETTINGS: -3 initial augs, and 1 aug per kill -starting in advanced skill level, to avoid huge killing sprees, and to make the game even(i dunno in who's advantage) -2000 skil points per kill -The victory is time limit: 30 mins MAPS: SMUGGLER: for close combat SILO: for medium, long and close combat A51: for long range combat: geps, snipers, and medium: ass. weapons. This clan match has been specially thought for defining the superiority in different combat styles, close, medium or long. We have also thought of a way to avoid huge killing sprees and found that the perfect choice would be the advanced skill points. THIS WAR IS OFFICIAL; I SPOKE WITH BIGDAWG so, it is not fake. -- Rescheduled'<br /><br />Nordy21: The match will be now held on October the 5th. Which is a Saturday. I am checking details. But here is what we are shooting for. Match at 9 PM EST 6 vs 6 3 augs to start normal skill points The line-up will stay the same unless because of the new date you can not make it then the back-ups will take ur spot. I have taken care of the server as well. We should have a DEA server. As long as they don't forget.<br /><br />CTDM","isCertain"]
             },
             {
                 "match" : ["cg_v_outlaw_2","cg","[CG]","Win ?","2002-09-","vs [CG] Re sep 2002 (im not sure if - and then where and how - I managed to confirm this match, it looks so)","isUncertain"]
@@ -58157,7 +58157,7 @@
         ],
         "matches" : [
             {
-                "match" : ["nem_v_sof","nem","[NEM]","","","[NEM] vs .:SoF:. Loss? 2005.<br />Ken: If this match took place it should've been NEM victory, opponent was less experienced through and through, but while it seems fairly certain to have taken place I dont have evidence of results.","isCertain"]
+                "match" : ["nem_v_sof","nem","[NEM]","","","[NEM] vs .:SoF:. Lost? 2005.<br />Ken: If this match took place it should've been NEM victory, opponent was less experienced through and through, but while it seems fairly certain to have taken place I dont have evidence of results.","isCertain"]
             }
         ],
         "websites" : [
