@@ -940,6 +940,14 @@ $(document).ready(function() {
         $('#item-matches').click(function() {
             // Sort filtered data based on the sorting criteria
             filteredData.sort(function(a, b) {
+                // Compute finalResults for each item
+                const finalResultsA = calculateOpponentPercentage(a.matches);
+                const finalResultsB = calculateOpponentPercentage(b.matches);
+
+                // Calculate win percentage based on finalResults
+                const winPercentageA = calculateWinPercentage(finalResultsA);
+                const winPercentageB = calculateWinPercentage(finalResultsB);
+
                 if (sortByTotalMatches) {
                     // Sort by total number of matches
                     const totalMatchesA = calculateTotalMatches(a.matches);
@@ -947,8 +955,6 @@ $(document).ready(function() {
                     return totalMatchesB - totalMatchesA;
                 } else {
                     // Sort by win percentage
-                    const winPercentageA = calculateWinPercentage(a.matches);
-                    const winPercentageB = calculateWinPercentage(b.matches);
                     return winPercentageB - winPercentageA; // Sort by win percentage in descending order
                 }
             });

@@ -17752,7 +17752,7 @@
                 "match" : ["alpha_v_dcsb","alpha","|ALPHA|","Win","31.01.04","Conditions: Zero-aug    Server: [DCSB] Server    Maps: smuggler, silo","isCertain"]
             },
             {
-                "match" : ["dcsb_v_fc","fc","[FC]","Draw 2:2?","2004?","","isCertain"]
+                "match" : ["dcsb_v_fc","fc","[FC]","Drawn 2:2?","2004?","","isCertain"]
             },
             {
                 "match" : ["dscb_v_m","m","}{M}{","Win 338:150","2004-11-06","System: '1st map - Smuggler , 3vs5 to start until reef and green joined 1/2 - 2/3 of the way in.<br /><br />Total Score:<br /><br />DCSB: 105<br />M: 65<br /><br />Players Kills-Deaths:<br /><br />DCSB:<br />System: +22<br />PooeyPants: +9<br />Guerilla: -6<br />GreenFlame: +7<br />Sphere: +3<br /><br />M:<br />Player: +6<br />Deciever: +1<br />Nash: -10<br />MrBlack: -16<br />SilverFox: -24<br /><br />Highest Kills-Deaths: System(+22)<br />Most Kills: System (42)<br />Least Deaths: GreenFlame(3)<br /><br />2nd Map - CMD<br /><br />Total Score:<br /><br />DCSB: 100<br />M:42<br /><br />Players Kills-Deaths:<br /><br />DCSB:<br />System: +26<br />Sphere: +16<br />PooeyPants: +5<br />GreenFlame: +10<br />Guerilla: -1<br /><br />M:<br />Player: -6<br />Deciever: -6<br />Nash: -14<br />SilverFox: -18<br />MrBlacnk: -19<br /><br />Highest Kills-Deaths: System(+26)<br />Most Kills: System (39)<br />Least Deaths: Sphere/Greenflame(6)<br /><br />3rd Map - Silo<br /><br />Total Score:<br /><br />DCSB: 133<br />M: 47<br /><br />Players Kills-Deaths:<br /><br />DCSB:<br />System: +33<br />PooeyPants: +23<br />Greenflame: +22<br />Sphere: +11<br />Guerilla: -4<br /><br />M:<br />(all turned alliases on and cant be botherd to work out whos who sleep.gif)<br />A_Goblin: -9<br />Player: -13<br />his_farther: -26<br />the-wang-king: -16<br />some_orphans: -23<br /><br />Highest Kills-Deaths: System(+33)<br />Most Kills: System(35)<br />Least Deaths: System(2)<br /><br />Overall Total Kills:<br /><br />DCSB: 338<br />M: 150<br /><br />Players Overall Kills-Deaths:<br /><br />DCSB:<br />System: +81<br />PooeyPants: +37<br />Guerilla: -11<br />GreenFlame: +39<br />Sphere: +30<br /><br />M:<br />Player: -13<br />(as the rest of you alliased for end of last map cant work out whos who so...)<br /><br />Overall Highest Kills-Deaths: System(+81)<br />Overall Most Kills: System(116)<br />Overall Least Deaths: GreenFlame(19)<br /><br />GGs WP 2 ALL '","isCertain"]
@@ -32327,7 +32327,7 @@
                 "match" : ["alpha_v_fc","alpha","|ALPHA|","","2004?","--Clan is missing information; probably a loss and Zero-augs, FC existed around spring of 2004 but iirc turned into [TT] by late 2004--","isCertain"]
             },            
             {
-                "match" : ["dcsb_v_fc","dcsb",".:DcsB:.","Draw 2:2 ?","2004?","","isCertain"]
+                "match" : ["dcsb_v_fc","dcsb",".:DcsB:.","Drawn 2:2 ?","2004?","","isCertain"]
             },
             {
                 "match" : ["fc_v_ta","ta","(TA)","Win 3:0","2004","","isCertain"]

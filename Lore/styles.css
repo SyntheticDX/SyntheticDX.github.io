@@ -1530,7 +1530,7 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
         display: flex;
         flex-direction: row;
         position: absolute;
-        top: 0vh;
+        top: -0.3vh;
         left: 5vw;
         color: silver;
         border-bottom: none;
@@ -1540,7 +1540,7 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
         flex-direction: row;
         position: absolute;
         width: max-content;
-        top: 1.8vh;
+        top: 1.6vh;
         left: 0.3vw;
         color: rgb(212, 212, 212);
         border-bottom: none;
@@ -1563,7 +1563,7 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
         flex-direction: row;
         position: absolute;
         top: 0vh;
-        left: -33vw;
+        left: -32.4vw;
         color: silver;
         border-bottom: none;
     }
@@ -1572,7 +1572,7 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
         flex-direction: row;
         position: absolute;
         top: 0vh;
-        left: -23vw;
+        left: -22.5vw;
         color: silver;
         border-bottom: none;
     }
