@@ -636,10 +636,10 @@ $(document).ready(function() {
         const overallWinPercentage = calculateWinPercentageWithColor(matches);
         const typePercentages = calculateWinPercentageByType(matches);
     
-        let html = `<div>Overall Ranking: ${overallWinPercentage}</div>`;
+        let html = `<div>Relative strength compared to opponents<br /><br />Overall Rating: ${overallWinPercentage}</div>`;
     
         for (const [type, percentage] of Object.entries(typePercentages)) {
-            html += `<div>${type} Ranking: ${percentage}</div>`;
+            html += `<div>${type} Rating: ${percentage}</div>`;
         }
     
         return html;
@@ -837,8 +837,8 @@ $(document).ready(function() {
                         <td id="clan_scroll_matches">
                             <div class="matchesCountWrapper">
                                 (<span data-toggle="tooltip" data-placement="auto top" title="Number of confirmed matches <br /><br />(nb: records are very incomplete!)">${calculateTotalMatches(post['matches'])}</span>) 
-                                <span data-toggle="tooltip" data-html="true" data-placement="auto top" title="${renderMatchStatistics(post['matches']).replace(/"/g, '&quot;')}">${calculateWinPercentageWithColor(post['matches'])}
-                                (Total ${calculateWinPercentageAllWithColor(post['matches'])}</span>)
+                                <span data-toggle="tooltip" data-html="true" data-placement="auto top" title="${renderMatchStatistics(post['matches']).replace(/"/g, '&quot;')}">Clans ${calculateWinPercentageWithColor(post['matches'])}
+                                (Matches ${calculateWinPercentageAllWithColor(post['matches'])}</span>)
                             </div>
                             ${matchesCellHTML}
                         </td>
