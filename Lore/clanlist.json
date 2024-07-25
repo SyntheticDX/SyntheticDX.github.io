@@ -3197,17 +3197,20 @@
         ],
         "matches" : [
             {
+                "match" : ["ato_v_nvm","nvm","[NVM]","Loss 0:2","","NVM vs A-TO zero-aug<br />Dani: NVM roster was me, machete and price<br />A-TO was B-Dawg, Cat and Anax aliasing as Fear","isCertain"]
+            },
+            {
                 "match" : ["ato_v_nkz","nkz","[NKz]","","2013-09","?NKz Vs A-TO Sept 2013 ?<br />KilleR left or multiclanned NKz for this clan and challenged them Sept 2013, but seems it was never played","isDiscussed"]
             }
         ],
         "websites" : [
             {
-                "website" : ["","https://web.archive.org/web/*/http://atoclan.b1.jcink.com/index.php*","dead"]
+                "website" : ["","",""]
             }
         ],
         "forums" : [
             {
-                "forum" : ["","",""]
+                "forum" : ["","https://web.archive.org/web/*/http://atoclan.b1.jcink.com/index.php*","dead"]
             }
         ],
         "description" : "Odd beginner 0a clan. Some beginner named Admin with 350 ping, maybe AEON. It is possible this constituted a real clan with all elements from forums to members etc, but it would certainly have fallen into Beginner Tier category of clans. DroneAlien goes on to found Siberian Buddies, some cute dogs inspired clan.",
@@ -37974,7 +37977,7 @@
                 "match" : ["fps_v_hvm","fps","[FPS]","","2013-02-07","I issued a challenge to 0a and any auged gametype they might agree to, but I believe the clan was on its way out then.","isDiscussed"]
             },
             {
-                "match" : ["hvm_v_nkz","nkz","[NKz]","Practice","2013-09-01","Friendly v NKz  won 0a, Sept 2013","isCertain"]
+                "match" : ["hvm_v_nkz","nkz","[NKz]","Practice","2013-09-01","Friendly v NKz  won by HVM 0a, Sept 2013","isCertain"]
             },
             {
                 "match" : ["hk_v_hvm","hk","{HK}","Win 4:0","2014-06-23","Non-Aug war while an auged match was also in planning, played in [HK] member Hey's nice performance server the game spanned an unusual 4 maps there, perhaps initially planned to be taken to another continent but somehow that plan changed - perhaps seeing as how their team only had one player from North America on a good connection. HK featured Ricci, Hey, Labtec, and a more casual player DcX. HVM featured myself, Dani, Kiki, Dani's gf Bajas, with last and closest map played 3v3 - strongest performing HVM Kiki now in spectate and weakest performing HK member absent it was also the closest match won for HVM team only by 3 frags on Iceworld.<br /><br />Maps: Smuggler (105:64), Silo (78:45), Smuggles (127:73), Iceworld (89:86)","isCertain"]
@@ -43222,7 +43225,7 @@
                 "match" : ["rtk2_v_m3","rtk2","[R2K]","Loss","2007-06-15","[RTK] vs. [M3]<br />Date and Time: 06/15/2007<br />Gametype: Zero-Augs<br />Server: [RTKM] Server<br />Result: Won ","isCertain"]
             },
             {
-                "match" : ["m3_v_ren","ren","[REN]","Loss 0:1","2007?","Ken: Partial match 1:0 2v2 or something like that, maybe shortly before the death of clan so either late 2007 or even sometime later into 2008 if clan death date is wrong. Since enemy team failed to prepare with agreed team and left server perhaps not even after full match, I only partially counted this war in my statistics. Technically a failed war, against this group I felt it was as good as it was going to get, and evidently it was not possible to reschedule. Counting this war REN played total 16 matches, and the dodgy M3 match helped me remember this number.","isCertain"]
+                "match" : ["m3_v_ren","ren","[REN]","Loss 0:1","2007?","Zero-Augs<br />Ken: Partial match 1:0 2v2 or something like that, maybe shortly before the death of clan so either late 2007 or even sometime later into 2008 if clan death date is wrong. Since enemy team failed to prepare with agreed team and left server perhaps not even after full match, I only partially counted this war in my statistics. Technically a failed war, against this group I felt it was as good as it was going to get, and evidently it was not possible to reschedule. Counting this war REN played total 16 matches, and the dodgy M3 match helped me remember this number.","isCertain"]
             }
         ],
         "websites" : [
@@ -47866,7 +47869,7 @@
                 "match" : ["nkz_v_fgs","fgs","[FGS]","","2012-","?NKz Vs FGS ? End of 2012?<br />Forum discussion indicates game and clan are both inactive","isDiscussed"]
             },
             {
-                "match" : ["hvm_v_nkz","hvm","[:¤:]","Practice","2013-09-01","Friendly v NKz  won 0a, Sept 2013","isCertain"]
+                "match" : ["hvm_v_nkz","hvm","[:¤:]","Practice","2013-09-01","Friendly v NKz  won by HVM 0a, Sept 2013","isCertain"]
             },
             {
                 "match" : ["hvm_v_nkz_2","hvm","[:¤:]","","2013-","","isDiscussed"]
@@ -48968,7 +48971,7 @@
         ],
         "matches" : [
             {
-                "match" : ["ato_v_nvm","ato","[A-TO]","Win ?","","NVM vs A-TO<br />NVM roster was me, machete and price<br />A-TO was B-Dawg, Cat and Anax aliasing as Fear","isCertain"]
+                "match" : ["ato_v_nvm","ato","[A-TO]","Win 2:0","","NVM vs A-TO zero-aug<br />Dani: NVM roster was me, machete and price<br />A-TO was B-Dawg, Cat and Anax aliasing as Fear","isCertain"]
             }
         ],
         "websites" : [
@@ -53922,7 +53925,7 @@
                 "match" : ["arm_v_ren","arm","[ARM]","Win 3:0","2008-01-13","Date: January 13th 2008<br />Opponent: [ARM] Armageddon<br />Players: 4 vs 4<br />Game type: s0a<br />Score: 3:0<br />Maps: 1. Smuggler; 2. Silo; 3. CMD<br />Comments: Everything went as planned: ARM and REN had the needed members, and war started right on time with everybody in server. Some lag was complained on REN side and 3 ARM members complained high ping. War was held in the most popular server: RTKM by [RTK] clan. Note: first map came to sudden end with RTK server crashing 2 minutes before map end. The lost time would not have made the difference in the map outcome and it was not replayed or rescheduled.<br />Images: First Map Second Map Second Map ","isCertain"]
             },
             {
-                "match" : ["m3_v_ren","m3","[M3]","Win 1:0","2007-11?","Ken: Partial match 1:0 2v2 or something like that, maybe shortly before the death of clan so either late 2007 or even sometime later into 2008 if clan death date is wrong. Since enemy team failed to prepare with agreed team and left server perhaps not even after full match, I only partially counted this war in my statistics. Technically a failed war, against this group I felt it was as good as it was going to get, and evidently it was not possible to reschedule. Counting this war REN played total 13 matches, and the dodgy M3 match helped me remember this number.","isCertain"]
+                "match" : ["m3_v_ren","m3","[M3]","Win 1:0","2007-11?","0a<br />Ken: Partial match 1:0 2v2 or something like that, maybe shortly before the death of clan so either late 2007 or even sometime later into 2008 if clan death date is wrong. Since enemy team failed to prepare with agreed team and left server perhaps not even after full match, I only partially counted this war in my statistics. Technically a failed war, against this group I felt it was as good as it was going to get, and evidently it was not possible to reschedule. Counting this war REN played total 13 matches, and the dodgy M3 match helped me remember this number.","isCertain"]
             },
             {
                 "match" : ["arm_v_ren_2","arm","[ARM]","Win","","? vs [REN] LOSS RE,Feb 2008?, no mention?","isUncertain"]

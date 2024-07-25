@@ -1,4 +1,12 @@
 $(document).ready(function() {
+
+    /* ******************************************************************** *
+        Note that this is coded by an AI (chatGPT 3 & 4),
+        developer has zero clue on how to program anything, in any language,
+        which would explain the things you see here.                        
+    */
+
+
     // Cache frequently used jQuery objects
     var body = $('body');
     var navClanlist = $('.nav_clanlist');
@@ -467,12 +475,7 @@ $(document).ready(function() {
     
         // Group matches by opponent ID
         const groupedMatches = matches.reduce((acc, match) => {
-            if (match.match[6] === "isCertain" && 
-                (match.match[3].includes("Win") || 
-                match.match[3].includes("Loss") || 
-                match.match[3].includes("Draw") || 
-                match.match[3].includes("Disputed"))) {
-    
+            if (match.match[6] === "isCertain") {
                 const opponentID = match.match[1];
                 if (!acc[opponentID]) {
                     acc[opponentID] = [];
@@ -569,6 +572,31 @@ $(document).ready(function() {
         return winPercentage;
     }
 
+    function calculateWinPercentageByType(matches) {
+        const types = [
+            { name: 'ATDM', criteria: [/\bATDM\b|\batdm\b/i] },
+            { name: 'CTDM', criteria: [/\bCTDM\b|\bctdm\b|\bCustom TDM\b/i] },
+            { name: 'BTDM', criteria: [/\bBTDM\b|\bbtdm\b/i] },
+            { name: 'Zero Aug', criteria: [/\b0a\b|\bs0a\b|\bstandard 0a|\bstandard zero-aug|\bzero aug\b|\bZero aug|\bzero-aug|\b0 Aug|\b0A\b/i] },
+            { name: 'Mod', criteria: [/\bctf\b|\bmod\b|\bdxag\b|\brpg\b|\bcdx\b/i] }
+        ];
+    
+        const results = {};
+    
+        types.forEach(type => {
+            const filteredMatches = filterMatchesByType(matches, type.criteria);
+            if (filteredMatches.length > 0) {
+                results[type.name] = calculateWinPercentageAllWithColor(filteredMatches);
+            }
+        });
+    
+        return results;
+    }
+    
+    function filterMatchesByType(matches, criteria) {
+        return matches.filter(match => criteria.some(regex => regex.test(match.match[5])));
+    }
+
     function calculateWinPercentageWithColor(matches) {
         const finalResults = calculateOpponentPercentage(matches);
         const winPercentage = calculateWinPercentage(finalResults);
@@ -576,7 +604,7 @@ $(document).ready(function() {
         // Set the color based on percentile
         let color;
         if (winPercentage >= 66) {
-            color = 'green'; // Top 33% percentile
+            color = 'rgb(0, 161, 0)'; // Top 33% percentile
         } else if (winPercentage >= 33) {
             color = 'yellow'; // Middle 33% percentile
         } else {
@@ -584,16 +612,16 @@ $(document).ready(function() {
         }
         
         // Return the win percentage with color formatting
-        return `<span style="color: ${color};" data-toggle="tooltip" data-placement="auto top" title="Success rate <br /><br />(nb: records are very incomplete!)">${winPercentage.toFixed(2)}%</span>`;
+        return `<span style="color: ${color};">${winPercentage.toFixed(2)}%</span>`;
     }
-    
+
     function calculateWinPercentageAllWithColor(matches) {
         const winPercentage = calculateWinPercentageAll(matches);
     
         // Set the color based on percentile
         let color;
         if (winPercentage >= 66) {
-            color = 'green'; // Top 33% percentile
+            color = 'rgb(0, 161, 0)'; // Top 33% percentile
         } else if (winPercentage >= 33) {
             color = 'yellow'; // Middle 33% percentile
         } else {
@@ -601,7 +629,20 @@ $(document).ready(function() {
         }
     
         // Return the win percentage with color formatting
-        return `<span style="color: ${color};" data-toggle="tooltip" data-placement="auto top" title="Overall win rate <br /><br />(nb: records are very incomplete!)">${winPercentage.toFixed(2)}%</span>`;
+        return `<span style="color: ${color};">${winPercentage.toFixed(2)}%</span>`;
+    }
+
+    function renderMatchStatistics(matches) {
+        const overallWinPercentage = calculateWinPercentageWithColor(matches);
+        const typePercentages = calculateWinPercentageByType(matches);
+    
+        let html = `<div>Overall Ranking: ${overallWinPercentage}</div>`;
+    
+        for (const [type, percentage] of Object.entries(typePercentages)) {
+            html += `<div>${type} Ranking: ${percentage}</div>`;
+        }
+    
+        return html;
     }
 
     // Function to count all non-repeating IDs of pidPlusName[0] excluding "member"
@@ -736,7 +777,7 @@ $(document).ready(function() {
 
                 // Helper function to determine match type class
                 const getMatchTypeClass = (matchString) => {
-                    if (/\b0a\b|\bs0a\b|\bstandard 0a\b|\bstandard zero-aug\b|\bzero aug\b|\bzero augs\b|\bzero-aug\b|\bzero-augs\b|\b0 Aug\b|\b0A\b/i.test(matchString)) {
+                    if (/\b0a\b|\bs0a\b|\bstandard 0a|\bstandard zero-aug|\bzero aug\b|\bZero aug|\bzero-aug|\b0 Aug|\b0A\b/i.test(matchString)) {
                         return 'matchtype0a';
                     } else if (/\bATDM\b|\batdm\b/i.test(matchString)) {
                         return 'matchtypeATDM';
@@ -792,7 +833,16 @@ $(document).ready(function() {
                         </div></td>
                     <td><div id="clan_sticky_founder">${post.founder.join(', ')}</div></td>
                     <td id="clan_scroll_members">${membersCellHTML}${members2CellHTML}</td>
-                    ${matchesCellHTML ? `<td id="clan_scroll_matches"><div class="matchesCountWrapper">(<span data-toggle="tooltip" data-placement="auto top" title="Number of confirmed matches <br /><br />(nb: records are very incomplete!)">${calculateTotalMatches(post['matches'])}</span>) ${calculateWinPercentageWithColor(post['matches'])} (Total ${calculateWinPercentageAllWithColor(post['matches'])})</div>${matchesCellHTML}</td>` : '<td id="clan_scroll_matches"></td>'}
+                    ${matchesCellHTML ? `
+                        <td id="clan_scroll_matches">
+                            <div class="matchesCountWrapper">
+                                (<span data-toggle="tooltip" data-placement="auto top" title="Number of confirmed matches <br /><br />(nb: records are very incomplete!)">${calculateTotalMatches(post['matches'])}</span>) 
+                                <span data-toggle="tooltip" data-html="true" data-placement="auto top" title="${renderMatchStatistics(post['matches']).replace(/"/g, '&quot;')}">${calculateWinPercentageWithColor(post['matches'])}
+                                (Total ${calculateWinPercentageAllWithColor(post['matches'])}</span>)
+                            </div>
+                            ${matchesCellHTML}
+                        </td>
+                    ` : '<td id="clan_scroll_matches"></td>'}
                     ${websiteCellHTML ? `<td><div id="clan_sticky_site">${websiteCellHTML}</div></td>` : '<td><div id="clan_sticky_site"></div></td>'}
                     ${forumCellHTML ? `<td><div id="clan_sticky_site">${forumCellHTML}</div></td>` : '<td><div id="clan_sticky_site"></div></td>'}
                     <td id="clan_scroll_description"><span>${post.description}</span></td>
