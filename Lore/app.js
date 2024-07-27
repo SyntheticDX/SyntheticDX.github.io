@@ -577,7 +577,7 @@ $(document).ready(function() {
             { name: 'ATDM', criteria: [/\bATDM\b|\batdm\b/i] },
             { name: 'CTDM', criteria: [/\bCTDM\b|\bctdm\b|\bCustom TDM\b/i] },
             { name: 'BTDM', criteria: [/\bBTDM\b|\bbtdm\b/i] },
-            { name: 'Zero Aug', criteria: [/\b0a\b|\bs0a\b|\bstandard 0a|\bstandard zero-aug|\bzero aug\b|\bZero aug|\bzero-aug|\b0 Aug|\b0A\b/i] },
+            { name: 'Zero Aug', criteria: [/\b0a\b|\bs0a\b|\bstandard 0a|\bstandard zero-aug|\bzero aug\b|\bZero aug|\bzero-aug|\bZero-aug|\b0 Aug|\b0A\b/i] },
             { name: 'Mod', criteria: [/\bctf\b|\bmod\b|\bdxag\b|\brpg\b|\bcdx\b/i] }
         ];
     
@@ -594,7 +594,11 @@ $(document).ready(function() {
     }
     
     function filterMatchesByType(matches, criteria) {
-        return matches.filter(match => criteria.some(regex => regex.test(match.match[5])) && match.match[6] === "isCertain" && ["Draw", "Loss", "Win", "Disputed"].includes(match.match[3]));
+        return matches.filter(match => 
+            criteria.some(regex => regex.test(match.match[5])) &&
+            match.match[6] === "isCertain" &&
+            ["Draw", "Loss", "Win", "Disputed"].some(result => match.match[3].includes(result))
+        );
     }
 
     function calculateWinPercentageWithColor(matches) {
