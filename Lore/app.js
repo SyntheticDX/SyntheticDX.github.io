@@ -475,7 +475,7 @@ $(document).ready(function() {
     
         // Group matches by opponent ID
         const groupedMatches = matches.reduce((acc, match) => {
-            if (match.match[6] === "isCertain") {
+            if (match.match[6] === "isCertain" && ["Draw", "Loss", "Win", "Disputed"].some(result => match.match[3].includes(result))) {
                 const opponentID = match.match[1];
                 if (!acc[opponentID]) {
                     acc[opponentID] = [];
@@ -594,7 +594,7 @@ $(document).ready(function() {
     }
     
     function filterMatchesByType(matches, criteria) {
-        return matches.filter(match => criteria.some(regex => regex.test(match.match[5])));
+        return matches.filter(match => criteria.some(regex => regex.test(match.match[5])) && match.match[6] === "isCertain" && ["Draw", "Loss", "Win", "Disputed"].includes(match.match[3]));
     }
 
     function calculateWinPercentageWithColor(matches) {
@@ -633,10 +633,18 @@ $(document).ready(function() {
     }
 
     function renderMatchStatistics(matches) {
+        // Calculate overall win percentage with color for the entire dataset
+        const overallWinPercentageAll = calculateWinPercentageAllWithColor(matches);
+        
+        // Calculate win percentage with color for opponent comparison
         const overallWinPercentage = calculateWinPercentageWithColor(matches);
+        
+        // Calculate win percentage by match type
         const typePercentages = calculateWinPercentageByType(matches);
     
-        let html = `<div>Relative strength compared to opponents<br /><br />Overall Rating: ${overallWinPercentage}</div>`;
+        // Generate the HTML content with both overall ratings
+        let html = `<div>Relative strength compared to opponents<br /><br />Overall Match Win Percentage: ${overallWinPercentageAll}</div>`;
+        html += `<div>Overall Rating Compared to Opponents: ${overallWinPercentage}</div>`;
     
         for (const [type, percentage] of Object.entries(typePercentages)) {
             html += `<div>${type} Rating: ${percentage}</div>`;
@@ -824,7 +832,7 @@ $(document).ready(function() {
             html += `
                 <tr class="clan_addedrows" tabindex="0" data-id="${post.id}">
                     <td><div id="clan_sticky_tier"><div class="tier${post.tier[0]}">${post.tier[0]}</div><div class="tier${post.tier[1]}">${post.tier[1]}</div><div class="tier${post.tier[2]}">${post.tier[2]}</div></td>
-                    <td><div id="clan_sticky_tag">${post.tag[1]}${post.tag[2]}${post.tag[3]}</div></td>
+                    <td class="clan_tag"><div id="clan_sticky_tag">${post.tag[1]}${post.tag[2]}${post.tag[3]}</div></td>
                     <td><div id="clan_sticky_name"><div id="${post.id}">${post.name} <span data-toggle="tooltip" data-placement="auto top" title="${post.flag[1]}">${post.flag[0]}</span></div></div></td>
                     <td><div id="clan_sticky_date">
                         ${post.date[1] ? `<div id="${post.date[0]}">B ${post.date[1]}</div>` : ''}
@@ -980,6 +988,49 @@ $(document).ready(function() {
             }
         });
 
+        // Alphabet links generation and click handling
+        const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+        const $clanlistContents = $('.clanlistContents');
+
+        // Function to find the first <tr class="clan_tag"> containing the specified letter
+        function findFirstMatchingRow(letter) {
+            let $target = null;
+            $('tr.clan_tag').each(function() {
+                const textContent = $(this).text().trim().toUpperCase();
+                if (textContent.startsWith(letter)) {
+                    $target = $(this);
+                    return false; // Break out of the loop
+                }
+            });
+            return $target;
+        }
+
+        // Create alphabet links
+        alphabet.forEach(letter => {
+            const $link = $('<a></a>').attr('href', `#clan_sticky_tag_${letter}`).text(letter);
+            $link.on('click', function(e) {
+                e.preventDefault();
+                const $target = findFirstMatchingRow(letter);
+                if ($target.length) {
+                    $('html, body').animate({
+                        scrollTop: $target.offset().top - 200 // Adjust padding as needed
+                    }, 500);
+                }
+            });
+            $clanlistContents.append($link);
+        });
+
+        // Assign IDs to clan tags
+        $('tr.clan_tag').each(function() {
+            const textContent = $(this).text().trim();
+            if (textContent) {
+                const firstLetter = textContent.charAt(0).toUpperCase();
+                if (alphabet.includes(firstLetter)) {
+                    $(this).attr('id', `clan_sticky_tag_${firstLetter}`);
+                }
+            }
+        });
+
         // Listen for changes in the filter select element
         $('#filterSelect').change(function() {
             const filterValue = $(this).val();
@@ -990,22 +1041,17 @@ $(document).ready(function() {
         $('#item-matches').click(function() {
             // Sort filtered data based on the sorting criteria
             filteredData.sort(function(a, b) {
-                // Compute finalResults for each item
                 const finalResultsA = calculateOpponentPercentage(a.matches);
                 const finalResultsB = calculateOpponentPercentage(b.matches);
-
-                // Calculate win percentage based on finalResults
                 const winPercentageA = calculateWinPercentage(finalResultsA);
                 const winPercentageB = calculateWinPercentage(finalResultsB);
 
                 if (sortByTotalMatches) {
-                    // Sort by total number of matches
                     const totalMatchesA = calculateTotalMatches(a.matches);
                     const totalMatchesB = calculateTotalMatches(b.matches);
                     return totalMatchesB - totalMatchesA;
                 } else {
-                    // Sort by win percentage
-                    return winPercentageB - winPercentageA; // Sort by win percentage in descending order
+                    return winPercentageB - winPercentageA;
                 }
             });
 
@@ -1018,23 +1064,19 @@ $(document).ready(function() {
 
         // Add event listener for sorting by rank
         $('#item-rank').click(function() {
-            // Sort data based on the presence of 'S', 'A', 'B' in post.rank arrays
             filteredData.sort(function(a, b) {
-                // Define a function to determine the sorting order based on ranks
                 const getRankOrder = function(post) {
-                    if (post.tier[2] !== '') return 0; // 'S' is present
-                    if (post.tier[1] !== '') return 1; // 'A' is present
-                    if (post.tier[0] !== '') return 2; // 'B' is present
-                    return 3; // None of 'S', 'A', 'B' are present
+                    if (post.tier[2] !== '') return 0;
+                    if (post.tier[1] !== '') return 1;
+                    if (post.tier[0] !== '') return 2;
+                    return 3;
                 };
 
-                // Get the rank order for each data point
                 const rankOrderA = getRankOrder(a);
                 const rankOrderB = getRankOrder(b);
-
-                // Compare the rank orders
                 return rankOrderA - rankOrderB;
             });
+
             // Re-render the clans with sorted data
             renderClansBasedOnCheckbox();
         });
@@ -1267,13 +1309,8 @@ $(document).ready(function() {
             }).show();
         }
     });
-
-
-    /* *********************** Construct Alphabet ************************************************************************************************************** */
-
-
-
     
+
     /* *********************** STATS *************************************************************************************************************************** */
 
 

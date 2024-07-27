@@ -946,6 +946,28 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
 
  /********************************** CLANS **********************************/
 
+ .clanlistContents {
+    position: fixed;
+    top: 15vh; /* Adjust as needed */
+    left: 0px; /* Adjust as needed */
+    background-color: #000000; /* Background color for visibility */
+    border: 0.5px solid #cccccc00; /* Border for visibility */
+    border-radius: 2px;
+    padding: 1px;
+    z-index: 1000; /* Ensure it is above other content */
+}
+
+.clanlistContents a {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    font-size:x-small;
+    color: silver;
+}
+
+.clanlistContents a:hover {
+    color: cyan;
+}
 
 .tableheader {
     display: flex;
