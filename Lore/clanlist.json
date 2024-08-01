@@ -5630,6 +5630,14 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["jjbomber","[Ak]CuriousGeorge"],
+                        "aliases" : ["JJBOMBER","BIGGAYAL","jAcKaL","HERPES","DudeInAThong"],
+                        "pastClanIDs" : ["dwk","void","std","ue","hk","t"],
+                        "membership" : ["","",""],
+                        "stats" : ["Probably during later revival, ca 2005",""]
                     }
                 ]
             }
@@ -8071,6 +8079,18 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
+                        "stats" : ["","UK"]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","2024"],
+                        "pidPlusName" : ["cozmo","░BB░Cozmo"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["b2s","xii","shen","fgs","pa"],
+                        "membership" : ["2024-07-","",""],
                         "stats" : ["","UK"]
                     }
                 ]
@@ -17719,6 +17739,9 @@
                 "match" : ["dcsb_v_outlaw","outlaw","[OUTLAW]","Loss","2002-11","OUTLAW killadawg (3 posts) 11/23/02 5:26:01 am  re: [OUTLAW] vs {DCSB}<br /><br />Tony, fuck off! OUTLAW had pings below 200, all of our pings were 600 an above. Considering your ping, YOU DID CRAP! I mean cmon, u had something like 6 kills in smuggler! That was shite, especially scene as attime there was only 2 DCSB! Im lockin this topic b4 u piss me off further!<br /><br />TonySoprano: mole all the shots outlaw has out of 4 of them im in 1st for 3 of em adn with all u guys in it :rollin and how many kills did u have 1 o wait maybe 2 and how many deaths HAHA so watch wut u say buddy","isCertain"]
             },
             {
+                "match" : ["dcsb_v_tgu","tgu","[TGU]","Failed","2002-11-28","DCSB challenged TGU 3v1(?), 3v3 discussion<br /><br />Batto (ThiefTheLegend) explains at the time that it was KRONIKMAN challenged on GameSpy app but apparently DCSB team with Blade and Keyzer (and maybe Demolitionman?) withdrew when ShadowMaster logged on and arranged team of KRONICMAN, ShadowMaster, Batto for 3v3 match. TGU was willing to play in any gametime, sometime recently before listed date.","isIgnored"]
+            },
+            {
                 "match" : ["","d12","(D12)","","2002-11-29","Apparently D12 issued a challenge to RogueJedi; pinned challenge","isDiscussed"]
             },
             {
@@ -23425,10 +23448,10 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["jjbomber","{DWK}_JJBomber"],
-                        "aliases" : ["BigGayAl"],
+                        "aliases" : ["BIGGAYAL","jAcKaL","HERPES","DudeInAThong","CuriousGeorge"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Probably Void same time or soon after it formed",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -32724,7 +32747,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["cozmo","[FGS]Cozmo"],
                         "aliases" : [""],
-                        "pastClanIDs" : ["b2s"],
+                        "pastClanIDs" : ["b2s","shen","xii"],
                         "membership" : ["","",""],
                         "stats" : ["","Semi-active/active Deus Ex Player"]
                     },
@@ -36992,8 +37015,8 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["jjbomber","{HK}Gohan(Tankz)"],
-                        "aliases" : ["JJBomber","BigGayAl"],
-                        "pastClanIDs" : ["dwk","void","ue"],
+                        "aliases" : ["JJBOMBER","BIGGAYAL","jAcKaL","HERPES","DudeInAThong","CuriousGeorge"],
+                        "pastClanIDs" : ["dwk","void","std","ue"],
                         "membership" : ["","",""],
                         "stats" : ["{HK}Gohan: Drafted by RECLAIMER: Now an Elite"," Riflman\\Host Member "]
                     },
@@ -45880,7 +45903,7 @@
                 "match" : ["n_v_u_2_2","u","{U}","Win 3:0","2006-03-27","[N] beat {U} at another clan war, screenshots can be found here.","isCertain"]
             },
             {
-                "match" : ["n_v_ren","ren","[ReN]","Loss 0:1","2006-11-08","8th November - After a long inactive period of N clan, lots has happened. /../, we lost against ren a 3 vs 3 little fun scrim, was very fun and well done to all who played, screenshots are available here. ","isCertain"]
+                "match" : ["n_v_ren","ren","[ReN]","Loss 0:1","2006-11-08","0a DXMP_Smuggler<br />8th November - After a long inactive period of N clan, lots has happened. /../, we lost against ren a 3 vs 3 little fun scrim, was very fun and well done to all who played, screenshots are available here. <br /><br />Renegades:<br />NeXuS (Chaos)<br />Spl!FfRaRer (GrimRaper)<br />Loy<br />ScienceNerd<br />CoDiac<br /><br />vs<br /><br />Nostalgia:<br />Panda<br />Oblivion<br />Rob<br />Narcism<br />Harry","isCertain"]
             },
             {
                 "match" : ["alpha_v_n","alpha","[A]","Win 3:0","2007-04-15","Alpha info: Conditions: Zero-aug    Server: DXMS Server    Maps: smuggler, cmd, silo<br /><br />15th April - [N] Beat [A] at a 0 aug clan war, shots of the scores can be found here. /../<br /> Clan: [A] Score: 3/3 Games played : 3 Win/loose: Win","isCertain"]
@@ -49183,10 +49206,10 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["jjbomber","{0}JJBomber"],
-                        "aliases" : [""],
+                        "aliases" : ["BIGGAYAL","jAcKaL","HERPES","DudeInAThong","CuriousGeorge"],
                         "pastClanIDs" : ["dwk"],
                         "membership" : ["","",""],
-                        "stats" : ["","inactive member"]
+                        "stats" : ["Later in UE, STD, AK","inactive member"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -50779,7 +50802,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["cozmo","[PA]Cozmo"],
                         "aliases" : [""],
-                        "pastClanIDs" : ["fgs"],
+                        "pastClanIDs" : ["b2s","shen","xii","fgs"],
                         "membership" : ["","",""],
                         "stats" : ["","UK"]
                     },
@@ -53907,7 +53930,7 @@
 
 
             {
-                "match" : ["n_v_ren","n","[N]","Win 1:0","2006-11-15","8th November - After a long inactive period of N clan, lots has happened. /../, we lost against ren a 3 vs 3 little fun scrim, was very fun and well done to all who played, screenshots are available here. <br /><br />Date: November 15 2006<br />Opponent: [N] Nostalgia<br />Players: 5 vs 5<br />Game type: s0a<br />Score: 1:0<br />Maps: 1. Smuggler<br />Comments: We played then our largest clan war with 5 members against Nostalgias 5, their players left after first map.<br />Images: First Map ","isCertain"]
+                "match" : ["n_v_ren","n","[N]","Win 1:0","2006-11-15","8th November - After a long inactive period of N clan, lots has happened. /../, we lost against ren a 3 vs 3 little fun scrim, was very fun and well done to all who played, screenshots are available here. <br /><br />Date: November 15 2006<br />Opponent: [N] Nostalgia<br />Players: 5 vs 5<br />Game type: s0a<br />Score: 1:0<br />Maps: 1. Smuggler<br />Comments: We played then our largest clan war with 5 members against Nostalgias 5, their players left after first map.<br />Images: First Map <br /><br />Renegades:<br />NeXuS (Chaos)<br />Spl!FfRaRer (GrimRaper)<br />Loy<br />ScienceNerd<br />CoDiac<br /><br />vs<br /><br />Nostalgia:<br />Panda<br />Oblivion<br />Rob<br />Narcism<br />Harry","isCertain"]
             },
             {
                 "match" : ["alpha_v_ren","alpha","[A]","Loss 1:2","2007-03-02","Conditions: Zero-aug    Server: DXMS Server    Maps: smuggler, cmd, silo<br /><br />Date: March 3 2007<br />Opponent: [A] Alpha<br />Players: 4 vs 4; 4 vs 5<br />Game type: s0a<br />Score: 1:2<br />Maps: 1. Smuggler 2. CMD 3. Silo<br />Comments: Strongest opponent with their strongest lineup, we planned to claim the #1 spot in s0a DXMP. The server (DXMS) lagged badly for nearly all REN players where as most Alpha members claimed to have had playable game as far as ping goes. Incredibly close match, last map lost by 1 kill. Credit goes to Alpha for their teamwork.<br />Images: First Map Second Map Third Map","isCertain"]
@@ -56927,6 +56950,14 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["cozmo","[Shen]Cozmo"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["b2s"],
+                        "membership" : ["","",""],
+                        "stats" : ["Likely in XII and then FGS afterwards",""]
                     }
                 ]
             }
@@ -58727,6 +58758,14 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["jjbomber","[STD]HERPES"],
+                        "aliases" : ["JJBOMBER","BIGGAYAL","jAcKaL","DudeInAThong","CuriousGeorge"],
+                        "pastClanIDs" : ["dwk","void","ue"],
+                        "membership" : ["","",""],
+                        "stats" : ["Possibly before [T] and [Ak] in 2005",""]
                     }
                 ]
             }
@@ -59645,10 +59684,10 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["jjbomber","[T]DudeInAThong"],
-                        "aliases" : ["JJBOMBER","BigGayAl"],
-                        "pastClanIDs" : ["dwk","void","ue","hk"],
+                        "aliases" : ["JJBOMBER","BIGGAYAL","jAcKaL","HERPES","CuriousGeorge"],
+                        "pastClanIDs" : ["dwk","void","ue","std","hk"],
                         "membership" : ["","",""],
-                        "stats" : ["Presumably JJBomber coming from HK and likely with several of its members",""]
+                        "stats" : ["Presumably coming from HK and likely with several of its members, in [AK] some point, possibly later",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -61267,7 +61306,31 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["","[TGU]"],
+                        "pidPlusName" : ["shadowmastertheone","[TGU]Shadowmaster"],
+                        "aliases" : ["ShadowmasterTheOne"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["batto","[TGU]Batto"],
+                        "aliases" : ["ThiefTheLegend"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["kronikman","[TGU]KRONIKMAN"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["tcomet","TComet[TGU]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -61278,7 +61341,7 @@
         ],
         "matches" : [
             {
-                "match" : ["","","","","","",""]
+                "match" : ["dcsb_v_tgu","dcsb","[DCSB]","Failed","2002-11-28","DCSB challenged TGU 3v1(?), 3v3 discussion<br /><br />Batto (ThiefTheLegend) explains at the time that it was KRONIKMAN challenged on GameSpy app but apparently DCSB team with Blade and Keyzer (and maybe Demolitionman?) withdrew when ShadowMaster logged on and arranged team of KRONICMAN, ShadowMaster, Batto for 3v3 match.","isDiscussed"]
             }
         ],
         "websites" : [
@@ -63561,7 +63624,7 @@
         ],
         "websites" : [
             {
-                "website" : ["","https://web.archive.org/web/20041210080334/http://www.freewebs.com/the_sleep_stalkers/","index"]
+                "website" : ["Also https://web.archive.org/web/20041025055312/http://www.tssclanswebsite.tk/","https://web.archive.org/web/20041210080334/http://www.freewebs.com/the_sleep_stalkers/","index"]
             },
             {
                 "website" : ["","https://web.archive.org/web/20041130143744/http://www.freewebs.com/dxthesleepstalkers/","index"]
@@ -64812,10 +64875,10 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["jjbomber","~[UE]~JJBOMBER"],
-                        "aliases" : ["BigGayAl"],
-                        "pastClanIDs" : ["dwk","void"],
+                        "aliases" : ["BIGGAYAL","jAcKaL","HERPES","DudeInAThong","CuriousGeorge"],
+                        "pastClanIDs" : ["dwk","void","std"],
                         "membership" : ["","",""],
-                        "stats" : ["Later in T",""]
+                        "stats" : ["Possibly from STD, later in T and AK",""]
                     }
                 ]
             }
@@ -66953,7 +67016,7 @@
                         "stats" : ["","Pimps and Pimpette(s)"]
                     },
                     {
-                        "membergroupLabel" : ["",""],
+                        "membergroupLabel" : ["duplicate",""],
                         "pidPlusName" : ["shadowmaster","[W]ShadowMaster"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
@@ -68233,7 +68296,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["also of B2S, later FGS",""]
+                        "stats" : ["also of B2S, presumably in Shen after this, later in FGS",""]
                     }
                 ]
             }

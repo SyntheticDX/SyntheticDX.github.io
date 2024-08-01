@@ -835,15 +835,31 @@ $(document).ready(function() {
             // Construct HTML for each clan row
             html += `
                 <tr class="clan_addedrows" tabindex="0" data-id="${post.id}">
-                    <td><div id="clan_sticky_tier"><div class="tier${post.tier[0]}">${post.tier[0]}</div><div class="tier${post.tier[1]}">${post.tier[1]}</div><div class="tier${post.tier[2]}">${post.tier[2]}</div></td>
-                    <td class="clan_tag"><div id="clan_sticky_tag">${post.tag[1]}${post.tag[2]}${post.tag[3]}</div></td>
-                    <td><div id="clan_sticky_name"><div id="${post.id}">${post.name} <span data-toggle="tooltip" data-placement="auto top" title="${post.flag[1]}">${post.flag[0]}</span></div></div></td>
-                    <td><div id="clan_sticky_date">
-                        ${post.date[1] ? `<div id="${post.date[0]}">B ${post.date[1]}</div>` : ''}
-                        ${post.date[3] ? `<div id="${post.date[2]}">† ${post.date[3]}</div>` : ''}
-                        ${post.date[5] ? `<div id="${post.date[4]}">R ${post.date[5]}</div>` : ''}
-                        </div></td>
-                    <td><div id="clan_sticky_founder">${post.founder.join(', ')}</div></td>
+                    <td class="clan_tier">
+                        <div id="clan_sticky_tier">
+                            <div class="tier${post.tier[0]}">${post.tier[0]}</div>
+                            <div class="tier${post.tier[1]}">${post.tier[1]}</div>
+                            <div class="tier${post.tier[2]}">${post.tier[2]}</div>
+                        </div>
+                    </td>
+                    <td class="clan_tag">
+                        <div id="clan_sticky_tag">${post.tag[1]}${post.tag[2]}${post.tag[3]}</div>
+                    </td>
+                    <td class="clan_name">
+                        <div id="clan_sticky_name">
+                            <div id="${post.id}">${post.name} <span data-toggle="tooltip" data-placement="auto top" title="${post.flag[1]}">${post.flag[0]}</span></div>
+                        </div>
+                    </td>
+                    <td class="clan_date">
+                        <div id="clan_sticky_date">
+                            ${post.date[1] ? `<div id="${post.date[0]}">B ${post.date[1]}</div>` : ''}
+                            ${post.date[3] ? `<div id="${post.date[2]}">† ${post.date[3]}</div>` : ''}
+                            ${post.date[5] ? `<div id="${post.date[4]}">R ${post.date[5]}</div>` : ''}
+                        </div>
+                    </td>
+                    <td class="founder">
+                        <div id="clan_sticky_founder">${post.founder.join(', ')}</div>
+                    </td>
                     <td id="clan_scroll_members">${membersCellHTML}${members2CellHTML}</td>
                     ${matchesCellHTML ? `
                         <td id="clan_scroll_matches">
@@ -1011,11 +1027,11 @@ $(document).ready(function() {
 
         // Create alphabet links
         alphabet.forEach(letter => {
-            const $link = $('<a></a>').attr('href', `#clan_sticky_tag_${letter}`).text(letter);
+            const $link = $('<a></a>').attr('href', `#clan_tag_${letter}`).text(letter);
             $link.on('click', function(e) {
                 e.preventDefault();
                 const $target = findFirstMatchingRow(letter);
-                if ($target.length) {
+                if ($target && $target.length) {
                     $('html, body').animate({
                         scrollTop: $target.offset().top - 200 // Adjust padding as needed
                     }, 500);
@@ -1030,7 +1046,7 @@ $(document).ready(function() {
             if (textContent) {
                 const firstLetter = textContent.charAt(0).toUpperCase();
                 if (alphabet.includes(firstLetter)) {
-                    $(this).attr('id', `clan_sticky_tag_${firstLetter}`);
+                    $(this).attr('id', `clan_tag_${firstLetter}`);
                 }
             }
         });
