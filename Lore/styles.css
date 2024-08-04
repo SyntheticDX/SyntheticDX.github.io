@@ -948,26 +948,39 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
 
  .clanlistContents {
     position: fixed;
-    top: 15vh; /* Adjust as needed */
-    left: 0px; /* Adjust as needed */
-    background-color: #000000; /* Background color for visibility */
-    border: 0.5px solid #cccccc00; /* Border for visibility */
-    border-radius: 2px;
+    left: -12px; /* Adjust this value based on sidebar width */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px; /* Adjust width as needed */
+    height: fit-content;
+    background-color: #cecece75; /* Background color for visibility */
     padding: 1px;
+    border: 0.5px solid #cccccc00; /* Border for visibility */
+    border-radius: 2px 2px 2px 0px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+    transition: left 0.3s ease;
     z-index: 1000; /* Ensure it is above other content */
 }
 
 .clanlistContents a {
     display: block;
     padding: 5px 0;
-    text-decoration: none;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.651);
     font-size:x-small;
-    color: silver;
+    text-decoration: none;
 }
 
 .clanlistContents a:hover {
-    color: cyan;
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+    mix-blend-mode: screen;
 }
+
+.clanlistContents:hover {
+    left: 0; /* Slide into view */
+}
+
 
 .tableheader {
     display: flex;

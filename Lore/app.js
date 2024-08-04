@@ -61,51 +61,6 @@ $(document).ready(function() {
     });
 
 
-    /* *********************** Construct Sidemenu ******************************************************************************************************************* */
-
-
-    var container = $(window); // Use window as the scrollable container
-    var sections = $('.chapter'); // Select all sections with class 'chapter'
-    var menuLinks = $('.pageMenu a');
-    var topPadding = 100; // Adjust the top detection padding
-    var bottomPadding = 20; // Adjust the bottom detection padding
-
-    container.scroll(function() {
-        var scrollPosition = container.scrollTop();
-
-        sections.each(function() {
-            var top = $(this).offset().top - topPadding;
-            var bottom = top + $(this).outerHeight() + bottomPadding;
-
-            if (scrollPosition >= top && scrollPosition < bottom) {
-                var id = $(this).attr('id');
-                menuLinks.removeClass('active');
-                menuLinks.filter('[href="#' + id + '"]').addClass('active');
-            }
-        });
-    });
-
-    // Smooth scrolling to section when clicking on menu links
-    menuLinks.click(function(event) {
-        event.preventDefault(); // Prevent the default behavior of anchor links
-
-        var targetId = $(this).attr('href');
-        var targetSection = $(targetId);
-        if (targetSection.length) {
-            var scrollTop = targetSection.offset().top;
-
-            // For the last section, scroll a little deeper into the element
-            if ($(this).is(':last-child')) {
-                scrollTop += bottomPadding; // Adjust this value as needed
-            }
-
-            $('html, body').animate({
-                scrollTop: scrollTop
-            }, 100); // Adjust the duration as needed
-        }
-    });
-
-
     /* *********************** Construct STORIES ******************************************************************************************************************** */
 
 
@@ -834,7 +789,7 @@ $(document).ready(function() {
 
             // Construct HTML for each clan row
             html += `
-                <tr class="clan_addedrows" tabindex="0" data-id="${post.id}">
+                <tr class="clan_addedrows" tabindex="0" data-id="${post.id}" id="clan_tag_${post.name.charAt(0).toUpperCase()}">
                     <td class="clan_tier">
                         <div id="clan_sticky_tier">
                             <div class="tier${post.tier[0]}">${post.tier[0]}</div>
@@ -896,6 +851,9 @@ $(document).ready(function() {
         });
     }
 
+
+    /* *********** Filtering Logic for Matches & Members Checkboxes ***************** */
+
     // Declare variables for filtered data and checkbox states
     let filteredData;
     let filteredCount = 0; // Initialize filtered count
@@ -936,6 +894,9 @@ $(document).ready(function() {
         renderClansBasedOnCheckbox();
     }
 
+
+    /* *********** Lets Get Our JSON File ******************************************* */
+
     // Fetch JSON data and render clans
     $.getJSON('./clanlist.json', function(data) {
         let ascendingOrderDate = true; // Variable to track current sort order for date
@@ -956,6 +917,9 @@ $(document).ready(function() {
 
         // Render clans based on sorted data
         renderClans(data);
+
+
+        /* *********** Minibanners Scrolling Bottombar Linking ************************** */
 
         // Add click event listener to anchor tags within marqueeMinibanners
         $('.marqueeMinibanners a').on('click', function(event) {
@@ -1008,48 +972,69 @@ $(document).ready(function() {
             }
         });
 
+
+        /* *********** Alphabetical Contents Sidebar ************************************ */
+
         // Alphabet links generation and click handling
         const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
         const $clanlistContents = $('.clanlistContents');
 
-        // Function to find the first <tr class="clan_tag"> containing the specified letter
-        function findFirstMatchingRow(letter) {
-            let $target = null;
-            $('tr.clan_tag').each(function() {
-                const textContent = $(this).text().trim().toUpperCase();
-                if (textContent.startsWith(letter)) {
-                    $target = $(this);
-                    return false; // Break out of the loop
-                }
-            });
-            return $target;
+        // Function to find the next <tr class="clan_addedrows"> containing the specified letter
+        function findNextMatchingRow(letter) {
+            const $rows = $(`tr[id^="clan_tag_${letter}"]`);
+            const scrollPosition = $(window).scrollTop() + 200; // Adjust with padding
+            
+            // Find the next row after the current scroll position
+            let $nextRow = $rows.filter(function() {
+                return $(this).offset().top > scrollPosition;
+            }).first();
+
+            // If no next row found, wrap around to the first occurrence
+            if (!$nextRow.length) {
+                $nextRow = $rows.first();
+            }
+            
+            return $nextRow;
         }
 
         // Create alphabet links
         alphabet.forEach(letter => {
-            const $link = $('<a></a>').attr('href', `#clan_tag_${letter}`).text(letter);
+            const $link = $('<a></a>').attr('href', `#${letter}`).text(letter);
             $link.on('click', function(e) {
                 e.preventDefault();
-                const $target = findFirstMatchingRow(letter);
+                const $target = findNextMatchingRow(letter);
                 if ($target && $target.length) {
+                    // Scroll to the target row with padding
                     $('html, body').animate({
                         scrollTop: $target.offset().top - 200 // Adjust padding as needed
-                    }, 500);
+                    }, 200, function() {
+                        // Animation complete callback
+                        // Create a border overlay div
+                        const $borderOverlay = $('<div class="border-overlay"></div>').css({
+                            position: 'absolute',
+                            top: $target.offset().top - 2, // Adjusted top position with a little padding
+                            left: $target.offset().left - 2, // Adjusted left position with a little padding
+                            width: $target.outerWidth() + 4, // Adjusted width to make the border wider
+                            height: $target.outerHeight() + 4, // Adjusted height to make the border wider
+                            border: '2px solid red',
+                            borderRadius: $target.css('borderRadius'), // Match the border radius of the row
+                            pointerEvents: 'none', // Allow clicking through the overlay
+                            zIndex: 9999 // Ensure the overlay appears above other content
+                        }).appendTo('body');
+
+                        // Fade out the border overlay
+                        $borderOverlay.fadeOut(2000, function() {
+                            // Remove the overlay after fading out
+                            $(this).remove();
+                        });
+                    });
                 }
             });
             $clanlistContents.append($link);
         });
+ 
 
-        // Assign IDs to clan tags
-        $('tr.clan_tag').each(function() {
-            const textContent = $(this).text().trim();
-            if (textContent) {
-                const firstLetter = textContent.charAt(0).toUpperCase();
-                if (alphabet.includes(firstLetter)) {
-                    $(this).attr('id', `clan_tag_${firstLetter}`);
-                }
-            }
-        });
+        /* *********** List Filtering and Sorting (We Check Filters Before We Sort) ***** */
 
         // Listen for changes in the filter select element
         $('#filterSelect').change(function() {
@@ -1217,6 +1202,9 @@ $(document).ready(function() {
         console.error('Error fetching or parsing JSON:', errorThrown);
     });
 
+
+    /* *********** Match Link to Opponent ******************************************* */
+
     // Scroll to the other participant of the match, excluding certain elements
     $(document).on('click', '.matchOpponent', function(event) {
         event.preventDefault(); // Prevent default anchor behavior
@@ -1264,6 +1252,9 @@ $(document).ready(function() {
             });
         }
     });
+
+
+    /* *********** Sorting Checkboxes *********************************************** */
 
     // Event listener for checkbox #toggleSiteNews
     $('#toggleSiteNews').change(function() {
