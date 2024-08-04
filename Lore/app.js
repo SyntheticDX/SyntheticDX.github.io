@@ -789,7 +789,7 @@ $(document).ready(function() {
 
             // Construct HTML for each clan row
             html += `
-                <tr class="clan_addedrows" tabindex="0" data-id="${post.id}" id="clan_tag_${post.name.charAt(0).toUpperCase()}">
+                <tr class="clan_addedrows" tabindex="0" data-id="${post.id}">
                     <td class="clan_tier">
                         <div id="clan_sticky_tier">
                             <div class="tier${post.tier[0]}">${post.tier[0]}</div>
@@ -935,7 +935,7 @@ $(document).ready(function() {
                 var id = href.substring(1);
 
                 // Find the corresponding clan list row with the matching ID
-                var $targetRow = $('.clan_addedrows[data-id="' + id + '"]');
+                var $targetRow = $(`.clan_addedrows[data-id="${id}"]`);
 
                 // Check if the target row exists
                 if ($targetRow.length > 0) {
@@ -979,35 +979,40 @@ $(document).ready(function() {
         const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
         const $clanlistContents = $('.clanlistContents');
 
-        // Function to find the next <tr class="clan_addedrows"> containing the specified letter
-        function findNextMatchingRow(letter) {
-            const $rows = $(`tr[id^="clan_tag_${letter}"]`);
-            const scrollPosition = $(window).scrollTop() + 200; // Adjust with padding
-            
-            // Find the next row after the current scroll position
-            let $nextRow = $rows.filter(function() {
-                return $(this).offset().top > scrollPosition;
-            }).first();
+        // Object to store the last scrolled index for each letter
+        const lastScrolledIndex = {};
 
-            // If no next row found, wrap around to the first occurrence
-            if (!$nextRow.length) {
-                $nextRow = $rows.first();
+        // Function to find the next <tr class="clan_addedrows"> containing the specified letter
+        function findNextMatchingRow(letter, lastIndex) {
+            const rows = $(`tr[data-id^="${letter.toLowerCase()}"]`);
+            if (rows.length === 0) {
+                return null; // Return null if no rows match the letter
             }
-            
-            return $nextRow;
+            if (lastIndex === undefined || lastIndex >= rows.length - 1) {
+                return rows.first(); // Return the first row if no lastIndex is provided or if we've reached the end
+            }
+            // Find the next row after the lastIndex
+            return rows.eq(lastIndex + 1);
         }
 
         // Create alphabet links
         alphabet.forEach(letter => {
+            // Initialize the lastScrolledIndex for the letter
+            lastScrolledIndex[letter] = -1;
+
             const $link = $('<a></a>').attr('href', `#${letter}`).text(letter);
             $link.on('click', function(e) {
                 e.preventDefault();
-                const $target = findNextMatchingRow(letter);
+                const lastIndex = lastScrolledIndex[letter];
+                const $target = findNextMatchingRow(letter, lastIndex);
                 if ($target && $target.length) {
+                    // Update the lastScrolledIndex for the letter
+                    lastScrolledIndex[letter] = $(`tr[data-id^="${letter.toLowerCase()}"]`).index($target);
+
                     // Scroll to the target row with padding
                     $('html, body').animate({
                         scrollTop: $target.offset().top - 200 // Adjust padding as needed
-                    }, 200, function() {
+                    }, 500, function() {
                         // Animation complete callback
                         // Create a border overlay div
                         const $borderOverlay = $('<div class="border-overlay"></div>').css({
@@ -1205,7 +1210,7 @@ $(document).ready(function() {
 
     /* *********** Match Link to Opponent ******************************************* */
 
-    // Scroll to the other participant of the match, excluding certain elements
+    // Handle clicks on elements with class "matchOpponent"
     $(document).on('click', '.matchOpponent', function(event) {
         event.preventDefault(); // Prevent default anchor behavior
 
@@ -1213,16 +1218,25 @@ $(document).ready(function() {
         const matchId = $(this).closest('[data-matchid]').data('matchid');
         const $clickedElement = $(this).closest('[data-matchid]');
 
-        // Find the next row with the corresponding data-matchid attribute
-        let $targetRow = $(`[data-matchid="${matchId}"]`).not($clickedElement);
+        // Find all rows with the corresponding data-matchid attribute, excluding the clicked element
+        let $targetRows = $(`[data-matchid="${matchId}"]`).not($clickedElement);
 
-        // If the clicked element is the last one, go to the first one
-        if ($targetRow.length === 0) {
-            $targetRow = $(`[data-matchid="${matchId}"]:first`);
+        // If there are no target rows, fallback to the first one
+        if ($targetRows.length === 0) {
+            $targetRows = $(`[data-matchid="${matchId}"]:first`);
         }
 
-        // Scroll to the target row if found
-        if ($targetRow.length > 0) {
+        // Check if the target rows are different from the clicked element
+        if ($targetRows.length > 0) {
+            // If the only available target is the clicked element itself, log an error
+            if ($targetRows.is($clickedElement)) {
+                console.error(`Error: No other participants found for match ID ${matchId}.`);
+                return; // Exit the function early
+            }
+
+            // Choose the first available target row
+            const $targetRow = $targetRows.first();
+
             // Define padding for the top of the viewport
             const paddingTop = 500;
 
@@ -1250,6 +1264,9 @@ $(document).ready(function() {
                     $(this).remove();
                 });
             });
+        } else {
+            // If no target rows are found at all, log an error
+            console.error(`Error: No participants found for match ID ${matchId}.`);
         }
     });
 
@@ -1323,9 +1340,6 @@ $(document).ready(function() {
     
 
     /* *********************** STATS *************************************************************************************************************************** */
-
-
-
 
 
 

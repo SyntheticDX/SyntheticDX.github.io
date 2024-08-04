@@ -953,7 +953,7 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
     transform: translateY(-50%);
     width: 15px; /* Adjust width as needed */
     height: fit-content;
-    background-color: #cecece75; /* Background color for visibility */
+    background-color: #8a8a8ab6; /* Background color for visibility */
     padding: 1px;
     border: 0.5px solid #cccccc00; /* Border for visibility */
     border-radius: 2px 2px 2px 0px;
@@ -966,7 +966,7 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
     display: block;
     padding: 5px 0;
     text-align: center;
-    color: rgba(255, 255, 255, 0.651);
+    color: rgb(167, 167, 167);
     font-size:x-small;
     text-decoration: none;
 }

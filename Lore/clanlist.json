@@ -2953,7 +2953,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "",
+        "description" : "A non-aug and possibly fun mods clan from the late sixth year or the seventh year, it may have had some challengers but not clear if anything was played.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -4606,7 +4606,7 @@
                 "forum" : ["pretty much dead, get to see the main board view","https://web.archive.org/web/20021029174758/http://pub95.ezboard.com/babcwarriors58756","index"]
             }
         ],
-        "description" : "",
+        "description" : "An aug clan from approximately the second year.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -4657,7 +4657,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "",
+        "description" : "Short-lived beginner tag from late fourth year non-augs.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -4708,7 +4708,7 @@
                 "forum" : ["its actually live, so registered could enter I suppose","https://dxclanac.forumotion.com/login",""]
             }
         ],
-        "description" : "",
+        "description" : "Fifteenth year, post-game-death non-augs and mods clan that doesn't appear to have survived very long.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -8283,7 +8283,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "",
+        "description" : "Obscure third year aug and non-aug clan.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -16881,7 +16881,7 @@
                 "forum" : ["","https://web.archive.org/web/*/http://www.atfreeforum.com/db/*","dead"]
             }
         ],
-        "description" : "",
+        "description" : "Obscure third year clan that I've placed into Basic category as I was unable to determine if they played augs or were created in BTJ non-aug community.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -17730,7 +17730,7 @@
                 "match" : ["dcsb_v_tcn","tcn","[TCN]","Practice","2002-09-06","The friendly with TCNdk also didnt go too well. Only 2 dcsb members turned up, RogueJedi and Demolitionman. They had a little fun but nothing ever really happened. It was re-arranged for this wkend just gone, but had to be canclled due to the fact that Blade, Rogue, and myself had other commitments saturday night, and myself and blade have another commitment tonight as well(sunday). We will discuss a new date in the private area of the forums, and get back to TCNdk with one.","isCertain"]
             },
             {
-                "match" : ["dcsb_v_tcn","tcn","[TCNdk]","Loss","2002-10-11","DK AtomicPunk posted on forums 'Goodtime today!' with only two replies, presumably loss<br /><br />Main discussion is TCNdk vs DCSB and DK is likely gone. Its possible this entry is also 'Practice'","isUncertain"]
+                "match" : ["dcsb_v_tcn_2","tcn","[TCNdk]","Loss","2002-10-11","DK AtomicPunk posted on forums 'Goodtime today!' with only two replies, presumably loss<br /><br />Main discussion is TCNdk vs DCSB and DK is likely gone. Its possible this entry is also 'Practice'","isUncertain"]
             },
             {
                 "match" : ["","tdh","[TDH]","","2002-10-17","RogueDeadJediCow posted 'DCSB Versus TDN Clan War' ~ 2002-10-17<br /><br />--I've corrected this to [TDH] which emerged right around this time, with the assumption that original [TDN] tag is mistyped - N is close to H on keyboard--","isDiscussed"]
@@ -22127,7 +22127,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "",
+        "description" : "Obscure auged clan from some time in the second year.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -22288,7 +22288,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "",
+        "description" : "Late twelfth year non-aug tag caught on sshots with player named Bot showing good enough score to warrant Advanced tier.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -33901,7 +33901,7 @@
         "name" : "",
         "gametype" : ["Aug"],
         "tier" : ["B","A",""],
-        "date" : ["isUncertain","","isUncertain","","isCertain",""],
+        "date" : ["isUncertain","2003-01-01","isUncertain","2003-01-01","isCertain",""],
         "founder" : ["fukHead?"],
         "members" : [
             {
@@ -33918,7 +33918,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["sillybilly","[FUK]SillyBilly"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["cyd","bk"],
                         "membership" : ["","",""],
                         "stats" : ["",""]
                     }
@@ -33940,7 +33940,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "",
+        "description" : "Obscure auged clan from probably third or second year of the game, possibly but unlikely thats even from early fourth year.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -36632,7 +36632,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "",
+        "description" : "Listed by Hasharin of E.d.H.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -41158,7 +41158,7 @@
         ],
         "matches" : [
             {
-                "match" : ["","","","","","",""]
+                "match" : ["alpha_v_kingz","alpha","|ALPHA|","Loss","25.01.04","Conditions: Zero-aug    Server: [A] DoughBoy's server    Maps: smuggler, area51bunker","isCertain"]
             }
         ],
         "websites" : [
@@ -60298,7 +60298,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["","(TB)"],
+                        "pidPlusName" : ["member","(TB)"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -60502,7 +60502,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["","[TCF]"],
+                        "pidPlusName" : ["member","[TCF]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -60553,7 +60553,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["",""],
+                        "pidPlusName" : ["member",""],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -60564,7 +60564,7 @@
         ],
         "matches" : [
             {
-                "match" : ["","","","","","",""]
+                "match" : ["triad_v_tcn","triad","[3]","Disputed","2002-04-28","JohnnyBravoTCNdk: '/../ drew with [3], but because they were dicks and left before the match could finish - they don't get another shot and they can toast their win over a draw'<br /><br />DerianX not directly affiliated with either clan reminded at the time that this result was disputed, likely due to what you can read above.<br /><br />Triad: 'A Triad victory. We agreed to play three maps but we only played two because of arguements about the maps with some &#x005B;TCN&#x005D; members. There was some lag on the &#x005B;DEA&#x005D; server when about 2-3 minutes was left of the first map. The first map was Area51Bunker and you can check the results under the 'Wars' link. Second map was played on Jolt.co server because the &#x005B;TCN&#x005D; members wanted to play it there. So we changed the server and put the Silo map on. Silo was won by Triad and smuggler remained unplayed, mostly because the start of the game was delayed because KingLouie&#x005B;TCN&#x005D; and Riddler&#x005B;TCN&#x005D; were late. It was a good and very skilled game, the attitude could have been nicer though. Thank you &#x005B;TCN&#x005D; for a good match.'","isCertain"]
             }
         ],
         "websites" : [
@@ -60667,7 +60667,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["","[TD]"],
+                        "pidPlusName" : ["member","[TD]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -60839,7 +60839,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["","[TDH]"],
+                        "pidPlusName" : ["member","[TDH]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -60890,7 +60890,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["","[TDT]"],
+                        "pidPlusName" : ["member","[TDT]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -60941,7 +60941,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["","[te]"],
+                        "pidPlusName" : ["member","[te]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -61043,7 +61043,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["","[TEC]"],
+                        "pidPlusName" : ["member","[TEC]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -61094,7 +61094,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["","[TEK]"],
+                        "pidPlusName" : ["member","[TEK]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -61145,7 +61145,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["","[TF]"],
+                        "pidPlusName" : ["member","[TF]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -61196,7 +61196,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["","[TF]"],
+                        "pidPlusName" : ["member","[TF]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -61381,7 +61381,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["","&lt;TH&gt;Spike"],
+                        "pidPlusName" : ["member","&lt;TH&gt;Spike"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -68496,7 +68496,16 @@
         ],
         "matches" : [
             {
-                "match" : ["thc_v_xkt","thc","[THC]","Loss 0:3","Oct 25 2010","War #3 <br />Clans: THC vs XKT<br />Date: Oct 25 2010<br />Gametype: 0 Aug<br />Result: THC Victory 3-0 <br /><br />Round 1: Smuggler<br />Round 2: Area51Bunker<br />Round 3: Smuggles","isCertain"]
+                "match" : ["thc_v_xkt","thc","[THC]","Loss 0:3","2010-10-25","War #3 <br />Clans: THC vs XKT<br />Date: Oct 25 2010<br />Gametype: 0 Aug<br />Result: THC Victory 3-0 <br /><br />Round 1: Smuggler<br />Round 2: Area51Bunker<br />Round 3: Smuggles","isCertain"]
+            },
+            {
+                "match" : ["nkz_v_xkt","nkz","[NKz]","Loss 1:2","2010-12-22","Croissant97: Clanwar vs xkt started at 8pm. instead of a 3vs3 has been carried out, and instead of silo was used as a dust map.<br /><br />DXMP_CMD = 1st Round =<br />NKz Vs XKT<br />31 --- 37<br /><br />DXMP_Smuggler = 2nd Round =<br />NKz Vs XKT<br />63 --- 58<br /><br />DXMS_Dust = 3rd Round =<br />NKz Vs XKT<br />57 --- 56<br /><br />~TOTAL~<br />NKz=2<br />XKT=1<br /><br />NKz Won","isCertain"]
+            },
+            {
+                "match" : ["nkz_v_xkt_2","nkz","[NKz]","Loss 2:0","2011-01-11","Croissant97: DXMP_Dust = 1st Round =<br />NKz Vs XKT<br />46 ----- 34<br /><br />DXMP_Smuggler = 2nd Round =<br />NKz Vs XKT<br />51 ----- 35<br /><br />~TOTAL~<br />NKz=2<br />XKT=0<br /><br />NKz Win","isCertain"]
+            },
+            {
+                "match" : ["nkz_v_xkt_3","nkz","[NKz]","Loss","2011-02-07","Fury96: this has been a battle so much to have a good time him and he has not absolutely been difficult and with the help of sorrow he has been easy even more......xD !!!! :)<br />[NKz]Ct9a: NOT BAD nkz~~~ keep it up","isCertain"]
             }
         ],
         "websites" : [
@@ -68740,7 +68749,7 @@
         ],
         "matches" : [
             {
-                "match" : ["","","","","","",""]
+                "match" : ["bk_v_xxx","bk","[BK]","Loss","2003-07-19","BK: 'Victory after the war with [XxX], good game guys.'","isCertain"]
             }
         ],
         "websites" : [
