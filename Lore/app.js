@@ -61,6 +61,42 @@ $(document).ready(function() {
     });
 
 
+    /* *********************** Construct Sidemenu ******************************************************************************************************************* */
+    var container = $(window); // Use window as the scrollable container
+    var sections = $('.chapter'); // Select all sections with class 'chapter'
+    var menuLinks = $('.pageMenu a');
+    var topPadding = 100; // Adjust the top detection padding
+    var bottomPadding = 20; // Adjust the bottom detection padding
+    container.scroll(function() {
+        var scrollPosition = container.scrollTop();
+        sections.each(function() {
+            var top = $(this).offset().top - topPadding;
+            var bottom = top + $(this).outerHeight() + bottomPadding;
+            if (scrollPosition >= top && scrollPosition < bottom) {
+                var id = $(this).attr('id');
+                menuLinks.removeClass('active');
+                menuLinks.filter('[href="#' + id + '"]').addClass('active');
+            }
+        });
+    });
+    // Smooth scrolling to section when clicking on menu links
+    menuLinks.click(function(event) {
+        event.preventDefault(); // Prevent the default behavior of anchor links
+        var targetId = $(this).attr('href');
+        var targetSection = $(targetId);
+        if (targetSection.length) {
+            var scrollTop = targetSection.offset().top;
+            // For the last section, scroll a little deeper into the element
+            if ($(this).is(':last-child')) {
+                scrollTop += bottomPadding; // Adjust this value as needed
+            }
+            $('html, body').animate({
+                scrollTop: scrollTop
+            }, 100); // Adjust the duration as needed
+        }
+    });
+    
+    
     /* *********************** Construct STORIES ******************************************************************************************************************** */
 
 

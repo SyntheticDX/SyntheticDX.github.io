@@ -953,10 +953,13 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
     transform: translateY(-50%);
     width: 15px; /* Adjust width as needed */
     height: fit-content;
-    background-color: #8a8a8ab6; /* Background color for visibility */
-    padding: 1px;
-    border: 0.5px solid #cccccc00; /* Border for visibility */
-    border-radius: 2px 2px 2px 0px;
+    background-color: #2e2e2ee8; /* Background color for visibility */
+    padding-top: 1px;
+    padding-right: 3px; 
+    padding-bottom: 1px;
+    padding-left: 2px;
+    border: 0.5px solid #041577; /* Border for visibility */
+    border-radius: 4px 4px 4px 0px;
     box-shadow: 2px 0 5px rgba(0,0,0,0.5);
     transition: left 0.3s ease;
     z-index: 1000; /* Ensure it is above other content */
@@ -978,7 +981,7 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
 }
 
 .clanlistContents:hover {
-    left: 0; /* Slide into view */
+    left: -1px; /* Slide into view */
 }
 
 
