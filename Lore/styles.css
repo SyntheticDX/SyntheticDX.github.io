@@ -2030,6 +2030,8 @@ nav div.link_index {
     line-height: 0.7;
     font-size: xx-large;
     animation: glowlogo 6s ease-in-out infinite alternate;
+    -webkit-animation: glowlogo 6s ease-in-out infinite alternate;
+    -moz-animation: glowlogo 6s ease-in-out infinite alternate;
 }
 
 @keyframes glowlogo {
@@ -2050,6 +2052,25 @@ nav div.link_index {
     }
 }
 
+nav div.link {
+    margin: auto; 
+    width: 50%;
+    height: 100%;
+    padding: 4px;
+    font-size: 100%;
+    text-transform: uppercase;
+    color: rgb(218, 218, 218);
+    opacity: 0.8;
+    transition: color .3s, background-color .3s;
+    text-shadow: 0px 0px 10px #181aaf, 0px 0px 2px #491ee2;
+}
+
+nav div.link:hover {
+    color: white;
+    -webkit-animation: glow .4s ease-in-out infinite alternate;
+    -moz-animation: glow .4s ease-in-out infinite alternate;
+    animation: glow .4s ease-in-out infinite alternate;
+}
 
   /* Style local PAGES */
 
