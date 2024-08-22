@@ -834,28 +834,41 @@ $(document).ready(function() {
                 members2CellHTML = `<div class="members2"><div class="memberCountWrapper">(${calculateTotalMembers(post['members_2'])})</div><div class="membergroupLabel"></div><div class="clanRoster">${members2CellHTML}</div></div>`;
             }
 
-            // Helper function to determine match type class
+            // Helper function to determine match type class and tooltip text
             const getMatchTypeClass = (matchString) => {
+                let className = '';
+                let tooltipText = '';
+
                 if (/\b0a\b|\bs0a\b|\bstandard 0a|\bstandard zero-aug|\bzero aug\b|\bZero aug|\bzero-aug|\b0 Aug|\b0A\b/i.test(matchString)) {
-                    return 'matchtype0a';
+                    className = 'matchtype0a';
+                    tooltipText = 'Non-Augmented Match';
                 } else if (/\bATDM\b|\batdm\b|Aug/i.test(matchString)) {
-                    return 'matchtypeATDM';
+                    className = 'matchtypeATDM';
+                    tooltipText = 'Augmented Team Deathmatch';
                 } else if (/\bBTDM\b|\bbtdm\b|Basic/i.test(matchString)) {
-                    return 'matchtypeBTDM';
+                    className = 'matchtypeBTDM';
+                    tooltipText = 'Basic Team Deathmatch';
                 } else if (/\bCTDM\b|\bctdm\b|\bCustom TDM\b/i.test(matchString)) {
-                    return 'matchtypeCTDM';
+                    className = 'matchtypeCTDM';
+                    tooltipText = 'Custom Team Deathmatch';
                 } else if (/\bctf\b|\bmod\b|\bdxag\b|\brpg\b|\bcdx\b/i.test(matchString)) {
-                    return 'matchtypeMod';
+                    className = 'matchtypeMod';
+                    tooltipText = 'Modded Game Mode';
                 } else if (/\bMapping\b/i.test(matchString)) {
-                    return 'gametypeMap';
+                    className = 'gametypeMap';
+                    tooltipText = 'Mapping Group';
                 } else if (/\bAdminning\b/i.test(matchString)) {
-                    return 'gametypeAdmin';
+                    className = 'gametypeAdmin';
+                    tooltipText = 'Admin Group';
                 } else if (/\bSocial\b/i.test(matchString)) {
-                    return 'gametypeSocial';
+                    className = 'gametypeSocial';
+                    tooltipText = 'Social Group';
                 } else if (/\bCoding\b/i.test(matchString)) {
-                    return 'gametypeCoding';
+                    className = 'gametypeCoding';
+                    tooltipText = 'Coding Group';
                 }
-                return '';
+
+                return { className, tooltipText };
             };
 
             // Check if the 'matches' array is not empty
@@ -876,13 +889,13 @@ $(document).ready(function() {
                 // Construct the HTML for the matches cell
                 matchesCellHTML = otherMatches.concat(discussedMatches).map(match => {
                     if (match.match[1] !== '') {
-                        const matchTypeClass = getMatchTypeClass(match.match[5]); // Determine the match type class
+                        const { className, tooltipText } = getMatchTypeClass(match.match[5]); // Get the class and tooltip
                         return `
                             <span data-matchid="${match.match[0]}" data-toggle="tooltip" data-html="true" data-placement="auto bottom" title="${match.match[4]}<br />${match.match[5]}">
                                 <div class='match${match.match[6]}'>
                                     ${post.tag[1]}${post.tag[2]}${post.tag[3]} vs <a class="matchOpponent" href="#${match.match[0]}">${match.match[2]}</a>
                                     <span id='matchResult' class='match${match.match[3]}'>${match.match[3]}</span>
-                                    ${matchTypeClass ? `<span class="${matchTypeClass}"></span>` : ''}
+                                    ${className ? `<span class="${className}" title="${tooltipText}"></span>` : ''}
                                 </div>
                             </span>
                         `;
@@ -898,8 +911,8 @@ $(document).ready(function() {
                     <td>
                         <div id="clan_sticky_game">
                             ${post.gametype.map(type => {
-                                const matchTypeClass = getMatchTypeClass(type); // Determine the match type class using existing function
-                                return matchTypeClass ? `<span class="${matchTypeClass}"></span>` : type;
+                                const { className, tooltipText } = getMatchTypeClass(type); // Get the class and tooltip
+                                return className ? `<span class="${className}" title="${tooltipText}"></span>` : type;
                             }).join('<br />')}
                         </div>
                     </td>

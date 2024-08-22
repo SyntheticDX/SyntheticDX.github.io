@@ -8528,10 +8528,10 @@
         "tag" : ["tagFront","[","BFS","]"],
         "tag_extra" : "",
         "flag" : ["",""],
-        "name" : "",
-        "gametype" : ["Aug"],
+        "name" : "Berliner Front Schweine",
+        "gametype" : ["0a","Aug"],
         "tier" : ["B","",""],
-        "date" : ["isUncertain","2002-01-01","isUncertain","2002-12-01","isCertain",""],
+        "date" : ["isUncertain","2002-01-01","isUncertain","2002-06-01","isCertain",""],
         "founder" : ["Subziro?"],
         "members" : [
             {
@@ -8542,7 +8542,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Later in IMPAC after clan merges with GDoTS","Server host"]
                     }
                 ]
             }
@@ -8562,7 +8562,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "Beginner or failed clan? Found on [GATO] sshots 2002",
+        "description" : "A second year German community clan of apparently non-aug focus, found on [GATO] sshots approx 2002 as well as mentioned by IMPAC member, a clan formed from GDoTS and BFS merge.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -34795,8 +34795,8 @@
         "tag" : ["tagFront","[","GDotS","]"],
         "tag_extra" : "",
         "flag" : ["🇩🇪","German-speaking clan, seemingly, but possibly not exclusive to the country"],
-        "name" : "German Defender of the Sniper",
-        "gametype" : ["Aug"],
+        "name" : "GermanDefendersOfTheSniper",
+        "gametype" : ["Aug","0a"],
         "tier" : ["B","",""],
         "date" : ["isUncertain","2001-02-08","isUncertain","2001-12-01","isCertain",""],
         "founder" : ["Jonny","Agent?"],
@@ -34917,7 +34917,7 @@
                 "forum" : ["marked dead in my old list, it may have been started up 21.03.01 when Jonny announces they made community for DXSP and MP players found under links as Deus Ex Com, later however he notes the forums are inaccessible half the time.","","dead"]
             }
         ],
-        "description" : "Beta era clan for German-speaking peoples, gathered on ICQ to play with who was online and didnt play wars as there were no other german clans at time, hoping to build elite team meanwhile. Formed friendly relations with <a href='mi'>The Mercenarys INC</a> by March 24, 2001. Mentions the emergence of a few additional German clans in June.",
+        "description" : "Beta era clan for German-speaking peoples, gathered on ICQ to play with who was online and didnt play wars as there were no other german clans at time, hoping to build elite team meanwhile. Formed friendly relations with <a href='mi'>The Mercenarys INC</a> by March 24, 2001. Mentions the emergence of a few additional German clans in June. Clan appears to have merged with BFS which may have been one of those mentioned clans, apparently to form new IMPAC clan.",
         "background" : [
             {
                 "backgroundStory" : ["Judging by Looking Glass forums the interest in German clans was high, soon [DXIN] would become home for many of them.","gdots","","German Defender of the Sniper [GDotS]<br />a) www.gdots.de.vu<br />b) [GDotS]_Jonny <br />c) you can find a List on our page under Members<br />d) Yes but only ingame and only people who can at least speak a little bit german.<br /><br />mfg<br />Jonny"]
@@ -39076,14 +39076,22 @@
         "tag" : ["tagFront","[","IMPAC","]"],
         "tag_extra" : "",
         "flag" : ["🇩🇪",""],
-        "name" : "",
-        "gametype" : ["Aug"],
-        "tier" : ["B","",""],
+        "name" : "Independent MultiPlayer Associated Community",
+        "gametype" : ["0a"],
+        "tier" : ["B","A",""],
         "date" : ["isUncertain","2002-01-01","isUncertain","2002-06-01","isCertain",""],
-        "founder" : ["Snake?"],
+        "founder" : ["LeClair"],
         "members" : [
             {
                 "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["leclair","[IMPAC]LeClair"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["sinc"],
+                        "membership" : ["","",""],
+                        "stats" : ["","Leader"]
+                    },
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["snake","[IMPAC]Snake"],
@@ -39091,6 +39099,14 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["subziro","[IMPAC]Subzero"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["bfs"],
+                        "membership" : ["","",""],
+                        "stats" : ["From his BFS clan","Non-aug server host"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -39118,10 +39134,10 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "Obscure German clan from one of the first three years of the game, speculating that Snake had more germans in the clan, and possibly played other games in addition DXMP. Initally a flash site first archived end of January, the webpage changes style by summer 2002 pointing to content from clan-exitus domain and thus likely marks the death of this particular clan, at least in DXMP.",
+        "description" : "German community clan from roughly the second or later first year, it was a merger of GDoTS and BFS clans led by LeClair and appear to have been playing mainly without augmentations. Initally a flash site first archived end of January, the webpage changes style by summer 2002 pointing to content from clan-exitus domain and thus likely marks the death of this particular clan, at least in DXMP. Its possible this clan belongs to the second half of 2001 or formed soon after 2002 rolled in.",
         "background" : [
             {
-                "backgroundStory" : ["2024-08-22","carnivore","Carnivore:","I was in this guild. Crazy to find this"]
+                "backgroundStory" : ["2024-08-22 DXHQ Discord","carnivore","Carnivore:","I was in this guild. Crazy to find this<br /><br />IMPAC (the meaning was 'Independent MultiPlayer Associated Community')  was the result of a merge of BFS and SINC players.<br /><br />The leader was LeClair. Shortly after the clan was created the focus moved to Tactical Ops.<br />Met twice in Germany at that time.<br /><br />On German servers we mostly played without any augs.<br />I recall playing on a private server of Subzero that he opened up each evening after work.<br /><br />GDoTS was another German guild around.<br />Found many familiar names.<br /><br />Download of DXMP was about 33 or 35 megabytes what took me some hours by 56k modem.<br /><br />There was a player ranking and LeClair was number one at the time and me top 10 or top 20.<br />But there were just 100-120 players ranked 😄<br /><br />DXMP is first game I played online and the singleplayer its my favorite game until today."]
             }
         ],
         "news" : [
