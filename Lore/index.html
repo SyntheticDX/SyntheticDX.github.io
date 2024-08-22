@@ -108,25 +108,69 @@
         
         
         <section id="pageclans" class="page">
-            <div id="clanlistStats">
-                <div id="clanFilters">
-                    <label for="filterSelect">Gametype:</label>
-                    <select name="gametypes" id="filterSelect">
-                        <option selected value="All">All</option>
-                        <option value="Aug">Advanced</option>
-                        <option value="Basic">Basic</option>
-                        <option value="0a">Zero-Aug</option>
-                        <option value="Mod">Mods</option>
-                    </select>
-
-                    <div id="filteredCountWrapper">(<div id="filteredCount" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Number of clans in this gametype</div>"></div>)</div>
-
-                    <div id="filteredPlayercountWrapper"><div id="filteredPlayerCount" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Number of unique player IDs that Ive assigned manually to any visual name forms. <br /><br />Consider the following:<ul><li>Perhaps 1% bloat from aliases that I haven't recognized</li></ul>However:<ul><li>Practically none of the rosters here are complete</li><li>Entire clans worth of rosters lost to time</li></ul></div>"></div></div>
-
-                    <div id="toggleMembersWrapper" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Show only clans that currently have listed members here.</div>"><input type="checkbox" id="toggleMembers" /><label for="toggleMembers"></label></div>
-
-                    <div id="toggleMatchesWrapper" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Show only clans that currently have confirmed matches here.</div>"><input type="checkbox" id="toggleMatches" /><label for="toggleMatches"></label></div>
-
+            <div class="clanlistContents">
+                <!-- Alphabet links will be appended here -->
+            </div>
+            <div class="clanHeaders">
+                <table class="headerTable">
+                    <tr class="tableheader">    
+                        <th id="item-rank"><span class="headerText" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Click to sort<br /><br />Relative strength in their competitive niche: Basic Advanced Superb, with two or more indicating evolution, or sometimes guess range.<br /><br />Categories are spaced far enough that each higher tier should have absolutely no problem defeating the previous one, while equal tiers have a more even competition.<br /><br />Ranking is based mostly on indirect data and should be seen as an approximation.</div>">T</span></th>    
+                        
+                        <th id="item-tag"><span class="headerText" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Click to sort<br /><br />Tags can change over course of clan evolution, other times varying from member to member. List originally enclosed all tag content in square brackets for listing, although effort was made to also preserve original common bracketing style.<br /><br />Postpositioned tags were more common early months of DXMP, while prepositioned tags are standard later, likely for aesthetic reason.</div>">Tag</span></th>    
+                        
+                        <th id="item-name"><span class="headerText" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Click to sort<br /><br />While the root name commonly does not change, there can be slight difference between what the formal clan name is listed as and what the players in that clan are collectively called - typically adding a plural form.<br /><br />Other times the root name can become part of a more elaborate and fancier organization name, possibly even reflected in tag.</div>">Name</span></th>    
+                        
+                        <th id="item-time"><span class="headerText" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Click to sort<br /><br />Every clan has a beginning and an end, list attempts to fit them inside guessed year bounds, padding the guess or any evidence of existence with lifespans from a month to six months each side - more commonly something between that.<br /><br />Occasionally clan is declared as Revived, which may happen seamlessly after a slumber - and should also reflect in roster member groups and story - but more typically is presented here only after formal death has been declared regardless how long time had passed.<br /><br />Guessed years marked blatantly from the beginning and to the end of the year may sometimes vary plus minus couple years, although it should be uncommon, anything not January or December should have better accuracy already. Bolder guesses were made to force them to list chronologically at least somewhat as opposed to not at all (null).</div>">Timeline</span></th>    
+                        
+                        <th id="item-founders">
+                            <span class="headerText" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Click to sort<br /><br />List may occasionally show non-founding Leaders as Founders when limited information about who formed clan was available. <br /><br />Similarly, with completely unknown clans only picked up from accident discoveries the only known wearer of tag often ends up in founders field, with a question mark.</div>">Founders</span></th>    
+                        
+                        <th id="item-members"><span class="headerText" id="item-membersTxt" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Click to sort<br /><br />Date snapshots, leadership or phase changes are represented with member clusters in the roster, while listings of periods may be incomplete, separations between members never the less hint at something going on.<br /><br />Effort is made to avoid duplicate names, but following clusters are likely spearheaded by an older cluster member, it is also possible that some members made it into the list under several aliases, although that should be fairly rare.</div>">Members</span></th>    
+                        
+                        <th id="item-matches"><span class="headerText" id="item-matchesTxt" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Click to sort between matches and rating<br /><br />While focus is on confirmed matches, particularly with competitive clans whose records are gone there is incentive to show probable but unconfirmed matches, or with real drought of information sometimes even *discussed* matches - the worst type of match statistics imaginable, but at least gives an idea of related discourse.</div>">Matches</span></th>    
+                            
+                        <th id="item-site"><span class="headerText" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Effort is to give you all of the sites, but also mark visually which ones contain enough information still to count as a website. If there is no link I likely never found it.<br /><br />Over time the archiving sites have worked on enabling the now unsupported Flash content, while you can assess survived content from list of files, that content may also become playable in browser</div>">Site</span></th>    
+                        
+                        <th id="item-forums"><span class="headerText"  data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>As with sites, list makes effort to bring you all forums, marking the somewhat visible ones - but as practically everything is now snapshots few and far inbetween, dont expect anything to work.<br /><br />Website has Timelines page separately listing recovered links from some urls, with DXMP focus.</div>">Forums</span></th>    
+                        
+                        <th id="item-description"><span class="headerText"  data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Description is my personal conclusion for the given group and can involve speculation and guesswork - turn to testimonies under Background and to content behind any provided links to form your own.</div>">Description</span></th>    
+                        
+                        <th id="item-background"><span class="headerText"  data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Extra information about the comment or even the clan is provided as a tooltip over author, sometimes dumping sidenotes about the clan to the first-placed clan formal statements, other times dating the individual comments that can be decades apart from events they describe.</div>">Background</span></th>    
+                        
+                        <th id="item-game"><span class="headerText"  data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>You can filter by gametype now so this field is less important, but filling it can be surprisingly difficult. Ive dared to make some guesses based on timeframe and experience, but if I really dont know then the field is either left empty, or contains a question mark so it would at least filter under something.</div>">Game</span></th>    
+                        
+                        <th id="item-news"><span class="headerText" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Clan news can be an incredibly important source to gauge whats going on in the community and game, but as the newest feature in clan list its least filled in and requires another deeper pass through entire list.</div>">News</span></th>  
+                    </tr>
+                </table>
+                <div class="clanlistStats">
+                    <div><span class="statsLabel">CLANS: </span><span id="filteredCount" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Number of clans in this gametype</div>" style="padding-left: 5px;"></span></div>
+                    <div><span class="statsLabel">PLAYERS: </span><span id="filteredPlayerCount" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Number of unique player IDs that Ive assigned manually to any visual name forms. <br /><br />Consider the following:<ul><li>Perhaps 1% bloat from aliases that I haven't recognized</li></ul>However:<ul><li>Practically none of the rosters here are complete</li><li>Entire clans worth of rosters lost to time</li></ul></div>"></span></div>
+                </div>
+                <div class="listFilters">
+                    
+                    <div>
+                        <label for="toggleMembers" id="toggleMembersWrapper" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Show only clans that currently have listed members here.</div>">
+                            <input type="checkbox" id="toggleMembers" />
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="toggleMatches" id="toggleMatchesWrapper" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Show only clans that currently have confirmed matches here.</div>">
+                            <input type="checkbox" id="toggleMatches" />
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="filterSelect" id="clanFilters">
+                            <select name="gametypes" id="filterSelect">
+                                <option selected value="All">All</option>
+                                <option value="Aug">Advanced</option>
+                                <option value="Basic">Basic</option>
+                                <option value="0a">Zero-Aug</option>
+                                <option value="Mod">Mods</option>
+                            </select>
+                        </label>
+                    </div>
                     <div id="toggleNewsWrapper">
                         <input type="checkbox" checked="" id="toggleSiteNews"  data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Website Updates</div>"/><label for="toggleSiteNews"></label>
 
@@ -140,36 +184,6 @@
                     </div>
                 </div>
             </div>
-            <div class="clanlistContents">
-                <!-- Alphabet links will be appended here -->
-            </div>
-            <table class="clanheaders">
-                <tr class="tableheader">    
-                    <th id="item-rank"><span data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Click to sort<br /><br />Relative strength in their competitive niche: Basic Advanced Superb, with two or more indicating evolution, or sometimes guess range.<br /><br />Categories are spaced far enough that each higher tier should have absolutely no problem defeating the previous one, while equal tiers have a more even competition.<br /><br />Ranking is based mostly on indirect data and should be seen as an approximation.</div>">L</span></th>    
-                    
-                    <th id="item-tag"><span data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Click to sort<br /><br />Tags can change over course of clan evolution, other times varying from member to member. List originally enclosed all tag content in square brackets for listing, although effort was made to also preserve original common bracketing style.<br /><br />Postpositioned tags were more common early months of DXMP, while prepositioned tags are standard later, likely for aesthetic reason.</div>">Tag</span></th>    
-                    
-                    <th id="item-name"><span data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Click to sort<br /><br />While the root name commonly does not change, there can be slight difference between what the formal clan name is listed as and what the players in that clan are collectively called - typically adding a plural form.<br /><br />Other times the root name can become part of a more elaborate and fancier organization name, possibly even reflected in tag.</div>">Name</span></th>    
-                    
-                    <th id="item-time"><span data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Click to sort<br /><br />Every clan has a beginning and an end, list attempts to fit them inside guessed year bounds, padding the guess or any evidence of existence with lifespans from a month to six months each side - more commonly something between that.<br /><br />Occasionally clan is declared as Revived, which may happen seamlessly after a slumber - and should also reflect in roster member groups and story - but more typically is presented here only after formal death has been declared regardless how long time had passed.<br /><br />Guessed years marked blatantly from the beginning and to the end of the year may sometimes vary plus minus couple years, although it should be uncommon, anything not January or December should have better accuracy already. Bolder guesses were made to force them to list chronologically at least somewhat as opposed to not at all (null).</div>">Timeline</span></th>    
-                    
-                    <th id="item-founders"><span data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Click to sort<br /><br />List may occasionally show non-founding Leaders as Founders when limited information about who formed clan was available. <br /><br />Similarly, with completely unknown clans only picked up from accident discoveries the only known wearer of tag often ends up in founders field, with a question mark.</div>">Founders</span></th>    
-                    
-                    <th id="item-members"><span id="item-membersTxt" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Click to sort<br /><br />Date snapshots, leadership or phase changes are represented with member clusters in the roster, while listings of periods may be incomplete, separations between members never the less hint at something going on.<br /><br />Effort is made to avoid duplicate names, but following clusters are likely spearheaded by an older cluster member, it is also possible that some members made it into the list under several aliases, although that should be fairly rare.</div>">Members</span></th>    
-                    
-                    <th id="item-matches"><span id="item-matchesTxt" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Click to sort between matches and rating<br /><br />While focus is on confirmed matches, particularly with competitive clans whose records are gone there is incentive to show probable but unconfirmed matches, or with real drought of information sometimes even *discussed* matches - the worst type of match statistics imaginable, but at least gives an idea of related discourse.</div>">Matches</span></th>    <th id="item-site"><span data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Effort is to give you all of the sites, but also mark visually which ones contain enough information still to count as a website. If there is no link I likely never found it.<br /><br />Over time the archiving sites have worked on enabling the now unsupported Flash content, while you can assess survived content from list of files, that content may also become playable in browser</div>">Site</span></th>    
-                    
-                    <th id="item-forums"><span data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>As with sites, list makes effort to bring you all forums, marking the somewhat visible ones - but as practically everything is now snapshots few and far inbetween, dont expect anything to work.<br /><br />Website has Timelines page separately listing recovered links from some urls, with DXMP focus.</div>">Forums</span></th>    
-                    
-                    <th id="item-description"><span data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Description is my personal conclusion for the given group and can involve speculation and guesswork - turn to testimonies under Background and to content behind any provided links to form your own.</div>">Description</span></th>    
-                    
-                    <th id="item-background"><span data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Extra information about the comment or even the clan is provided as a tooltip over author, sometimes dumping sidenotes about the clan to the first-placed clan formal statements, other times dating the individual comments that can be decades apart from events they describe.</div>">Background</span></th>    
-                    
-                    <th id="item-game"><span data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>You can filter by gametype now so this field is less important, but filling it can be surprisingly difficult. Ive dared to make some guesses based on timeframe and experience, but if I really dont know then the field is either left empty, or contains a question mark so it would at least filter under something.</div>">Game</span></th>    
-                    
-                    <th id="item-news"><span data-toggle="tooltip" data-html="true" data-placement="bottom" title="<div class='tooltipFormatted'>Clan news can be an incredibly important source to gauge whats going on in the community and game, but as the newest feature in clan list its least filled in and requires another deeper pass through entire list.</div>">News</span></th>  
-                </tr>
-            </table>
             <table class="clans">
 
             </table>
@@ -387,6 +401,213 @@
                             <div id="quotecontent">
                                 <div id="quoteauthor">Cygnus of [BH] follows up:</div>
                                     <q>Dude, it's pretty amazing that BH was considered one of the big 4 with only 5 'real' members - Me, Locke, Garula, Nih, and Bill...didn't everyone else have like 8 or 10 or so by that time?</q>
+                            </div>
+                        </div>
+                        <div id="quotecontainer">
+                            <div id="quotecontent">
+                                <div id="quoteauthor">Locke004 of [BH] provides a popular DXMP strategy guide:</div>
+                                    <q style="font-size: 0.7em; line-height: normal; display: block;">LOCKE’S DEUS EX MULTIPLAYER STRATEGY GUIDE, 2/14/01<br />
+                                        <br />
+                                        CHARACTER CLASS SETUP<br />
+                                        The Tank<br />
+                                        The Tactician<br />
+                                        The Ninja<br />
+                                        The Sniper<br />
+                                        The Unabomber<br />
+                                        The Hacker/Saboteur<br />
+                                        GENERAL COUNTERING TECHNIQUES<br />
+                                        LAMs<br />
+                                        GEP<br />
+                                        20mm Ammo<br />
+                                        Throwing Knives<br />
+                                        KEY BINDINGS<br />
+                                        END<br />
+                                        <br />
+                                        After playing many Deus Ex Multiplayer games and testing various strategies with augmentation, skill, and weapon combinations, I’ve decided to share what I’ve learned through trial and error. This guide will center around Advanced Team Deathmatch games, where players begin with 2000 experience points, start at level 1 for each skill, and start out with only 2 augmentations of choice. I hope that everyone can benefit from this guide to some degree, from rookies who want to break out of their newbie stage, to intermediates who want to play on a higher level.<br />
+                                        <br />
+                                        This strategy guide is set up into various sections. Newbies will probably benefit most from the Character Classes section. Those already familiar with the game can make good use of the Key Bindings, Counter Techniques, and Weapon Techniques sections. Enjoy the guide and make the most of it!<br />
+                                        <br />
+                                        In General, staying alive to kill another day is one of the most important aspects of any deathmatch, because your character grows better after each kill. That is why I recommend selecting non-weapon skills first to keep the player alive. Also, It works best to maximize each skill one by one. For example, it’s a good idea to spend your first 2000 XP to maximize Hacking, rather than spend 1000 XP each on Lockpicking and Hacking. Also, always add the Aggressive Defensive System augmentation or increase it’s priority when facing many newbie GEPpers. Lastly, don’t put in any augmetnations that you don’t plan to use on your list of obtainable augs, they will only drain more bioelectricity than necessary when you select “all augs.”<br />
+                                        <br />
+                                        CHARACTER CLASS SETUP:<br />
+                                        === THE TANK ===<br />
+                                        WEAPONS: Assault Shotgun, Assault Rifle, Plasma Rifle<br />
+                                        AUGMENTATION ORDER:<br />
+                                        1) Energy Shield<br />
+                                        2) Aggressive Defensive System<br />
+                                        3) Ballistic Protection<br />
+                                        4) Regeneration<br />
+                                        5) Power Recirculator<br />
+                                        6) Vision Enhancement<br />
+                                        7) EMP Shield<br />
+                                        SKILL ACQUISITION ORDER: <br />
+                                        Pick skills according to your playing style. <br />
+                                        The Tank is the ultimate one many army, designed to take on multiple aggressors and counter any opponent he comes across. Once 20mm ammo is obtained for the Assault Rifle, the Tank now has the equivalent of 2 Ballistic and 2 Energy based weapons, possibly including LAMs, giving the Tank a sizable arsenal to take out his opponents. Although not the fastest moving character, the Tank can take his hits, regenerate, and continually engage enemies as he sees fit. After making his first few kills and obtaining all the augmentations he needs, the Tank’s defenses are near unpenetrable. With the help of the Power Recirculator augmentation, the Tank can maintain functioning of all his defensive augmentations throughout a combat engagement. When engaging in combat, be sure to activate the All Augmentations button. Remember to activate Healing in mid-combat because it will not work if you start it at full health before you have received any damage. Be sure to shut off vision right before you toss a LAM or fire 20mm ammo so you won’t get blinded. When not engaged in combat, leave the Aggressive Defensive System and Vision Enhancement augmentation running. Not having the Speed Enhancement aug and not having ADS activated makes you a GEPpers dream come true.<br />
+                                        COUNTERING A TANK: A tank becomes deadly after it makes its first few kills. Before that, a tank is almost as vulnerable as anyone else. Try to kill a tank early and prevent him from making enough kills to obtain all his defensive augmentations. If you encounter a fully auged Tank, take cover and throw an EMP grenade if you can. Quickly skill up on Demolitions if you can and throw a LAM at him too. A Tank has difficulty running away from LAMs because they lack the speed augmentation. They might absorb some of the damage with Energy Shield, but it’ll often cripple them on their knees. After the opening explosives, used a Ballistic based weapon against the Tank. Try refraining from using Energy based weapons because energy shield absorbs 70% of the damage, compared to ballistic protection which absorbs only 40%.<br />
+                                        === THE TACTICIAN ===<br />
+                                        WEAPONS: Assault Shotgun/Throwing Knives, Assault Rifle, Plasma Rifle<br />
+                                        AUGMENTATION ORDER:<br />
+                                        1) Speed Enhancement<br />
+                                        2) Energy Shield<br />
+                                        3) Regeneration<br />
+                                        4) Vision Enhancement<br />
+                                        5) Ballistic Protection (optional)<br />
+                                        6) Aggressive Defensive System (optional)<br />
+                                        SKILL ACQUISITION ORDER:<br />
+                                        1) Lockpicking<br />
+                                        2) Multitooling<br />
+                                        3) Medicine<br />
+                                        4) Weapons<br />
+                                        The Tactician is a blend of the best traits in all the character classes. He is equipped with a variable arsenal of ballistic and energy based weapons. Energy Shield is used just as much to protect the Tactician from his own 20mm and Plasma damage as much as anyone else’s. Having speed allows the Tactician to encounter many opponents in a short amount of time, and having defensive augmentations lets him take his hits and live long enough to return fire. The major disadvantage is the massive bioenergy drain that this class suffers. It is important to lockpick cabinets often for biocells and make use of repair bots often. Skilling up on medicine helps to recover health without using Regeneration’s bioenergy cost. When engaged in 1v1 combat, try to turn on only the augs that you need to maintain your defenses while conserving bioenergy and allow you to make the kill. If there are ever 2 or more opponents, it’s a good idea to activate all augs. Shut down speed and use ballistic if you have it available. If you are facing a Tank, turn on all augs, pull out your dragontooth, and hack and slash away! After combat, always be sure to pick up the dead bodies to make use of the bonus 25 bioenergy. You might even have to pick up bodies in mid combat. If you run out of bioenergy completely, consider running for cover and firing 20mm or LAMs behind you. Be sure to bind your keys properly for this class! When not engaged in combat, use speed and vision to seek out your enemies and destroy in the least amount of time possible.<br />
+                                        COUNTERING A TACTICIAN: The Tactician is most vulnerable to his own bioenergy drain. Using defensive augs and taking cover while engaging a tactician is a good way to play the clock. After they run out of energy, they make an easy target. This might take a while if they have biocells so don’t rely on waiting so much. Use a ballistic weapon while their shields are active. After that, switch to an Energy Based weapon like Plasma and go in for the easy kill.<br />
+                                        === THE NINJA ===<br />
+                                        WEAPONS: Throwing Knives, Assault Rifle, Dragontooth Sword<br />
+                                        AUGMENTATION ORDER:<br />
+                                        1) Speed Enhancement<br />
+                                        2) Combat Melee Strength<br />
+                                        3) Regeneration<br />
+                                        4) Vision Enhancement or Cloak<br />
+                                        5) Targeting (optional)<br />
+                                        SKILL ACQUISITION ORDER:<br />
+                                        1) Low-Tech Weapons<br />
+                                        2) Multitooling or Lockpicking<br />
+                                        The Ninja is for the kind of player that likes to seek and kill with the least amount of passing time between kills. Speed towards the enemy, activate all augs (which will include Combat Melee Strength, doubling the effect of Throwing Knives and Dragontooth Sword) and pull out a weapon and make a quick kill. A Fully augmented, Low Tech Weapons skilled Ninja can inflict around 70 damage/hit with the dragontooth and slightly over 50 damage/hit with throwing knives.<br />
+                                        COUNTERING A NINJA: A ninja does not use defensive augmentations. As a result, they are very vulnerable to energy based weapons such as Plasma Rifle. GEP also works well if you are good at predicting where to fire to match where they will be by the time the rocket explodes. EMPing a Ninja works well. Do not use a melee weapon against a ninja because they will most likely win. Use throwing knives instead.<br />
+                                        === THE SNIPER ===<br />
+                                        WEAPONS: Sniper Rifle, GEP gun, Plasma Rifle/Assault Rifle<br />
+                                        AUGMENTATION ORDER:<br />
+                                        1) Aggressive Defensive<br />
+                                        2) Targeting<br />
+                                        3) Vision Enhancement<br />
+                                        4) Regeneration<br />
+                                        5) Energy Recirculator<br />
+                                        SKILL ACQUISITION ORDER:<br />
+                                        1) Rifle weapons (sniper rifle benefits to a higher degree than GEP will)<br />
+                                        2) Multitooling (for access to nearby repair bot)<br />
+                                        3) Lockpicking (to obtain variable ammo for GEP and Bioelectric cells)<br />
+                                        4) Heavy weapons (to top off the effectiveness of your GEP)<br />
+                                        A Sniper finds a good spot to camp, kill enemies from afar and guard key locations on a map. Because a Sniper does not engage in close combat, he can never replenish his bioelectric energy from fallen enemies, so he must rely on repair bots and bioelectric energy. Unlike other classes, the Sniper is also least affected in ability when he does run out of Bioelectricity because of his distance from close combat. At range, a Sniper does not need to fear enemies with the Aggressive Defensive Augmentation because rockets only detonate near the enemy. However the moment you see the blue explosion fall short of its target, you should immediately switch back to the Sniper Rifle. Use the GEP’s optional ammo if you like increase the area of explosion from your rockets. In addition, all enemies in the area catch on fire.<br />
+                                        COUNTERING A SNIPER: A sniper using a GEP gun is always countered with Aggressive Defensive, and Speed or Ballistic protection helps against the sniper rifle. They are very vulnerable at close range, just be sure to sneak up on them from behind and they make an easy picking. Don’t use a GEP rocket or 20mm against them because they are very likely to use ADS.<br />
+                                        === THE UNABOMBER ===<br />
+                                        WEAPONS: LAMs, LAMs, LAMs, Plasma Rifle helps too<br />
+                                        AUGMENTATION ORDER:<br />
+                                        1) Speed Enhancement (helps to obtain LAMs quickly)<br />
+                                        2) Targeting (increases damage and radius of LAMs beyond maximum skill)<br />
+                                        3) Energy Shield (protects yourself from your own LAMs)<br />
+                                        4) Regeneration (heals you after explosion from your LAMs)<br />
+                                        5) EMP Shield (optional)<br />
+                                        SKILL ACQUISITION ORDER:<br />
+                                        1) Lockpicking<br />
+                                        2) Demolitions<br />
+                                        3) Medicine<br />
+                                        The Unabomber is the most chaotic of players. They will often score multiple kills at the same time, and sometimes include themselves in the casualty list. You know they’re in the area when all you hear are a series of explosions. They don’t even need to grab weapons from the weapons rack, and can instead save time and make a dash for the cabinets and lockpicks in the maps to obtain LAMs. If you’re looking to make the most of each LAM, Plasma Rifle enemies from a distance to see if they have Energy Shield. If not, then they are easy bait for a LAM. If they are protected, toss an EMP grenade at them. If you are in a large group of enemies who are augmented with speed or energy shield, jump into the middle of the fray, activate EMP shield and toss an EMP grenade at your feet. Chances are the enemies tried to close in on you and got hit by the blast. Next, drop a LAM and make a dash for it. Pick off any survivors with a Plasma Rifle. Be careful, the moment an enemy fires a Plasma Rifle at you, consider putting your LAM away for another weapon. Plasma Rifle shots can prematurely detonate your LAM near you if you throw it. You can risk it and jump high enough to get a good toss in if you’re feeling lucky. When not engaged in combat, quickly run from cabinet to cabinet obtaining all the grenades and biocells you can possibily find. Gas grenades are pretty useless so don’t waste your time with those, instead just randomly toss them when you find them and add chaos to the atmosphere. If you already have 3 of a grenade type, you can place it to try and kill someone or try and “hide” it by placing it in a nearby corner where nobody often travels through and save it for later use.<br />
+                                        COUNTERING THE UNABOMBER: Read the “Countering LAM tossers” section below. It’s also a good idea to read if you want to play the Unabomber so you can analyze your weaknesses.<br />
+                                        === HACKER / SABOTEUR ===<br />
+                                        WEAPONS: Hackers work best with close range weapons, such as Dragontooth, Throwing Knives, any Shotgun, and Flame Thrower. Save the last spot for a ranged weapon like the Plasma Rifle.<br />
+                                        AUGMENTATION ORDER:<br />
+                                        1) Speed Enhancement<br />
+                                        2) Cloak<br />
+                                        3) Radar Transparency<br />
+                                        4) Run Silent (not essential, optional)<br />
+                                        5) EMP Shield (protection against other EMP grenades) (optional)<br />
+                                        SKILL ACQUISITION ORDER:<br />
+                                        1) Computer Hacking (essential for hacking)<br />
+                                        2) Lockpicking (essential for obtaining LAMs and Bioelectric Cells)<br />
+                                        3) Demolitions (prevents others from disarming your grenades)<br />
+                                        4) Medicine (because of lack of regeneration)<br />
+                                        PURPOSE: The Hacker is dedicated to ensuring the safety teammate traffic and denying enemy passage by controlling all turrets. It is also essential for the Hacker to booby trap high traffic passages with proximity grenades of various types and to prevent enemies from hacking your turrets. The Hacker is also adept at stealth kills and throwing grenades into a group of enemies. At the beginning of a match, have a teammate take over the nearest turret while you, the hacker, out run your opponents to all the other turrets, and eventually the turret at the enemy’s starting location. The speed enhancement aug will be the single most draining bioelectric source of the hacker. It is best to quickly learn Lockpicking after your first kill. That is essential anyway to obtain LAMS, and you can also get Bioelectric Cells, which is a great way to replenish bioelectric -energy on the go. Because the Hacker does not have access to the regeneration augmentation as a result of radar transparency, a Hacker would benefit from learning the Medicine skill soon, as well as having an awareness of all Medical Bot locations on the map. Instead of using the Aggressive defensive aug, a Hacker can use cloak much the same way to avoid being locked onto by GEPpers. It is always good to have at least one hacker for your team.<br />
+                                        PROXIMITY GRENADE PLACEMENT: Perhaps one of the most strategic elements of the Hacker is setting traps. EMP grenades work best near the terminal itself because it will instantly decloak an enemy hacker trying to hack your turret (also remember a hacker cannot see cloaked enemies). Gas Grenades work best in small rooms with lots of doors and walls where it is difficult to get away of the gas without actually leaving the building. LAMs are great around corners, near doors, and just about anywhere that has a high density of traffic.<br />
+                                        <br />
+                                        COMBAT: A Hacker plays like any other stealth player, except without the combat skills and combat augs to enhance himself. The Hacker is best suited to cloak before engaging an opponent, running behind them, and attack with a high damaging, short range weapon of choice. A sawed off shotgun usually gets the job done in 1-2 direct hits. In an area dense with enemies, the Hacker is better off using his demolition skill to throw a Gas Grenade or LAM and run away to a safe distance. After the explosion and confusion, quickly pick off badly wounded enemies with a ranged weapon like the Plasma Rifle. You might even have access to a LAW because of Lockpicking, so make the most of that. Sometimes, a Hacker is best off avoiding actual combat altogether.<br />
+                                        == COUNTERING TECHNIQUES ===<br />
+                                        *** Countering LAM tossers ***<br />
+                                        Profile: LAM tossing is employed by experts and newbies alike, both have the drive to score multiple kills per detonation. They often skill up Lockpicking first, obtaining LAM(s) and make their first kill with it, then skill up on Demolitions to increase damage and explosion radius. Some players may have a suicidal tendency to not mind killing themselves in their own explosions, as long as they take down an enemy. Experts will know when to not LAM toss and will resort to something else if you know how to counter them. You might not know a LAM tosser until you see them use it. Get used to knowing names on a server and what kind of strategies they employ so you can strike/react first before he unleashes his LAM. If one is already tossed, it's not to late if you use the right augs. <br />
+                                        Counter Aug #1: Energy Shield<br />
+                                        Activation of the Energy Shield will absorb up to 70% of the LAM explosion damage. A LAM tosser is usually skilled in LAM tossing so the damage is increased and so is the explosion radius. As long as you aren't within a few feet of the LAM, you'll usually survive but often lose the use of your legs. Energy Shield WILL NOT save you against a very well thrown LAM that lands at your feet however. <br />
+                                        Counter Aug #2: Cloak<br />
+                                        If you know a LAM tosser is approaching, immediatly cloak, if you have that aug available of course. The LAM tosser will throw the grenade into the area with the most density of opponents so you'll want to run in a direction other than your teammates. A LAM tosser often does not, but might, use Vision Enhancement because his own explosions blind him for 3 seconds. <br />
+                                        Counter Aug #3: Speed Enhancement<br />
+                                        Many players use this aug so use this is all else isn't available. Running away from the explosion epicenter is slightly effective, and so is jumping. Get used to the timing of grenades so you know when to jump at the right moment. If in a building where you can't jump, try to hide behind a wall or any surface. <br />
+                                        Counter Weapon #1: PLASMA RIFLE!<br />
+                                        This one is my personal favorite. Just showering a LAM tosser with Plasma Rifle will make them put away their LAM and opt for another weapon, if they're smart and not suicidal. If they decide to toss the LAM, the Plasma will cause the LAM to prematurely detonate in the LAMmer's face and causing himself to die, and lose a point as well. A good LAM tosser employs Energy Shield himself because he wants to protect himself from his own explosions, so don't expect to kill him with Plasma Rifle alone. If he puts his LAM away, you should switch to a ballistic weapon. <br />
+                                        Counter Weapon #2: Close Range Weapons<br />
+                                        Close range weapons like Dragontooth, Throwing knives, and Shotgun can be put to good use against a LAM tosser. The most important part is how you use it. You should get right up to their face and fire nonstop, and not try to lose any footing if they try to escape. This is done to prevent them from detonating the grenade too close to them and killing theirselves with it. Use the speed aug if you have it to keep up. If they have the speed aug and you don't, then you are advised not to try this. <br />
+                                        *** Countering GEP users ***<br />
+                                        Profile: Some Geppers "snipe" at long range by tracking onto unsuspecting targets, some like using it at close range and look for high density of players to fire at. Many new players use it because it is the easiest way to kill another new player to the game.<br />
+                                        Counter Aug #1: AGGRESSIVE DEFENSIVE SYSTEM (ADS)<br />
+                                        I can't repeat enough that this is the MOST IMPORTANT, MOST EFFECTIVE, and EASIEST way to counter GEP rockets. Not only does it reduce the damage from the rocket by a factor of 6, but it prematurely detonates it before it reaches you. You can also use it to shield nearby teammates, or even use it as a way to locate enemies when you hear it's tracking activated and see where the laser pointer leads to. Against WP rockets, you'll be saved from the damaging explosion, but you might still catch on fire.<br />
+                                        Counter Aug #2: Energy Shield<br />
+                                        Like LAM countering, the energy shield will absorb 70% of the damage and is very effective if you are on the outer radius of the GEP explosion, however, if you were stationary and the GEP locked onto you when it fired and it scores a direct hit, Energy Shield will not save you. Energy Shield though is very effective against close range geppers because they'll often aim for your feet and your body will only be in the outer radius of the explosion. Don't forget to jump too. <br />
+                                        Counter Aug #3: Cloak<br />
+                                        Simply cloaking can prevent a Gepper from locking onto you, but if they fire at you, that is still a deadly rocket headed in your general direction. <br />
+                                        Counter Aug #4: Speed Enhancement<br />
+                                        Those with this aug can simply run off to the sides to avoid direct fire from geppers. Jumping over incoming rockets works well too. Some of my most memorable moments are when I start out and don't have ADS yet but only speed enhancement and I'm lockpicking a cabinet... when suddenly I can only hear a GEP rocket approaching me (I can't turn because I'm facing the cabinet). When I estimate it about to hit me, I jump and the rocket flies past my side or detonates on the cabinet. I might lose my legs, but not my life. <br />
+                                        Counter Weapons:<br />
+                                        Countering a Gepper with weapons depends on their gepping style. If you are facing a Gepping sniper, use a sniper rifle, or if you're feeling lucky that they don't have ADS, GEP them yourself. A close range Gepper has a hideous speed hinderance so fighting with close range and melee weapons is a choice only if you're able to close in on their space, otherwise they'll aim at your feet. A Speed Augged, Heavy Weapons Master Skill, Gepper will run faster than a normal player, so trying to close in on him in that case is not advisable. Strafe Circling around a gepper works well to because their turning radius is severely hindered by equipping the GEP gun. <br />
+                                        NOTE: Although geppers may be slow moving, they don't make a good LAM target if you don't time it properly. The explosion from GEP can cause a LAM to prematurely detonate in your face. This also happens if you're ADS prematurely detonates the rocket and you happen to be throwing a LAM at the same time.<br />
+                                        *** Countering HE 20mm Ammo users ***<br />
+                                        Profile: These players are looking for a more speedy and versatile way of making kills than a Gepper. They require Lockpicking first to obtain the ammo and might upgrade Rifle to Mastery after a few kills.<br />
+                                        Counter Aug #1: AGGRESSIVE DEFENSIVE SYSTEM (ADS)<br />
+                                        Once again, ADS reigns as the surpreme counter aug against this weapon type. <br />
+                                        The HE 20mm Ammo fires like a rocket so ADS is effective at predetonating it like it does for GEP. <br />
+                                        Counter Aug #2: Energy Shield<br />
+                                        HE 20mm Ammo deals Energy based damage so Energy Shield can absorb up to 70% of the damage. Unlike using it against well aimed GEP rockets and LAMs, Energy Shield IS VERY EFFECTIVE against well aimed shots from the HE 20mm Ammo, reducing most damage from it and often keeping you in a safe health range. You will effectively force the other player to switch weapons or waste valuable shots at you. <br />
+                                        Counter Augs Speed and Cloak: Works much like the counters for GEP listed above, except that there is no locking for the 20mm Ammo so a vision auged 20mm user has no disadvantage to the cloaker. <br />
+                                        Counter Weapons:<br />
+                                        Close range weapons is not recommended UNLESS you have the Energy Shield or ADS on. If you do, you can close in and not fear anything severely damaging because there is no well scored hit with the HE 20mm Ammo. Because it's a rifle based weapon, they are not speed hindered so be sure to adjust for that. It would be a good idea to use a Ballistic Weapon against him because they often use Energy Shield to prevent damage from their own explosions. <br />
+                                        Also, to prevent HE 20mm Ammo users from becoming just that, guard the cabinets that contain that ammo, set proximity grenades in those cabinets, etc. <br />
+                                        They'll be forced to choose another tactic.<br />
+                                        *** Countering Throwing Knives ***<br />
+                                        Profile: I'm going to refer to Knife Throwers as KT for short. Throwing knives are a very versatile weapon so there is no characteristic player type that defines the typical knife thrower. Some go for Combat Melee and/or Targeting, some use Energy Shield and Ballistic and rely on the high damage from Throwing knives themselves. Some Speed around, some conserve energy. Some use a mix or none at all. With that in mind, the non-aug counters depend on what type of player you are playing against. The Aug counters apply to any situation. Be sure to keep track of names and what augmentations they prefer to use. It might be useful to bind a key to "Show Kill Information" so you can collect info about the person that killed you. <br />
+                                        Counter Aug #1: Speed Enhancement<br />
+                                        Speed wins over Ballistic when you come face to face with a KT. It's better to dodge the knives completely than to suffer the high amount of damage they inflict. Because of how slow knives travel in the air, you can quickly jump or strafe to the sides to avoid being hit and quickly close in on them. <br />
+                                        Counter Aug #2: Ballistic Protection<br />
+                                        A slow moving Ballistic Protected person is less suited to face a KT than a Speed Enhanced player... at least Ballistic Protection will absorb 40% of the damage you take though. Knives have a fast fire rate and damage, so they are best avoided altogether, Ballistic protection is still better than nothing. If you have both speed and ballistic, you're in excellent shape as far as augmentation goes. <br />
+                                        Counter Weapon #1: Plasma Rifle<br />
+                                        The only way to tell if a knife thrower is using Combat Melee or Energy Shield is to fire at them and spot the blue shield. If they don't have that blue shield, Plasma Rifle makes an excellent choice. Although it may slow your movement slightly, it suppresses their aiming because you are firing plasma directly in their view. Especially against speed enhanced KTs, aiming at the feet can really slow their movement down and give you an opportunity to close in for the kill. <br />
+                                        Counter Weapons in general: The KT might use Energy Shield and Ballistic for longevity over the increased damage inflicting augs, so be sure to switch weapons if you see they are shielded. If they are shielded against both, stick to a ballistic weapon because Ballistic Protection only absorbs 40%. <br />
+                                        Counter Technique #1: Circle Strafing<br />
+                                        The best way to close in on a KT is to circle strafe closer. Never stand idle or they'll make a sliced meat dish out of you, and never walk directly towards them or the same will happen. The KT must then judge how to time their knives to hit a side moving target. Be sure to change direction often but keep closing in. Try to attack their flank or rear if at all possible so they never have a clean shot at you. 
+                                        Counter Technique #2: Maintain your distance<br />
+                                        If you aren't going to close in on them, take them out at a distance but keep moving and don't close in the gap if they approach so move away. Knives travel slowly so it’s hard to calculate where to throw them to adjust for your movement and distance.<br />
+                                        *** KEY BINDINGS ***<br />
+                                        Properly binding your keyboard to play in Deus Ex Multiplayer is essential for accessing the proper augmentations and items at need. The first step to optimizing your keybinding performance is to keep track of what weapons, items, and augmentations you like to use the most. Next, write down a list of easy to reach key buttons that you have access to, and write a second list of your most used weapons, items, and augs. Match them up as you see fit. Lastly, go into the Settings, Keyboard menu and make your changes.<br />
+                                        If you like to bind specific items or advanced commands to keys, then you will have to open your C:/DeusEx/System folder and modify the file “User.ini” and scroll towards the bottom to see the raw key bindings. For example, if you would like to select Medkits with the ‘W’ button, you scroll to where “W=” appears in the list and erase what is there and replace the entire line with “W=ActivateBelt 9” because the Medkit is the 9th item in the list. In the game, ‘W’ will now select Medkit. In addition, it clones pressing the ‘9’ key, so you can access your Skills menu and now press ‘W’ to skill up on Medicine. The same works with 7 and 8 for Lockpicking and Multitooling respectively. For a list of more advanced commands, you can go to http://unreal.epicgames.com/UTConsole.htm<br />
+                                        Here is my personal setup:<br />
+                                        F3 - Energy Shield / Combat Melee Strength &lt; ` &gt;<br />
+                                        F4 - Radar Transparency / Regeneration &lt; Middle Mouse Button &gt;<br />
+                                        F5 - Environmental Resistance / EMP Shield &lt;not binded&gt; <br />
+                                        F6 - Targeting / Ballistic Protection &lt; B &gt;<br />
+                                        F7 - Speed Enhancement / Power Recirculator &lt; A &gt;<br />
+                                        F8 - Cloak / Vision Enhancement &lt; V &gt;<br />
+                                        F9 - Spy Drone / Aggressive Defensive System &lt; C &gt;<br />
+                                        F10 - Run Silently / Microfibral Muscle &lt;not binded&gt;<br />
+                                        F11 - Agualung &lt;not binded&gt;<br />
+                                        F12 - Flashlight &lt; N &gt; <br />
+                                        Select Medkit &lt; W &gt;<br />
+                                        Select Biocell &lt; Q &gt;<br />
+                                        Select Multitool &lt; X &gt;<br />
+                                        Select Lockpick &lt; Z &gt;<br />
+                                        Select LAM &lt; G &gt;<br />
+                                        Activate All Augs except vision: &lt; U &gt; <br />
+                                        Activate All Augs &lt; Shift &gt;<br />
+                                        Deactivate All Augs &lt; Upper Thumb mouse button &gt;<br />
+                                        Inverted Mouse is selected in the control menu as well<br />
+                                        Move Up, Down, Left, Right &lt; E, D, S, F &gt;<br />
+                                        Crouch &lt; Lower Thumb mouse button &gt;<br />
+                                        Drop Item / Weapon &lt; H &gt;<br />
+                                        Change Ammo Type &lt; Tab &gt;<br />
+                                        Team Chat &lt; R &gt;<br />
+                                        All Chat &lt; T &gt;<br />
+                                        Skills Menu &lt; Control &gt;<br />
+                                        Multiplayer Stats &lt; ALT &gt;<br />
+                                        Extra Bindings (non essential):<br />
+                                        Ping Status and Net Stats: &lt; Insert &gt;<br />
+                                        Frames per second, performance stats: &lt; Delete &gt;<br />
+                                        Disconnect from Server: &lt; End &gt;<br />
+                                        Reconnect to Server: &lt; Home &gt;<br />
+                                        Commit suicide: &lt; - &gt;<br />
+                                        Preferences Menu: &lt; = &gt;</q>
                             </div>
                         </div>
                         <p>This epoch in our game lasted 3 months.</p>
@@ -1672,11 +1893,10 @@ pause</pre>
 
     </div>
 </section>
-
-
-        <!-- *********** THANKS ************************************************************************************************************************************************************* -->
         
-        
+        <!-- *************************************************************************************
+        **     THANKS 
+        *************************************************************************************** --> 
         <section id="pagecredits" class="page">
             <div class="h1">Thanks</div>
             <div id="pagecontent">
@@ -1842,36 +2062,40 @@ I will glady add your clan to the list.
             </div>
         </section>
 
-
-        <!-- *********** SHAPES ************************************************************************************************************************************************************ --> 
-        
-        
+        <!-- *************************************************************************************
+         **     SHAPES 
+        *************************************************************************************** --> 
         <section class="shapecontainer">
             <div class="shape1"></div><div class="shape2"></div><div class="shape3"></div>
         </section>
     </main>
+
+    <!-- *************************************************************************************
+    **     FOOTER 
+    *************************************************************************************** --> 
     <footer class="footer">
         <nav id="nav_audio" class="nav_clanlist">
             <a href="../index.html">        
-                <div class="link_index">DXMP</div></a>
+                <div class="link_index">DXMP</div>
+            </a>
             <audio id="toolsound" preload="auto">
                 <source src="./sound/MultitoolUse.wav" controls>
             </audio>
             <a href="#pageclans"><div class="link">Clans</div></a>
-            <a href="#pagestats"><div class="link">Stats</div></a>
             <a href="#pagetimeline"><div class="link">Timeline</div></a>
-            <a href="#pageyoutube"><div class="link">Youtube</div></a>
-            <a href="#pagescreenshots"><div class="link">Screenshots</div></a>
+            <a href="#pageevolution"><div class="link">Evolution</div></a>
             <a href="#pagestories"><div class="link">Stories</div></a>
             <a href="#pagelinks"><div class="link">Links</div></a>
-            <a href="#pageevolution"><div class="link">Evolution</div></a>
+            <a href="#pageyoutube"><div class="link">Youtube</div></a>
+            <a href="#pagescreenshots"><div class="link">Screenshots</div></a>
             <a href="#pagefuture"><div class="link">Future</div></a>
             <a href="#pagesetup"><div class="link">Installing</div></a>
             <a href="#pageguide"><div class="link">Playing</div></a>
             <a href="#pageupdates"><div class="link">About</div></a>
+            <a href="#pagestats"><div class="link">Stats</div></a>
             <a href="#pagecredits"><div class="link">Credits</div></a>
+            <div id="audioWrapper"><div id="muteButton"></div></div>
         </nav>
-        <div id="audioWrapper"><div id="muteButton"></div></div>
     </footer>
 </body>
 </html>

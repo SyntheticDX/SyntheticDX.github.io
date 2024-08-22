@@ -67,13 +67,14 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
     z-index: -1;
 }
 #main {
-    margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 24px;
+    margin-left: 0.3%;
+    margin-right: 0.2%;
     margin-bottom: 24px;
     background: linear-gradient(-45deg, rgba(19, 19, 19, 0.85) 9%,rgba(0,0,0,0.85) 100%);
     border: thin;
-    border: 0.5px solid rgb(22, 67, 165);
+    border: 0.5px solid rgb(0, 0, 0);
+    /* border: 0.5px solid rgb(22, 67, 165); */
     border-radius: 5px;
     z-index: auto;
 }
@@ -96,7 +97,9 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
     z-index: 1000; /* Ensure it's above other content */
 }
 
-/* ********* Menu for pages ********* */
+/* **********************************
+** Menu for pages
+********************************** */
 .pageMenu {
     position: fixed;
     top: 50%; /* Position the menu block at 50% from the top of the viewport */
@@ -194,9 +197,19 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
     color: silver;
     text-shadow: 0px 0px 10px whitesmoke;
 }
-#colHeader{display: flex;position: sticky ;flex-direction: row; justify-content:flex-start;color: #ffffff44; text-transform: uppercase;
-                    #headerContent1{width: 18%;} #headerContent2{width: 20.2%;} #headerContent3{width: 20.2%;} #headerContent4{width: 20.3%;}
+#colHeader{
+    display: flex;
+    position: sticky;
+    flex-direction: row; 
+    justify-content:flex-start;
+    color: #ffffff44; 
+    text-transform: uppercase;
 }
+#headerContent1{width: 18%;} 
+#headerContent2{width: 20.2%;} 
+#headerContent3{width: 20.2%;} 
+#headerContent4{width: 20.3%;}
+
 #decoratedHeader {
     padding-top: 30px;
 }
@@ -943,93 +956,6 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
     }
 }
 
-
- /********************************** CLANS **********************************/
-
- .clanlistContents {
-    position: fixed;
-    left: -12px; /* Adjust this value based on sidebar width */
-    top: 50%;
-    transform: translateY(-50%);
-    width: 15px; /* Adjust width as needed */
-    height: fit-content;
-    background-color: #2e2e2ee8; /* Background color for visibility */
-    padding-top: 1px;
-    padding-right: 3px; 
-    padding-bottom: 1px;
-    padding-left: 2px;
-    border: 0.5px solid #041577; /* Border for visibility */
-    border-radius: 4px 4px 4px 0px;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.5);
-    transition: left 0.3s ease;
-    z-index: 1000; /* Ensure it is above other content */
-}
-
-.clanlistContents a {
-    display: block;
-    padding: 5px 0;
-    text-align: center;
-    color: rgb(167, 167, 167);
-    font-size:x-small;
-    text-decoration: none;
-}
-
-.clanlistContents a:hover {
-    color: rgb(255, 255, 255);
-    opacity: 100%;
-    mix-blend-mode: screen;
-}
-
-.clanlistContents:hover {
-    left: -1px; /* Slide into view */
-}
-
-
-.tableheader {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    z-index: 2;
-    position: fixed;
-    top: 0%;
-    left: 10px;
-    right: 10px;
-    padding: 10px;
-    margin-top:10px;
-    border: thin;
-    border: 0.5px solid rgb(22, 67, 165);
-    color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    font-family: "Lucida Console", monospace;
-    font-size: 100%;
-    -webkit-text-stroke-width: 0.5px; 
-    -webkit-text-stroke-color: rgba(0, 0, 0, 0.315); 
-    text-transform: uppercase;
-    background-color: black;
-    opacity: 1.8;
-
-     th {
-        flex: 0 1 auto;
-        -webkit-box-reflect: below -8px linear-gradient(transparent 20%,#22232e20);
-        text-shadow: 0px 0px 10px #ffffff6e, 0px 0px 2px #dcd3ffad;
-        text-align: center;
-    }
-
-    #item-rank {flex: 1 0 content;}
-    #item-tag {flex: 9 0 content;}
-    #item-name {flex: 33 0 content;}
-    #item-time {flex: 9 0 content;}
-    #item-founder {flex: 22 0 content;}
-    #item-members {flex: 24 0 content;}
-    #item-matches {flex: 25 0 content;}
-    #item-site {flex: 5 0 content;}
-    #item-forums {flex: 5 0 content;}
-    #item-description {flex: 38 0 content;}
-    #item-background {flex: 38 0 content;}
-    #item-game {flex: 5 0 content;}
-    #item-news {flex: 35 0 content;}
-}
-
 .tooltip-inner {
     display: flex;
     flex-direction: column;
@@ -1047,6 +973,331 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
     }
     z-index: 2052;
 }
+
+/********************************** CLANS **********************************/
+
+/******************************************************
+** Alphabetical Contents Slider Menu on Left 
+******************************************************/
+.clanlistContents {
+    position: fixed;
+    left: -12px; /* Adjust this value based on sidebar width */
+    top: 28%;
+    transform: translateY(-33%);
+    width: 15px; /* Adjust width as needed */
+    height: max-content;
+    background-color: #5a5a5ac0; /* Background color for visibility */
+    padding-top: 1px;
+    padding-right: 4px; 
+    padding-bottom: 1px;
+    padding-left: 2px;
+    border: 0.5px solid #000000; /* Border for visibility */
+    border-radius: 4px 4px 4px 0px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+    transition: left 0.3s ease;
+    z-index: 1000; /* Ensure it is above other content */
+}
+
+.clanlistContents a {
+    display: block;
+    padding: 5px 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: x-small;
+    text-decoration: none;
+    transition: transform 0.1s ease, color 0.1s ease; /* Smooth scaling transition */
+}
+
+.clanlistContents a:hover {
+    font-weight: bolder;
+    transform: scale(1.2); /* Scale up the element */
+    color: rgba(255, 255, 255, 0.9); /* Optionally make it slightly brighter */
+    mix-blend-mode: screen;
+}
+
+.clanlistContents:hover {
+    left: -1px; /* Slide into view */
+}
+
+
+/******************************************************
+** Styling Headers for Clan List 
+******************************************************/
+.clanHeaders {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0.3%;
+    width: 99.5%;
+    height: 20px;
+    background-color: #5a5a5ac0;
+    padding: 1px;
+    border: 0.5px solid rgb(0, 0, 0);
+    border-radius: 0px 0px 8px 8px;
+    z-index: 2000;
+}
+
+.headerTable {
+    width: 100%;
+}
+
+.tableheader {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+}
+
+.headerText {
+    display: block;
+    width: 100%;
+    text-shadow: 0px 0px 10px #ffffff6e, 0px 0px 2px #dcd3ffad;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    justify-content:center;
+    font-family: "Lucida Console", monospace;
+    font-size: 100%;
+    text-transform: uppercase;
+    opacity: 1.8;
+    -webkit-box-reflect: below -8px linear-gradient(transparent 20%,#22232e20);
+    -webkit-text-stroke-width: 0.5px; 
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.315); 
+}
+
+#item-rank, #item-tag, #item-name, #item-time, #item-founders, #item-members, #item-matches, #item-site, #item-forums, #item-description, #item-background, #item-game, #item-news {
+    flex: 1;
+    min-width: 0; /* Allows flex item to shrink if needed */
+    max-width: none; /* Remove any max-width that might restrict flex */
+}
+
+/* Adjust specific column widths as needed */
+#item-rank { flex: 1; }
+#item-tag { flex: 4; }
+#item-name { flex: 9; }
+#item-time { flex: 5; }
+#item-founders { flex: 6; }
+#item-members { flex: 8; }
+#item-matches { flex: 11; }
+#item-site { flex: 3; }
+#item-forums { flex: 3; }
+#item-description { flex: 14; }
+#item-background { flex: 14; }
+#item-game { flex: 2; }
+#item-news { flex: 12;}
+
+
+/* Style Filtering options for headers */
+#clanFilters {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 87.2%;
+    width: fit-content;
+    height: min-content;
+    font-size: 70%;
+    z-index: 9001;
+}
+
+#clanFilters select, option {
+    background-color: rgb(88, 88, 88);
+    color: rgb(156, 156, 156);
+    border: 0.5px black solid;
+    border-radius: 3px;
+}
+
+.listFilters input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+#toggleMembersWrapper{
+    position: absolute;
+    top: 5px;
+    left: 33.7vw;
+}
+
+#toggleMatchesWrapper{
+    position: absolute;
+    top: 5px;
+    left: 43.5vw;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    background-color: #ffffff23;
+    border: 0.5px black solid;
+    border-radius: 2px;
+    z-index: 9002;
+  }
+  
+  /*
+    On mouse-over, add a grey background color
+    .listFilters:hover input ~ .checkmark {
+        background-color: #00ffff;
+    }
+    
+    When the checkbox is checked, add a blue background
+    .listFilters input:checked ~ .checkmark {
+        background-color: #ff0000;
+    }
+    */
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .listFilters input:checked ~ .checkmark:after {
+    display: block;
+    top: -2.5px;
+    left: 1px;
+  }
+  
+  /* Style the checkmark/indicator */
+  .listFilters .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+  }
+
+#toggleNewsWrapper {
+position: absolute;
+top: 90%;
+left: 90%;
+width: fit-content;
+}
+
+/* Stats for Clanlist Header */
+.clanlistStats {
+    width: max-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    top: 18.5%;
+    left: 96.3%;
+    color: rgb(143, 143, 143);
+    font-size: 50%;
+    letter-spacing: 0.5px;
+    line-height: 110%;
+    z-index: 9000;
+}
+
+.clanlistStats:hover {
+    top: 29%;
+    font-weight: bolder;
+    transform: scale(1.6); /* Scale up the element */
+    color: rgba(255, 255, 255, 0.9); /* Optionally make it slightly brighter */
+    mix-blend-mode: screen;
+}
+
+#filteredCount {
+    margin-left: 0.5em; /* Adjust this value as needed */
+}
+
+/*
+
+#filteredCountWrapper{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 0.3vw;
+    color: silver;
+    border-bottom: none;
+}
+#filteredPlayercountWrapper{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: max-content;
+    top: 0;
+    left: 0.3vw;
+    color: rgb(212, 212, 212);
+    border-bottom: none;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    #filteredPlayerCount{
+        text-align: center;
+        margin-left: 5.17vw;
+        .tooltip-inner {
+            min-width: none;
+            max-width: max-content;
+            width: auto;
+        }
+    }
+}
+
+#toggleMatchesWrapper{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 43.5vw;
+    color: rgb(177, 33, 33);
+    border-bottom: none;
+}
+
+#toggleMembersWrapper{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0vh;
+    left: 33.7vw;
+    color: silver;
+    border-bottom: none;
+}
+
+#toggleNewsWrapper {
+    height: 0.7em;
+    width: 0.7em;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    padding: 1px;
+    color: silver;
+    border-bottom: none;
+}
+
+.memberCountWrapper {
+    font-size: 1rem;
+    color: silver;
+}
+
+.matchesCountWrapper {
+    font-size: 1rem;
+    color: silver;
+}
+
+input[type="checkbox"]{
+    accent-color: rgb(22, 67, 165);
+    mix-blend-mode: multiply;
+  }
+*/
+
+/******************************************************
+** Styling Clan List Generated Rows
+******************************************************/
 .clans {
     display: block;
     width: 100%;
@@ -1058,9 +1309,12 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
 .clan_addedrows {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 1vh;
+    margin-bottom: 3px;
     height: 85px;
     width: 100%;
+    background-color: #0000004d;
+    border: 0.5px solid black;
+    border-radius: 3px;
     overflow: hidden;
     ::-webkit-scrollbar {
         display: none;
@@ -1070,6 +1324,12 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
 .clan_addedrows:focus {
     height: fit-content;
 }
+
+/*.clan_addedrows td:hover {
+    display: flex;
+    font-weight: bolder;
+    transform: scale(1.2);
+}*/
 
 
 /* General Styling */
@@ -1095,23 +1355,9 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
 }
 
 
-#clan_scroll_members, #clan_scroll_matches, #clan_scroll_description, #clan_scroll_background, 
-#clan_scroll_news {
-    display: inline-flex;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    vertical-align: top;
-    overflow-y: auto;
-    overflow-x: auto;
-    margin: 5px;
-    line-height: 1.2;
-    font-size: small;
-    /*text-align: center;
-    border: 1px solid #0edb86;*/
-}
-
 #clan_sticky_tier, #clan_sticky_tag, #clan_sticky_name, #clan_sticky_date, #clan_sticky_founder, #clan_sticky_site,  
-#clan_sticky_game {
+#clan_sticky_game #clan_sticky_members, #clan_sticky_matches, #clan_sticky_description, #clan_sticky_background, 
+#clan_sticky_news {
 
     font-size: small;
     margin: 5px;
@@ -1170,14 +1416,15 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
 #clan_sticky_founder {
     display: block;
     overflow: auto;
-    width: 6vw;
+    width: 6.4vw; /* min width for therenegademaster */
     text-align: center;
 }
 
 
-#clan_scroll_members {
+#clan_sticky_members {
     display: block;
     width: 8.2vw;
+    font-size: small;
 }
 
     .members2 { 
@@ -1206,10 +1453,11 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
         color: white;
     }
 
-/************* Matches ******************************/
-#clan_scroll_matches {
+
+#clan_sticky_matches {
     display: block;
-    width: 11vw;
+    font-size: small;
+    width: 12vw;
 }
 
     /*.listTinyIcon {
@@ -1322,6 +1570,42 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
         border-radius: 2px;
         font-size: xx-small;
     }
+    .gametypeMap:before {
+        position: relative;
+        content: "MAP";
+        padding-left: 2px;
+        padding-right: 2px;
+        background-color: rgba(189, 189, 189, 0.733);
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    .gametypeAdmin:before {
+        position: relative;
+        content: "ADMIN";
+        padding-left: 2px;
+        padding-right: 2px;
+        background-color: rgba(255, 230, 0, 0.733);
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    .gametypeSocial:before {
+        position: relative;
+        content: "SOCIAL";
+        padding-left: 2px;
+        padding-right: 2px;
+        background-color: rgba(0, 255, 234, 0.733);
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    .gametypeCoding:before {
+        position: relative;
+        content: "CODE";
+        padding-left: 2px;
+        padding-right: 2px;
+        background-color: rgba(0, 255, 64, 0.733);
+        border-radius: 2px;
+        font-size: xx-small;
+    }
     
 /****************** Clanlist URLs */
 #clan_sticky_site {
@@ -1415,19 +1699,21 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
     }
 
 
-#clan_scroll_description {
+#clan_sticky_description {
     width: 16vw;
+    font-style: italic;
+    color: #898989;
 }
 
 
-#clan_scroll_background {
+#clan_sticky_background {
     width: 16vw;
     flex-direction: column;
     h1 {font-size: 1.5rem; margin-top: 0%;}
 }
 
     .clanBackground {
-        margin: 10px;
+        margin-bottom: 10px;
 
         .clanAuthor {
             margin-right: 10px;
@@ -1435,7 +1721,6 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
 
         .clanStory q {
             margin-bottom: 10px;
-            color: whitesmoke;
         }
     }
 
@@ -1453,21 +1738,26 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
 }
     
     
-#clan_scroll_news {
+#clan_sticky_news {
     display: flex;
     flex-direction: column;
     width: 12vw;
 
     #newsdate {
-        color: silver;
+        color: rgb(228, 228, 228);
         font-size: 0.9rem;
         font-weight: bold;
+        width: 100%;
+        background-image: linear-gradient(to right, rgb(77, 77, 77) 20%, rgba(162, 255, 0, 0) 40%);
+        border-radius: 3 0 0 0;
     }
 
     #newstitle {
-        color: white;
+        color: silver;
         font-size: 1.5rem;
+        font-weight: bold;
         margin-bottom: 5px;
+        text-decoration: underline;
     }
 
     #newsbody {
@@ -1522,123 +1812,6 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
     div[data-category="community"]{
         border: 2px solid yellow;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#clanlistStats {
-    display: flex;
-    position: fixed;
-    flex-direction: row;
-    top: 2.1%;
-    left: 66.0%;
-    width: 9vw;
-    height: fit-content;
-    z-index: 3;
-    color: whitesmoke;
-    padding-left: 4px;
-    padding-right: 4px;
-    #clanFilters select, option {
-        background-color: rgba(0, 0, 0, 0.795);
-        color:silver;
-    }
-    #clanFilters label {
-        position: absolute;
-        top: -1.5vh;
-        font-size: 1rem;
-        color: rgba(255, 255, 255, 0);
-    }
-    #filteredCountWrapper{
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        top: -0.3vh;
-        left: 5vw;
-        color: silver;
-        border-bottom: none;
-    }
-    #filteredPlayercountWrapper{
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        width: max-content;
-        top: 1.6vh;
-        left: 0.3vw;
-        color: rgb(212, 212, 212);
-        border-bottom: none;
-        font-size: 0.7em;
-        text-transform: uppercase;
-        #filteredPlayerCount{
-            text-align: center;
-            margin-left: 5.17vw;
-            .tooltip-inner {
-                min-width: none;
-                max-width: max-content;
-                width: auto;
-            }
-        }
-
-    }
-
-    #toggleMembersWrapper{
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        top: 0vh;
-        left: -32.4vw;
-        color: silver;
-        border-bottom: none;
-    }
-    #toggleMatchesWrapper{
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        top: 0vh;
-        left: -22.5vw;
-        color: silver;
-        border-bottom: none;
-    }
-    #toggleNewsWrapper {
-        height: 0.7em;
-        width: 0.7em;
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        top: 2.0vh;
-        left: 25.5vw;
-    }
-}
-
-input[type="checkbox"]{
-    accent-color: rgb(22, 67, 165);
-    mix-blend-mode: multiply;
-  }
-
-.memberCountWrapper {
-    font-size: 1rem;
-    color: silver;
-}
-
-.matchesCountWrapper {
-    font-size: 1rem;
-    color: silver;
-}
 
 
 .deco{
@@ -1740,7 +1913,7 @@ input[type="checkbox"]{
     bottom: 3.4%; /* this value tends to change over design span */
     overflow: hidden;
     width: 100%;
-    z-index: 9;
+    z-index: 9999;
     :hover .marqueeMinibanners {
         animation-play-state: paused;
         opacity: 1.0;
@@ -1785,43 +1958,76 @@ input[type="checkbox"]{
   }
 
 
-/* Footer */
-  .footer {
+/* **********************************************************
+** Footer Navigation 
+********************************************************** */
+.footer {
     position: fixed;
-    bottom: 0%;
+    bottom: 0;
     margin: auto;
     width: 100%;
     height: auto;
-    border: 1px solid rgb(22, 67, 165);
-    background-color: black;
-    background-color: rgba(0, 0, 0, 0.8);
+    border-top: 1px solid rgb(0, 0, 0);
+    border-radius: 8px 8px 0 0;
     font-family: "Lucida Console", "Courier New", monospace;
 }
-
-
-/* Navigation */
 
 .nav_clanlist {
     display: flex;
     justify-content: space-around;
-    position: relative;
+    align-items: stretch; /* Ensure all items stretch to the same height */
+    width: 100%;
+    z-index: 9991;
 }
 
-#audioWrapper {position: absolute; right: 0.3%; bottom: 10%; cursor:pointer;justify-content: left;}
+.nav_clanlist a {
+    display: flex;
+    flex-grow: 1; /* Allow links to take up equal space */
+}
+
+.nav_clanlist a .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 15px;
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
+    color: rgb(218, 218, 218);
+    text-transform: uppercase;
+    transition: color .3s, background-color .3s;
+    text-shadow: 0px 0px 10px #181aaf, 0px 0px 2px #491ee2;
+    background-color: #5a5a5ac0;
+}
+
+.nav_clanlist a .link:hover {
+    color: white;
+    animation: glow .4s ease-in-out infinite alternate;
+    background-color: silver;
+}
+
+#audioWrapper {
+    position: absolute; 
+    right: 0.2%; 
+    bottom: 0; 
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
 
 nav div.link_index {
-    position: absolute;
-    margin: auto;
-    width: auto;
-    height: auto;
-    left: 0px;
-    bottom: 0%;
+    display: flex;
+    position: relative;
+    left: 2px;
+    bottom: 2px;
+    width: fit-content;
     text-transform: uppercase;
     color: white;
     line-height: 0.7;
     font-size: xx-large;
-    -webkit-animation: glowlogo 6s ease-in-out infinite alternate;
-    -moz-animation: glowlogo 6s ease-in-out infinite alternate;
     animation: glowlogo 6s ease-in-out infinite alternate;
 }
 
@@ -1834,26 +2040,6 @@ nav div.link_index {
     }
 }
 
-nav div.link {
-    margin: auto; 
-    width: 50%;
-    height: 100%;
-    padding: 4px;
-    font-size: 100%;
-    text-transform: uppercase;
-    color: rgb(218, 218, 218);
-    opacity: 0.8;
-    transition: color .3s, background-color .3s;
-    text-shadow: 0px 0px 10px #181aaf, 0px 0px 2px #491ee2;
-}
-
-nav div.link:hover {
-    color: white;
-    -webkit-animation: glow .4s ease-in-out infinite alternate;
-    -moz-animation: glow .4s ease-in-out infinite alternate;
-    animation: glow .4s ease-in-out infinite alternate;
-}
-
 @keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #8dfbff, 0 0 30px #7bd5ff, 0 0 40px #517fbf, 0 0 50px #79a1d8, 0 0 60px #245fb2, 0 0 70px #1b4e96;
@@ -1861,7 +2047,7 @@ nav div.link:hover {
     to {
         text-shadow: 0 0 20px #fff, 0 0 30px #1F51FF, 0 0 40px #1F51FF, 0 0 50px #1F51FF, 0 0 60px #1F51FF, 0 0 70px #1F51FF, 0 0 80px #1F51FF;
     }
-  }
+}
 
 
   /* Style local PAGES */

@@ -8,7 +8,9 @@ $(document).ready(function() {
 
 
     // Cache frequently used jQuery objects
-    var body = $('body');
+    const $body = $('body');
+    const $htmlBody = $('html, body');
+    const $clanlistContents = $('.clanlistContents');
     var navClanlist = $('.nav_clanlist');
     var linkContainer = $('.commlinks');
     var clan = $('.clans');
@@ -17,6 +19,53 @@ $(document).ready(function() {
 
     // Set the hash to #pageclans when the page loads
     window.location.hash = 'pageclans';
+
+    const materialColors = [
+        '#F44336', '#E91E63', '#9C27B0', '#673AB7', 
+        '#3F51B5', '#2196F3', '#03A9F4', '#00BCD4', 
+        '#009688', '#4CAF50', '#8BC34A', '#CDDC39', 
+        '#FFEB3B', '#FFC107', '#FF9800', '#FF5722'
+    ];
+
+    /* *********************** Handle Document Focus **************************************************************************************************** */
+
+        // Array to store references to focused elements
+        var focusedElements = [];
+
+        // Generic handler to keep focus on clicked elements
+        $('.focusable').on('click', function(event) {
+            event.stopPropagation(); // Prevent the click from bubbling up and removing focus
+            let element = $(this);
+    
+            // Check if the element is already focused
+            if (focusedElements.indexOf(this) === -1) {
+                // Add element to focusedElements array
+                focusedElements.push(this);
+    
+                // Add focused class to indicate it's focused
+                element.addClass('focused');
+            }
+        });
+    
+        // Clicking anywhere else on the document removes focus
+        $(document).on('click', function(event) {
+            focusedElements.forEach(function(el) {
+                // Check if the clicked element is inside the focused element
+                if (!$(el).is(event.target) && $(el).has(event.target).length === 0) {
+                    $(el).removeClass('focused');
+                    // Remove from focusedElements array
+                    focusedElements = focusedElements.filter(function(focusedEl) {
+                        return focusedEl !== el;
+                    });
+                }
+            });
+        });
+    
+        // Allow interactions with links inside the focused element without losing focus
+        $('.focusable a').on('click', function(event) {
+            event.stopPropagation(); // Prevent the click from bubbling up
+            // The link can now be clicked and interacted with without losing focus
+        });
 
     
     /* *********************** AUDIO ******************************************************************************************************************** */
@@ -60,13 +109,16 @@ $(document).ready(function() {
         isMuted = !isMuted; // Toggle mute state
     });
 
-
-    /* *********************** Construct Sidemenu ******************************************************************************************************************* */
+    /* *********************************************************************************************************
+    **      Construct Sidemenu 
+    ********************************************************************************************************* */
     var container = $(window); // Use window as the scrollable container
     var sections = $('.chapter'); // Select all sections with class 'chapter'
     var menuLinks = $('.pageMenu a');
-    var topPadding = 100; // Adjust the top detection padding
-    var bottomPadding = 20; // Adjust the bottom detection padding
+    var topPadding = 500; // Adjust the top detection padding
+    var bottomPadding = 80; // Adjust the bottom detection padding
+    var scrollOffset = 180; // Adjust this value to control how far from the target you want to scroll
+
     container.scroll(function() {
         var scrollPosition = container.scrollTop();
         sections.each(function() {
@@ -79,26 +131,28 @@ $(document).ready(function() {
             }
         });
     });
+
     // Smooth scrolling to section when clicking on menu links
     menuLinks.click(function(event) {
         event.preventDefault(); // Prevent the default behavior of anchor links
         var targetId = $(this).attr('href');
         var targetSection = $(targetId);
         if (targetSection.length) {
-            var scrollTop = targetSection.offset().top;
+            var scrollTop = targetSection.offset().top - scrollOffset; // Subtract the scrollOffset value
+
             // For the last section, scroll a little deeper into the element
             if ($(this).is(':last-child')) {
                 scrollTop += bottomPadding; // Adjust this value as needed
             }
+
             $('html, body').animate({
                 scrollTop: scrollTop
             }, 100); // Adjust the duration as needed
         }
     });
-    
+
     
     /* *********************** Construct STORIES ******************************************************************************************************************** */
-
 
     // Cache DOM selection for story content and navigation menu
     const storyContent = $('.storycontent');
@@ -193,7 +247,7 @@ $(document).ready(function() {
         event.preventDefault();
         const targetId = $(this).data('id');
         const targetElement = $('#' + targetId);
-        const paddingTop = 80; // Adjust this value to set the desired padding
+        const paddingTop = 180; // Adjust this value to set the desired padding
         if (targetElement.length) {
             $('html, body').animate({
                 scrollTop: targetElement.offset().top - paddingTop // Subtract the padding from the scroll position
@@ -675,7 +729,8 @@ $(document).ready(function() {
             let matchesCellHTML = '';
             let websiteCellHTML = '';
             let forumCellHTML = '';
-            let backgroundCellHTML = '<td id="clan_scroll_background"><div></div></td>';
+            let backgroundCellHTML = '<td id="clan_sticky_background"><div></div></td>';
+            let gameTypeCellHTML = '';
             let newsCellHTML = '';
 
             // Check if the 'websites' array is not empty
@@ -702,14 +757,30 @@ $(document).ready(function() {
 
             // Check if the 'background' array is not empty and contains non-empty 'backgroundStory' arrays
             if (post.background.length > 0 && post.background.some(item => item.backgroundStory[3] !== '')) {
-                // Construct the HTML for the background cell
                 backgroundCellHTML = post.background.map(background => {
                     if (background.backgroundStory[3] !== '') {
-                        return `<div class='clanBackground' data-toggle="tooltip" data-placement="auto top" title="${background.backgroundStory[0]}"><span class='clanAuthor'><a href='#${background.backgroundStory[1]}'>${background.backgroundStory[2]}</a></span><span class='clanStory'><q>${background.backgroundStory[3]}</q></span></div>`;
+                        let colorStyle = '';
+                        let storyStyle = '';  // Style for backgroundStory[3]
+                        
+                        // Check if backgroundStory[2] is empty
+                        if (background.backgroundStory[2] === '') {
+                            // Make the backgroundStory[3] text a bit brighter or change its color
+                            storyStyle = 'style="color: #d3d3d3;"'; // Adjust brightness or color as needed
+                        } else {
+                            // Assign a random color from the materialColors array to backgroundStory[2]
+                            const randomColor = materialColors[Math.floor(Math.random() * materialColors.length)];
+                            colorStyle = `style="color: ${randomColor};"`;
+                        }
+            
+                        return `
+                            <div class='clanBackground' data-toggle="tooltip" data-placement="auto top" title="${background.backgroundStory[0]}">
+                                <span class='clanAuthor'><a href='#${background.backgroundStory[1]}' ${colorStyle}>${background.backgroundStory[2]}</a></span>
+                                <span class='clanStory'><q ${storyStyle}>${background.backgroundStory[3]}</q></span>
+                            </div>`;
                     }
                     return '';
                 }).join('');
-                backgroundCellHTML = `<td id="clan_scroll_background">${backgroundCellHTML}</td>`;
+                backgroundCellHTML = `<td id="clan_sticky_background">${backgroundCellHTML}</td>`;
             }
 
             // Function to calculate the total number of members in each membergroup
@@ -763,6 +834,30 @@ $(document).ready(function() {
                 members2CellHTML = `<div class="members2"><div class="memberCountWrapper">(${calculateTotalMembers(post['members_2'])})</div><div class="membergroupLabel"></div><div class="clanRoster">${members2CellHTML}</div></div>`;
             }
 
+            // Helper function to determine match type class
+            const getMatchTypeClass = (matchString) => {
+                if (/\b0a\b|\bs0a\b|\bstandard 0a|\bstandard zero-aug|\bzero aug\b|\bZero aug|\bzero-aug|\b0 Aug|\b0A\b/i.test(matchString)) {
+                    return 'matchtype0a';
+                } else if (/\bATDM\b|\batdm\b|Aug/i.test(matchString)) {
+                    return 'matchtypeATDM';
+                } else if (/\bBTDM\b|\bbtdm\b|Basic/i.test(matchString)) {
+                    return 'matchtypeBTDM';
+                } else if (/\bCTDM\b|\bctdm\b|\bCustom TDM\b/i.test(matchString)) {
+                    return 'matchtypeCTDM';
+                } else if (/\bctf\b|\bmod\b|\bdxag\b|\brpg\b|\bcdx\b/i.test(matchString)) {
+                    return 'matchtypeMod';
+                } else if (/\bMapping\b/i.test(matchString)) {
+                    return 'gametypeMap';
+                } else if (/\bAdminning\b/i.test(matchString)) {
+                    return 'gametypeAdmin';
+                } else if (/\bSocial\b/i.test(matchString)) {
+                    return 'gametypeSocial';
+                } else if (/\bCoding\b/i.test(matchString)) {
+                    return 'gametypeCoding';
+                }
+                return '';
+            };
+
             // Check if the 'matches' array is not empty
             if (post.matches.length > 0) {
                 // Split matches into two arrays based on match[6] value
@@ -777,22 +872,6 @@ $(document).ready(function() {
                         }
                     }
                 });
-
-                // Helper function to determine match type class
-                const getMatchTypeClass = (matchString) => {
-                    if (/\b0a\b|\bs0a\b|\bstandard 0a|\bstandard zero-aug|\bzero aug\b|\bZero aug|\bzero-aug|\b0 Aug|\b0A\b/i.test(matchString)) {
-                        return 'matchtype0a';
-                    } else if (/\bATDM\b|\batdm\b/i.test(matchString)) {
-                        return 'matchtypeATDM';
-                    } else if (/\bBTDM\b|\bbtdm\b/i.test(matchString)) {
-                        return 'matchtypeBTDM';
-                    } else if (/\bCTDM\b|\bctdm\b|\bCustom TDM\b/i.test(matchString)) {
-                        return 'matchtypeCTDM';
-                    } else if (/\bctf\b|\bmod\b|\bdxag\b|\brpg\b|\bcdx\b/i.test(matchString)) {
-                        return 'matchtypeMod';
-                    }
-                    return '';
-                };
 
                 // Construct the HTML for the matches cell
                 matchesCellHTML = otherMatches.concat(discussedMatches).map(match => {
@@ -810,6 +889,21 @@ $(document).ready(function() {
                     }
                     return '';
                 }).join('');
+            }
+
+            // Check if the 'gametype' array is not empty
+            if (post.gametype.length > 0) {
+                // Construct the HTML for the gametype cell using the existing function
+                gameTypeCellHTML = `
+                    <td>
+                        <div id="clan_sticky_game">
+                            ${post.gametype.map(type => {
+                                const matchTypeClass = getMatchTypeClass(type); // Determine the match type class using existing function
+                                return matchTypeClass ? `<span class="${matchTypeClass}"></span>` : type;
+                            }).join('<br />')}
+                        </div>
+                    </td>
+                `;
             }
 
             // Check if the 'news' array is not empty
@@ -851,23 +945,23 @@ $(document).ready(function() {
                     <td class="founder">
                         <div id="clan_sticky_founder">${post.founder.join(', ')}</div>
                     </td>
-                    <td id="clan_scroll_members">${membersCellHTML}${members2CellHTML}</td>
+                    <td id="clan_sticky_members">${membersCellHTML}${members2CellHTML}</td>
                     ${matchesCellHTML ? `
-                        <td id="clan_scroll_matches">
+                        <td id="clan_sticky_matches">
                             <div class="matchesCountWrapper">
                                 (<span data-toggle="tooltip" data-placement="auto top" title="Number of confirmed matches <br /><br />(nb: records are very incomplete!)">${calculateTotalMatches(post['matches'])}</span>) 
-                                <span data-toggle="tooltip" data-html="true" data-placement="auto top" title="${renderMatchStatistics(post['matches']).replace(/"/g, '&quot;')}">Clans ${calculateWinPercentageWithColor(post['matches'])}
-                                (Matches ${calculateWinPercentageAllWithColor(post['matches'])}</span>)
+                                <span data-toggle="tooltip" data-html="true" data-placement="auto top" title="${renderMatchStatistics(post['matches']).replace(/"/g, '&quot;')}">${calculateWinPercentageWithColor(post['matches'])}
+                                (${calculateWinPercentageAllWithColor(post['matches'])}</span>)
                             </div>
                             ${matchesCellHTML}
                         </td>
-                    ` : '<td id="clan_scroll_matches"></td>'}
+                    ` : '<td id="clan_sticky_matches"></td>'}
                     ${websiteCellHTML ? `<td><div id="clan_sticky_site">${websiteCellHTML}</div></td>` : '<td><div id="clan_sticky_site"></div></td>'}
                     ${forumCellHTML ? `<td><div id="clan_sticky_site">${forumCellHTML}</div></td>` : '<td><div id="clan_sticky_site"></div></td>'}
-                    <td id="clan_scroll_description"><span>${post.description}</span></td>
+                    <td id="clan_sticky_description"><span>${post.description}</span></td>
                     ${backgroundCellHTML}
-                    <td><div id="clan_sticky_game">${post.gametype.join('<br /> ')}</div></td>
-                    ${newsCellHTML ? `<td><div id="clan_scroll_news">${newsCellHTML}</div></td>` : '<td><div id="clan_scroll_news"></div></td>'}
+                    ${gameTypeCellHTML}
+                    ${newsCellHTML ? `<td><div id="clan_sticky_news">${newsCellHTML}</div></td>` : '<td><div id="clan_sticky_news"></div></td>'}
                 </tr>
             `;
         });
@@ -1011,71 +1105,87 @@ $(document).ready(function() {
 
         /* *********** Alphabetical Contents Sidebar ************************************ */
 
-        // Alphabet links generation and click handling
         const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
-        const $clanlistContents = $('.clanlistContents');
-
-        // Object to store the last scrolled index for each letter
         const lastScrolledIndex = {};
 
-        // Function to find the next <tr class="clan_addedrows"> containing the specified letter
-        function findNextMatchingRow(letter, lastIndex) {
-            const rows = $(`tr[data-id^="${letter.toLowerCase()}"]`);
-            if (rows.length === 0) {
-                return null; // Return null if no rows match the letter
-            }
-            if (lastIndex === undefined || lastIndex >= rows.length - 1) {
-                return rows.first(); // Return the first row if no lastIndex is provided or if we've reached the end
-            }
-            // Find the next row after the lastIndex
-            return rows.eq(lastIndex + 1);
-        }
-
-        // Create alphabet links
         alphabet.forEach(letter => {
-            // Initialize the lastScrolledIndex for the letter
             lastScrolledIndex[letter] = -1;
-
             const $link = $('<a></a>').attr('href', `#${letter}`).text(letter);
+
             $link.on('click', function(e) {
                 e.preventDefault();
                 const lastIndex = lastScrolledIndex[letter];
                 const $target = findNextMatchingRow(letter, lastIndex);
-                if ($target && $target.length) {
-                    // Update the lastScrolledIndex for the letter
+                if ($target.length) {
                     lastScrolledIndex[letter] = $(`tr[data-id^="${letter.toLowerCase()}"]`).index($target);
-
-                    // Scroll to the target row with padding
-                    $('html, body').animate({
-                        scrollTop: $target.offset().top - 200 // Adjust padding as needed
-                    }, 500, function() {
-                        // Animation complete callback
-                        // Create a border overlay div
-                        const $borderOverlay = $('<div class="border-overlay"></div>').css({
-                            position: 'absolute',
-                            top: $target.offset().top - 2, // Adjusted top position with a little padding
-                            left: $target.offset().left - 2, // Adjusted left position with a little padding
-                            width: $target.outerWidth() + 4, // Adjusted width to make the border wider
-                            height: $target.outerHeight() + 4, // Adjusted height to make the border wider
-                            border: '2px solid red',
-                            borderRadius: $target.css('borderRadius'), // Match the border radius of the row
-                            pointerEvents: 'none', // Allow clicking through the overlay
-                            zIndex: 9999 // Ensure the overlay appears above other content
-                        }).appendTo('body');
-
-                        // Fade out the border overlay
-                        $borderOverlay.fadeOut(2000, function() {
-                            // Remove the overlay after fading out
-                            $(this).remove();
-                        });
-                    });
+                    scrollToTarget($target, 200);
                 }
             });
             $clanlistContents.append($link);
         });
+
+        function findNextMatchingRow(letter, lastIndex) {
+            const rows = $(`tr[data-id^="${letter.toLowerCase()}"]`);
+            return lastIndex === undefined || lastIndex >= rows.length - 1 ? rows.first() : rows.eq(lastIndex + 1);
+        }
+
+        function scrollToTarget($target, padding) {
+            $htmlBody.animate({
+                scrollTop: $target.offset().top - padding
+            }, 500, function() {
+                highlightElement($target);
+            });
+        }
+
+        function highlightElement($element) {
+            const $borderOverlay = $('<div class="border-overlay"></div>').css({
+                position: 'absolute',
+                top: $element.offset().top - 2,
+                left: $element.offset().left - 2,
+                width: $element.outerWidth() + 4,
+                height: $element.outerHeight() + 4,
+                border: '2px solid red',
+                borderRadius: $element.css('borderRadius'),
+                pointerEvents: 'none',
+                zIndex: 9999
+            }).appendTo($body);
+
+            $borderOverlay.fadeOut(2000, function() {
+                $(this).remove();
+            });
+        }
  
 
         /* *********** List Filtering and Sorting (We Check Filters Before We Sort) ***** */
+
+        function sortData(criteria, orderAsc) {
+            return function(a, b) {
+                let comparison;
+                switch (criteria) {
+                    case 'name':
+                        comparison = a.name.localeCompare(b.name);
+                        break;
+                    case 'rank':
+                        comparison = getRankOrder(a) - getRankOrder(b);
+                        break;
+                    // Add other criteria as needed
+                }
+                return orderAsc ? comparison : -comparison;
+            };
+        }
+    
+        function getRankOrder(post) {
+            return post.tier[2] ? 0 : post.tier[1] ? 1 : post.tier[0] ? 2 : 3;
+        }
+        
+        // Example sorting usage
+        $('#item-name').click(function() {
+            filteredData.sort(sortData('name', ascendingOrderName));
+            ascendingOrderName = !ascendingOrderName;
+            renderClansBasedOnCheckbox();
+        });
+
+
 
         // Listen for changes in the filter select element
         $('#filterSelect').change(function() {
@@ -1396,16 +1506,21 @@ $(document).ready(function() {
     }
 
     /*
-    // Scroll back up when any div, .clan_addedrows, or #longread loses focus
-    $('body').on('blur', 'div:not(.matchOpponent), .clan_addedrows, #longread', debounce(function() {
+
+    // Scroll back up when any div, .clan_addedrows, or #longread loses focus, except for links inside those elements
+    $('body').on('blur', 'div:not(.matchOpponent), .clan_addedrows, #longread', debounce(function(event) {
+        if ($(event.relatedTarget).is('a, button')) {
+            // If the next focused element is a link or button, do not scroll
+            return;
+        }
         var padding = 200; // Adjust this value to set the desired padding
         var scrollPosition = $(this).offset().top - padding;
         $('html, body').animate({
             scrollTop: scrollPosition
         }, 200);
     }, 250)); // Debounce for 250 milliseconds
-    */
 
+    */
 
     /* *********************** TOOLTIPS ******************************************************************************************************************** */
 
