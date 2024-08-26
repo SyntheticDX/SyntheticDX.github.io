@@ -1193,12 +1193,12 @@ width: fit-content;
     flex-direction: column;
     justify-content: flex-start;
     position: absolute;
-    top: 18.5%;
+    top: 2%;
     left: 96.3%;
     color: rgb(143, 143, 143);
-    font-size: 50%;
+    font-size: 60%;
     letter-spacing: 0.5px;
-    line-height: 110%;
+    line-height: 105%;
     z-index: 9000;
 }
 
@@ -1316,14 +1316,22 @@ input[type="checkbox"]{
     border: 0.5px solid black;
     border-radius: 3px;
     overflow: hidden;
+    /*transition: transform 0.1s ease, color 0.1s ease;  Smooth scaling transition */
     ::-webkit-scrollbar {
         display: none;
     }
 }
 
+.clan_addedrows:hover {
+    /*transform: scale(1.02); /* Scale up the element */
+    color: rgba(255, 255, 255, 0.9); /* Optionally make it slightly brighter */
+}
+
 .clan_addedrows:focus {
     height: fit-content;
 }
+
+
 
 /*.clan_addedrows td:hover {
     display: flex;

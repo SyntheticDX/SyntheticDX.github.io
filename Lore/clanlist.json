@@ -3269,6 +3269,14 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["valex","[A!B]Valex"],
+                        "aliases" : ["edh","t9h","ixn","el"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Later in multi-gaming clan PTX",""]
                     }
                 ]
             }
@@ -8527,7 +8535,7 @@
         "id" : "bfs",
         "tag" : ["tagFront","[","BFS","]"],
         "tag_extra" : "",
-        "flag" : ["",""],
+        "flag" : ["🇩🇪","Probably 100%"],
         "name" : "Berliner Front Schweine",
         "gametype" : ["0a","Aug"],
         "tier" : ["B","",""],
@@ -8538,11 +8546,11 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["subziro","[BFS]Subziro"],
+                        "pidPlusName" : ["subziro","[BFS]Subziro 🇩🇪"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Later in IMPAC after clan merges with SINC","Server host"]
+                        "stats" : ["Later in IMPAC after clan merges with SINC","Server host<br />Augsburg, Germany"]
                     }
                 ]
             }
@@ -18844,7 +18852,7 @@
     },
     {
         "id" : "des_1",
-        "tag" : ["tagFront","[","DES","]"],
+        "tag" : ["tagBack","[","DES","]"],
         "tag_extra" : "",
         "flag" : ["",""],
         "name" : "Deus Elite Squad",
@@ -18857,7 +18865,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["","March 8, 2001"],
-                        "pidPlusName" : ["deusex","[DES]DeusEX"],
+                        "pidPlusName" : ["deusex","DeusEX[DES]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -18865,23 +18873,15 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["ocelot","[DES]Ocelot"],
+                        "pidPlusName" : ["ocelot_1","Ocelot[DES]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["website marked as https://web.archive.org/web/20001206085300/http://www.johnsmith.freeservers.com/","Leader"]
+                        "stats" : ["Player resurfaces in August 2024 (DXHQ Discord), website marked as https://web.archive.org/web/20001206085300/http://www.johnsmith.freeservers.com/","Leader"]
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["reaper_des","[DES]Reaper"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["darkstalker","[DES]Darkstalker"],
+                        "pidPlusName" : ["reaper_des","Reaper[DES]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -18889,7 +18889,15 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["violater","[DES]Violater"],
+                        "pidPlusName" : ["darkstalker","Darkstalker[DES]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["violater","Violater[DES]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -18897,7 +18905,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["bob_des","[DES]Bob"],
+                        "pidPlusName" : ["bob_des","Bob[DES]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -18905,7 +18913,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["luther","[DES]Luther"],
+                        "pidPlusName" : ["luther","Luther[DES]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -18913,7 +18921,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["rythmus","[DES]Rythmus"],
+                        "pidPlusName" : ["rythmus","Rythmus[DES]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -18921,7 +18929,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["endar","[DES]Endar"],
+                        "pidPlusName" : ["endar","Endar[DES]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -20880,7 +20888,7 @@
                         "aliases" : ["Arthur"],
                         "pastClanIDs" : ["dk","i","dea"],
                         "membership" : ["","",""],
-                        "stats" : ["CSports 164499604","US<br />CAVALIERS DIVISION SQUAD 2<br />LANCERS<br />- Squire"]
+                        "stats" : ["CSports 164499604<br />Player resurfaced in Nov 2023 (DXHQ Discord)","US<br />CAVALIERS DIVISION SQUAD 2<br />LANCERS<br />- Squire"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -21976,11 +21984,11 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["","Autumn"],
-                        "pidPlusName" : ["ocelot","Ocelot[DMI]"],
+                        "pidPlusName" : ["ocelot_2","Ocelot[DMI]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["later EIS, unrelated to Ocelot[DES]",""]
                     }
                 ]
             }
@@ -29868,9 +29876,9 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["lightning","Lightning[EIS]"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["usa"],
                         "membership" : ["","",""],
-                        "stats" : ["I think he made a clan called USA later into the year, tried to ally or merge [GDX] and [EIS] that earlier had shared members in [DU]",""]
+                        "stats" : ["Player resurfaces in August 2024 (DXHQ Discord); seems he made a clan called USA later into the year, tried to ally or merge [GDX] and [EIS] that earlier had shared members in [DU]",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -29914,11 +29922,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["ocelot","Ocelot[EIS]"],
+                        "pidPlusName" : ["ocelot_2","Ocelot[EIS]"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["dmi"],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Presumably from DMI, he is unrelated to Ocelot[DES]",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -30365,6 +30373,14 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["valex","[EL]Valex"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["edh","t9h","ixn"],
+                        "membership" : ["","",""],
+                        "stats" : ["Later in A!B",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
                         "pidPlusName" : ["solid","[EL]Solid"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
@@ -30537,7 +30553,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["dani","[emo]Tear"],
+                        "pidPlusName" : ["danisaggenza","[emo]Tear"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -33386,7 +33402,7 @@
         "gametype" : ["0a","Aug"],
         "tier" : ["","A",""],
         "date" : ["isUncertain","2012-10-01","isUncertain","2013-02-01","isCertain",""],
-        "founder" : ["Phantom", "Valex?", "Solid?"],
+        "founder" : ["Phantom", "Solid?"],
         "members" : [
             {
                 "membergroup" : [
@@ -39075,7 +39091,7 @@
         "id" : "impac",
         "tag" : ["tagFront","[","IMPAC","]"],
         "tag_extra" : "",
-        "flag" : ["🇩🇪",""],
+        "flag" : ["🇩🇪","Probably 100%"],
         "name" : "Independent MultiPlayer Associated Community",
         "gametype" : ["0a"],
         "tier" : ["B","A",""],
@@ -39102,11 +39118,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["subziro","[IMPAC]Subzero"],
-                        "aliases" : [""],
+                        "pidPlusName" : ["subziro","[IMPAC]Subzero 🇩🇪"],
+                        "aliases" : ["Subziro"],
                         "pastClanIDs" : ["bfs"],
                         "membership" : ["","",""],
-                        "stats" : ["From his BFS clan","Non-aug server host"]
+                        "stats" : ["From his BFS clan","Non-aug server host<br />Augsburg, Germany"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -39114,7 +39130,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Player resurfaces in August 2024 (DXHQ Discord)","Germany"]
                     }
                 ]
             }
@@ -39126,7 +39142,7 @@
         ],
         "websites" : [
             {
-                "website" : ["Its basically dead. Later site shares content with a possibly unrelated clan https://web.archive.org/web/20020603053722/http://clan-exitus.bei.t-online.de/","https://web.archive.org/web/20020208044735/http://www.impac.de.vu/","index"]
+                "website" : ["Its basically dead. Later site has content from their new EXITUS clan https://web.archive.org/web/20020603053722/http://clan-exitus.bei.t-online.de/","https://web.archive.org/web/20020208044735/http://www.impac.de.vu/","index"]
             }
         ],
         "forums" : [
@@ -39134,10 +39150,10 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "German community clan from roughly the second or later first year, it was a merger of SINC and BFS clans led by LeClair and appear to have been playing mainly without augmentations. Initally a flash site first archived end of January, the webpage changes style by summer 2002 pointing to content from clan-exitus domain and thus likely marks the death of this particular clan, at least in DXMP. Its possible this clan belongs to the second half of 2001 or formed soon after 2002 rolled in.",
+        "description" : "German community clan from roughly the second or later first year, it was a merger of SINC and BFS clans led by LeClair and appear to have been playing mainly without augmentations. Initally a flash site first archived end of January, the webpage changes style by summer 2002 pointing to content from clan-exitus domain and thus likely marks the death of this particular clan, at least in DXMP. Its possible this clan belongs to the second half of 2001 or formed soon after 2002 rolled in. Clan appears to have turned into EXITUS as they moved into Tactical Ops game sometime 2002.",
         "background" : [
             {
-                "backgroundStory" : ["2024-08-22 DXHQ Discord","carnivore","Carnivore:","I was in this guild. Crazy to find this<br /><br />IMPAC (the meaning was 'Independent MultiPlayer Associated Community')  was the result of a merge of BFS and SINC players.<br /><br />The leader was LeClair. Shortly after the clan was created the focus moved to Tactical Ops.<br />Met twice in Germany at that time.<br /><br />On German servers we mostly played without any augs.<br />I recall playing on a private server of Subzero that he opened up each evening after work.<br /><br />GDoTS was another German guild around.<br />Found many familiar names.<br /><br />Download of DXMP was about 33 or 35 megabytes what took me some hours by 56k modem.<br /><br />There was a player ranking and LeClair was number one at the time and me top 10 or top 20.<br />But there were just 100-120 players ranked 😄<br /><br />DXMP is first game I played online and the singleplayer its my favorite game until today."]
+                "backgroundStory" : ["2024-08-22 DXHQ Discord","carnivore","Carnivore:","I was in this guild. Crazy to find this<br /><br />IMPAC (the meaning was 'Independent MultiPlayer Associated Community')  was the result of a merge of BFS and SINC players.<br /><br />The leader was LeClair. Shortly after the clan was created the focus moved to Tactical Ops.<br />Met twice in Germany at that time.<br /><br />On German servers we mostly played without any augs.<br />I recall playing on a private server of Subzero that he opened up each evening after work.<br /><br />GDoTS was another German guild around.<br />Found many familiar names.<br /><br />Download of DXMP was about 33 or 35 megabytes what took me some hours by 56k modem.<br /><br />There was a player ranking and LeClair was number one at the time and me top 10 or top 20.<br />But there were just 100-120 players ranked 😄<br /><br />DXMP is first game I played online and the singleplayer its my favorite game until today.<br /><br /><br />DXIN I remember again now. I've read 'EXITUS' too but don't remember if it is was before or after IMPAC. I think it was after IMPAC disbanded and EXITUS transfered to Tactical Ops."]
             }
         ],
         "news" : [
@@ -39795,17 +39811,17 @@
         "gametype" : ["Basic"],
         "tier" : ["B","",""],
         "date" : ["isUncertain","2010-12-01","isUncertain","2011-01-01","isCertain",""],
-        "founder" : ["Valex?"],
+        "founder" : ["Valex"],
         "members" : [
             {
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["valex","~¤[IxN]¤~Valex"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "aliases" : ["BushFire"],
+                        "pastClanIDs" : ["edh","t9h"],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Later in EL",""]
                     }
                 ]
             }
@@ -43148,7 +43164,7 @@
         "description" : "Seventeenth year clan that forms from 4 players looking to have a match against oneanother and thus creating two tags, later partially merging and becoming a real clan. Members were experienced in all main gametypes.",
         "background" : [
             {
-                "backgroundStory" : ["","dani","Dani:","I created the clan when I saw Ken and Psycho in server under a new tag LAN which was made for random clan-war-like team games"]
+                "backgroundStory" : ["","danisaggenza","Dani:","I created the clan when I saw Ken and Psycho in server under a new tag LAN which was made for random clan-war-like team games"]
             },
             {
                 "backgroundStory" : ["","ken","Ken:","I always laughed that with Price we are Los Maricones but without him were just Dos Maricones<br /><br />Optimistically we estimated that in 2017 we could still war HK (Anax, Ricci, Hey), A!B (Spaz, Solid, Duke), FGS (Cozmo, Fear, Mastakilla, Chees?), but no actual wars took place.<br /><br />This year I still managed to outscore my clanmate Price here in non-aug and looking at some archived material even sometimes in augs, but soon after he would become notably better than me."]
@@ -47367,7 +47383,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["ocelot","[NGSF]Ocelot"],
+                        "pidPlusName" : ["ocelot_3","[NGSF]Ocelot"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -47938,7 +47954,7 @@
         "description" : "Late tenth year Italy based clan that later features more French and international members, they focused on non-aug but most also had the EdH-scene Basic experience and occasionally took those challenges also. In a game now exceedingly vulnerable to speedhacking the clan came into focus particularly as Phantom was recruited and formed his own cheating cluster around him, later departing to form [FPS] clan which could put up 6 players vs now diminished [NKz] ranks. Perhaps due to past ties, [FPS] Italian member Mango apparently had suggested alliance to Alessi.",
         "background" : [
             {
-                "backgroundStory" : ["","dani","Dani:","Alessi and Phantom clan, mostly composed by french and italians, aimed to become one of the best 0a clans.<br /><br />It died around 2013, their only active member back then was Fury, which shortly quit until 2014 after he got banned on HVM 0a server and was the only active server back then.<br /><br />0aug mostly as Fury was the only 'auger', they did play BTDM vs THC however."]
+                "backgroundStory" : ["","danisaggenza","Dani:","Alessi and Phantom clan, mostly composed by french and italians, aimed to become one of the best 0a clans.<br /><br />It died around 2013, their only active member back then was Fury, which shortly quit until 2014 after he got banned on HVM 0a server and was the only active server back then.<br /><br />0aug mostly as Fury was the only 'auger', they did play BTDM vs THC however."]
             },
             {
                 "backgroundStory" : ["","ken","Ken:","I was never in this clan but I pretended to be a member in order to fight a war, against a clan led by a player who actually was in this clan and pretended not to be in other clans. Just DX things. (referring to [NKz] vs [A!B] 0a war)"]
@@ -48905,7 +48921,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["ken","[NubS]Mugabe"],
+                        "pidPlusName" : ["ken","[NubS]Mugabe 🇪🇪"],
                         "aliases" : ["Ken","UNDEAD","Synthetic","rand12om"],
                         "pastClanIDs" : ["tss","yen","rf","moh","g","nem","ue","n","u","ren","bm","fgs"],
                         "membership" : ["","",""],
@@ -48913,7 +48929,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["clixor","[NubS]Robbert"],
+                        "pidPlusName" : ["clixor","[NubS]Robbert 🇳🇱"],
                         "aliases" : ["Clix"],
                         "pastClanIDs" : ["ren"],
                         "membership" : ["","",""],
@@ -48921,7 +48937,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["shadow_nl","[NubS]Malak"],
+                        "pidPlusName" : ["shadow_nl","[NubS]Malak 🇳🇱"],
                         "aliases" : ["Shadow"],
                         "pastClanIDs" : ["eod","df","ren"],
                         "membership" : ["","",""],
@@ -48929,7 +48945,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["chaos","[NubS]Chaos?"],
+                        "pidPlusName" : ["chaos","[NubS]Chaos 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -48983,7 +48999,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["danisaggenza","[NVM]Dani"],
+                        "pidPlusName" : ["danisaggenza","[NVM]Dani 🇪🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -48991,7 +49007,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["machete","[NVM]Machete"],
+                        "pidPlusName" : ["machete","[NVM]Machete 🇬🇧"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -48999,7 +49015,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["price","[NVM]Price"],
+                        "pidPlusName" : ["price","[NVM]Price 🇳🇱"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -49007,7 +49023,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["bajas","[NVM]Bajas"],
+                        "pidPlusName" : ["bajas","[NVM]Bajas 🇸🇪"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -52232,7 +52248,7 @@
         "id" : "ptx",
         "tag" : ["tagFront","[","PtX","]"],
         "tag_extra" : "",
-        "flag" : ["",""],
+        "flag" : ["🇮🇹","Likely 100%"],
         "name" : "",
         "gametype" : ["0a","Aug"],
         "tier" : ["","A",""],
@@ -52245,9 +52261,9 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["valex","[PtX]Valex"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["edh","t9h","ixn","el","aib"],
                         "membership" : ["","",""],
-                        "stats" : ["","Italy"]
+                        "stats" : ["After A!B","Italy"]
                     }
                 ]
             }
@@ -52270,7 +52286,7 @@
         "description" : "Visiting tag of a multi-gaming clan thats mainly selling minecraft cheats it seems and possibly other hacks, its represented in our game in approximately the fourteenth year by Valex.",
         "background" : [
             {
-                "backgroundStory" : ["","","",""]
+                "backgroundStory" : ["","danisaggenza","Dani:","When game died for him, he left AB cos no activity and made that clan with his Italian friends. Mango tried many times to recruit him for FPS or NKz but he wanted to stay at AB cos AB wasn't noob clan. I tried to recruit him too for NVM but he said that NVM was 0a clan and he plays augs. And when he wanted to enter BB he got rejected cos we had full roster."]
             }
         ],
         "news" : [
@@ -53383,7 +53399,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["lightning","(RAM)Lightning"],
+                        "pidPlusName" : ["lightning_2","(RAM)Lightning"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -57355,7 +57371,7 @@
         "id" : "sinc",
         "tag" : ["tagFront","[","SINC","]"],
         "tag_extra" : "",
-        "flag" : ["",""],
+        "flag" : ["🇩🇪","Possibly 100% German-speaking"],
         "name" : "Snipers Inc.",
         "gametype" : ["0a","Aug"],
         "tier" : ["B","",""],
@@ -57422,7 +57438,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "First year German clan from the second half of the year of decent size, it proceeds to merge with BFS to form IMPAC.",
+        "description" : "First year German clan from the second half of the year of decent size, it proceeds to merge with <span data-id='bfs'>BFS</span> to form <span data-id='impac'>IMPAC</span>.",
         "background" : [
             {
                 "backgroundStory" : ["http://web.archive.org/web/20010901101728/http://pub80.ezboard.com:80/fkissclanfrm9.showMessage?topicID=2.topic&index=4","sinc","","Description : German DX-Clan<br />Clan : Snipers Inc. [SINC]; Clanleader : none; Clanmembers : (5): Durango, Gargol, LeClair, Wolfgott, Yze19<br /><br />URL : www.sinc.de.vu<br />email : SINC-DX@t-online.de<br />Recruiting : possible (send us an email)<br />Description : German DX-Clan<br />Edited by: SINC1 at: 8/22/01 2:54:26 am"]
@@ -60167,7 +60183,7 @@
         "gametype" : ["Basic","Aug"],
         "tier" : ["B","",""],
         "date" : ["isUncertain","2009-08-01","isUncertain","2009-12-01","isCertain",""],
-        "founder" : ["Valex?"],
+        "founder" : ["Valex"],
         "members" : [
             {
                 "membergroup" : [
@@ -60175,7 +60191,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["valex","[T9h]BushFire"],
                         "aliases" : ["Valex"],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["edh","t9h","ixn","el"],
                         "membership" : ["","",""],
                         "stats" : ["",""]
                     }
@@ -65671,7 +65687,7 @@
         ]
     },
     {
-        "id" : "usa_1",
+        "id" : "usa",
         "tag" : ["tagFront","[","USA","]"],
         "tag_extra" : "",
         "flag" : ["",""],
@@ -65689,7 +65705,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Later in EIS",""]
                     },
                     {
                         "membergroupLabel" : ["",""],

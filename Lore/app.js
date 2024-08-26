@@ -839,18 +839,18 @@ $(document).ready(function() {
                 let className = '';
                 let tooltipText = '';
 
-                if (/\b0a\b|\bs0a\b|\bstandard 0a|\bstandard zero-aug|\bzero aug\b|\bZero aug|\bzero-aug|\b0 Aug|\b0A\b/i.test(matchString)) {
+                if (/\b0a\b|\bs0a\b|\bstandard 0a|\bstandard zero-aug|\bzero aug\b|\bZero aug|\bzero-aug|\b0 Aug|\b0A\b|Non-Aug/i.test(matchString)) {
                     className = 'matchtype0a';
                     tooltipText = 'Non-Augmented Match';
                 } else if (/\bATDM\b|\batdm\b|Aug/i.test(matchString)) {
                     className = 'matchtypeATDM';
-                    tooltipText = 'Augmented Team Deathmatch';
+                    tooltipText = 'Advanced Team Death Match';
                 } else if (/\bBTDM\b|\bbtdm\b|Basic/i.test(matchString)) {
                     className = 'matchtypeBTDM';
-                    tooltipText = 'Basic Team Deathmatch';
+                    tooltipText = 'Basic Team Death Match';
                 } else if (/\bCTDM\b|\bctdm\b|\bCustom TDM\b/i.test(matchString)) {
                     className = 'matchtypeCTDM';
-                    tooltipText = 'Custom Team Deathmatch';
+                    tooltipText = 'Custom Team Death Match';
                 } else if (/\bctf\b|\bmod\b|\bdxag\b|\brpg\b|\bcdx\b/i.test(matchString)) {
                     className = 'matchtypeMod';
                     tooltipText = 'Modded Game Mode';
@@ -932,7 +932,7 @@ $(document).ready(function() {
 
             // Construct HTML for each clan row
             html += `
-                <tr class="clan_addedrows" tabindex="0" data-id="${post.id}">
+                <tr class="clan_addedrows" tabindex="0" data-id="${post.id}" title="Click to Expand">
                     <td class="clan_tier">
                         <div id="clan_sticky_tier">
                             <div class="tier${post.tier[0]}">${post.tier[0]}</div>
