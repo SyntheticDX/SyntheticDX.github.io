@@ -8550,7 +8550,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Later in IMPAC after clan merges with SINC","Server host<br />Augsburg, Germany"]
+                        "stats" : ["Later in IMPAC after clan merges with SINC<br />Butcher in Augsburg","Server host<br />Augsburg, Germany"]
                     }
                 ]
             }
@@ -18953,7 +18953,7 @@
                 "forum" : ["not sure if its pointing somewhere or set up locally, its Freeservers.com so possibly has survived elsewhere","https://web.archive.org/web/20010615210755/http://www.deuselite.s5.com:80/cgi-bin/login?verify=1","dead"]
             }
         ],
-        "description" : "Beta era clan considering it had a large roster week after public release. Website never got done by June so clan is likely dead by then. The name seems identical to the Deusex from [BH] that was reviving the clan around month later and seemingly had been in it just before.",
+        "description" : "Beta era clan considering it had a large roster week after public release. Website never got done by June so clan is likely dead by then. The name seems identical to the Deusex from [BH] that was reviving the clan around month later and seemingly had been in it just before. Clan likely had no wars.",
         "background" : [
             {
                 "backgroundStory" : ["","des","","We started DES (Deus Elite Squad) a few months ago and we have great players and are still recruiting.<br /><br />Welcome to the Deus Elite Squad clan, homepage. We are a group of dedicated players, on the game Deus Ex. If you are interested in joining DES, please contact me at /../<br />Today is the first day of the DES page being up. Please come back for all your clan news.<br /><br />Weapon Of the Week<br />Ok we here at the site, are implementing a cool feature called Weapon Of the Week, this weeks weapon is the<br />Throwing Knife: Used by most and many people, this weapon is lightweight, slim and can cause great damage. In the new patch, the Throwing Knifes power is greatly reduced, but can still cause great damage.<br /><br />Please email me and let me know what the new weapon of the week should be."]
@@ -29841,16 +29841,32 @@
     {
         "id" : "eis",
         "tag" : ["tagFront","[","EIS","]"],
-        "tag_extra" : "",
+        "tag_extra" : "[USA]",
         "flag" : ["",""],
         "name" : "Elite Infantry Squadron",
         "gametype" : ["Aug"],
         "tier" : ["","A",""],
-        "date" : ["isUncertain","2001-05-01","isUncertain","2001-11-01","isCertain",""],
-        "founder" : ["2Jiggy4U", "Melkor", "Monk"],
+        "date" : ["isCertain","2001-04-28","isUncertain","2001-11-01","isCertain",""],
+        "founder" : ["Lightning"],
         "members" : [
             {
                 "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["lightning","Lightning[EIS]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["usa"],
+                        "membership" : ["","",""],
+                        "stats" : ["His clan USA turns into EIS<br />Tried to ally or merge [GDX] and [EIS] that earlier had shared members in [DU]<br />'at some point later on after the transition to EIS I stepped away from leadership.'<br /><br /Player resurfaces in August 2024 (DXHQ Discord).>","Founder"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["pm","PM[EIS]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["2jiggy4u","2Jiggy4U[EIS]"],
@@ -29877,14 +29893,6 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["lightning","Lightning[EIS]"],
-                        "aliases" : [""],
-                        "pastClanIDs" : ["usa"],
-                        "membership" : ["","",""],
-                        "stats" : ["Player resurfaces in August 2024 (DXHQ Discord); seems he made a clan called USA later into the year, tried to ally or merge [GDX] and [EIS] that earlier had shared members in [DU]",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
                         "pidPlusName" : ["darksoul","DarkSoul[EIS]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
@@ -29894,14 +29902,6 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["danger","Danger[EIS]"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["pm","PM[EIS]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -30010,13 +30010,22 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "First year clan of already more experienced and motivated augers. Active already from mid to late May lasting into autumn - Jiggy stated on Nov 17 that EIS is already dead and Melkor is in DEA, so it probably died sometime before. Some players like Monk were forced to wait for the delayed Mac patch release in order to play in same up to date servers with clan mates - Slicer says 'There are some decent Mac player ie Monk'.",
+        "description" : "Early first year clan around the time of the last patch, formed by top players from [DU] after a conflict with the founder SilentFire, they originally wore tag [USA] until rebranding into [EIS]. Active already from mid to late May lasting into autumn - Jiggy stated on Nov 17 that EIS is already dead and Melkor is in DEA, so it probably died sometime before. Some players like Monk were forced to wait for the delayed Mac patch release in order to play in same up to date servers with clan mates - Slicer says 'There are some decent Mac player ie Monk'.",
         "background" : [
             {
                 "backgroundStory" : ["https://web.archive.org/web/20020126233931/http://dynamic3.gamespy.com:80/~idxl/ultimatebb/ultimatebb.cgi?ubb=get_topic&f=1&t=000001","eis","","We are players who all are about equal in skill and are very active in the community. We aren't afraid to joke around but usually are looking for a serious game. We plan to keep our numbers small but strong and become well known throughout the community."]
             },
             {
+                "backgroundStory" : ["(4/28/01 8:37:40 pm) https://web.archive.org/web/20030128070503/http://pub58.ezboard.com:80/fc22clanfrm1.showMessage?topicID=72.topic","po","c22Po:","It has come to my attention that some of the best players in DU are leaving the clan... apperently these members were angry at SilentFire for reasons unkown. I don't know if this exodus from DU is happening ,now, soon, or never.<br /><br />My information is yet to be confirmed however my sources are very trustworthy. I won't post the names of the people i talked to for fear of forum spys/flamers that may take things too seriously. Or just in case this is a joke.<br /><br />I don't know if I'm the first or the last to find hear this info. So if others have heard this could you please shed some light on the facts of this situation.<br /><br />By the way. It appears that these DU members are either joining or thinking of joining Lightning's new clan USA."]
+            },
+            {
+                "backgroundStory" : ["(4/29/01 8:02:29 pm) https://web.archive.org/web/20010711030022/http://pub58.ezboard.com:80/fc22clanfrm1.showMessage?topicID=73.topic&index=1","","2jiggy4u","2Jiggy4U: 'PM is coming with me, to clan USA'<br /><br />PM: 'This breakup was an ugly one...and I think it's just gonna get uglier...SilentFire is threatening us all that left him....lol '<br /><br />PM: 'Re: ATTN: clanUSA impersonator problem Contact me about a 'unique' user name....if you go back to the DU forum, Silent says that he's going to 'f*ck' with all USA members....you've been warned....All c22 members can contact me about this as well too though! but obviously SilentFire is trying to make enemies out of us now....ah well, damn rookies and threatening to do @#%$! lets just say you might not be seeing Silent around anymore! lol'"]
+            },
+            {
                 "backgroundStory" : ["(Nov 18, 2001)","jojo","Jojo:","2Jiggy4U, i'm involved to the game, and i know that EIS is dead, but Xrimson and some more, i guess wanted to restart EIS or something. Well, i dunno anything about that, but thats also not my job. And i saw Melkor playing with the EIS tag, so i didn't knew. And just because i dunno one guy, in which clan he is, does that really matter?"]
+            },
+            {
+                "backgroundStory" : ["(Discord August 2024)","lightning","Lightning:","/../ if I remember correctly I started USA / EIS because there weren't any open slots in DEA, and then at some point later on after the transition to EIS I stepped away from leadership."]
             }
         ],
         "news" : [
@@ -65681,76 +65690,6 @@
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
-            }
-        ],
-        "news" : [
-            {
-                "article" : ["","","","","",""]
-            }
-        ]
-    },
-    {
-        "id" : "usa",
-        "tag" : ["tagFront","[","USA","]"],
-        "tag_extra" : "",
-        "flag" : ["",""],
-        "name" : "",
-        "gametype" : ["Aug"],
-        "tier" : ["","A",""],
-        "date" : ["isCertain","2001-04-28","isUncertain","2001-06-01","isCertain",""],
-        "founder" : ["Lightning"],
-        "members" : [
-            {
-                "membergroup" : [
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["lightning","[USA]Lightning"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["Later in EIS",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["pm","[USA]PM"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["2jiggy4u","[USA]2Jiggy4U"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
-                    }
-                ]
-            }
-        ],
-        "matches" : [
-            {
-                "match" : ["","","","","","",""]
-            }
-        ],
-        "websites" : [
-            {
-                "website" : ["","",""]
-            }
-        ],
-        "forums" : [
-            {
-                "forum" : ["","",""]
-            }
-        ],
-        "description" : "Early first year clan around the time of the last patch, formed by top players from [DU] after a conflict with the founder SilentFire. Unknown what happened to the clan later, but it likely rebranded or disbanded, possibly turned into [EIS].",
-        "background" : [
-            {
-                "backgroundStory" : ["(4/28/01 8:37:40 pm) https://web.archive.org/web/20030128070503/http://pub58.ezboard.com:80/fc22clanfrm1.showMessage?topicID=72.topic","po","c22Po:","It has come to my attention that some of the best players in DU are leaving the clan... apperently these members were angry at SilentFire for reasons unkown. I don't know if this exodus from DU is happening ,now, soon, or never.<br /><br />My information is yet to be confirmed however my sources are very trustworthy. I won't post the names of the people i talked to for fear of forum spys/flamers that may take things too seriously. Or just in case this is a joke.<br /><br />I don't know if I'm the first or the last to find hear this info. So if others have heard this could you please shed some light on the facts of this situation.<br /><br />By the way. It appears that these DU members are either joining or thinking of joining Lightning's new clan USA."]
-            },
-            {
-                "backgroundStory" : ["(4/29/01 8:02:29 pm) https://web.archive.org/web/20010711030022/http://pub58.ezboard.com:80/fc22clanfrm1.showMessage?topicID=73.topic&index=1","","2jiggy4u","2Jiggy4U: 'PM is coming with me, to clan USA'<br /><br />PM: 'This breakup was an ugly one...and I think it's just gonna get uglier...SilentFire is threatening us all that left him....lol '<br /><br />PM: 'Re: ATTN: clanUSA impersonator problem Contact me about a 'unique' user name....if you go back to the DU forum, Silent says that he's going to 'f*ck' with all USA members....you've been warned....All c22 members can contact me about this as well too though! but obviously SilentFire is trying to make enemies out of us now....ah well, damn rookies and threatening to do @#%$! lets just say you might not be seeing Silent around anymore! lol'"]
             }
         ],
         "news" : [
