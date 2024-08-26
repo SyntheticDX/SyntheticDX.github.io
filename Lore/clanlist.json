@@ -15812,6 +15812,18 @@
             {
                 "membergroup" : [
                     {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["slimshady","Slimshady<D12>"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Impersonated Maverick and Mole from DC, unclear if alias of listed member",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
                         "membergroupLabel" : ["","Later years"],
                         "pidPlusName" : ["ddm","[D12]ddm"],
                         "aliases" : [""],
@@ -48561,7 +48573,7 @@
         "tag" : ["tagBack","[","NSF","]"],
         "tag_extra" : "",
         "flag" : ["",""],
-        "name" : "Invisible Online",
+        "name" : "NSF Terrorists (Invisible Online)",
         "gametype" : ["Mod","Aug"],
         "tier" : ["B","",""],
         "date" : ["isUncertain","2000-03-01","isUncertain","2003-10-01","isCertain",""],
@@ -48575,7 +48587,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["","Rank: [NSF] Leader<br />Coder"]
+                        "stats" : ["Tommy, EST timezone","Rank: [NSF] Leader<br />Coder"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -48591,7 +48603,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : ["tn"],
                         "membership" : ["","",""],
-                        "stats" : ["Most likely coming from [TN] clan and mentioned by TicTacToad",""]
+                        "stats" : ["Most likely coming from [TN] clan and mentioned by TicTacToad","Rank: Trooper "]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -48599,7 +48611,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["","Rank: Henchman "]
                     }
                 ]
             },
@@ -48630,6 +48642,18 @@
                         "stats" : ["","Rank: Henchman "]
                     }
                 ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["drronbo","Dr.Ronbo[NSF]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","Lead Mapper "]
+                    }
+                ]
             }
         ],
         "matches" : [
@@ -48647,10 +48671,13 @@
         ],
         "forums" : [
             {
-                "forum" : ["Appears to be their new forum, contains number of threads, also this view on index https://web.archive.org/web/20110506090620/http://www.network54.com/Forum/181163/","https://web.archive.org/web/20080605172002/http://www.network54.com:80/Forum/181163/thread/1012875782/last-1019777739/New+Forum","featured"]
+                "forum" : ["Few testing threads, little substance saved","https://web.archive.org/web/20010831044550/http://pub84.ezboard.com:80/fnsfmodsfrm1.showMessage?topicID=2.topic","index"]
+            },
+            {
+                "forum" : ["Their new forum, contains number of threads, also this view on index https://web.archive.org/web/20110506090620/http://www.network54.com/Forum/181163/","https://web.archive.org/web/20080605172002/http://www.network54.com:80/Forum/181163/thread/1012875782/last-1019777739/New+Forum","featured"]
             }
         ],
-        "description" : "An interesting group and clan that in some capacity was formed before Multiplayer and perhaps even Singleplayer, they seem to have mainly focused on creating mods - and early on with the game release also MP mods - but at some point, perhaps later into 2001, they have created a separate and distinct MP clan with its own roster thats unrelated to the modding team and steadily growing next year.",
+        "description" : "An interesting group and clan that in some capacity was formed before Multiplayer and perhaps even Singleplayer, they seem to have mainly focused on creating mods - and early on with the game release also MP mods - but at some point, perhaps later into 2001, they have created a separate and distinct MP clan with its own roster thats unrelated to the modding team and steadily growing next year. Original clan appears to have quit DXMP and moved to UT2003 while another NSF merged into this tag in DXMP.",
         "background" : [
             {
                 "backgroundStory" : ["","ninja","Ninja:","Merged into other NSF, the Never Stop Fragging after its revival by Ninja and FBI. It was a Modding group, the 'other' NSF."]
