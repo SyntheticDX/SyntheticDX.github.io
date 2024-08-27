@@ -48807,6 +48807,42 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
+                        "stats" : ["Not listed later so either changed name or left",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","Sept 2001"],
+                        "pidPlusName" : ["killer_nsf","[NSF]Killer"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["kingpin_nsf","[NSF]Kingpin"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Possibly a different kingpin as the more experienced auger doesnt list this clan",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["desertfox","[NSF]desertfox"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["tyrael","[NSF]Tyrael"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["c22"],
+                        "membership" : ["","",""],
                         "stats" : ["",""]
                     }
                 ]
@@ -48865,7 +48901,7 @@
                 "website" : ["","https://web.archive.org/web/*/http://nsf.50megs.com/*","dead"]
             },
             {
-                "website" : ["","https://web.archive.org/web/20010909082236/http://neverstopfragging.homestead.com:80/Main.html","death"]
+                "website" : ["Source actually contains infos such as roster! Site suspended by next month","https://web.archive.org/web/20010909082236/http://neverstopfragging.homestead.com:80/Main.html","investigate"]
             }
         ],
         "forums" : [
@@ -48890,7 +48926,13 @@
         ],
         "news" : [
             {
-                "article" : ["","","","","",""]
+                "article" : ["From site source","Thursday 7 June 2001","NEWS UPDATE","","New Deus Ex MP map on its way. DXMP_Penthouse created by [NSF]dreamstation and dodgy will be released soon. It is set in a modern City with the main attraction being the building in the centre of the map.At the top floor of this building is a luxurious suite with security terminals and lots of ammo and LAMS.So if you get here first, you will dominate the round. This is where the name (DXMP_Penthouse) came from. Check out the sweet pic. Will be finished soon.....","community"]
+            },
+            {
+                "article" : ["From site source","Monday 11th June","","","Just an update for DXMP_Penthouse....it is getting a bit more time put into it and is getting a bit closer to being considered a map. Not just a couple of buildings and trees. Sorry the pics are a bit dark.","community"]
+            },
+            {
+                "article" : ["From site source","Sunday 1st July","","","Great news for the Deus Ex Multiplayer community. A new map has been released by DerianX called DXMP_Battlezone. From my experience playing this map, all i can tell you is that it absolutely ROCKS. You can download this map from DerianX's webpage <a href='https://web.archive.org/web/20010909082236/http://www.derianx.homestead.com/files/Maps/DXMP_BattleZone.zip'>here</a> . Also check out the great screenshots <a href='https://web.archive.org/web/20010909082236/http://www.derianx.homestead.com/DXMP.html'>here</a> as well!!!","community"]
             }
         ]
     },
