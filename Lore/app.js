@@ -844,7 +844,29 @@ $(document).ready(function() {
                     // Extracting all pidPlusName[1] values from all membergroups
                     const memberGroups2HTML = member.membergroup.map(group => {
                         if (group.pidPlusName[1] !== undefined && group.pidPlusName[1] !== '') {
-                            return `<div class="membergroupLabel"  data-toggle="tooltip" data-placement="auto top" title="${group.membergroupLabel[0]}">${group.membergroupLabel[1]}</div><div class="clanmember" data-toggle="tooltip" data-html="true" data-placement="auto top" title="<h1>${group.pidPlusName[1]}</h1><br />Aliases: ${group.aliases}<br /><br />Previous clans: ${group.pastClanIDs}<br /><br />Joined: ${group.membership[0]}<br />Quit: ${group.membership[1]}<br /><br />${group.membership[2]}<br /><br />Notes: <span class='clanmemberNotes'>${group.stats[0]}</span><br /><br />Stats: <span class='clanmemberStats'>${group.stats[1]}</span>">${group.pidPlusName[1]}</div>`;
+                            // Wrap each pastClanID in a span with a specific class
+                            const pastClansHTML = group.pastClanIDs.map(clanID => {
+                                return `<span class='clanmemberClansTag'>${clanID}</span>`;
+                            }).join(', '); // Join with comma or any desired separator
+
+                            return `
+                                <div class="membergroupLabel"  data-toggle="tooltip" data-placement="auto top" title="${group.membergroupLabel[0]}">${group.membergroupLabel[1]}</div>
+
+                                <div class="clanmember" data-toggle="tooltip" data-html="true" data-placement="auto top" title="
+
+                                                        <h1>${group.pidPlusName[1]}</h1><br />
+                                                        Aliases: <span class='clanmemberAlias'>${group.aliases}</span><br />
+                                                        Previous clans: <span class='clanmemberClans'>${pastClansHTML}</span><br />
+                                                        Membership: <span class='clanmemberMembership'>
+                                                                            <span class='clanmemberMembershipDate'>Joined <span>${group.membership[0]}</span></span> 
+                                                                            <span class='clanmemberMembershipDate'>Quit <span>${group.membership[1]}</span></span>; 
+                                                                            <span class='clanmemberMembershipDate'><span>${group.membership[2]}</span></span>
+                                                                    </span><br />
+                                                        Stats: <span class='clanmemberStats'>${group.stats[1]}</span><br />
+                                                        Notes: <span class='clanmemberNotes'>${group.stats[0]}</span>
+
+                                ">${group.pidPlusName[1]}</div>
+                            `;
                         }
                         return '';
                     }).join('');
@@ -1082,6 +1104,64 @@ $(document).ready(function() {
 
         // Render clans based on sorted data
         renderClans(data);
+
+
+        // Display statistics when the user navigates to #pagestats
+        function displayStatistics() {
+            const totalClans = data.length;
+            const atdmClans = data.filter(clan => /ATDM/i.test(clan.type)).length;
+            const zeroAugClans = data.filter(clan => /0A|Zero-Aug/i.test(clan.type)).length;
+            const basicClans = data.filter(clan => /Basic/i.test(clan.type)).length;
+            const modClans = data.filter(clan => /Mod/i.test(clan.type)).length;
+
+            // Calculate other statistics as needed
+            const mostFrequentTag = calculateMostFrequentTag(data);
+            const mostFrequentNamePart = calculateMostFrequentNamePart(data);
+            const liveLinks = calculateLiveLinks(data);
+            const mostChallengedClan = calculateMostChallengedClan(data);
+
+            // Reuse cached player count value
+            const clannedPlayers = filteredPlayerCountElement.text().trim(); // Reuse the cached value
+            const atdmPlayers = calculatePlayersByType(data, 'ATDM');
+            const zeroAugPlayers = calculatePlayersByType(data, 'Zero-Aug');
+            const basicPlayers = calculatePlayersByType(data, 'Basic');
+            const modPlayers = calculatePlayersByType(data, 'Mod');
+            const mostFrequentName = calculateMostFrequentName(data);
+            const mostPastClans = calculateMostPastClans(data);
+
+            // Insert statistics into the HTML
+            $('#pagestats .listitem:nth-child(1) div:nth-child(2)').text(totalClans);
+            $('#pagestats .listitem:nth-child(2) div:nth-child(2)').text(atdmClans);
+            $('#pagestats .listitem:nth-child(2) div:nth-child(3)').text(zeroAugClans);
+            $('#pagestats .listitem:nth-child(2) div:nth-child(4)').text(basicClans);
+            $('#pagestats .listitem:nth-child(2) div:nth-child(5)').text(modClans);
+
+            $('#pagestats .listitem:nth-child(3) div:nth-child(2)').text(mostFrequentTag);
+            $('#pagestats .listitem:nth-child(4) div:nth-child(2)').text(mostFrequentNamePart);
+            $('#pagestats .listitem:nth-child(5) div:nth-child(2)').text(liveLinks);
+            $('#pagestats .listitem:nth-child(6) div:nth-child(2)').text(mostChallengedClan);
+
+            $('#pagestats .listitem:nth-child(8) div:nth-child(2)').text(clannedPlayers);
+            $('#pagestats .listitem:nth-child(9) div:nth-child(2)').text(atdmPlayers);
+            $('#pagestats .listitem:nth-child(9) div:nth-child(3)').text(zeroAugPlayers);
+            $('#pagestats .listitem:nth-child(9) div:nth-child(4)').text(basicPlayers);
+            $('#pagestats .listitem:nth-child(9) div:nth-child(5)').text(modPlayers);
+
+            $('#pagestats .listitem:nth-child(10) div:nth-child(2)').text(mostFrequentName);
+            $('#pagestats .listitem:nth-child(11) div:nth-child(2)').text(mostPastClans);
+        }
+
+        // Trigger displayStatistics when navigating to #pagestats
+        $(window).on('hashchange', function() {
+            if (window.location.hash === '#pagestats') {
+                displayStatistics();
+            }
+        });
+
+        // Optionally call the function if the page is loaded directly with #pagestats
+        if (window.location.hash === '#pagestats') {
+            displayStatistics();
+        }
 
 
         /* *********** Minibanners Scrolling Bottombar Linking ************************** */
@@ -1518,14 +1598,11 @@ $(document).ready(function() {
             }).show();
         }
     });
-    
-
-    /* *********************** STATS *************************************************************************************************************************** */
 
 
-
-    /* *********************** LONGREAD ************************************************************************************************************************ */
-
+    /* ******************************************************** *
+    **  LONGREAD 
+    ********************************************************** */
 
     // Debounce function
     function debounce(func, delay) {
@@ -1574,3 +1651,49 @@ $(document).ready(function() {
     /***********/
 
 });
+
+
+/* **************************************************************************************** *
+**  STATS 
+****************************************************************************************** */
+
+// Placeholder functions for calculating specific statistics
+function calculateMostFrequentTag(data) {
+    // Your logic here
+    return "Example Tag"; // Replace with actual logic
+}
+
+function calculateMostFrequentNamePart(data) {
+    // Your logic here
+    return "Example Name Part"; // Replace with actual logic
+}
+
+function calculateLiveLinks(data) {
+    // Your logic here
+    return "XX (YY%)"; // Replace with actual logic
+}
+
+function calculateMostChallengedClan(data) {
+    // Your logic here
+    return "Example Clan"; // Replace with actual logic
+}
+
+function calculateClannedPlayers(data) {
+    // Your logic here
+    return "Number of Clanned Players"; // Replace with actual logic
+}
+
+function calculatePlayersByType(data, type) {
+    // Your logic here
+    return `Number of ${type} Players`; // Replace with actual logic
+}
+
+function calculateMostFrequentName(data) {
+    // Your logic here
+    return "Most Frequent Name"; // Replace with actual logic
+}
+
+function calculateMostPastClans(data) {
+    // Your logic here
+    return "Player with Most Past Clans"; // Replace with actual logic
+}

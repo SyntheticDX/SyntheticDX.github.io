@@ -3745,6 +3745,9 @@
             },
             {
                 "match" : ["a_v_fc","fc","[FC]","Loss 3:1","2004?","--Ive marked it as a win for FC but not clear what gametype. FC should be 0aug clan so mightve lost to whats essentially [TT], but I could be mistaken--","isCertain"]
+            },
+            {
+                "match" : ["a_v_eis","eis","[EIS]","","","Lightning recalls there possibly being a match with [A], but was generally unable to attend on the time the matches were scheduled and feedback afterwards seemed to indicate more or less even matches.","isUncertain"]
             }
         ],
         "websites" : [
@@ -30010,6 +30013,9 @@
             },
             {
                 "match" : ["dmi_v_eis_2","dmi","[DMI]","Failed","","Seems to have failed, but reportedly 'even'","isCertain"]
+            },
+            {
+                "match" : ["a_v_eis","a","[A]","","","Lightning recalls there possibly being a match with [A], but was generally unable to attend on the time the matches were scheduled and feedback afterwards seemed to indicate more or less even matches.","isUncertain"]
             }
         ],
         "websites" : [
@@ -30037,7 +30043,7 @@
                 "backgroundStory" : ["(Nov 18, 2001)","jojo","Jojo:","2Jiggy4U, i'm involved to the game, and i know that EIS is dead, but Xrimson and some more, i guess wanted to restart EIS or something. Well, i dunno anything about that, but thats also not my job. And i saw Melkor playing with the EIS tag, so i didn't knew. And just because i dunno one guy, in which clan he is, does that really matter?"]
             },
             {
-                "backgroundStory" : ["(Discord August 2024)","lightning","Lightning:","/../ if I remember correctly I started USA / EIS because there weren't any open slots in DEA, and then at some point later on after the transition to EIS I stepped away from leadership."]
+                "backgroundStory" : ["(Discord August 2024)","lightning","Lightning:","/../ if I remember correctly I started USA / EIS because there weren't any open slots in DEA, and then at some point later on after the transition to EIS I stepped away from leadership.<br /><br />I was never able to make it to any scrims or matches, the scheduling just never worked out for me.  From what I remember we had some scrims against [BK], I don't remember [TN], I think we might have had some against [A], by and large I remember hearing after the fact that they were largely inconclusive, no major skew one way or another /../"]
             }
         ],
         "news" : [
