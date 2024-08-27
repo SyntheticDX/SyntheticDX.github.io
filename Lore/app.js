@@ -803,7 +803,29 @@ $(document).ready(function() {
                     // Extracting all pidPlusName[1] values from all membergroups
                     const memberGroupsHTML = member.membergroup.map(group => {
                         if (group.pidPlusName[1] !== undefined && group.pidPlusName[1] !== '') {
-                            return `<div class="membergroupLabel"  data-toggle="tooltip" data-placement="auto top" title="${group.membergroupLabel[0]}">${group.membergroupLabel[1]}</div><div class="clanmember" data-toggle="tooltip" data-html="true" data-placement="auto top" title="<h1>${group.pidPlusName[1]}</h1><br />Aliases: ${group.aliases}<br /><br />Previous clans: ${group.pastClanIDs}<br /><br />Joined: ${group.membership[0]}<br />Quit: ${group.membership[1]}<br /><br />${group.membership[2]}<br /><br />Stats: ${group.stats[0]}<br /><br />${group.stats[1]}">${group.pidPlusName[1]}</div>`;
+                            // Wrap each pastClanID in a span with a specific class
+                            const pastClansHTML = group.pastClanIDs.map(clanID => {
+                                return `<span class='clanmemberClansTag'>${clanID}</span>`;
+                            }).join(', '); // Join with comma or any desired separator
+
+                            return `
+                                <div class="membergroupLabel"  data-toggle="tooltip" data-placement="auto top" title="${group.membergroupLabel[0]}">${group.membergroupLabel[1]}</div>
+
+                                <div class="clanmember" data-toggle="tooltip" data-html="true" data-placement="auto top" title="
+
+                                                        <h1>${group.pidPlusName[1]}</h1><br />
+                                                        Aliases: <span class='clanmemberAlias'>${group.aliases}</span><br />
+                                                        Previous clans: <span class='clanmemberClans'>${pastClansHTML}</span><br />
+                                                        Membership: <span class='clanmemberMembership'>
+                                                                            <span class='clanmemberMembershipDate'>Joined <span>${group.membership[0]}</span></span> 
+                                                                            <span class='clanmemberMembershipDate'>Quit <span>${group.membership[1]}</span></span>; 
+                                                                            <span class='clanmemberMembershipDate'><span>${group.membership[2]}</span></span>
+                                                                    </span><br />
+                                                        Stats: <span class='clanmemberStats'>${group.stats[1]}</span><br />
+                                                        Notes: <span class='clanmemberNotes'>${group.stats[0]}</span>
+
+                                ">${group.pidPlusName[1]}</div>
+                            `;
                         }
                         return '';
                     }).join('');
@@ -822,7 +844,7 @@ $(document).ready(function() {
                     // Extracting all pidPlusName[1] values from all membergroups
                     const memberGroups2HTML = member.membergroup.map(group => {
                         if (group.pidPlusName[1] !== undefined && group.pidPlusName[1] !== '') {
-                            return `<div class="membergroupLabel"  data-toggle="tooltip" data-placement="auto top" title="${group.membergroupLabel[0]}">${group.membergroupLabel[1]}</div><div class="clanmember" data-toggle="tooltip" data-html="true" data-placement="auto top" title="<h1>${group.pidPlusName[1]}</h1><br />Aliases: ${group.aliases}<br /><br />Previous clans: ${group.pastClanIDs}<br /><br />Joined: ${group.membership[0]}<br />Quit: ${group.membership[1]}<br /><br />${group.membership[2]}<br /><br />Stats: ${group.stats[0]}<br /><br />${group.stats[1]}">${group.pidPlusName[1]}</div>`;
+                            return `<div class="membergroupLabel"  data-toggle="tooltip" data-placement="auto top" title="${group.membergroupLabel[0]}">${group.membergroupLabel[1]}</div><div class="clanmember" data-toggle="tooltip" data-html="true" data-placement="auto top" title="<h1>${group.pidPlusName[1]}</h1><br />Aliases: ${group.aliases}<br /><br />Previous clans: ${group.pastClanIDs}<br /><br />Joined: ${group.membership[0]}<br />Quit: ${group.membership[1]}<br /><br />${group.membership[2]}<br /><br />Notes: <span class='clanmemberNotes'>${group.stats[0]}</span><br /><br />Stats: <span class='clanmemberStats'>${group.stats[1]}</span>">${group.pidPlusName[1]}</div>`;
                         }
                         return '';
                     }).join('');

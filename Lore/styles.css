@@ -1194,7 +1194,7 @@ width: fit-content;
     justify-content: flex-start;
     position: absolute;
     top: 2%;
-    left: 96.3%;
+    left: 95.8%;
     color: rgb(143, 143, 143);
     font-size: 60%;
     letter-spacing: 0.5px;
@@ -1461,6 +1461,57 @@ input[type="checkbox"]{
         color: white;
     }
 
+    .clanmemberAlias {
+        margin: 5px;
+        color: whitesmoke;
+        line-height: 120%;
+        font-weight: 500;
+    }
+
+    .clanmemberClans {
+        margin: 5px;
+    }
+
+    .clanmemberClansTag {
+        padding: 2px 5px 2px 5px;
+        color: greenyellow;
+        line-height: 120%;
+        font-weight: 400;
+        background-color: rgb(71, 71, 71);
+        border-radius: 6px;
+    }
+
+    .clanmemberMembership {
+        margin: 5px; 
+    }
+        .clanmemberMembershipDate {
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            background-color: rgb(71, 71, 71);
+            border-radius: 6px;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        .clanmemberMembershipDate span {
+            color: wheat;
+            font-weight: 300;
+        }
+
+    .clanmemberStats {
+        margin: 5px;
+        color: whitesmoke;
+        line-height: 120%;
+    }
+
+    .clanmemberNotes {
+        margin: 5px;
+        color: silver;
+        font-style:italic;
+        font-size: 1.2rem;
+    }
 
 #clan_sticky_matches {
     display: block;
