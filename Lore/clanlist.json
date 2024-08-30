@@ -17104,7 +17104,7 @@
                         "aliases" : ["Anubis","Sephiroth"],
                         "pastClanIDs" : ["nsf"],
                         "membership" : ["Founder","2002-05",""],
-                        "stats" : ["ex-leader, left for [W] around May 2002<br /><br />aka aka [NSF]Sephiroth, not related to (SFS)maverick<br /><br />Mole: 'Erm,,lol no way! Has he even played in the past yr? yet NSF for some reason are clinging on to him! only way he got in was cos he knew jazz an ninja, not cos of his skill! '<br /><br />Not clear if he is same Maverick from early 2001 Ion Storm boards.","- Leader & Founder"]
+                        "stats" : ["ex-leader, left for [W] around May 2002<br /><br />aka [NSF]Sephiroth, not related to (SFS)maverick<br /><br />Mole: 'Erm,,lol no way! Has he even played in the past yr? yet NSF for some reason are clinging on to him! only way he got in was cos he knew jazz an ninja, not cos of his skill! '<br /><br />Not clear if he is same Maverick from early 2001 Ion Storm boards.","- Leader & Founder"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -18874,17 +18874,17 @@
         "gametype" : ["Aug"],
         "tier" : ["B","",""],
         "date" : ["isUncertain","2001-03-01","isUncertain","2001-06-01","isCertain",""],
-        "founder" : ["DeusEX","Ocelot"],
+        "founder" : ["DeusX","Ocelot"],
         "members" : [
             {
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["","March 8, 2001"],
-                        "pidPlusName" : ["deusex","DeusEX[DES]"],
+                        "pidPlusName" : ["deusex","DeusX[DES]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["","Leader"]
+                        "stats" : ["wrestlinggamer1","Leader"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -30031,7 +30031,7 @@
         "description" : "Early first year clan around the time of the last patch, formed by top players from [DU] after a conflict with the founder SilentFire, they originally wore tag [USA] until rebranding into [EIS]. Active already from mid to late May lasting into autumn - Jiggy stated on Nov 17 that EIS is already dead and Melkor is in DEA, so it probably died sometime before. Some players like Monk were forced to wait for the delayed Mac patch release in order to play in same up to date servers with clan mates - Slicer says 'There are some decent Mac player ie Monk'.",
         "background" : [
             {
-                "backgroundStory" : ["https://web.archive.org/web/20020126233931/http://dynamic3.gamespy.com:80/~idxl/ultimatebb/ultimatebb.cgi?ubb=get_topic&f=1&t=000001","eis","","We are players who all are about equal in skill and are very active in the community. We aren't afraid to joke around but usually are looking for a serious game. We plan to keep our numbers small but strong and become well known throughout the community."]
+                "backgroundStory" : ["https://web.archive.org/web/20020126233931/http://dynamic3.gamespy.com:80/~idxl/ultimatebb/ultimatebb.cgi?ubb=get_topic&f=1&t=000001","eis","","We are players who all are about equal in skill and are very active in the community. We aren't afraid to joke around but usually are looking for a serious game. We plan to keep our numbers small but strong and become well known throughout the community.<br /><br />Currently Recruiting? No"]
             },
             {
                 "backgroundStory" : ["(4/28/01 8:37:40 pm) https://web.archive.org/web/20030128070503/http://pub58.ezboard.com:80/fc22clanfrm1.showMessage?topicID=72.topic","po","c22Po:","It has come to my attention that some of the best players in DU are leaving the clan... apperently these members were angry at SilentFire for reasons unkown. I don't know if this exodus from DU is happening ,now, soon, or never.<br /><br />My information is yet to be confirmed however my sources are very trustworthy. I won't post the names of the people i talked to for fear of forum spys/flamers that may take things too seriously. Or just in case this is a joke.<br /><br />I don't know if I'm the first or the last to find hear this info. So if others have heard this could you please shed some light on the facts of this situation.<br /><br />By the way. It appears that these DU members are either joining or thinking of joining Lightning's new clan USA."]
@@ -48582,14 +48582,14 @@
         "name" : "NSF Terrorists (Invisible Online)",
         "gametype" : ["Mod","Aug"],
         "tier" : ["B","",""],
-        "date" : ["isUncertain","2000-03-01","isUncertain","2003-10-01","isCertain",""],
+        "date" : ["isUncertain","2001-08-01","isUncertain","2003-10-01","isCertain",""],
         "founder" : ["Dark"],
         "members" : [
             {
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["","December 2001"],
-                        "pidPlusName" : ["dark","Dark[NSF] "],
+                        "pidPlusName" : ["dark","Dark[NSF] 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -48683,7 +48683,7 @@
                 "forum" : ["Their new forum, contains number of threads, also this view on index https://web.archive.org/web/20110506090620/http://www.network54.com/Forum/181163/","https://web.archive.org/web/20080605172002/http://www.network54.com:80/Forum/181163/thread/1012875782/last-1019777739/New+Forum","featured"]
             }
         ],
-        "description" : "An interesting group and clan that in some capacity was formed before Multiplayer and perhaps even Singleplayer, they seem to have mainly focused on creating mods - and early on with the game release also MP mods - but at some point, perhaps later into 2001, they have created a separate and distinct MP clan with its own roster thats unrelated to the modding team and steadily growing next year. Original clan appears to have quit DXMP and moved to UT2003 while another NSF merged into this tag in DXMP.",
+        "description" : "An interesting modding group and eventual clan that in some capacity was formed before Multiplayer and perhaps even Singleplayer; they seem to have mainly focused on creating mods - and early on with the game release also on MP mods - but at some point after mid July and before mid August 2001 they have created a separate and distinct MP clan with its own roster thats unrelated to the modding team and steadily growing next year. Another, larger NSF clan merged into this tag either late autumn-winter, or early next year. Original clan core appears to have quit DXMP and moved to UT2003 early 2003.",
         "background" : [
             {
                 "backgroundStory" : ["","ninja","Ninja:","Merged into other NSF, the Never Stop Fragging after its revival by Ninja and FBI. It was a Modding group, the 'other' NSF."]

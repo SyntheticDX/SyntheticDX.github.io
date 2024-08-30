@@ -996,7 +996,54 @@ q, blockquote {quotes: "“" "”" "‘" "’"; color: white;}
     box-shadow: 2px 0 5px rgba(0,0,0,0.5);
     transition: left 0.3s ease;
     z-index: 1000; /* Ensure it is above other content */
+    animation: pulseBorder 1.7s infinite;
+
+    &:hover {
+        animation-play-state: paused;
+      }
 }
+
+@keyframes pulseBorder {
+    0% {
+        border-right: 1px solid #5a5a5ac0;
+    }
+
+    50% {
+        border-right: 3px solid rgba(192, 192, 192, 0.164);
+    }
+
+    100% {
+        border-right: 1px solid #5a5a5ac0;
+    }
+}
+
+@keyframes pulseSize {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/*.clanlistContents:after {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-left: 1px;
+    position: absolute;
+    content: "➤";
+    font-size: 0.6em;
+    color: silver;
+    top: 50%;
+    vertical-align:auto;
+    animation: pulse 1.3s infinite;
+}*/
 
 .clanlistContents a {
     display: block;
@@ -1666,7 +1713,9 @@ input[type="checkbox"]{
         font-size: xx-small;
     }
     
-/****************** Clanlist URLs */
+/* ********************************************* *
+*   Clanlist URLs
+* **********************************************/
 #clan_sticky_site {
     display: flex;
     flex-wrap: wrap;
@@ -1690,6 +1739,10 @@ input[type="checkbox"]{
         content: "🔥";
         font-size: xx-small;
         vertical-align: top;
+        animation: pulseSize 1.7s infinite;
+        &:hover {
+            animation-play-state: paused;
+          }
     }
 
     .cancer:after {
@@ -1699,6 +1752,10 @@ input[type="checkbox"]{
         content: "🤮";
         font-size: xx-small;
         vertical-align: top;
+        animation: pulseSize 1.7s infinite;
+        &:hover {
+            animation-play-state: paused;
+          }
     }
 
     .investigate:after {
@@ -1708,6 +1765,10 @@ input[type="checkbox"]{
         content: "🔎";
         font-size: xx-small;
         vertical-align: top;
+        animation: pulseSize 1.7s infinite;
+        &:hover {
+            animation-play-state: paused;
+          }
     }
 
     .dead {
@@ -1721,6 +1782,10 @@ input[type="checkbox"]{
         content: "💀";
         font-size: xx-small;
         vertical-align: top;
+        animation: pulseSize 1.7s infinite;
+        &:hover {
+            animation-play-state: paused;
+          }
     }
 
     .locked:after{
@@ -1730,6 +1795,10 @@ input[type="checkbox"]{
         content: "🔒";
         font-size: xx-small;
         vertical-align: top;
+        animation: pulseSize 1.7s infinite;
+        &:hover {
+            animation-play-state: paused;
+          }
     }
     .live:after {
         position: absolute;
@@ -1738,6 +1807,10 @@ input[type="checkbox"]{
         content: "🍀";
         font-size: xx-small;
         vertical-align: top;
+        animation: pulseSize 1.7s infinite;
+        &:hover {
+            animation-play-state: paused;
+          }
     }
 
     /* Check link icons after any modifications to this */
@@ -1755,9 +1828,15 @@ input[type="checkbox"]{
         padding-right: 1px;
         font-style: oblique;
         font-weight: bold;
+        animation: pulseSize 1.7s infinite;
+        &:hover {
+            animation-play-state: paused;
+          }
     }
 
-
+/* ********************************************* *
+*   Clanlist Other Fields
+* **********************************************/
 #clan_sticky_description {
     width: 16vw;
     font-style: italic;
@@ -2037,6 +2116,7 @@ input[type="checkbox"]{
     justify-content: space-around;
     align-items: stretch; /* Ensure all items stretch to the same height */
     width: 100%;
+    padding: 0px 5px 0px 5px;
     z-index: 9991;
 }
 
@@ -2060,7 +2140,7 @@ input[type="checkbox"]{
     text-transform: uppercase;
     transition: color .3s, background-color .3s;
     text-shadow: 0px 0px 10px #181aaf, 0px 0px 2px #491ee2;
-    background-color: #5a5a5ac0;
+    background-color: #5a5a5adc;
 }
 
 .nav_clanlist a .link:hover {
@@ -2069,25 +2149,32 @@ input[type="checkbox"]{
     background-color: silver;
 }
 
+/* ******** Audio ********* */
 #audioWrapper {
     position: absolute; 
-    right: 0.2%; 
+    right: 0.55%; 
     bottom: 0; 
     cursor: pointer;
     display: flex;
     align-items: center;
 }
 
+#indexLogo {
+width: 2.5em;
+}
+
 nav div.link_index {
     display: flex;
-    position: relative;
+    position: absolute;
     left: 2px;
     bottom: 2px;
     width: fit-content;
+    margin: 0 0 0 5px;
+    padding-right: 4px;
     text-transform: uppercase;
     color: white;
     line-height: 0.7;
-    font-size: xx-large;
+    font-size: 2.5em;
     animation: glowlogo 6s ease-in-out infinite alternate;
     -webkit-animation: glowlogo 6s ease-in-out infinite alternate;
     -moz-animation: glowlogo 6s ease-in-out infinite alternate;
@@ -2119,7 +2206,7 @@ nav div.link {
     font-size: 100%;
     text-transform: uppercase;
     color: rgb(218, 218, 218);
-    opacity: 0.8;
+    opacity: 1.0;
     transition: color .3s, background-color .3s;
     text-shadow: 0px 0px 10px #181aaf, 0px 0px 2px #491ee2;
 }
@@ -2131,8 +2218,9 @@ nav div.link:hover {
     animation: glow .4s ease-in-out infinite alternate;
 }
 
-  /* Style local PAGES */
-
+/* *********************************************************
+*     Style Other Sections 
+******************************************************** */
 .pagelink {
     padding: 4px;
     font-size: 90%;
@@ -2173,8 +2261,9 @@ nav div.link:hover {
     padding-top: 30px;
 }
 
-  /* FRONT PAGE ********************************************************************************* */
-
+/* *********************************************************
+*     FRONT PAGE 
+******************************************************** */
 .front_body {
     background-color: black;
   }
@@ -2188,8 +2277,9 @@ nav.front_nav {
     line-height: 1.6;
 }
 
-/* UE5 PAGE ********************************************************************************* */
-
+/* *********************************************************
+*     UE5 PAGE 
+******************************************************** */
 .ue5_content {
     position: absolute;
     margin: auto;
