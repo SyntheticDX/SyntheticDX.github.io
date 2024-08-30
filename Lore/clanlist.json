@@ -1740,7 +1740,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["messiah","[3]Messíah"],
+                        "pidPlusName" : ["messiah","[3]Messíah 🇫🇮"],
                         "aliases" : ["Magicman"],
                         "pastClanIDs" : ["tcn"],
                         "membership" : ["Founder","2002-07-07","back after a week 2002-07-15"],
@@ -1748,7 +1748,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["dbl","[3]Díàbòlïçã"],
+                        "pidPlusName" : ["dbl","[3]Díàbòlïçã 🇫🇮"],
                         "aliases" : ["dbl"],
                         "pastClanIDs" : [""],
                         "membership" : ["Founder","",""],
@@ -1756,7 +1756,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["khamas","[3]Khamas"],
+                        "pidPlusName" : ["khamas","[3]Khamas 🇫🇮"],
                         "aliases" : [""],
                         "pastClanIDs" : ["da"],
                         "membership" : ["2002-01-25","Ret 2002-03-02",""],
@@ -1772,7 +1772,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["amme","[3]Amme"],
+                        "pidPlusName" : ["amme","[3]Amme 🇸🇪"],
                         "aliases" : [""],
                         "pastClanIDs" : ["dem","dxin"],
                         "membership" : ["2002-01-30","2002-10-13",""],
@@ -1788,7 +1788,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["laura","[3]IceCold"],
+                        "pidPlusName" : ["laura","[3]IceCold 🇬🇧"],
                         "aliases" : ["Mahou", "ScoobyDoo"],
                         "pastClanIDs" : ["dem"],
                         "membership" : ["2002-02-04","2002-02-15",""],
@@ -1796,7 +1796,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["paladin","[3]Pàládîn"],
+                        "pidPlusName" : ["paladin","[3]Pàládîn 🇩🇪"],
                         "aliases" : [""],
                         "pastClanIDs" : ["dem"],
                         "membership" : ["2002-02-09","2004-07-07",""],
@@ -1844,7 +1844,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["monkee","[3]Môñkëé"],
+                        "pidPlusName" : ["monkee","[3]Môñkëé 🇳🇴"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["2002-03-17","2002-10-02","2006-02-16"],
@@ -1870,21 +1870,21 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["theseal","[3]Rëplíçañt"],
                         "aliases" : ["TheSeal"],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["dxin","a"],
                         "membership" : ["2002-04-06","2002-07-31",""],
                         "stats" : ["Died","Rank: Rogue (6)<br />CLAN MATCHES: 1<br />SERVED DAYS: 116<br /><br />NEW MEMBER ~ REPLICANT: TheSeal has joined us and will be known as Replicant. We were once enemies, now we are brothers. Welcome, good to have you with us, represent the tag with pride.<br /><br />&#x005B;3&#x005D;REPLICANT: A true Triad has passed away due to a terrible accident in the real life. &#x005B;3&#x005D;Replicant / TheSeal aka Sven contributed to the community with his incontestable talent. He will be truly missed.<br /><br />God bless, Rest In Peace.<br /><br />TheSeal / Replicant - We hope that you rest in peace brother, it was shocking to hear the horrifying news about you."]
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["2jiggy4u","[3]2Jiggy4U<"],
+                        "pidPlusName" : ["2jiggy4u","[3]2Jiggy4U"],
                         "aliases" : ["Maladroit"],
-                        "pastClanIDs" : ["du","usa","eis"],
+                        "pastClanIDs" : ["du","eis"],
                         "membership" : ["2002-04-15","2002-08-14",""],
                         "stats" : ["","Rank: Rogue (6)<br />CLAN MATCHES: 1<br />SERVED DAYS: 107<br /><br />NEW MEMBER ~ 2JIGGY4U: Thanks to Amme for letting us know that a former &#x005B;EIS&#x005D; leader, 2Jiggy4U was interested in joining Triad. And now we are glad to announce that he joined and decided to face fights on our side. Good to have you with us, represent the tag with pride.<br /><br />&#x005B;3&#x005D;2JIGGY4U LEAVES THE CLAN: The old veteran member Maladroit aka 2Jiggy4U is leaving the clan due to his inactivity and personal views. Your experience, friendly attitude and skills will be missed Jiggy. We wish you everything good, it was a pleasure to have you with us."]
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["kale","[3]Khómëinì"],
+                        "pidPlusName" : ["kale","[3]Khómëinì 🇺🇸"],
                         "aliases" : ["Kale", "Kalessian","Regent"],
                         "pastClanIDs" : [""],
                         "membership" : ["2002-04-15","",""],
@@ -1892,7 +1892,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["gotti","[3]GôTTî"],
+                        "pidPlusName" : ["gotti","[3]GôTTî 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : ["dxm","x","r","u","ex","i"],
                         "membership" : ["2002-04-15","2002-08-26","2002 - 2004-01-29"],
@@ -1940,7 +1940,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["hezekiah","[3]Hézékìáh"],
+                        "pidPlusName" : ["hezekiah","[3]Hézékìáh 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : ["dea","bk","eis","nsf"],
                         "membership" : ["2002-10-02","2003-09-23",""],
@@ -1948,7 +1948,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["xrimson","[3]Xrimson"],
+                        "pidPlusName" : ["xrimson","[3]Xrimson 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["2002-10-13","2003-01-28",""],
@@ -1964,7 +1964,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["naked","[3]NaKED"],
+                        "pidPlusName" : ["naked","[3]NaKED 🇬🇧"],
                         "aliases" : ["4R7"],
                         "pastClanIDs" : ["a"],
                         "membership" : ["2002-11-11","2004-04-25","2006-10-11"],
@@ -1972,7 +1972,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["dark","[3]&#x005B;daRk&#x005D;"],
+                        "pidPlusName" : ["dark","[3]&#x005B;daRk&#x005D; 🇫🇮"],
                         "aliases" : [""],
                         "pastClanIDs" : ["na","da"],
                         "membership" : ["2002-12-12","2005-05-13",""],
@@ -1980,7 +1980,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["gaz","[3]&#x005B;tRáñÇë&#x005D;"],
+                        "pidPlusName" : ["gaz","[3]&#x005B;tRáñÇë&#x005D; 🇺🇸"],
                         "aliases" : ["Gaz"],
                         "pastClanIDs" : ["i"],
                         "membership" : ["2002-12-20","2004-01-29",""],
@@ -1996,7 +1996,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["myang","[3]Myang"],
+                        "pidPlusName" : ["destroyerzero","[3]Myang 🇺🇸"],
                         "aliases" : ["DestroyerZero"],
                         "pastClanIDs" : ["ak"],
                         "membership" : ["2003-01-12","2003-03-07",""],
@@ -2004,7 +2004,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["apostle","[3]Apostle"],
+                        "pidPlusName" : ["apostle","[3]Apostle 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : ["bk","d"],
                         "membership" : ["2003-01-22","2003-04-27",""],
@@ -2012,7 +2012,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["kaiser","[3]Kaíser"],
+                        "pidPlusName" : ["kaiser","[3]Kaíser 🇨🇦"],
                         "aliases" : [""],
                         "pastClanIDs" : ["c22","y","apc","bk","d"],
                         "membership" : ["2003-01-29","2005-06-14",""],
@@ -2020,7 +2020,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["luminous","[3]Lúmïnôus"],
+                        "pidPlusName" : ["luminous","[3]Lúmïnôus 🇳🇴"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["2003-07-29","",""],
@@ -2028,15 +2028,15 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["member","[3]Sygnum"],
+                        "pidPlusName" : ["ddm","[3]Sygnum 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : ["r2r","a","dk"],
                         "membership" : ["2003-12-08","2004-03-03",""],
-                        "stats" : ["later in DCSB","Rank: Operative (7)<br />CLAN MATCHES: 0<br />SERVED DAYS: 87<br /><br />NEW RECRUIT ~ SYGNUM: We made a poll about him and with the majority of the clan&apos;s votes, he stepped in to the Brotherhood of Triad. Let the garnage start and welcome to the clan. Good to have you with us, represent the tag with pride.<br /><br />SYGNUM LEAVES THE CLAN: Sygnum decided to leave the clan due to personal problems. Good luck in future.<br /><br />SERVER MESS: The server was hacked with the adminlogin by two players. One of the IPs matched closely with Sygnum aka DdM, the other one traced close to Merlin. The IP matching to Sygnum was not a surprise since the server was messed up with the adminlogin that Sygnum had due to his ex-membership to the clan. Supposedly, he decided to give out the password to Merlin to use it against us for his personal anger about something.<br /><br />Sygnum also gave the private forum access to Merlin while being in the clan. The reason remains unknown.<br /><br />Shame, a good friend became a two-faced enemy."]
+                        "stats" : ["later in DCSB, this is probably DdM, although I mixed him up with Myang who is presumably DZ","Rank: Operative (7)<br />CLAN MATCHES: 0<br />SERVED DAYS: 87<br /><br />NEW RECRUIT ~ SYGNUM: We made a poll about him and with the majority of the clan&apos;s votes, he stepped in to the Brotherhood of Triad. Let the garnage start and welcome to the clan. Good to have you with us, represent the tag with pride.<br /><br />SYGNUM LEAVES THE CLAN: Sygnum decided to leave the clan due to personal problems. Good luck in future.<br /><br />SERVER MESS: The server was hacked with the adminlogin by two players. One of the IPs matched closely with Sygnum aka DdM, the other one traced close to Merlin. The IP matching to Sygnum was not a surprise since the server was messed up with the adminlogin that Sygnum had due to his ex-membership to the clan. Supposedly, he decided to give out the password to Merlin to use it against us for his personal anger about something.<br /><br />Sygnum also gave the private forum access to Merlin while being in the clan. The reason remains unknown.<br /><br />Shame, a good friend became a two-faced enemy."]
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["flaw","[3]Blake"],
+                        "pidPlusName" : ["flaw","[3]Blake 🇺🇸"],
                         "aliases" : ["Flaw"],
                         "pastClanIDs" : ["a"],
                         "membership" : ["2005-05-12","",""],
@@ -2044,7 +2044,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["ste","[3]Hydro"],
+                        "pidPlusName" : ["ste","[3]Hydro 🇬🇧"],
                         "aliases" : ["Ste","MrPink"],
                         "pastClanIDs" : ["cyd","dk","ak","dcsb","t"],
                         "membership" : ["2007-01-21","",""],
@@ -2052,7 +2052,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["grimraper","[3]GrimRaper"],
+                        "pidPlusName" : ["grimraper","[3]GrimRaper 🇮🇪"],
                         "aliases" : [""],
                         "pastClanIDs" : ["bia","ren"],
                         "membership" : ["","",""],
@@ -9559,7 +9559,7 @@
                         "aliases" : ["JoeyPineapples"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Later TCN, EL",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -18512,6 +18512,9 @@
                 "match" : ["dea_v_na","na","[N/A]","Win 3:0","2002-11-02","[N/A] Falls on the Battlefield: In a grueling battle, [DEA] proved why they are the undefeated kings of DXMP as they crushed the upstart [N/A] by a combined score of 257 - 124. Thanks to the members of both clans for an excellent turnout.<br /><br />Date: Saturday, November 2, 2002<br />Result: Defeat<br />Player voted MVP: AleX<br />CMD: 45 - 91<br />Titanium: 31 - 75<br />Cathedral: 48 - 91 Total: 124 - 257 ","isCertain"]
             },
             {
+                "match" : ["dea_v_tcn","tcn","[TCN]","Refused","2002","(Feb 17th, 2003) JohnnyBravoTCNdk: /../ [DEA] refused 3 times.","isCertain"]
+            },
+            {
                 "match" : ["triad_v_dea","triad","[3]","Win 2:1","2003-01-12","After 6 months waiting, &#x005B;DEA&#x005D; finally decided to face us. Good game.<br /><br />-- A long-awaited match between two undefeated clans, it appears that the more experienced clan found ways to defeat Triad by maps, forcing the brothers to quickly find alternate ways post-match to interpret it as a win instead, and thus save their supposedly flawless rating - although already their [TCN] match was technically a draw but not counted as one. Since at least one clan in the community was presenting winning stats as total frags - the [N/A] clan that Messiah's young sister had been in - the idea to switch to that odd method likely came from there. Ultimately clans assume war is decided based on native game victory conditions, and unless both clans excplicitly agree on a victory condition then such shenanigans can happen. As I always made victory condition clear for all of my challenges, I believe [DEA] surely must've had that detail made very clear as well. In [N/A] case I believe they just liked presenting stats for website and none of their wars look like it was decided by total score. At least one map is on Youtube uploaded by DBL. I believe I saw the leader decade later admitting to being overconfident going in. --","isCertain"]
             },
             {
@@ -19111,7 +19114,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["nick","¤UltiMa[ÐÊS]¤"],
                         "aliases" : ["Nick","Stigmata","YosemiteSam","SeeMeNow"],
-                        "pastClanIDs" : ["d","tcndk","da","el","dk"],
+                        "pastClanIDs" : ["d","vet","tcndk","da","el","dk"],
                         "membership" : ["","",""],
                         "stats" : ["b~'88","Age: 16<br />Location: Canada<br />Time playing: 4 Years<br />Style: Sexy"]
                     },
@@ -19384,7 +19387,7 @@
         ],
         "matches" : [
             {
-                "match" : ["","tcn","[TCN]","","2001","[TCN] vs [ DEV] 2001","isDiscussed"]
+                "match" : ["dev_v_tcn","tcn","[TCN]","","2001","[TCN] vs [ DEV] 2001","isDiscussed"]
             },
             {
                 "match" : ["cg_v_dev","cg","[CG]","Win 3:0","2002-01-21","Hittman: DEV vs CG - GOOD MATCH GUYS , RE 21/1/2002 at 15:46 by Da_Terminator<br /><br />DEV vs CG - 21/01/2002 2:07pm - Posted By Eagle<br /><br />I'm happy to announce that we just won our first clan war, 3-0 against CG. Man of the match goes to Xenogies for an impressive performance on all maps.","isCertain"]
@@ -21332,7 +21335,7 @@
                         },
                         {
                             "membergroupLabel" : ["",""],
-                            "pidPlusName" : ["stigmata","[DK]SeeMeNow 🇨🇦"],
+                            "pidPlusName" : ["nick","[DK]SeeMeNow 🇨🇦"],
                             "aliases" : ["STigMAta","YosemiteSam"],
                             "pastClanIDs" : ["d","vet","da","tcndk","el"],
                             "membership" : ["by mid-May","",""],
@@ -21386,6 +21389,9 @@
             },            
             {
                 "match" : ["cg_v_dk_3","cg","[CG]","Loss 1:2","2002-07-28","LeroyBrown: '4:00 PM EST. Smugglers, Area-51 and Silo.<br /><br />Blurs: 'Date: Sunday 28 Time: 4:00pm EST Maps: Smuggler Area 51 Bunker Silo Players: 6 vs 6 Darth instapotato Aerosol Blurs ElCoolMagnefico Shaggs'<br /><br />Melkor[DEA] (admin): ''Twas impressive how you guys came back..... DK handed it to you in the first game (Potato not being there really hurt you, of course), but you kept your composure (something they did not do... ugh) and won the match. Congrats on a well played game. <br /><br />https://web.archive.org/web/20020901154226/http://pub82.ezboard.com:80/fcgclandxmpforum95142frm1.showMessage?topicID=90.topic'","isCertain"]
+            },
+            {
+                "match" : ["dk_v_tcn","tcn","[TCN]","","2002?","[TCN] vs [DK]<br /><br />(According to my notes it likely took place, but no source or details)","isCertain"]
             },
             {
                 "match" : ["dk_v_el","el","[EL]","Win","2003-04-26","Match: DK vs. EL<br />Date: Saturday, April 26th, 2003<br />Outcome: DK Victory<br />Screenshots:<br />> https://web.archive.org/web/20040508175707/http://dk.deusex-online.com/shots/SiloEL.jpg<br />> https://web.archive.org/web/20040508173114/http://dk.deusex-online.com/shots/CMDEL.jpg<br />> https://web.archive.org/web/20040508181807/http://dk.deusex-online.com/shots/SmugglerEL.jpg<br /><br />DK:<br />Bond<br />War<br />Slayer<br />2h2h<br />ImaginaryPlaya<br /><br />vs<br /><br />EL:<br />BigDawg<br />Legolas<br />SerialKilla<br />Mayhem<br />Preachre<br /><br />Ricci jumps clans after the war","isCertain"]
@@ -30269,7 +30275,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["joeypineapples","~[EL]~PineApples"],
                         "aliases" : [""],
-                        "pastClanIDs" : ["tcn"],
+                        "pastClanIDs" : ["bk","tcn"],
                         "membership" : ["","",""],
                         "stats" : ["",""]
                     },
@@ -60750,47 +60756,341 @@
     },
     {
         "id" : "tcn",
-        "tag" : ["tagFront","[","TCN","]"],
+        "tag" : ["tagBack","[","TCN","]"],
         "tag_extra" : "[TCNdk] [GHOST]",
         "flag" : ["",""],
         "name" : "The Claymore Nation",
         "gametype" : ["Aug"],
         "tier" : ["B","A","S"],
         "date" : ["isUncertain","2001-07-01","isUncertain","2004-01-01","isCertain",""],
-        "founder" : ["JohnnyBravo"],
+        "founder" : ["Dexter","JohnnyBravo"],
         "members" : [
             {
                 "membergroup" : [
                     {
+                        "membergroupLabel" : ["There may have been more relatives in this clan","Family"],
+                        "pidPlusName" : ["dexter","Dexter[TCN] 🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Older brother, founder","Scotland / UK<br />Founder"]
+                    },
+                    {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["member",""],
+                        "pidPlusName" : ["johnnybravo","JohnnyBravo[TCN] 🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Marvins twin, b~'80<br /><br />Later in scottish clan FC as DeusExGuru","Scotland / UK"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["marvin","Marvin[TCN] 🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["JB's twin, b~'80","Scotland / UK"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["hezza","Hezza[TCN] 🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Dexter's daughter, later in non-aug clans TT, FC",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["goku","Goku[TCN] 🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Dexter's son",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["bev","Bev[TCN] 🏴󠁧󠁢󠁳󠁣󠁴󠁿"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Goku's cousin",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["batman","Batman[TCN]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["kinglouie","KingLouie[TCN]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["riddler","Riddler[TCN]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["muttley","Muttley[TCN]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["mrspacely","Mr.Spacely[TCN]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["messiah","MagicMan[TCN] 🇫🇮"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["sometime December 2001","",""],
+                        "stats" : ["16yo Messiah, started playing in Nov 2001",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["joeypineapples","JoeyPineapples[TCN]"],
+                        "aliases" : ["TheAccidentMan"],
+                        "pastClanIDs" : ["bk"],
+                        "membership" : ["","",""],
+                        "stats" : ["Later EL",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["laura","ScoobyDoo[TCN]"],
+                        "aliases" : ["Gr8ttiger","IceCold","Laura","Mahou"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Later in various other clans, including briefly in [3]",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["buttercup","Butters[TCN]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["(Vio?)",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["van","Van[TCNdk]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["tweety","Tweety[TCNdk]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["2003",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["bugsbunny","BugsBunny[TCNdk]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["From [DEM]?",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["nick","YosemiteSam[TCNdk] 🇨🇦"],
+                        "aliases" : ["Stigmata","Nick"],
+                        "pastClanIDs" : ["d","vet","tcndk","da","el","dk"],
+                        "membership" : ["","",""],
+                        "stats" : ["b~'88","Canada"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["daffyduck","DaffyDuck[TCN]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["bubbles","Bubbles[TCN]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["roadrunner","Roadrunner[TCN]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","Mapper"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["deedee","DeeDee[TCN]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["armageddon","Vegeta[TCN]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Derek, b~'87, later from 2003 [W]Armageddon",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["tintin","TinTin[TCN]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["(signed for IDXL)",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["belouga","Garfield[TCN]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["da"],
+                        "membership" : ["","",""],
+                        "stats" : ["Belouga from DA",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","2003"],
+                        "pidPlusName" : ["amigo","|GHOST|Amigo"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["s","apc","bk","d"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["theking","|GHOST|TheKing"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["gato","dk"],
+                        "membership" : ["","",""],
+                        "stats" : ["From DK",""]
+                    },
+                    {
+                        "membergroupLabel" : ["duplicate",""],
+                        "pidPlusName" : ["laura","|GHOST|Mahou"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Marked as duplicate",""]
+                    },
+                    {
+                        "membergroupLabel" : ["duplicate",""],
+                        "pidPlusName" : ["marvin","|GHOST|Marvinator"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["leroybrown","|GHOST|LB2.0"],
+                        "aliases" : ["LeroyBrown"],
+                        "pastClanIDs" : ["cyd","dk"],
+                        "membership" : ["","",""],
+                        "stats" : ["Marking it down as LeroyBrown from CYD, DK, but not 100% sure who this is. LB would've ended up in here after merge anyway.",""]
                     }
                 ]
             }
         ],
         "matches" : [
             {
+                "match" : ["r_v_tcn","r","[R]","","2001","[R] vs [TCN]<br /><br />This is not visibly represented anywhere on [R] list of matches, in fact no wars are","isCertain"]
+            },
+            {
+                "match" : ["dev_v_tcn","dev","[DEV]","","2001","[TCN] vs [DEV]","isDiscussed"]
+            },
+            {
+                "match" : ["bk_v_tcn","bk","[BK]","Win","2002-03-03","","isCertain"]
+            },
+            {
+                "match" : ["bk_v_tcn","bk","[BK]","","2002","Rematch discussed","isDiscussed"]
+            },
+            {
                 "match" : ["triad_v_tcn","triad","[3]","Disputed","2002-04-28","JohnnyBravoTCNdk: '/../ drew with [3], but because they were dicks and left before the match could finish - they don't get another shot and they can toast their win over a draw'<br /><br />DerianX not directly affiliated with either clan reminded at the time that this result was disputed, likely due to what you can read above.<br /><br />Triad: 'A Triad victory. We agreed to play three maps but we only played two because of arguements about the maps with some &#x005B;TCN&#x005D; members. There was some lag on the &#x005B;DEA&#x005D; server when about 2-3 minutes was left of the first map. The first map was Area51Bunker and you can check the results under the 'Wars' link. Second map was played on Jolt.co server because the &#x005B;TCN&#x005D; members wanted to play it there. So we changed the server and put the Silo map on. Silo was won by Triad and smuggler remained unplayed, mostly because the start of the game was delayed because KingLouie&#x005B;TCN&#x005D; and Riddler&#x005B;TCN&#x005D; were late. It was a good and very skilled game, the attitude could have been nicer though. Thank you &#x005B;TCN&#x005D; for a good match.'","isCertain"]
+            },
+            {
+                "match" : ["da_v_tcn","da","[DA]","","Sept 2002","Parallax in early Sept 2002: 'Thats right [DA]bLade has joined up once again and just in time to play in the DA V TCN war thats coming up this saturday!'<br /><br />https://web.archive.org/web/20030408182818/http://darkshadow32.hyperboards.com:80/index.cgi?action=display&board=ars&num=1049281748&start=0","isUncertain"]
+            },
+            {
+                "match" : ["dk_v_tcn","dk","[DK]","","2002?","[TCN] vs [DK]<br /><br />(According to my notes it likely took place, but no source or details)","isCertain"]
+            },
+            {
+                "match" : ["dcsb_v_tcn","dcsb","[DCSB]","Practice","2002-09-06","The friendly with TCNdk also didnt go too well. Only 2 dcsb members turned up, RogueJedi and Demolitionman. They had a little fun but nothing ever really happened. It was re-arranged for this wkend just gone, but had to be canclled due to the fact that Blade, Rogue, and myself had other commitments saturday night, and myself and blade have another commitment tonight as well(sunday). We will discuss a new date in the private area of the forums, and get back to TCNdk with one.","isCertain"]
+            },
+            {
+                "match" : ["dcsb_v_tcn_2","dcsb","[DCSB]","Win","2002-10-11","DK AtomicPunk posted on forums 'Goodtime today!' with only two replies, presumably loss<br /><br />Main discussion is TCNdk vs DCSB and DK is likely gone. Its possible this entry is also 'Practice'","isUncertain"]
+            },
+            {
+                "match" : ["na_v_tcn","na","[N/A]","Win 3:0","2002-12-07","TCNdko'ed: After some confusion between [N/A] and [TCNdk] concerning the time of the match (oops), we managed to get enough people onto the [TCNdk] server for three furious rounds of fragging.<br /><br />Congrats to [TCNdk] on their victory. The final score was 98 - 183.<br /><br />Date: Saturday, December 7, 2002<br />Result: Defeat<br />Player voted MVP: CoMpUdOc<br />CMD: 43 - 88<br />Area51Bunker: 39 - 54<br />Silo: 16 - 41 Total: 98 - 183 ","isCertain"]
+            },
+            {
+                "match" : ["dea_v_tcn","dea","[DEA]","Op. Refused","2002","(Feb 17th, 2003) JohnnyBravoTCNdk: /../ [DEA] refused 3 times.","isCertain"]
             }
         ],
         "websites" : [
             {
-                "website" : ["","",""]
+                "website" : ["Nov 2001 it already redirects twice; might've shared assets with their Lycos site, CarPark.utx texture downloads from here but captures after 2005 not preserved","https://web.archive.org/web/20031219024252/http://members.tripod.co.uk/TCNclan/DXMP-TCN-x1_r07_c16.jpg","investigate"]
+            },
+            {
+                "website" : ["Titled the 'Old Claymorenation site TCN'; marking it as featured as it contains cool logo and intro still","https://web.archive.org/web/20020514153406/http://members.lycos.co.uk:80/tcnclan/DXMPTCN_home_130_r4_c4.jpg","featured"]
+            },
+            {
+                "website" : ["Jul 21, 2002 we have snap of full site; later as it moves to other games it becomes a large gaming portal","https://web.archive.org/web/20020721161753/http://www.claymorenation.com:80/","featured"]
             }
         ],
         "forums" : [
             {
-                "forum" : ["","",""]
+                "forum" : ["Significant number of posts preserved","https://web.archive.org/web/20020709084824/http://pub96.ezboard.com/ftheclaymorenationmessageforumfrm1.showMessage?topicID=417.topic","featured"]
+            },
+            {
+                "forum" : ["Basic board views are all fairly well preserved, but anything more complex than that appears to rely on the kind of code that did not get saved","https://web.archive.org/web/20030320192401/http://www.claymorenation.com/cgi-bin/yabb/YaBB.cgi?board=genchat","index"]
             }
         ],
-        "description" : "Incomplete entry",
+        "description" : "Large aug clan for often younger players and mostly with a cartoon theme, it was led by the parents of some of the members. They appear to have fully embraced The Cartoon Network meme, whereever the idea came from, but the tag either stood for The Claymore Nation or was later rebranded as such; all or nearly all members had a name chosen from the TCN cartoons and their DXMP_Smuggles map has images representing their various members. One of their members, Messiah, would later make his own clan and rename his members following his own theme. By September 15, 2002, TCN merges with another large clan DK, becoming TCNdk. GHOST tag replaces TCNdk tag before August 2003 and after June 22, likely sometime July.",
         "background" : [
             {
-                "backgroundStory" : ["","","",""]
+                "backgroundStory" : ["General Board / Re: Match? on: Feb 17th, 2003, 03:24am Started by JohnnyBravoTCNdk | Post by JohnnyBravoTCNdk","johnnybravo","JohnnyBravoTCNdk:","Because we already BET [N/A], drew with [3], but because they were dicks and left before the match could finish - they don't get another shot and they can toast their win over a draw, [D] dont exist anymore and [DEA] refused 3 times.<br /><br />So I guess we take everyone else out."]
+            },
+            {
+                "backgroundStory" : ["2012-01-25, on THC forums (included on our stories page)","ste","[3]Ste:","[DK] lived for quite a few years but then merged into [TCN] which was renamed [TCN]dk. It was then where my crossroads began... I was friendly with the [3] guys and also friendly with TCN but I got caught in the middle of all the hacking accusations. Marvin generally had me on msn trying to pump into my head how Messiah cheated to the extent I believed him. I then went and told DBL and Monkee who then argued the point and gave me evidence time and time again until I was convinced TNC were simply sore losers against the [3] members mastery of augs. Remember I was a bad player in these days and easily beaten so with all these accusations along with how good these guys were I had a hard time believing one over the other. It was only when I got my ADSL line in I began to play well, and understand that [3] indeed did not cheat. Learning about ping and lag and where to aim etc. The rivalry was huge from TCNs view, however [3] simply laughed it off with every clan war offered being refused pretty much"]
             }
         ],
         "news" : [
@@ -66179,7 +66479,7 @@
                         "stats" : ["Marco","UK"]
                     },
                     {
-                        "membergroupLabel" : ["","2005"],
+                        "membergroupLabel" : ["",""],
                         "pidPlusName" : ["silverfox","[V]Silverfox"],
                         "aliases" : [""],
                         "pastClanIDs" : ["m"],
@@ -66187,7 +66487,7 @@
                         "stats" : ["There was another Silverfox playing in 2001 but its unlikely to be related",""]
                     },
                     {
-                        "membergroupLabel" : ["","2005"],
+                        "membergroupLabel" : ["",""],
                         "pidPlusName" : ["hezza","[V]Hezza"],
                         "aliases" : [""],
                         "pastClanIDs" : ["gato","dk","a","tn","ds","tt"],
