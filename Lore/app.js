@@ -622,7 +622,7 @@ $(document).ready(function() {
             { name: 'ATDM', criteria: [/\bATDM\b|\batdm\b/i] },
             { name: 'CTDM', criteria: [/\bCTDM\b|\bctdm\b|\bCustom TDM\b/i] },
             { name: 'BTDM', criteria: [/\bBTDM\b|\bbtdm\b/i] },
-            { name: 'Zero Aug', criteria: [/\b0a\b|\bs0a\b|\bstandard 0a|\bstandard zero-aug|\bzero aug\b|\bZero aug|\bzero-aug|\bZero-aug|\b0 Aug|\b0A\b/i] },
+            { name: 'Zero Aug', criteria: [/\b0a\b|\bs0a\b|\bstandard 0a|\bstandard zero-aug|\bzero aug\b|\bZero aug|\bzero-aug|\bZero-aug|\b0 Aug|\b0A\b|\b0augs|0aug\b/i] },
             { name: 'Mod', criteria: [/\bctf\b|\bmod\b|\bdxag\b|\brpg\b|\bcdx\b/i] }
         ];
     
@@ -883,10 +883,10 @@ $(document).ready(function() {
                 let className = '';
                 let tooltipText = '';
 
-                if (/\b0a\b|\bs0a\b|\bstandard 0a|\bstandard zero-aug|\bzero aug\b|\bZero aug|\bzero-aug|\b0 Aug|\b0A\b|Non-Aug/i.test(matchString)) {
+                if (/\b0a\b|\bs0a\b|\bstandard 0a|\bstandard zero-aug|\bzero aug\b|\bZero aug|\bzero-aug|\b0 Aug|\b0aug|\b0A\b|Non-Aug/i.test(matchString)) {
                     className = 'matchtype0a';
                     tooltipText = 'Non-Augmented Match';
-                } else if (/\bATDM\b|\batdm\b|Aug/i.test(matchString)) {
+                } else if (/\bATDM\b|\batdm\b|Auged|Augs/i.test(matchString)) {
                     className = 'matchtypeATDM';
                     tooltipText = 'Advanced Team Death Match';
                 } else if (/\bBTDM\b|\bbtdm\b|Basic/i.test(matchString)) {
