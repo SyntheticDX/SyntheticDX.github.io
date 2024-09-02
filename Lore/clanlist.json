@@ -1320,7 +1320,10 @@
         ],
         "matches" : [
             {
-                "match" : ["alpha_v_fists","alpha","[A]<sup>?</sup>","Win","","Conceited is sure war was won but is guessing it was maybe against Alpha, which is possible","isCertain"]
+                "match" : ["alpha_v_fists","alpha","[A]","Win","2003-11","Conceited is sure war was won but is guessing it was maybe against Alpha, which is possible, that clan also fought a war against DCSB in late January. Alpha has no records of this war but they note themselves some records are incomplete, and hes grown more certain of it being Alpha over time when we spoke again.","isUncertain"]
+            },
+            {
+                "match" : ["dscb_v_fists","dcsb","[DCSB]","Win","2003-11-28","Sourced from TCN portal showing the following thread details:<br />DCSB Vs ~15~         (8)              (38)              by |GHOST|Maj.Marvin              on 28. Nov         at 14:56<br /><br />I asked a Fists member if it reminds him of anything. <br />Conceited: 'Yeah we smashed them in DX. It was 0 aug'.","isCertain"]
             }
         ],
         "websites" : [
@@ -4051,7 +4054,7 @@
                 "match" : ["alpha_v_ak","ak","[AK]","Loss","29.12.03","Conditions: Zero-aug    Server: [AK] Server,     Maps: silo, area51bunker","isCertain"]
             },
             {
-                "match" : ["alpha_v_fists","fists","[15]","Loss","2003-2004","--Conceited guesses maybe they fought Alpha, but Alpha records do not seem to corroborate this. Seeing how they lack info for several wars, its certainly not impossible, but likely not their first war which should remain in memory better.--","isUncertain"]
+                "match" : ["alpha_v_fists","fists","[15]","Loss","2003-11-","Conceited is sure war was won but is guessing it was maybe against Alpha, which is possible. Alpha has no records of it but they note themselves some records are incomplete, and hes grown more certain of it being Alpha over time when we spoke again.","isUncertain"]
             },
             {
                 "match" : ["alpha_v_fc","fc","[FC]","","2004?","--Clan is missing information; probably a loss and Zero-augs, FC existed around spring of 2004 but iirc turned into [TT] by late 2004--","isCertain"]
@@ -5704,6 +5707,18 @@
                         "membership" : ["","",""],
                         "stats" : ["Probably during later revival, ca 2005",""]
                     }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["", "2005 Revival?"],
+                        "pidPlusName" : ["laura","[15]Mahou"],
+                        "aliases" : ["IceCold","ScoobyDoo"],
+                        "pastClanIDs" : ["dem","triad","tcn","tsw"],
+                        "membership" : ["2003-09-30","",""],
+                        "stats" : ["Profile has link to AK clan in March 2005, and might've been in the following UE clan together with leader.","Country: Wiltshire, UK"]
+                    }      
                 ]
             }
         ],
@@ -7381,10 +7396,10 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["jej","[B]JeJ"],
-                        "aliases" : [""],
+                        "aliases" : ["JamesEarlJones"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Dec 2002 registered on TCN forums, albeit tagless",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -9490,7 +9505,7 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["rifleman","[BK]RifleMan"],
-                        "aliases" : ["[D]rowTan[K]"],
+                        "aliases" : ["[D]rowTan[K]","EvilPlotBunny"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["Ends up in DCSB, DK",""]
@@ -9735,11 +9750,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["darknight","[BK]Darknight"],
+                        "pidPlusName" : ["darknight","[BK]Darknight 🇬🇧"],
                         "aliases" : [""],
                         "pastClanIDs" : ["dab","btj"],
                         "membership" : ["May 30, 2003","July 1st, 2003",""],
-                        "stats" : ["went to MTX July 1st, 2003","Co-Leader"]
+                        "stats" : ["went to MTX July 1st, 2003, although still seems to have BK sig July 29","Co-Leader<br />Location: UK, England"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -10819,7 +10834,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["darknight","[BTJ]Ðárkñíght"],
+                        "pidPlusName" : ["darknight","[BTJ]Ðárkñíght 🇬🇧"],
                         "aliases" : [""],
                         "pastClanIDs" : ["dab"],
                         "membership" : ["early 2003","",""],
@@ -12975,7 +12990,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["Nov. 23, 2001","Mar. 2, 2002",""],
-                        "stats" : ["http://www.angelfire.com/trek/da_terminator/ <br />'84<br />Software Tester & Freelance Game Tester",""]
+                        "stats" : ["http://www.angelfire.com/trek/da_terminator/ <br />'84<br />Software Tester & Freelance Game Tester","New Jersey/USA"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -13332,7 +13347,15 @@
                         "pastClanIDs" : ["x","r","u"],
                         "membership" : ["trial before May 5, 2002","May 3, 2002 parents took computer away",""],
                         "stats" : ["Blurs says DoMini can only play when he visits him. Goes to [3] July 26, 2002, promoted [CG] members so likely of rank",""]
-                    } 
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["frinkle","[CG]Frinkle"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Later in [P], perhaps its an alias of existing member and thus a duplicate; seen wearing tag December 2002 in TCN thread 'BAD expereince with so-called TCNdk player....'",""]
+                    }
                 ]
             },
             {
@@ -16177,7 +16200,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["late Jan 2003",""]
+                        "stats" : ["late Jan 2003","UK, Oxford"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -16605,11 +16628,11 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["darknight","[DAB]Darknight"],
+                        "pidPlusName" : ["darknight","[DAB]Darknight 🇬🇧"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Presumably same person would later be in BTJ, BK, MTX",""]
+                        "stats" : ["Presumably same person would later be in BTJ, BK, MTX","UK, England"]
                     }
                 ]
             }
@@ -17865,6 +17888,9 @@
                 "match" : ["","triad","[3]","","2003-11","Monkee issued challenge on dead forums while clan moved elsewhere","isDiscussed"]
             },
             {
+                "match" : ["dscb_v_fists","fists","[15]","Loss","2003-11-28","Sourced from TCN portal showing the following thread details:<br />DCSB Vs ~15~         (8)              (38)              by |GHOST|Maj.Marvin              on 28. Nov         at 14:56<br /><br />I asked a Fists member if it reminds him of anything. <br />Conceited: 'Yeah we smashed them in DX. It was 0 aug'.","isCertain"]
+            },
+            {
                 "match" : ["alpha_v_dcsb","alpha","|ALPHA|","Win","31.01.04","Conditions: Zero-aug    Server: [DCSB] Server    Maps: smuggler, silo","isCertain"]
             },
             {
@@ -17995,11 +18021,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["illkill4u","[DD]illkill4u"],
+                        "pidPlusName" : ["illkill4u","[DD]Sgt.illkill4u[DK]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["b~'72 , October 8<br />Webmaster","ddevil<br />Denmark<br />31<br />Active"]
+                        "stats" : ["With [DK] tag next to [DD] one in April 2003, so possibly ex member<br />b~'72 , October 8<br />Webmaster","ddevil<br />Denmark<br />31<br />Active"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -18051,7 +18077,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["recslippy","[DD]Rec-Slippy "],
+                        "pidPlusName" : ["recslippy","[DD]Rec-Slippy"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -18067,7 +18093,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["conceited","[DD]Machina"],
+                        "pidPlusName" : ["conceited","[DD]Machina 🇬🇧"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","before September 30, 2003",""],
@@ -18075,11 +18101,11 @@
                     },                    
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["labtec","[DD]TheSpiRiT"],
+                        "pidPlusName" : ["labtec","[DD]TheSpiRiT 🇬🇧"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
-                        "membership" : ["","before September 30, 2003",""],
-                        "stats" : ["Leaves to form [15] Fists","UK"]
+                        "membership" : ["Before May 5, 2003","before September 30, 2003",""],
+                        "stats" : ["Active with tag in May, leaves to form [15] Fists","London, England"]
                     }
                 ]
             },
@@ -21082,7 +21108,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["atomicpunk","[DK]AtomicPunk"],
+                        "pidPlusName" : ["atomicpunk","[DK]AtomicPunk 🇺🇸"],
                         "aliases" : ["YogiBear"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -21278,7 +21304,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : ["gato"],
                         "membership" : ["","",""],
-                        "stats" : ["Ends up in DK as Tweety after merge","Northern Ireland"]
+                        "stats" : ["Ends up in DK as Tweety after merge","Northern Ireland/Southern Ireland"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -21348,7 +21374,7 @@
                             "aliases" : ["SoulSnatcher"],
                             "pastClanIDs" : ["ioi"],
                             "membership" : ["April 3, 2003","within month before June 19 , 2003",""],
-                            "stats" : ["Appears to have revived iOi with GreyFox/Genesis by June-July, but instead spends several weeks under [vL] tag before indeed returning to iOi, Bond mentions he has left clan with Epidemic",""]
+                            "stats" : ["Appears to have revived iOi with GreyFox/Genesis by June-July, but instead spends several weeks under [vL] tag before indeed returning to iOi, Bond mentions he has left clan with Epidemic.<br />In Autumn plays MOHAA with TCN folks",""]
                         },
                         {
                             "membergroupLabel" : ["",""],
@@ -21495,8 +21521,8 @@
                             "pidPlusName" : ["tuler","[DK]Tuler"],
                             "aliases" : [""],
                             "pastClanIDs" : [""],
-                            "membership" : ["","",""],
-                            "stats" : ["later in [DES], [T]",""]
+                            "membership" : ["","around Oct 2002?",""],
+                            "stats" : ["Posted 'Logging out.' thread in TCN general around Oct 2002, later in [DES], [T]",""]
                         },
                         {
                             "membergroupLabel" : ["duplicate",""],
@@ -21764,7 +21790,7 @@
                         "aliases" : ["EvilDawg"],
                         "pastClanIDs" : ["outlaw","ug"],
                         "membership" : ["","",""],
-                        "stats" : ["[UG] rebrands into [PN] within by April 6, 2003 and likely same thing happens few months later resulting in [DL]<br /> Andres a.k.a TheInformant, outlawevildawg, b~'84","Florida"]
+                        "stats" : ["[UG] rebrands into [PN] within by April 6, 2003 and likely same thing happens few months later resulting in [DL]<br /> Andres a.k.a TheInformant, outlawevildawg, evilandresito, b~'84","Florida"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -23592,9 +23618,9 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["darknight","{DWK}Darknight"],
+                        "pidPlusName" : ["darknight","{DWK}Darknight 🇬🇧"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["bk"],
                         "membership" : ["","",""],
                         "stats" : ["",""]
                     },
@@ -23679,14 +23705,6 @@
                         "pidPlusName" : ["hawkmoon","{DWK}_Hawkmoon"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["darknight","{DWK}_Darknight"],
-                        "aliases" : [""],
-                        "pastClanIDs" : ["bk"],
                         "membership" : ["","",""],
                         "stats" : ["",""]
                     }
@@ -24060,8 +24078,8 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["nomad","[DXÅ]Nomad"],
-                        "aliases" : [""],
+                        "pidPlusName" : ["nomad","[DXÅ]NoMaD"],
+                        "aliases" : ["EscapeArtist"],
                         "pastClanIDs" : ["s"],
                         "membership" : ["","",""],
                         "stats" : ["",""]
@@ -30282,7 +30300,7 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["ricci","[EL]Serialkilla"],
-                        "aliases" : ["Ricci"],
+                        "aliases" : ["Ricci","Killa"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["leaves for DK after lost war",""]
@@ -30354,7 +30372,7 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["jej","[EL]JeJ"],
-                        "aliases" : [""],
+                        "aliases" : ["JamesEarlJones"],
                         "pastClanIDs" : ["b"],
                         "membership" : ["","",""],
                         "stats" : ["The things I'd do for 30 pieces of silver!<br /><br />February 6th. 1976 ",""]
@@ -31648,7 +31666,7 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["nocontrol","[eX]NoControl"],
-                        "aliases" : [""],
+                        "aliases" : ["downTime","Mr.Spacely"],
                         "pastClanIDs" : ["r","u"],
                         "membership" : ["","",""],
                         "stats" : ["Joins TCN, likely as Mr.Spacely",""]
@@ -32493,7 +32511,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["elmafudd","[FC]Elmer"],
+                        "pidPlusName" : ["elmerfudd","[FC]Elmer"],
                         "aliases" : ["ElmaFudd"],
                         "pastClanIDs" : ["tcndk"],
                         "membership" : ["","",""],
@@ -34060,7 +34078,7 @@
                 "website" : ["Mole: I have taken the FUEL clan links out of the links. My reason for this is that they are currently making a new website and forum, therefore the ones that were in our links were no longer valid.","https://web.archive.org/web/*/http://www.fuelclan.tk:80/*","dead"]
             },
             {
-                "website" : ["","https://web.archive.org/web/20021007161942/http://fuelclan.tripod.com:80/about.htm","featured"]
+                "website" : ["Around Oct 5 Apoc advertises site going up on TCN","https://web.archive.org/web/20021007161942/http://fuelclan.tripod.com:80/about.htm","featured"]
             },
             {
                 "website" : ["Nov 19 new site and forums","https://web.archive.org/web/*/http://fuelclan.moonfruit.com*","dead"]
@@ -36269,7 +36287,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["atomicpunk","[GTTM]AtomicPunk"],
+                        "pidPlusName" : ["atomicpunk","[GTTM]AtomicPunk 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -38592,6 +38610,26 @@
                         "pastClanIDs" : ["dea"],
                         "membership" : ["","",""],
                         "stats" : ["",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","2004"],
+                        "pidPlusName" : ["epidemic","[I]Ares"],
+                        "aliases" : ["Epidemic","WaR"],
+                        "pastClanIDs" : ["au","moo","nsf","dk","bk","d","w"],
+                        "membership" : ["","",""],
+                        "stats" : ["'Yeah... I got sick of DX... All the politics, all the people. There have been no major changes in years to that game, there have been no new faces to that game (atleast no significant additions). I don't want this to turn into a flame thread, so here's the bottom line... I don't like DX, I don't like [I], and I don't want to be bugged about it.'<br />Goes to play MOHAA with TCN in August 2004 as |GHOST|Pfc.Sausage",""]
+                    },
+                    {
+                        "membergroupLabel" : ["","2004"],
+                        "pidPlusName" : ["hawkmoon","[I]Hawkmoon"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["dwk","void"],
+                        "membership" : ["","",""],
+                        "stats" : ["'I was the last active member of [I]...and they kicked me out :lol:'",""]
                     }
                 ]
             }
@@ -44710,11 +44748,11 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["deadpool","[MJ12]DeadPool"],
+                        "pidPlusName" : ["deadpool","[MJ12]DeadPool 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["This player may be unrelated to the early 2001 MJ12 clan due to rather popular concept used here, hes seen commenting on Blinkman's skill in a 2003 thread here https://web.archive.org/web/20040130033430/http://www.dxmp.net:80/forums/viewtopic.php?p=12071%26amp","-•••[(\/)_/ 1 2]ÐêàdPðöl••• - Majestic 12 Leader "]
+                        "stats" : ["This player may be unrelated to the early 2001 MJ12 clan due to rather popular concept used here, hes seen commenting on Blinkman's skill in a 2003 thread here https://web.archive.org/web/20040130033430/http://www.dxmp.net:80/forums/viewtopic.php?p=12071%26amp as well as participating in April 25 TCN thread (listed as a MJ12 member rather than leader, then)","-•••[(\/)_/ 1 2]ÐêàdPðöl••• - Majestic 12 Leader<br />Location: USA"]
                     }
                 ]
             }
@@ -46350,11 +46388,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["downtime","[N/A]downTime 🇺🇸"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pidPlusName" : ["nocontrol","[N/A]downTime 🇺🇸"],
+                        "aliases" : ["Mr.Spacely"],
+                        "pastClanIDs" : ["TCN"],
                         "membership" : ["August 12, 2002","",""],
-                        "stats" : ["David, '75","Country: USA<br /><br />Favorites:<br />Default Map: CMD<br />User Map: Towers<br />Weapon: Baton<br />Augmentation: Targeting<br /><br />Clan Match Stats:<br />Rating: 1.84<br />Record: 2/2/0<br />Points: 4<br />Kills/Deaths: 42/49<br />Kill %: 46% "]
+                        "stats" : ["Seen with tag Jan 2003 again<br /><br />David, '75","Country: USA<br /><br />Favorites:<br />Default Map: CMD<br />User Map: Towers<br />Weapon: Baton<br />Augmentation: Targeting<br /><br />Clan Match Stats:<br />Rating: 1.84<br />Record: 2/2/0<br />Points: 4<br />Kills/Deaths: 42/49<br />Kill %: 46% "]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -46378,7 +46416,7 @@
                         "aliases" : ["Singularity"],
                         "pastClanIDs" : [""],
                         "membership" : ["2002-11-17","",""],
-                        "stats" : ["Rolling in the Recruits: We would like to welcome our newest recruit to the team - da Silkster. Silky is a returning veteran and a great person to know. Welcome aboard, we hope you enjoy the ride.<br />Dana, '72","Rank: Veteran<br />Location: USA<br /><br />Favorite Default Map: Area51Bunker<br />Favorite User Map: Canyon Base<br />Favorite Weapon: Guided Explosive Projectile (GEP) Gun<br />Favorite Augmentation: Cloak<br /><br />Rating: 4.31<br />Record: 3/0/0<br />Points: 6<br />Kills/Deaths: 28/11<br />Kill %: 72"]
+                        "stats" : ["Rolling in the Recruits: We would like to welcome our newest recruit to the team - da Silkster. Silky is a returning veteran and a great person to know. Welcome aboard, we hope you enjoy the ride.<br />Dana, '72<br /><br />Someone also named Silky on TCN boards 15 Apr 2003 has marked location as Ukraine","Rank: Veteran<br />Location: USA<br /><br />Favorite Default Map: Area51Bunker<br />Favorite User Map: Canyon Base<br />Favorite Weapon: Guided Explosive Projectile (GEP) Gun<br />Favorite Augmentation: Cloak<br /><br />Rating: 4.31<br />Record: 3/0/0<br />Points: 6<br />Kills/Deaths: 28/11<br />Kill %: 72"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -52966,7 +53004,7 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["nocontrol","[R]NoControl 🇺🇸"],
-                        "aliases" : [""],
+                        "aliases" : ["downTime","Mr.Spacely"],
                         "pastClanIDs" : [""],
                         "membership" : ["September 30th, 2001","",""],
                         "stats" : ["We welcome a new member today, welcome [R]NoControl. Wear the R with the pride that you worked for. With a vote of 2 to 3, unfortunatley.","C  L  A  N       E  L  D  E  R  S"]
@@ -53001,11 +53039,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["gotti","[R]GoTTi"],
+                        "pidPlusName" : ["gotti","[R]GoTTi 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : ["x"],
                         "membership" : ["","",""],
-                        "stats" : ["(after X and before U)",""]
+                        "stats" : ["(after X and before U)","Pennsylvania"]
                     }
                 ]
             },
@@ -53456,6 +53494,14 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["azazriel","[R2R]Azazriel"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Assuming its not Azrael. Appears on TCN boards with thread '[TCNdk]'s adminining was mis-understood.' discussed before March 17, 2003. Perhaps an alias of existing member and thus duplicate.",""]
                     }
                 ]
             }
@@ -55659,11 +55705,11 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["sometime inbetween", ""],
-                        "pidPlusName" : ["amigo","[S]Amigos"],
+                        "pidPlusName" : ["amigo","[S]Amigos 🇬🇧"],
                         "aliases" : ["Amigo"],
                         "pastClanIDs" : [""],
                         "membership" : ["2001 February","Clan death",""],
-                        "stats" : ["later in [ApC], [BK] after clan death","<===New member"]
+                        "stats" : ["later in [ApC], [BK] after clan death","<===New member<br />Sheffield, England"]
                     },
                     {
                         "membergroupLabel" : ["", ""],
@@ -60151,7 +60197,7 @@
                     {
                         "membergroupLabel" : ["","2005"],
                         "pidPlusName" : ["jej","[T]JeJ"],
-                        "aliases" : [""],
+                        "aliases" : ["JamesEarlJones"],
                         "pastClanIDs" : ["b","el"],
                         "membership" : ["","",""],
                         "stats" : ["Joined from either related clans B or EL",""]
@@ -61100,10 +61146,10 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["nocontrol","Mr.Spacely[TCN]"],
-                        "aliases" : ["NoControl"],
+                        "aliases" : ["NoControl","downTime"],
                         "pastClanIDs" : ["r","u","ex"],
-                        "membership" : ["weeks before June 24, 2002","",""],
-                        "stats" : ["Marking this as alias of NoControl.<br />Managed DXMP.com with CF until she left sometime first half of 2002<br /><br />'Although it's untrue that if you rub a toad you will get warts, it does give the frog a hard on.' -George Carlin ",""]
+                        "membership" : ["weeks before June 24, 2002","before Oct 2002?",""],
+                        "stats" : ["Marking this as alias of NoControl.<br />Managed DXMP.com with CF until she left sometime first half of 2002<br /><br />'Although it's untrue that if you rub a toad you will get warts, it does give the frog a hard on.' -George Carlin <br /><br />Appears to have left perhaps around Oct 2002, and having problems with admins in March 2003 as a 3 page thread 'Maybe TCNdk Should Stick to MOHAA' indicates.",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -61238,7 +61284,7 @@
                         "pidPlusName" : ["nick","YosemiteSam[TCNdk] 🇨🇦"],
                         "aliases" : ["Stigmata","Nick","Disciple"],
                         "pastClanIDs" : ["d","vet","tcndk","da","el","dk"],
-                        "membership" : ["","",""],
+                        "membership" : ["likely around March 16, 2003","",""],
                         "stats" : ["Wears tag in March 2003<br />b~'88","Canada"]
                     },
                     {
@@ -61247,7 +61293,7 @@
                         "aliases" : ["DerryIrish","DI","Pvt. Pants"],
                         "pastClanIDs" : [""],
                         "membership" : ["with DK merge","",""],
-                        "stats" : ["From DK",""]
+                        "stats" : ["From DK<br /><br />'If Your not a Haemorroid then Get The Fuk Out Off My Ass'",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -61267,19 +61313,27 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["atomicpunk","YogiBear[TCNdk]"],
+                        "pidPlusName" : ["atomicpunk","YogiBear[TCNdk] 🇺🇸"],
                         "aliases" : ["AP","AtomicPunk","YB","Pvt.Bradley"],
                         "pastClanIDs" : ["gttm","dk"],
                         "membership" : ["","by mid 2004",""],
-                        "stats" : ["From DK, Robert",""]
+                        "stats" : ["From DK, Robert","Los Angeles"]
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["elmafudd","ElmaFudd[TCNdk]"],
-                        "aliases" : ["Pvt.Jenkins","Elmer"],
+                        "pidPlusName" : ["elmerfudd","ElmaFudd[TCNdk]"],
+                        "aliases" : ["Pvt.Jenkins","Elmer","ElmerFudd"],
                         "pastClanIDs" : [""],
-                        "membership" : ["","",""],
+                        "membership" : ["around Jan 18, 2003","",""],
                         "stats" : ["Later in FC with Trollied and JB, likely friend or relative","MOHAA Moderator"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["flashgordon","FlashGordon[TCNdk]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["before March 17, 2003","",""],
+                        "stats" : ["",""]
                     }
                 ] 
             },
@@ -61391,7 +61445,7 @@
                         "aliases" : ["Sgt.Scope"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Not counted towards DXMP players as I cant verify he played the game<br />EDDY, b~'87","EDINBURGH - UK "]
+                        "stats" : ["Challenging to verify if he played the game, but seems to have been called out in some DX related threads so he's added to DX roster count for now.<br />EDDY, b~'87","EDINBURGH - UK "]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -61399,7 +61453,7 @@
                         "aliases" : ["Sgt.Mrs.Dabber"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Not counted towards DXMP players as I cant verify he played the game<br />Jules, b~'73","ENGLAND - UK "]
+                        "stats" : ["Not counted towards DXMP players as I cant verify he played the game<br />Jules, b~'73","Kent , England - UK "]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -61407,7 +61461,7 @@
                         "aliases" : ["Sgt.Maj.Omega2zero"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Not counted towards DXMP players as I cant verify he played the game<br />TONY, b~'85","ENGLAND - UK "]
+                        "stats" : ["Not counted towards DXMP players as I cant verify he played the game, later quit clan<br />TONY, b~'85","ENGLAND - UK "]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -61564,7 +61618,7 @@
                 "forum" : ["Forums of the merged TCN and DK clans, with content migrated from above host as it has 185 users and 10k posts.<br />Basic board views are all fairly well preserved, but anything more complex than that appears to rely on the kind of code that did not get saved","https://web.archive.org/web/20030320192401/http://www.claymorenation.com/cgi-bin/yabb/YaBB.cgi?board=genchat","index"]
             },
             {
-                "forum" : ["Spring 2003 seems to have brought about a phpBB upgrade, but only index view has saved","https://web.archive.org/web/20030430010938/http://www.claymorenation.com:80/phpBB2/index.php","index"]
+                "forum" : ["Spring 2003 seems to have brought about a phpBB upgrade, but only index view has saved; seems database was lost","https://web.archive.org/web/20030430010938/http://www.claymorenation.com:80/phpBB2/index.php","index"]
             },
             {
                 "forum" : ["This board actually has posts saved but clan is no longer formally involved with DXMP, community would still feature familiar names though","https://web.archive.org/web/20031110171944/http://claymorenation.com:80/index.php?name=PNphpBB2&file=viewtopic&t=1029","investigate"]
@@ -61585,7 +61639,10 @@
                 "backgroundStory" : ["General Board / Re: Match? on: Feb 17th, 2003, 03:24am Started by JohnnyBravoTCNdk | Post by JohnnyBravoTCNdk","johnnybravo","JohnnyBravo[TCNdk]:","Because we already BET [N/A], drew with [3], but because they were dicks and left before the match could finish - they don't get another shot and they can toast their win over a draw, [D] dont exist anymore and [DEA] refused 3 times.<br /><br />So I guess we take everyone else out."]
             },
             {
-                "backgroundStory" : ["Triad clan news article from 2003-07-24","triad","[3] clan:","<h1>&#x005B;GHOST&#x005D; LEAVES DXMP</h1><h3>2003-07-24<h3>&#x005B;GHOST&#x005D; aka &#x005B;TCNdk&#x005D;, has decided to move their members and the clanserver to a new game called &apos;MOHAA&apos;./../"]
+                "backgroundStory" : ["Triad clan news article from 2003-07-24","triad","[3] clan:","<h1>&#x005B;GHOST&#x005D; LEAVES DXMP</h1><h3>2003-07-24</h3>&#x005B;GHOST&#x005D; aka &#x005B;TCNdk&#x005D;, has decided to move their members and the clanserver to a new game called &apos;MOHAA&apos;./../"]
+            },
+            {
+                "backgroundStory" : ["https://web.archive.org/web/20030929150856/http://claymorenation.com/","tcn","","| G H O S T | are a fully tactical MOH:AA Multiplayer Clan!. Our clan is now over 2 years old and loving every minute of it. We formerly played DeusEx for a long time until the community died due to lack of interest and a high volume of cheats and server abusers/hackers.<br /><br />We now run 2 servers for MOH:AA from our jolt UBER server, hired from our very good friends at www.jolt.co.uk.<br /><br />Some of the things we are involved in are...<br /><br />Providing a maps database without ad's for the community to download<br />A fully equiped Mods section with all the latest MOH:AA Mods including anti-cheats<br />We run two 24/7 High Spec servers with CKR realism and Counter Intelligence Anti-cheat Running<br />We host fully functional community forums for all visitors to talk and mix in coversations<br /><br /><br />| G H O S T | Strive to be the fairest clan in every community that we're involved in. We like to be free from cheats and we are registered members of www.cheatpolice.com.<br /><br />We have a team of map makers who have been designing maps from our DeusEx days. Our skills are now being carried over to help this community with new maps . Our clan guys - |GHOST|-Cpt.JohnnyBravo- and |GHOST|Cpt.RR.Magaski are full members of the 'Band Of Brothers' map making team and will soon be bringing you a new map."]
             },
             {
                 "backgroundStory" : ["2012-01-25, on THC forums (included on our stories page)","ste","[3]Ste:","[DK] lived for quite a few years but then merged into [TCN] which was renamed [TCN]dk. It was then where my crossroads began... I was friendly with the [3] guys and also friendly with TCN but I got caught in the middle of all the hacking accusations. Marvin generally had me on msn trying to pump into my head how Messiah cheated to the extent I believed him. I then went and told DBL and Monkee who then argued the point and gave me evidence time and time again until I was convinced TNC were simply sore losers against the [3] members mastery of augs. Remember I was a bad player in these days and easily beaten so with all these accusations along with how good these guys were I had a hard time believing one over the other. It was only when I got my ADSL line in I began to play well, and understand that [3] indeed did not cheat. Learning about ping and lag and where to aim etc. The rivalry was huge from TCNs view, however [3] simply laughed it off with every clan war offered being refused pretty much"]
@@ -65232,7 +65289,7 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["nocontrol","[ U ]C.L.NoControl"],
-                        "aliases" : [""],
+                        "aliases" : ["downTime","Mr.Spacely"],
                         "pastClanIDs" : ["r"],
                         "membership" : ["","",""],
                         "stats" : ["",""]
@@ -66040,7 +66097,7 @@
                         "aliases" : ["EvilDawg"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["","Rank: Leaders<br />Division: Hoodlums"]
+                        "stats" : ["Seen wearing tag Jan 14, 2003","Rank: Leaders<br />Division: Hoodlums"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -66100,11 +66157,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["karbear","[UG]Xx0KarBear0xX"],
+                        "pidPlusName" : ["karbear","-[UG]-Xx0KarBear0xX"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["","Rank: Members<br />Division: Mobsters"]
+                        "stats" : ["Seen March 26, 2003","Rank: Members<br />Division: Mobsters"]
                     },
                     {
                         "membergroupLabel" : ["",""],

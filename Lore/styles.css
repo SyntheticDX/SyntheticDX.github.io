@@ -28,8 +28,7 @@
   }*/
 
   .notification {
-    display: flex;
-    justify-content: space-around;
+    display: block;
     position: fixed;
     right: 1%;
     top: 2.7%;
@@ -39,8 +38,15 @@
     color: silver;
     padding: 8px;
     font-size: 1em;
+    outline: none;
+    cursor: pointer;
     z-index: 9999;
   }
+
+  .notification:focus {
+    display: none;
+    height: auto;
+    }
   
 a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover { text-decoration: none; } a:active { text-decoration: none; } 
 

@@ -720,323 +720,355 @@ $(document).ready(function() {
     // Function to render clans
     function renderClans(data) {
         let html = ''; // Initialize HTML string
+        let imageList = []; // Array to hold the list of available images
 
-        // Loop through each JSON object
-        data.forEach(post => {
-            // Initialize empty strings for various cells
-            let membersCellHTML = '';
-            let members2CellHTML = '';
-            let matchesCellHTML = '';
-            let websiteCellHTML = '';
-            let forumCellHTML = '';
-            let backgroundCellHTML = '<td id="clan_sticky_background"><div></div></td>';
-            let gameTypeCellHTML = '';
-            let newsCellHTML = '';
+        // Fetch the list of available images
+        fetch('./imageList.json')
+            .then(response => response.json())
+            .then(images => {
+                imageList = images; // Store the fetched images
 
-            // Check if the 'websites' array is not empty
-            if (post.websites.length > 0) {
-                // Construct the HTML for the website cell
-                websiteCellHTML = post.websites.map(website => {
-                    if (website.website[1] !== '') {
-                        return `<div class="clanurlWrapper" data-toggle="tooltip" data-placement="auto top" title="${website.website[0]}"><a href="${website.website[1]}" class="${website.website[2]}">📄</a></div>`;
-                    }
-                    return '';
-                }).join('');
-            }
+                // List of possible image extensions
+                const extensions = ['png', 'jpg', 'gif', 'bmp'];
 
-            // Check if the 'forums' array is not empty
-            if (post.forums.length > 0) {
-                // Construct the HTML for the forum cell
-                forumCellHTML = post.forums.map(forum => {
-                    if (forum.forum[1] !== '') {
-                        return `<div class="clanurlWrapper" data-toggle="tooltip" data-placement="auto top" title="${forum.forum[0]}"><a href="${forum.forum[1]}" class="${forum.forum[2]}">📝</a></div>`;
-                    }
-                    return '';
-                }).join('');
-            }
-
-            // Check if the 'background' array is not empty and contains non-empty 'backgroundStory' arrays
-            if (post.background.length > 0 && post.background.some(item => item.backgroundStory[3] !== '')) {
-                backgroundCellHTML = post.background.map(background => {
-                    if (background.backgroundStory[3] !== '') {
-                        let colorStyle = '';
-                        let storyStyle = '';  // Style for backgroundStory[3]
-                        
-                        // Check if backgroundStory[2] is empty
-                        if (background.backgroundStory[2] === '') {
-                            // Make the backgroundStory[3] text a bit brighter or change its color
-                            storyStyle = 'style="color: #d3d3d3;"'; // Adjust brightness or color as needed
-                        } else {
-                            // Assign a random color from the materialColors array to backgroundStory[2]
-                            const randomColor = materialColors[Math.floor(Math.random() * materialColors.length)];
-                            colorStyle = `style="color: ${randomColor};"`;
+                // Function to check if an image exists with any of the provided extensions
+                function imageExists(postId) {
+                    for (let ext of extensions) {
+                        const filename = `${postId}.${ext}`;
+                        if (imageList.includes(filename)) {
+                            return filename; // Return the first existing filename
                         }
-            
-                        return `
-                            <div class='clanBackground' data-toggle="tooltip" data-placement="auto top" title="${background.backgroundStory[0]}">
-                                <span class='clanAuthor'><a href='#${background.backgroundStory[1]}' ${colorStyle}>${background.backgroundStory[2]}</a></span>
-                                <span class='clanStory'><q ${storyStyle}>${background.backgroundStory[3]}</q></span>
-                            </div>`;
                     }
-                    return '';
-                }).join('');
-                backgroundCellHTML = `<td id="clan_sticky_background">${backgroundCellHTML}</td>`;
-            }
-
-            // Function to calculate the total number of members in each membergroup
-            function calculateTotalMembers(members) {
-                let totalMembers = 0;
-                members.forEach(member => {
-                    member.membergroup.forEach(group => {
-                        if (!group.membergroupLabel[0].includes("duplicate")) {
-                            totalMembers += 1;
-                        }
-                    });
-                });
-                return totalMembers;
-            }
-
-            // Check if the 'members' array is not empty
-            if (post.members.length > 0) {
-                // Construct the HTML for the members cell
-                membersCellHTML = post.members.map(member => {
-                    // Extracting all pidPlusName[1] values from all membergroups
-                    const memberGroupsHTML = member.membergroup.map(group => {
-                        if (group.pidPlusName[1] !== undefined && group.pidPlusName[1] !== '') {
-                            // Wrap each pastClanID in a span with a specific class
-                            const pastClansHTML = group.pastClanIDs.map(clanID => {
-                                return `<span class='clanmemberClansTag'>${clanID}</span>`;
-                            }).join(', '); // Join with comma or any desired separator
-
-                            return `
-                                <div class="membergroupLabel"  data-toggle="tooltip" data-placement="auto top" title="${group.membergroupLabel[0]}">${group.membergroupLabel[1]}</div>
-
-                                <div class="clanmember" data-toggle="tooltip" data-html="true" data-placement="auto top" title="
-
-                                                        <h1>${group.pidPlusName[1]}</h1><br />
-                                                        Aliases: <span class='clanmemberAlias'>${group.aliases}</span><br />
-                                                        Previous clans: <span class='clanmemberClans'>${pastClansHTML}</span><br />
-                                                        Membership: <span class='clanmemberMembership'>
-                                                                            <span class='clanmemberMembershipDate'>Joined <span>${group.membership[0]}</span></span> 
-                                                                            <span class='clanmemberMembershipDate'>Quit <span>${group.membership[1]}</span></span>; 
-                                                                            <span class='clanmemberMembershipDate'><span>${group.membership[2]}</span></span>
-                                                                    </span><br />
-                                                        Stats: <span class='clanmemberStats'>${group.stats[1]}</span><br />
-                                                        Notes: <span class='clanmemberNotes'>${group.stats[0]}</span>
-
-                                ">${group.pidPlusName[1]}</div>
-                            `;
-                        }
-                        return '';
-                    }).join('');
-                    if (memberGroupsHTML !== '') {
-                        return `<div class="membergroup">${memberGroupsHTML}</div>`;
-                    }
-                    return '';
-                }).join('');
-                membersCellHTML = `<div class="members"><div class="memberCountWrapper">(${calculateTotalMembers(post.members)})</div><div class="clanRoster">${membersCellHTML}</div></div>`;
-            }
-
-            // Check if the 'members_2' array is not empty
-            if (post.hasOwnProperty('members_2') && post['members_2'].length > 0) {
-                // Construct the HTML for the members_2 cell
-                members2CellHTML = post.members_2.map(member => {
-                    // Extracting all pidPlusName[1] values from all membergroups
-                    const memberGroups2HTML = member.membergroup.map(group => {
-                        if (group.pidPlusName[1] !== undefined && group.pidPlusName[1] !== '') {
-                            // Wrap each pastClanID in a span with a specific class
-                            const pastClansHTML = group.pastClanIDs.map(clanID => {
-                                return `<span class='clanmemberClansTag'>${clanID}</span>`;
-                            }).join(', '); // Join with comma or any desired separator
-
-                            return `
-                                <div class="membergroupLabel"  data-toggle="tooltip" data-placement="auto top" title="${group.membergroupLabel[0]}">${group.membergroupLabel[1]}</div>
-
-                                <div class="clanmember" data-toggle="tooltip" data-html="true" data-placement="auto top" title="
-
-                                                        <h1>${group.pidPlusName[1]}</h1><br />
-                                                        Aliases: <span class='clanmemberAlias'>${group.aliases}</span><br />
-                                                        Previous clans: <span class='clanmemberClans'>${pastClansHTML}</span><br />
-                                                        Membership: <span class='clanmemberMembership'>
-                                                                            <span class='clanmemberMembershipDate'>Joined <span>${group.membership[0]}</span></span> 
-                                                                            <span class='clanmemberMembershipDate'>Quit <span>${group.membership[1]}</span></span>; 
-                                                                            <span class='clanmemberMembershipDate'><span>${group.membership[2]}</span></span>
-                                                                    </span><br />
-                                                        Stats: <span class='clanmemberStats'>${group.stats[1]}</span><br />
-                                                        Notes: <span class='clanmemberNotes'>${group.stats[0]}</span>
-
-                                ">${group.pidPlusName[1]}</div>
-                            `;
-                        }
-                        return '';
-                    }).join('');
-                    if (memberGroups2HTML !== '') {
-                        return `<div class="membergroup">${memberGroups2HTML}</div>`;
-                    }
-                    return '';
-                }).join('');
-                members2CellHTML = `<div class="members2"><div class="memberCountWrapper">(${calculateTotalMembers(post['members_2'])})</div><div class="membergroupLabel"></div><div class="clanRoster">${members2CellHTML}</div></div>`;
-            }
-
-            // Helper function to determine match type class and tooltip text
-            const getMatchTypeClass = (matchString) => {
-                let className = '';
-                let tooltipText = '';
-
-                if (/\b0a\b|\bs0a\b|\bstandard 0a|\bstandard zero-aug|\bzero aug\b|\bZero aug|\bzero-aug|\b0 Aug|\b0aug|\b0A\b|Non-Aug/i.test(matchString)) {
-                    className = 'matchtype0a';
-                    tooltipText = 'Non-Augmented Match';
-                } else if (/\bATDM\b|\batdm\b|Auged|Augs/i.test(matchString)) {
-                    className = 'matchtypeATDM';
-                    tooltipText = 'Advanced Team Death Match';
-                } else if (/\bBTDM\b|\bbtdm\b|Basic/i.test(matchString)) {
-                    className = 'matchtypeBTDM';
-                    tooltipText = 'Basic Team Death Match';
-                } else if (/\bCTDM\b|\bctdm\b|\bCustom TDM\b/i.test(matchString)) {
-                    className = 'matchtypeCTDM';
-                    tooltipText = 'Custom Team Death Match';
-                } else if (/\bctf\b|\bmod\b|\bdxag\b|\brpg\b|\bcdx\b/i.test(matchString)) {
-                    className = 'matchtypeMod';
-                    tooltipText = 'Modded Game Mode';
-                } else if (/\bMapping\b/i.test(matchString)) {
-                    className = 'gametypeMap';
-                    tooltipText = 'Mapping Group';
-                } else if (/\bAdminning\b/i.test(matchString)) {
-                    className = 'gametypeAdmin';
-                    tooltipText = 'Admin Group';
-                } else if (/\bSocial\b/i.test(matchString)) {
-                    className = 'gametypeSocial';
-                    tooltipText = 'Social Group';
-                } else if (/\bCoding\b/i.test(matchString)) {
-                    className = 'gametypeCoding';
-                    tooltipText = 'Coding Group';
+                    return null; // Return null if no image file is found with any of the extensions
                 }
 
-                return { className, tooltipText };
-            };
+                // Function to construct image HTML
+                function getImageHTML(filename) {
+                    return `<img src="./img/banners/${filename}" alt="Clan Image" style="max-width: 180px; max-height: 80px;"/>`;
+                }
 
-            // Check if the 'matches' array is not empty
-            if (post.matches.length > 0) {
-                // Split matches into two arrays based on match[6] value
-                const discussedMatches = [];
-                const otherMatches = [];
-                post.matches.forEach(match => {
-                    if (match.match[1] !== '') {
-                        if (match.match[6] === 'isDiscussed') {
-                            discussedMatches.push(match);
-                        } else {
-                            otherMatches.push(match);
-                        }
+                // Loop through each JSON object
+                data.forEach(post => {
+                    // Initialize empty strings for various cells
+                    let membersCellHTML = '';
+                    let members2CellHTML = '';
+                    let matchesCellHTML = '';
+                    let websiteCellHTML = '';
+                    let forumCellHTML = '';
+                    let backgroundCellHTML = '<td id="clan_sticky_background"><div></div></td>';
+                    let gameTypeCellHTML = '';
+                    let newsCellHTML = '';
+
+                    // Check if the 'websites' array is not empty
+                    if (post.websites.length > 0) {
+                        // Construct the HTML for the website cell
+                        websiteCellHTML = post.websites.map(website => {
+                            if (website.website[1] !== '') {
+                                return `<div class="clanurlWrapper" data-toggle="tooltip" data-placement="auto top" title="${website.website[0]}"><a href="${website.website[1]}" class="${website.website[2]}">📄</a></div>`;
+                            }
+                            return '';
+                        }).join('');
                     }
-                });
 
-                // Construct the HTML for the matches cell
-                matchesCellHTML = otherMatches.concat(discussedMatches).map(match => {
-                    if (match.match[1] !== '') {
-                        const { className, tooltipText } = getMatchTypeClass(match.match[5]); // Get the class and tooltip
-                        return `
-                            <span data-matchid="${match.match[0]}" data-toggle="tooltip" data-html="true" data-placement="auto bottom" title="${match.match[4]}<br />${match.match[5]}">
-                                <div class='match${match.match[6]}'>
-                                    ${post.tag[1]}${post.tag[2]}${post.tag[3]} vs <a class="matchOpponent" href="#${match.match[0]}">${match.match[2]}</a>
-                                    <span id='matchResult' class='match${match.match[3]}'>${match.match[3]}</span>
-                                    ${className ? `<span class="${className}" title="${tooltipText}"></span>` : ''}
+                    // Check if the 'forums' array is not empty
+                    if (post.forums.length > 0) {
+                        // Construct the HTML for the forum cell
+                        forumCellHTML = post.forums.map(forum => {
+                            if (forum.forum[1] !== '') {
+                                return `<div class="clanurlWrapper" data-toggle="tooltip" data-placement="auto top" title="${forum.forum[0]}"><a href="${forum.forum[1]}" class="${forum.forum[2]}">📝</a></div>`;
+                            }
+                            return '';
+                        }).join('');
+                    }
+
+                    // Check if the 'background' array is not empty and contains non-empty 'backgroundStory' arrays
+                    if (post.background.length > 0 && post.background.some(item => item.backgroundStory[3] !== '')) {
+                        backgroundCellHTML = post.background.map(background => {
+                            if (background.backgroundStory[3] !== '') {
+                                let colorStyle = '';
+                                let storyStyle = '';  // Style for backgroundStory[3]
+                                
+                                // Check if backgroundStory[2] is empty
+                                if (background.backgroundStory[2] === '') {
+                                    // Make the backgroundStory[3] text a bit brighter or change its color
+                                    storyStyle = 'style="color: #d3d3d3;"'; // Adjust brightness or color as needed
+                                } else {
+                                    // Assign a random color from the materialColors array to backgroundStory[2]
+                                    const randomColor = materialColors[Math.floor(Math.random() * materialColors.length)];
+                                    colorStyle = `style="color: ${randomColor};"`;
+                                }
+                
+                                return `
+                                    <div class='clanBackground' data-toggle="tooltip" data-placement="auto top" title="${background.backgroundStory[0]}">
+                                        <span class='clanAuthor'><a href='#${background.backgroundStory[1]}' ${colorStyle}>${background.backgroundStory[2]}</a></span>
+                                        <span class='clanStory'><q ${storyStyle}>${background.backgroundStory[3]}</q></span>
+                                    </div>`;
+                            }
+                            return '';
+                        }).join('');
+                        backgroundCellHTML = `<td id="clan_sticky_background">${backgroundCellHTML}</td>`;
+                    }
+
+                    // Function to calculate the total number of members in each membergroup
+                    function calculateTotalMembers(members) {
+                        let totalMembers = 0;
+                        members.forEach(member => {
+                            member.membergroup.forEach(group => {
+                                if (!group.membergroupLabel[0].includes("duplicate")) {
+                                    totalMembers += 1;
+                                }
+                            });
+                        });
+                        return totalMembers;
+                    }
+
+                    // Check if the 'members' array is not empty
+                    if (post.members.length > 0) {
+                        // Construct the HTML for the members cell
+                        membersCellHTML = post.members.map(member => {
+                            // Extracting all pidPlusName[1] values from all membergroups
+                            const memberGroupsHTML = member.membergroup.map(group => {
+                                if (group.pidPlusName[1] !== undefined && group.pidPlusName[1] !== '') {
+                                    // Wrap each pastClanID in a span with a specific class
+                                    const pastClansHTML = group.pastClanIDs.map(clanID => {
+                                        return `<span class='clanmemberClansTag'>${clanID}</span>`;
+                                    }).join(', '); // Join with comma or any desired separator
+
+                                    return `
+                                        <div class="membergroupLabel"  data-toggle="tooltip" data-placement="auto top" title="${group.membergroupLabel[0]}">${group.membergroupLabel[1]}</div>
+
+                                        <div class="clanmember" data-toggle="tooltip" data-html="true" data-placement="auto top" title="
+
+                                                            <h1>${group.pidPlusName[1]}</h1><br />
+                                                            Aliases: <span class='clanmemberAlias'>${group.aliases}</span><br />
+                                                            Previous clans: <span class='clanmemberClans'>${pastClansHTML}</span><br />
+                                                            Membership: <span class='clanmemberMembership'>
+                                                                                <span class='clanmemberMembershipDate'>Joined <span>${group.membership[0]}</span></span> 
+                                                                                <span class='clanmemberMembershipDate'>Quit <span>${group.membership[1]}</span></span>; 
+                                                                                <span class='clanmemberMembershipDate'><span>${group.membership[2]}</span></span>
+                                                                        </span><br />
+                                                            Stats: <span class='clanmemberStats'>${group.stats[1]}</span><br />
+                                                            Notes: <span class='clanmemberNotes'>${group.stats[0]}</span>
+
+                                        ">${group.pidPlusName[1]}</div>
+                                    `;
+                                }
+                                return '';
+                            }).join('');
+                            if (memberGroupsHTML !== '') {
+                                return `<div class="membergroup">${memberGroupsHTML}</div>`;
+                            }
+                            return '';
+                        }).join('');
+                        membersCellHTML = `<div class="members"><div class="memberCountWrapper">(${calculateTotalMembers(post.members)})</div><div class="clanRoster">${membersCellHTML}</div></div>`;
+                    }
+
+                    // Check if the 'members_2' array is not empty
+                    if (post.hasOwnProperty('members_2') && post['members_2'].length > 0) {
+                        // Construct the HTML for the members_2 cell
+                        members2CellHTML = post.members_2.map(member => {
+                            // Extracting all pidPlusName[1] values from all membergroups
+                            const memberGroups2HTML = member.membergroup.map(group => {
+                                if (group.pidPlusName[1] !== undefined && group.pidPlusName[1] !== '') {
+                                    // Wrap each pastClanID in a span with a specific class
+                                    const pastClansHTML = group.pastClanIDs.map(clanID => {
+                                        return `<span class='clanmemberClansTag'>${clanID}</span>`;
+                                    }).join(', '); // Join with comma or any desired separator
+
+                                    return `
+                                        <div class="membergroupLabel"  data-toggle="tooltip" data-placement="auto top" title="${group.membergroupLabel[0]}">${group.membergroupLabel[1]}</div>
+
+                                        <div class="clanmember" data-toggle="tooltip" data-html="true" data-placement="auto top" title="
+
+                                                            <h1>${group.pidPlusName[1]}</h1><br />
+                                                            Aliases: <span class='clanmemberAlias'>${group.aliases}</span><br />
+                                                            Previous clans: <span class='clanmemberClans'>${pastClansHTML}</span><br />
+                                                            Membership: <span class='clanmemberMembership'>
+                                                                                <span class='clanmemberMembershipDate'>Joined <span>${group.membership[0]}</span></span> 
+                                                                                <span class='clanmemberMembershipDate'>Quit <span>${group.membership[1]}</span></span>; 
+                                                                                <span class='clanmemberMembershipDate'><span>${group.membership[2]}</span></span>
+                                                                        </span><br />
+                                                            Stats: <span class='clanmemberStats'>${group.stats[1]}</span><br />
+                                                            Notes: <span class='clanmemberNotes'>${group.stats[0]}</span>
+
+                                        ">${group.pidPlusName[1]}</div>
+                                    `;
+                                }
+                                return '';
+                            }).join('');
+                            if (memberGroups2HTML !== '') {
+                                return `<div class="membergroup">${memberGroups2HTML}</div>`;
+                            }
+                            return '';
+                        }).join('');
+                        members2CellHTML = `<div class="members2"><div class="memberCountWrapper">(${calculateTotalMembers(post['members_2'])})</div><div class="membergroupLabel"></div><div class="clanRoster">${members2CellHTML}</div></div>`;
+                    }
+
+                    // Helper function to determine match type class and tooltip text
+                    const getMatchTypeClass = (matchString) => {
+                        let className = '';
+                        let tooltipText = '';
+
+                        if (/\b0a\b|\bs0a\b|\bstandard 0a|\bstandard zero-aug|\bzero aug\b|\bZero aug|\bzero-aug|\b0 Aug|\b0aug|\b0A\b|Non-Aug/i.test(matchString)) {
+                            className = 'matchtype0a';
+                            tooltipText = 'Non-Augmented Match';
+                        } else if (/\bATDM\b|\batdm\b|Auged|Augs/i.test(matchString)) {
+                            className = 'matchtypeATDM';
+                            tooltipText = 'Advanced Team Death Match';
+                        } else if (/\bBTDM\b|\bbtdm\b|Basic/i.test(matchString)) {
+                            className = 'matchtypeBTDM';
+                            tooltipText = 'Basic Team Death Match';
+                        } else if (/\bCTDM\b|\bctdm\b|\bCustom TDM\b/i.test(matchString)) {
+                            className = 'matchtypeCTDM';
+                            tooltipText = 'Custom Team Death Match';
+                        } else if (/\bctf\b|\bmod\b|\bdxag\b|\brpg\b|\bcdx\b/i.test(matchString)) {
+                            className = 'matchtypeMod';
+                            tooltipText = 'Modded Game Mode';
+                        } else if (/\bMapping\b/i.test(matchString)) {
+                            className = 'gametypeMap';
+                            tooltipText = 'Mapping Group';
+                        } else if (/\bAdminning\b/i.test(matchString)) {
+                            className = 'gametypeAdmin';
+                            tooltipText = 'Admin Group';
+                        } else if (/\bSocial\b/i.test(matchString)) {
+                            className = 'gametypeSocial';
+                            tooltipText = 'Social Group';
+                        } else if (/\bCoding\b/i.test(matchString)) {
+                            className = 'gametypeCoding';
+                            tooltipText = 'Coding Group';
+                        }
+
+                        return { className, tooltipText };
+                    };
+
+                    // Check if the 'matches' array is not empty
+                    if (post.matches.length > 0) {
+                        // Split matches into two arrays based on match[6] value
+                        const discussedMatches = [];
+                        const otherMatches = [];
+                        post.matches.forEach(match => {
+                            if (match.match[1] !== '') {
+                                if (match.match[6] === 'isDiscussed') {
+                                    discussedMatches.push(match);
+                                } else {
+                                    otherMatches.push(match);
+                                }
+                            }
+                        });
+
+                        // Construct the HTML for the matches cell
+                        matchesCellHTML = otherMatches.concat(discussedMatches).map(match => {
+                            if (match.match[1] !== '') {
+                                const { className, tooltipText } = getMatchTypeClass(match.match[5]); // Get the class and tooltip
+                                return `
+                                    <span data-matchid="${match.match[0]}" data-toggle="tooltip" data-html="true" data-placement="auto bottom" title="${match.match[4]}<br />${match.match[5]}">
+                                        <div class='match${match.match[6]}'>
+                                            ${post.tag[1]}${post.tag[2]}${post.tag[3]} vs <a class="matchOpponent" href="#${match.match[0]}">${match.match[2]}</a>
+                                            <span id='matchResult' class='match${match.match[3]}'>${match.match[3]}</span>
+                                            ${className ? `<span class="${className}" title="${tooltipText}"></span>` : ''}
+                                        </div>
+                                    </span>
+                                `;
+                            }
+                            return '';
+                        }).join('');
+                    }
+
+                    // Check if the 'gametype' array is not empty
+                    if (post.gametype.length > 0) {
+                        // Construct the HTML for the gametype cell using the existing function
+                        gameTypeCellHTML = `
+                            <td>
+                                <div id="clan_sticky_game">
+                                    ${post.gametype.map(type => {
+                                        const { className, tooltipText } = getMatchTypeClass(type); // Get the class and tooltip
+                                        return className ? `<span class="${className}" title="${tooltipText}"></span>` : type;
+                                    }).join('<br />')}
                                 </div>
-                            </span>
+                            </td>
                         `;
                     }
-                    return '';
-                }).join('');
-            }
 
-            // Check if the 'gametype' array is not empty
-            if (post.gametype.length > 0) {
-                // Construct the HTML for the gametype cell using the existing function
-                gameTypeCellHTML = `
-                    <td>
-                        <div id="clan_sticky_game">
-                            ${post.gametype.map(type => {
-                                const { className, tooltipText } = getMatchTypeClass(type); // Get the class and tooltip
-                                return className ? `<span class="${className}" title="${tooltipText}"></span>` : type;
-                            }).join('<br />')}
-                        </div>
-                    </td>
-                `;
-            }
-
-            // Check if the 'news' array is not empty
-            if (post.news.length > 0) {
-                // Construct the HTML for the news cell
-                newsCellHTML = post.news.map(news => {
-                    if (news.article[4] !== '') {
-                        return `<div id="${news.article[5]}" data-toggle="tooltip" data-placement="auto top" title="${news.article[0]}" class="clanNewsArt" data-date="${news.article[1]}"><div id="newsdate">${news.article[1]}</div><div id="newstitle">${news.article[2]}</div><div id="newsbody">${news.article[4]}</div><div id="newsauthor">- ${news.article[3]}</div></div>`;
+                    // Check if the 'news' array is not empty
+                    if (post.news.length > 0) {
+                        // Construct the HTML for the news cell
+                        newsCellHTML = post.news.map(news => {
+                            if (news.article[4] !== '') {
+                                return `<div id="${news.article[5]}" data-toggle="tooltip" data-placement="auto top" title="${news.article[0]}" class="clanNewsArt" data-date="${news.article[1]}"><div id="newsdate">${news.article[1]}</div><div id="newstitle">${news.article[2]}</div><div id="newsbody">${news.article[4]}</div><div id="newsauthor">- ${news.article[3]}</div></div>`;
+                            }
+                            return '';
+                        }).join('');
                     }
-                    return '';
-                }).join('');
-            }
 
-            // Construct HTML for each clan row
-            html += `
-                <tr class="clan_addedrows" tabindex="0" data-id="${post.id}" title="Click to Expand">
-                    <td class="clan_tier">
-                        <div id="clan_sticky_tier">
-                            <div class="tier${post.tier[0]}">${post.tier[0]}</div>
-                            <div class="tier${post.tier[1]}">${post.tier[1]}</div>
-                            <div class="tier${post.tier[2]}">${post.tier[2]}</div>
-                        </div>
-                    </td>
-                    <td class="clan_tag">
-                        <div id="clan_sticky_tag">${post.tag[1]}${post.tag[2]}${post.tag[3]}</div>
-                    </td>
-                    <td class="clan_name">
-                        <div id="clan_sticky_name">
-                            <div id="${post.id}">${post.name} <span data-toggle="tooltip" data-placement="auto top" title="${post.flag[1]}">${post.flag[0]}</span></div>
-                        </div>
-                    </td>
-                    <td class="clan_date">
-                        <div id="clan_sticky_date">
-                            ${post.date[1] ? `<div id="${post.date[0]}">B ${post.date[1]}</div>` : ''}
-                            ${post.date[3] ? `<div id="${post.date[2]}">† ${post.date[3]}</div>` : ''}
-                            ${post.date[5] ? `<div id="${post.date[4]}">R ${post.date[5]}</div>` : ''}
-                        </div>
-                    </td>
-                    <td class="founder">
-                        <div id="clan_sticky_founder">${post.founder.join(', ')}</div>
-                    </td>
-                    <td id="clan_sticky_members">${membersCellHTML}${members2CellHTML}</td>
-                    ${matchesCellHTML ? `
-                        <td id="clan_sticky_matches">
-                            <div class="matchesCountWrapper">
-                                (<span data-toggle="tooltip" data-placement="auto top" title="Number of confirmed matches <br /><br />(nb: records are very incomplete!)">${calculateTotalMatches(post['matches'])}</span>) 
-                                <span data-toggle="tooltip" data-html="true" data-placement="auto top" title="${renderMatchStatistics(post['matches']).replace(/"/g, '&quot;')}">${calculateWinPercentageWithColor(post['matches'])}
-                                (${calculateWinPercentageAllWithColor(post['matches'])}</span>)
-                            </div>
-                            ${matchesCellHTML}
-                        </td>
-                    ` : '<td id="clan_sticky_matches"></td>'}
-                    ${websiteCellHTML ? `<td><div id="clan_sticky_site">${websiteCellHTML}</div></td>` : '<td><div id="clan_sticky_site"></div></td>'}
-                    ${forumCellHTML ? `<td><div id="clan_sticky_site">${forumCellHTML}</div></td>` : '<td><div id="clan_sticky_site"></div></td>'}
-                    <td id="clan_sticky_description"><span>${post.description}</span></td>
-                    ${backgroundCellHTML}
-                    ${gameTypeCellHTML}
-                    ${newsCellHTML ? `<td><div id="clan_sticky_news">${newsCellHTML}</div></td>` : '<td><div id="clan_sticky_news"></div></td>'}
-                </tr>
-            `;
-        });
+                    // Check if the image exists for the clan with any of the extensions
+                    const imageFilename = imageExists(post.id); // Get the first existing image filename
+                    const imageHTML = imageFilename ? getImageHTML(imageFilename) : '';
 
-        // Set innerHTML of clan element
-        clan.html(html);
-        filteredCountElement.text(filteredCount); // Update filtered count element
+                    // Construct HTML for each clan row
+                    html += `
+                        <tr class="clan_addedrows" tabindex="0" data-id="${post.id}" title="Click to Expand">
+                            <td class="clan_tier">
+                                <div id="clan_sticky_tier">
+                                    <div class="tier${post.tier[0]}">${post.tier[0]}</div>
+                                    <div class="tier${post.tier[1]}">${post.tier[1]}</div>
+                                    <div class="tier${post.tier[2]}">${post.tier[2]}</div>
+                                </div>
+                            </td>
+                            <td class="clan_tag">
+                                <div id="clan_sticky_tag">${post.tag[1]}${post.tag[2]}${post.tag[3]}</div>
+                            </td>
+                            <td class="clan_name">
+                                <div id="clan_sticky_name">
+                                    <div id="${post.id}">${post.name} <span data-toggle="tooltip" data-placement="auto top" title="${post.flag[1]}">${post.flag[0]}</span></div>
+                                    ${imageHTML} <!-- Insert image HTML here -->
+                                </div>
+                            </td>
+                            <td class="clan_date">
+                                <div id="clan_sticky_date">
+                                    ${post.date[1] ? `<div id="${post.date[0]}">B ${post.date[1]}</div>` : ''}
+                                    ${post.date[3] ? `<div id="${post.date[2]}">† ${post.date[3]}</div>` : ''}
+                                    ${post.date[5] ? `<div id="${post.date[4]}">R ${post.date[5]}</div>` : ''}
+                                </div>
+                            </td>
+                            <td class="founder">
+                                <div id="clan_sticky_founder">${post.founder.join(', ')}</div>
+                            </td>
+                            <td id="clan_sticky_members">${membersCellHTML}${members2CellHTML}</td>
+                            ${matchesCellHTML ? `
+                                <td id="clan_sticky_matches">
+                                    <div class="matchesCountWrapper">
+                                        (<span data-toggle="tooltip" data-placement="auto top" title="Number of confirmed matches <br /><br />(nb: records are very incomplete!)">${calculateTotalMatches(post['matches'])}</span>) 
+                                        <span data-toggle="tooltip" data-html="true" data-placement="auto top" title="${renderMatchStatistics(post['matches']).replace(/"/g, '&quot;')}">${calculateWinPercentageWithColor(post['matches'])}
+                                        (${calculateWinPercentageAllWithColor(post['matches'])}</span>)
+                                    </div>
+                                    ${matchesCellHTML}
+                                </td>
+                            ` : '<td id="clan_sticky_matches"></td>'}
+                            ${websiteCellHTML ? `<td><div id="clan_sticky_site">${websiteCellHTML}</div></td>` : '<td><div id="clan_sticky_site"></div></td>'}
+                            ${forumCellHTML ? `<td><div id="clan_sticky_site">${forumCellHTML}</div></td>` : '<td><div id="clan_sticky_site"></div></td>'}
+                            <td id="clan_sticky_description"><span>${post.description}</span></td>
+                            ${backgroundCellHTML}
+                            ${gameTypeCellHTML}
+                            ${newsCellHTML ? `<td><div id="clan_sticky_news">${newsCellHTML}</div></td>` : '<td><div id="clan_sticky_news"></div></td>'}
+                        </tr>
+                    `;
+                });
 
-        // Count non-repeating IDs and update DOM element
-        const nonRepeatingIDsCount = countNonRepeatingIDs(data);
-        filteredPlayerCountElement.text(nonRepeatingIDsCount);
+                // Set innerHTML of clan element
+                clan.html(html);
+                filteredCountElement.text(filteredCount); // Update filtered count element
 
-        // Initialize tooltips for elements with the data-toggle="tooltip" attribute
-        $('[data-toggle="tooltip"]').tooltip({
-            // Set the html option to true to allow HTML content in the tooltip
-            html: true,
-        });
-    }
+                // Count non-repeating IDs and update DOM element
+                const nonRepeatingIDsCount = countNonRepeatingIDs(data);
+                filteredPlayerCountElement.text(nonRepeatingIDsCount);
+
+                // Initialize tooltips for elements with the data-toggle="tooltip" attribute
+                $('[data-toggle="tooltip"]').tooltip({
+                    // Set the html option to true to allow HTML content in the tooltip
+                    html: true,
+                });
+            });
+        }
 
 
     /* *********** Filtering Logic for Matches & Members Checkboxes ***************** */
