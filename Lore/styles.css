@@ -1855,6 +1855,18 @@ input[type="checkbox"]{
           }
     }
 
+    .archive-link {
+        color:Teal; 
+        font-size: 0.75em; 
+        background-color: MidnightBlue; 
+        border-radius: 6px 6px 6px 6px; 
+        padding-right: 2px; 
+        padding-left: 2px;
+        &:hover {
+            color: white;
+          }
+    }
+
 /* ********************************************* *
 *   Clanlist Other Fields
 * **********************************************/

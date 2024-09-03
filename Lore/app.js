@@ -432,11 +432,11 @@ $(document).ready(function() {
             .then((data) => {
                 data.forEach(post => {
                     // Cache DOM selections for popover contents
-                    var popoverContent = $(`#popover${post.popoverId}Content`);
+                    var popoverContent = $(`#popover_${post.popoverId}_Content`);
                     popoverContent.append(post.content);
                     // Check if the popover content has already been inserted
                     if (!popoverContent.data('popoverInitialized')) {
-                        initializePopover($(`#Pop${post.popoverId}`), popoverContent);
+                        initializePopover($(`#Pop_${post.popoverId}`), popoverContent);
                         // Mark the popover content as initialized
                         popoverContent.data('popoverInitialized', true);
                     }
@@ -742,9 +742,14 @@ $(document).ready(function() {
                     return null; // Return null if no image file is found with any of the extensions
                 }
 
+                // Function to check if the popover ID exists in the current HTML document
+                function popoverExists(popoverId) {
+                    return $(`#popover_${popoverId}_Content`).length > 0;
+                }
+
                 // Function to construct image HTML
                 function getImageHTML(filename) {
-                    return `<img src="./img/banners/${filename}" alt="Clan Image" style="max-width: 180px; max-height: 80px;"/>`;
+                    return `<div><img src="./img/banners/${filename}" alt="Clan Image" style="max-width: 180px; max-height: 80px;"/></div>`;
                 }
 
                 // Loop through each JSON object
@@ -1004,6 +1009,11 @@ $(document).ready(function() {
                     const imageFilename = imageExists(post.id); // Get the first existing image filename
                     const imageHTML = imageFilename ? getImageHTML(imageFilename) : '';
 
+                    // Check if popover ID exists in the current HTML document
+                    const archiveHTML = popoverExists(post.id) 
+                        ? `<a href="#pagetimeline" class="archive-link" data-popover-id="${post.id}" data-toggle="tooltip" data-html="true" data-placement="top" title="Click to head to the Timeline page">Archive</a>` 
+                        : '';
+
                     // Construct HTML for each clan row
                     html += `
                         <tr class="clan_addedrows" tabindex="0" data-id="${post.id}" title="Click to Expand">
@@ -1045,7 +1055,7 @@ $(document).ready(function() {
                                 </td>
                             ` : '<td id="clan_sticky_matches"></td>'}
                             ${websiteCellHTML ? `<td><div id="clan_sticky_site">${websiteCellHTML}</div></td>` : '<td><div id="clan_sticky_site"></div></td>'}
-                            ${forumCellHTML ? `<td><div id="clan_sticky_site">${forumCellHTML}</div></td>` : '<td><div id="clan_sticky_site"></div></td>'}
+                            ${forumCellHTML ? `<td><div id="clan_sticky_site">${forumCellHTML}</div>${archiveHTML}</td>` : '<td><div id="clan_sticky_site"></div></td>'}
                             <td id="clan_sticky_description"><span>${post.description}</span></td>
                             ${backgroundCellHTML}
                             ${gameTypeCellHTML}
@@ -1066,6 +1076,48 @@ $(document).ready(function() {
                 $('[data-toggle="tooltip"]').tooltip({
                     // Set the html option to true to allow HTML content in the tooltip
                     html: true,
+                });
+
+                // Add event listener for archive links
+                $('.archive-link').on('click', function(event) {
+                    event.preventDefault(); // Prevent default anchor behavior
+                    const popoverId = $(this).data('popover-id');
+                    const targetSection = $('#pagetimeline');
+
+                    // Scroll to the #pagetimeline section
+                    $('html, body').animate({
+                        scrollTop: targetSection.offset().top
+                    }, 300, function() {
+                        // Focus on the specific popover after scrolling
+                        const popoverButton = $(`#Pop_${popoverId}`);
+                        if (popoverButton.length) {
+                            // Scroll to the popover button
+                            $('html, body').animate({
+                                scrollTop: popoverButton.offset().top - 20 // Adjust scroll position
+                            }, 200, function() {
+                                // Apply a temporary red border overlay to the popover button
+                                const $borderOverlay = $('<div class="border-overlay"></div>').css({
+                                    position: 'absolute',
+                                    top: popoverButton.offset().top - 2,
+                                    left: popoverButton.offset().left - 2,
+                                    width: popoverButton.outerWidth() + 4,
+                                    height: popoverButton.outerHeight() + 4,
+                                    border: '2px solid red',
+                                    borderRadius: popoverButton.css('borderRadius'),
+                                    pointerEvents: 'none',
+                                    zIndex: 9999
+                                }).appendTo('body');
+
+                                // Fade out the border overlay
+                                $borderOverlay.fadeOut(2000, function() {
+                                    $(this).remove(); // Remove the overlay after fading out
+                                });
+                            });
+                        }
+                    });
+
+                    // Update the URL to reflect the new section
+                    window.location.hash = `#pagetimeline`;
                 });
             });
         }
