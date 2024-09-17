@@ -7,6 +7,11 @@
     scroll-behavior: smooth;
 }
 
+/* Hide the popover title so bootstrap doesnt generate contents twice */
+.popover .popover-title {
+    display: none !important;
+}
+
 /* For WebKit-based browsers 
 ::-webkit-scrollbar {
     width: 12px;
@@ -92,16 +97,20 @@ a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover {
     margin-left: 0.3%;
     margin-right: 0.2%;
     margin-bottom: 24px;
-    background: linear-gradient(-45deg, rgba(19, 19, 19, 0.85) 9%,rgba(0,0,0,0.85) 100%);
     border: thin;
-    border: 0.5px solid rgb(0, 0, 0);
     /* border: 0.5px solid rgb(22, 67, 165); */
     border-radius: 5px;
     z-index: auto;
 }
 .page {
         display: grid;
-        align-content: start
+        align-content: start;
+        background: linear-gradient(-45deg, rgba(19, 19, 19, 0.85) 9%,rgba(0,0,0,0.85) 100%);
+        border: 0.5px solid rgb(0, 0, 0);
+}
+.clanpage {
+    display: grid;
+    align-content: start;
 }
 #pageclans, #pagestories, #pagestats, #pagescreenshots, #pageyoutube, #pageevolution, #pagelinks, #pagetimeline, #pagesetup, #pageguide, #pageupdates,#pagefuture, #pagecredits{
     display:none;
@@ -1370,6 +1379,8 @@ input[type="checkbox"]{
     display: block;
     width: 100%;
     overflow: auto;
+    overflow-y: auto;  /* Allow vertical scrolling */
+    max-height: 100%;  /* Adjust the height if necessary */
     margin-bottom: 4vh;
     color: rgba(255, 255, 255, 0.897); 
 }
@@ -1380,7 +1391,7 @@ input[type="checkbox"]{
     margin-bottom: 3px;
     height: 85px;
     width: 100%;
-    background-color: #0000004d;
+    background-color: #000000a1;
     border: 0.5px solid black;
     border-radius: 3px;
     overflow: hidden;
@@ -1399,7 +1410,9 @@ input[type="checkbox"]{
     height: fit-content;
 }
 
-
+.clan_addedrows:focus a {
+    pointer-events: all; /* Attempting to enable links in focused row, seemingly currently useless */
+}
 
 /*.clan_addedrows td:hover {
     display: flex;
@@ -1557,6 +1570,7 @@ input[type="checkbox"]{
             padding-right: 5px;
             padding-top: 2px;
             padding-bottom: 2px;
+            margin-right: 3px;
             background-color: rgb(71, 71, 71);
             border-radius: 6px;
             color: white;
@@ -1856,14 +1870,17 @@ input[type="checkbox"]{
     }
 
     .archive-link {
-        color:Teal; 
-        font-size: 0.75em; 
-        background-color: MidnightBlue; 
+        display: flex;
+        position: relative;
+        left: -18px;
+        justify-content: baseline;
+        font-size: 1.25em; 
         border-radius: 6px 6px 6px 6px; 
         padding-right: 2px; 
         padding-left: 2px;
+        width: fit-content;
         &:hover {
-            color: white;
+            font-size: 1.6em;
           }
     }
 

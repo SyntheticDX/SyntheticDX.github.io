@@ -501,9 +501,9 @@ $(document).ready(function() {
     });
 
 
-    /* *********************** Construct CLANS ************************************************************************************************************************ */
-
-
+    /* ******************************************************** *
+    **  CLANLIST GENERATION
+    ********************************************************** */
     // Function to calculate the total number of matches where match[6] is "isCertain"
     function calculateTotalMatches(matches) {
         let totalMatches = 0;
@@ -827,86 +827,80 @@ $(document).ready(function() {
                         return totalMembers;
                     }
 
-                    // Check if the 'members' array is not empty
-                    if (post.members.length > 0) {
-                        // Construct the HTML for the members cell
-                        membersCellHTML = post.members.map(member => {
-                            // Extracting all pidPlusName[1] values from all membergroups
+                    // Function to generate the members HTML
+                    function generateMembersHTML(membersArray) {
+                        return membersArray.map(member => {
+                            // Extract all pidPlusName[1] values from all membergroups
                             const memberGroupsHTML = member.membergroup.map(group => {
                                 if (group.pidPlusName[1] !== undefined && group.pidPlusName[1] !== '') {
-                                    // Wrap each pastClanID in a span with a specific class
+
+                                    // Wrap clanID in a clickable link pointing to the corresponding clan
                                     const pastClansHTML = group.pastClanIDs.map(clanID => {
-                                        return `<span class='clanmemberClansTag'>${clanID}</span>`;
-                                    }).join(', '); // Join with comma or any desired separator
+                                        return `<a href='#' class='clanLink' data-clanid='${clanID}'><span class='clanmemberClansTag'>${clanID}</span></a>`;
+                                    }).join(', ');
 
                                     return `
-                                        <div class="membergroupLabel"  data-toggle="tooltip" data-placement="auto top" title="${group.membergroupLabel[0]}">${group.membergroupLabel[1]}</div>
+                                        <div class="membergroupLabel" data-toggle="tooltip" data-placement="auto top" title="${group.membergroupLabel[0]}">${group.membergroupLabel[1]}</div>
 
-                                        <div class="clanmember" data-toggle="tooltip" data-html="true" data-placement="auto top" title="
-
-                                                            <h1>${group.pidPlusName[1]}</h1><br />
-                                                            Aliases: <span class='clanmemberAlias'>${group.aliases}</span><br />
-                                                            Previous clans: <span class='clanmemberClans'>${pastClansHTML}</span><br />
-                                                            Membership: <span class='clanmemberMembership'>
-                                                                                <span class='clanmemberMembershipDate'>Joined <span>${group.membership[0]}</span></span> 
-                                                                                <span class='clanmemberMembershipDate'>Quit <span>${group.membership[1]}</span></span>; 
-                                                                                <span class='clanmemberMembershipDate'><span>${group.membership[2]}</span></span>
-                                                                        </span><br />
-                                                            Stats: <span class='clanmemberStats'>${group.stats[1]}</span><br />
-                                                            Notes: <span class='clanmemberNotes'>${group.stats[0]}</span>
-
-                                        ">${group.pidPlusName[1]}</div>
+                                        <div  class="clanmember" 
+                                            data-toggle="tooltip" 
+                                            data-html="true" 
+                                            data-placement="auto top" 
+                                            title="
+                                                <h1>${group.pidPlusName[1]}</h1><br />
+                                                Aliases: <span class='clanmemberAlias'>${group.aliases}</span><br />
+                                                Previous clans: <span class='clanmemberClans'>${pastClansHTML}</span><br />
+                                                Membership: <span class='clanmemberMembership'>
+                                                    <span class='clanmemberMembershipDate'>Joined <span>${group.membership[0]}</span></span> 
+                                                    <span class='clanmemberMembershipDate'>Quit <span>${group.membership[1]}</span></span> 
+                                                    <span class='clanmemberMembershipDate'>Rejoined<span>${group.membership[2]}</span></span>
+                                                </span><br />
+                                                Stats: <span class='clanmemberStats'>${group.stats[1]}</span><br />
+                                                Notes: <span class='clanmemberNotes'>${group.stats[0]}</span>"
+                                            data-popover-content="
+                                                <h1>${group.pidPlusName[1]}</h1><br />
+                                                Aliases: <span class='clanmemberAlias'>${group.aliases}</span><br />
+                                                Previous clans: <span class='clanmemberClans'>${pastClansHTML}</span><br />
+                                                Membership: <span class='clanmemberMembership'>
+                                                    <span class='clanmemberMembershipDate'>Joined <span>${group.membership[0]}</span></span> 
+                                                    <span class='clanmemberMembershipDate'>Quit <span>${group.membership[1]}</span></span> 
+                                                    <span class='clanmemberMembershipDate'>Rejoined<span>${group.membership[2]}</span></span>
+                                                </span><br />
+                                                Stats: <span class='clanmemberStats'>${group.stats[1]}</span><br />
+                                                Notes: <span class='clanmemberNotes'>${group.stats[0]}</span>"
+                                            >
+                                            ${group.pidPlusName[1]}
+                                        </div>
                                     `;
                                 }
                                 return '';
                             }).join('');
+
                             if (memberGroupsHTML !== '') {
                                 return `<div class="membergroup">${memberGroupsHTML}</div>`;
                             }
                             return '';
                         }).join('');
+                    }
+
+                    if (post.members.length > 0) {
+                        membersCellHTML = `<div class="members"><div class="memberCountWrapper">(${calculateTotalMembers(post.members)})</div><div class="clanRoster">${generateMembersHTML(post.members)}</div></div>`;
+                    }
+
+                    if (post.hasOwnProperty('members_2') && post.members_2.length > 0) {
+                        members2CellHTML = `<div class="members2"><div class="memberCountWrapper">(${calculateTotalMembers(post.members_2)})</div><div class="clanRoster">${generateMembersHTML(post.members_2)}</div></div>`;
+                    }
+
+                    // Check if the 'members' array is not empty
+                    if (post.members.length > 0) {
+                        let membersCellHTML = generateMembersHTML(post.members);
                         membersCellHTML = `<div class="members"><div class="memberCountWrapper">(${calculateTotalMembers(post.members)})</div><div class="clanRoster">${membersCellHTML}</div></div>`;
                     }
 
                     // Check if the 'members_2' array is not empty
-                    if (post.hasOwnProperty('members_2') && post['members_2'].length > 0) {
-                        // Construct the HTML for the members_2 cell
-                        members2CellHTML = post.members_2.map(member => {
-                            // Extracting all pidPlusName[1] values from all membergroups
-                            const memberGroups2HTML = member.membergroup.map(group => {
-                                if (group.pidPlusName[1] !== undefined && group.pidPlusName[1] !== '') {
-                                    // Wrap each pastClanID in a span with a specific class
-                                    const pastClansHTML = group.pastClanIDs.map(clanID => {
-                                        return `<span class='clanmemberClansTag'>${clanID}</span>`;
-                                    }).join(', '); // Join with comma or any desired separator
-
-                                    return `
-                                        <div class="membergroupLabel"  data-toggle="tooltip" data-placement="auto top" title="${group.membergroupLabel[0]}">${group.membergroupLabel[1]}</div>
-
-                                        <div class="clanmember" data-toggle="tooltip" data-html="true" data-placement="auto top" title="
-
-                                                            <h1>${group.pidPlusName[1]}</h1><br />
-                                                            Aliases: <span class='clanmemberAlias'>${group.aliases}</span><br />
-                                                            Previous clans: <span class='clanmemberClans'>${pastClansHTML}</span><br />
-                                                            Membership: <span class='clanmemberMembership'>
-                                                                                <span class='clanmemberMembershipDate'>Joined <span>${group.membership[0]}</span></span> 
-                                                                                <span class='clanmemberMembershipDate'>Quit <span>${group.membership[1]}</span></span>; 
-                                                                                <span class='clanmemberMembershipDate'><span>${group.membership[2]}</span></span>
-                                                                        </span><br />
-                                                            Stats: <span class='clanmemberStats'>${group.stats[1]}</span><br />
-                                                            Notes: <span class='clanmemberNotes'>${group.stats[0]}</span>
-
-                                        ">${group.pidPlusName[1]}</div>
-                                    `;
-                                }
-                                return '';
-                            }).join('');
-                            if (memberGroups2HTML !== '') {
-                                return `<div class="membergroup">${memberGroups2HTML}</div>`;
-                            }
-                            return '';
-                        }).join('');
-                        members2CellHTML = `<div class="members2"><div class="memberCountWrapper">(${calculateTotalMembers(post['members_2'])})</div><div class="membergroupLabel"></div><div class="clanRoster">${members2CellHTML}</div></div>`;
+                    if (post.hasOwnProperty('members_2') && post.members_2.length > 0) {
+                        let members2CellHTML = generateMembersHTML(post.members_2);
+                        members2CellHTML = `<div class="members2"><div class="memberCountWrapper">(${calculateTotalMembers(post.members_2)})</div><div class="clanRoster">${members2CellHTML}</div></div>`;
                     }
 
                     // Helper function to determine match type class and tooltip text
@@ -1011,7 +1005,7 @@ $(document).ready(function() {
 
                     // Check if popover ID exists in the current HTML document
                     const archiveHTML = popoverExists(post.id) 
-                        ? `<a href="#pagetimeline" class="archive-link" data-popover-id="${post.id}" data-toggle="tooltip" data-html="true" data-placement="top" title="Click to head to the Timeline page">Archive</a>` 
+                        ? `<a href="#pagetimeline" class="archive-link" data-popover-id="${post.id}" data-toggle="tooltip" data-html="true" data-placement="top" title="Click to head to the Timeline page">📚</a>` 
                         : '';
 
                     // Construct HTML for each clan row
@@ -1074,8 +1068,8 @@ $(document).ready(function() {
 
                 // Initialize tooltips for elements with the data-toggle="tooltip" attribute
                 $('[data-toggle="tooltip"]').tooltip({
-                    // Set the html option to true to allow HTML content in the tooltip
-                    html: true,
+                    html: true, // Allow HTML content in the tooltip
+                    trigger: 'hover', // Ensure tooltip shows on hover
                 });
 
                 // Add event listener for archive links
@@ -1122,6 +1116,38 @@ $(document).ready(function() {
             });
         }
 
+        // Initialize popovers for members with dynamic content
+        $(document).on('click', '.clanmember', function (e) {
+            e.stopPropagation(); // Stop event from bubbling up
+
+            const $this = $(this);
+
+            // Toggle the popover (it will either show or hide based on current state)
+            if ($this.hasClass('popover-visible')) {
+                $this.popover('hide').removeClass('popover-visible').popover('destroy'); // Use 'destroy' instead of 'dispose'
+            } else {
+                // Close any other visible popovers first
+                $('.clanmember').popover('hide').removeClass('popover-visible').popover('destroy'); // Use 'destroy'
+
+                // Initialize and show the popover
+                $this.popover({
+                    html: true,
+                    content: $this.attr('data-original-title'),
+                    container: 'body',
+                    placement: 'auto',
+                    trigger: 'manual' // Control opening and closing manually
+                }).popover('show').addClass('popover-visible');
+            }
+        });
+
+        // Hide the popover when clicking outside of it (but not inside)
+        $(document).on('click', function (e) {
+            // Check if the click is outside any popover or clanmember
+            if (!$(e.target).closest('.popover, .clanmember').length) {
+                // Hide all open popovers
+                $('.clanmember').popover('hide').removeClass('popover-visible').popover('destroy'); // Use 'destroy'
+            }
+        });
 
     /* *********** Filtering Logic for Matches & Members Checkboxes ***************** */
 
@@ -1248,7 +1274,9 @@ $(document).ready(function() {
         }
 
 
-        /* *********** Minibanners Scrolling Bottombar Linking ************************** */
+        /* ***************************************************************************************************
+        *   Minibanners Scrolling Bottombar Linking 
+        *************************************************************************************************** */
 
         // Add click event listener to anchor tags within marqueeMinibanners
         $('.marqueeMinibanners a').on('click', function(event) {
@@ -1552,37 +1580,89 @@ $(document).ready(function() {
         console.error('Error fetching or parsing JSON:', errorThrown);
     });
 
+    /* ***********************************************************************************
+    *   Match Link to Opponent 
+    *********************************************************************************** */
+    // Prevent row from losing focus when clicking inside it
+    $(document).on('mousedown', '.clan_addedrows a', function(event) {
+        event.preventDefault();
+    });
 
-    /* *********** Match Link to Opponent ******************************************* */
-
-    // Handle clicks on elements with class "matchOpponent"
+    // Continue to handle the link click event as usual
     $(document).on('click', '.matchOpponent', function(event) {
         event.preventDefault(); // Prevent default anchor behavior
 
-        // Get the data-matchid attribute value from the clicked element
         const matchId = $(this).closest('[data-matchid]').data('matchid');
         const $clickedElement = $(this).closest('[data-matchid]');
 
-        // Find all rows with the corresponding data-matchid attribute, excluding the clicked element
         let $targetRows = $(`[data-matchid="${matchId}"]`).not($clickedElement);
 
-        // If there are no target rows, fallback to the first one
         if ($targetRows.length === 0) {
             $targetRows = $(`[data-matchid="${matchId}"]:first`);
         }
 
-        // Check if the target rows are different from the clicked element
         if ($targetRows.length > 0) {
-            // If the only available target is the clicked element itself, log an error
             if ($targetRows.is($clickedElement)) {
                 console.error(`Error: No other participants found for match ID ${matchId}.`);
-                return; // Exit the function early
+                return;
             }
 
-            // Choose the first available target row
             const $targetRow = $targetRows.first();
 
-            // Define padding for the top of the viewport
+            const paddingTop = 500;
+
+            $('html, body').animate({
+                scrollTop: $targetRow.offset().top - paddingTop
+            }, 200, function() {
+                // Show border overlay
+                const $borderOverlay = $('<div class="border-overlay"></div>').css({
+                    position: 'absolute',
+                    top: $targetRow.offset().top - 2,
+                    left: $targetRow.offset().left - 2,
+                    width: $targetRow.outerWidth() + 4,
+                    height: $targetRow.outerHeight() + 4,
+                    border: '2px solid red',
+                    borderRadius: $targetRow.css('borderRadius'),
+                    pointerEvents: 'none',
+                    zIndex: 9999
+                }).appendTo('body');
+
+                $borderOverlay.fadeOut(2000, function() {
+                    $(this).remove();
+                });
+            });
+
+            // If the target row is not expanded, programmatically focus and expand it
+            if (!$targetRow.is(':focus')) {
+                $targetRow.focus();
+            }
+        } else {
+            console.error(`Error: No participants found for match ID ${matchId}.`);
+        }
+    });
+
+    /* ***********************************************************************************
+    *   Player Profile Tag Linking to Clan 
+    *********************************************************************************** */
+    // Handle clicks on elements with class "clanLink"
+    $(document).on('click', '.clanLink', function(event) {
+        event.preventDefault(); // Prevent default anchor behavior
+
+        // Get the data-clanid attribute value from the clicked element
+        const clanID = $(this).data('clanid');
+        const $clickedElement = $(this).closest('[data-clanid]');
+
+        // Find all rows with the corresponding data-id attribute (clan list)
+        let $targetRows = $(`[data-id="${clanID}"]`).not($clickedElement);
+
+        // If there are no target rows, fallback to the first one
+        if ($targetRows.length === 0) {
+            $targetRows = $(`[data-id="${clanID}"]:first`);
+        }
+
+        // Check if the target rows are different from the clicked element
+        if ($targetRows.length > 0) {
+            const $targetRow = $targetRows.first();
             const paddingTop = 500;
 
             // Scroll to the target row with padding
@@ -1605,16 +1685,14 @@ $(document).ready(function() {
 
                 // Fade out the border overlay
                 $borderOverlay.fadeOut(2000, function() {
-                    // Remove the overlay after fading out
-                    $(this).remove();
+                    $(this).remove(); // Remove the overlay after fading out
                 });
             });
         } else {
-            // If no target rows are found at all, log an error
-            console.error(`Error: No participants found for match ID ${matchId}.`);
+            // If no target rows are found, log an error
+            console.error(`Error: No clan found for clan ID ${clanID}.`);
         }
     });
-
 
     /* *********** Sorting Checkboxes *********************************************** */
 
@@ -1682,7 +1760,6 @@ $(document).ready(function() {
             }).show();
         }
     });
-
 
     /* ******************************************************** *
     **  LONGREAD 
@@ -1781,3 +1858,5 @@ function calculateMostPastClans(data) {
     // Your logic here
     return "Player with Most Past Clans"; // Replace with actual logic
 }
+
+
