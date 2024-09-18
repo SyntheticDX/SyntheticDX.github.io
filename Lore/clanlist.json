@@ -43613,7 +43613,7 @@
         "name" : "MAC Users Clan / Masters and Commanders",
         "gametype" : ["Augs"],
         "tier" : ["B","A",""],
-        "date" : ["isUncertain","","isUncertain","","isCertain",""],
+        "date" : ["isUncertain","2001-06-01","isUncertain","2001-10-01","isCertain",""],
         "founder" : ["TrigrHappy"],
         "members" : [
             {

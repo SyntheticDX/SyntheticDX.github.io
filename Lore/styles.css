@@ -2126,7 +2126,7 @@ input[type="checkbox"]{
     justify-content: space-around;
     gap: var(--gap);
     min-width: 100%;
-    animation: scroll 60s linear infinite;
+    animation: scroll 120s linear infinite;
     img {height: 31px;}
   }
 
