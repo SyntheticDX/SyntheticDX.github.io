@@ -729,7 +729,7 @@ $(document).ready(function() {
                 imageList = images; // Store the fetched images
 
                 // List of possible image extensions
-                const extensions = ['png', 'jpg', 'gif', 'bmp'];
+                const extensions = ['png', 'jpg', 'gif', 'GIF', 'bmp'];
 
                 // Function to check if an image exists with any of the provided extensions
                 function imageExists(postId) {
