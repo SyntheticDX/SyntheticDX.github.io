@@ -1516,6 +1516,15 @@ input[type="checkbox"]{
     font-size: small;
 }
 
+.clanmember {
+    cursor: pointer;
+    max-width: 50vw;
+}
+
+.popover-custom {
+    max-width: 50vw; /* 50% of the viewport width */
+}
+
     .members2 { 
         margin-top: 10px; 
         padding-top: 5px; 
@@ -1523,6 +1532,7 @@ input[type="checkbox"]{
 
         div.clanmember {
             color: wheat;
+            cursor: pointer;
         }
     }
 
@@ -1586,6 +1596,7 @@ input[type="checkbox"]{
         margin: 5px;
         color: whitesmoke;
         line-height: 120%;
+        max-width: 50vw;
     }
 
     .clanmemberNotes {
@@ -1593,6 +1604,7 @@ input[type="checkbox"]{
         color: silver;
         font-style:italic;
         font-size: 1.2rem;
+        max-width: 50vw;
     }
 
 #clan_sticky_matches {

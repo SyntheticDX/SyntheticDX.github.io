@@ -1277,7 +1277,6 @@ $(document).ready(function() {
         /* ***************************************************************************************************
         *   Minibanners Scrolling Bottombar Linking 
         *************************************************************************************************** */
-
         // Add click event listener to anchor tags within marqueeMinibanners
         $('.marqueeMinibanners a').on('click', function(event) {
             // Prevent the default anchor behavior
@@ -1291,47 +1290,74 @@ $(document).ready(function() {
                 // Extract the ID from the href (remove the leading '#')
                 var id = href.substring(1);
 
-                // Find the corresponding clan list row with the matching ID
-                var $targetRow = $(`.clan_addedrows[data-id="${id}"]`);
-
-                // Check if the target row exists
-                if ($targetRow.length > 0) {
-                    // Define padding for the top of the viewport
-                    const paddingTop = 200;
-
-                    // Scroll to the target row with padding
-                    $('html, body').animate({
-                        scrollTop: $targetRow.offset().top - paddingTop
-                    }, 500, function() {
-                        // Animation complete callback
-                        // Create a border overlay div
-                        const $borderOverlay = $('<div class="border-overlay"></div>').css({
-                            position: 'absolute',
-                            top: $targetRow.offset().top - 2, // Adjusted top position with a little padding
-                            left: $targetRow.offset().left - 2, // Adjusted left position with a little padding
-                            width: $targetRow.outerWidth() + 4, // Adjusted width to make the border wider
-                            height: $targetRow.outerHeight() + 4, // Adjusted height to make the border wider
-                            border: '2px solid red',
-                            borderRadius: $targetRow.css('borderRadius'), // Match the border radius of the row
-                            pointerEvents: 'none', // Allow clicking through the overlay
-                            zIndex: 9999 // Ensure the overlay appears above other content
-                        }).appendTo('body');
-
-                        // Fade out the border overlay
-                        $borderOverlay.fadeOut(2000, function() {
-                            // Remove the overlay after fading out
-                            $(this).remove();
-                        });
-                    });
+                // Check if the user is already on the target page (index.html#pageclans)
+                if (window.location.hash === '#pageclans') {
+                    // If already on the correct page, scroll directly to the target row
+                    scrollToTargetRow(id);
                 } else {
-                    console.log('No matching row found for ID: ' + id);
+                    // If not on the correct page, navigate to index.html#pageclans
+                    sessionStorage.setItem('scrollTarget', id);
+                    window.location.href = './index.html#pageclans';
                 }
             }
         });
 
+        // Function to scroll to the target row after the page is loaded
+        $(window).on('load hashchange', function() {
+            const scrollTarget = sessionStorage.getItem('scrollTarget');
 
-        /* *********** Alphabetical Contents Sidebar ************************************ */
+            // If we are on the correct page (index.html#pageclans) and have a stored scroll target
+            if (window.location.hash === '#pageclans') {
+                // Check if we have a target to scroll to
+                if (scrollTarget) {
+                    scrollToTargetRow(scrollTarget);
+                    sessionStorage.removeItem('scrollTarget');
+                }
+            }
+        });
 
+        function scrollToTargetRow(id) {
+            // Find the corresponding clan list row with the matching ID
+            var $targetRow = $(`.clan_addedrows[data-id="${id}"]`);
+
+            // Check if the target row exists
+            if ($targetRow.length > 0) {
+                // Define padding for the top of the viewport
+                const paddingTop = 200;
+
+                // Scroll to the target row with padding
+                $('html, body').animate({
+                    scrollTop: $targetRow.offset().top - paddingTop
+                }, 500, function() {
+                    // Animation complete callback
+                    // Create a border overlay div
+                    const $borderOverlay = $('<div class="border-overlay"></div>').css({
+                        position: 'absolute',
+                        top: $targetRow.offset().top - 2, // Adjusted top position with a little padding
+                        left: $targetRow.offset().left - 2, // Adjusted left position with a little padding
+                        width: $targetRow.outerWidth() + 4, // Adjusted width to make the border wider
+                        height: $targetRow.outerHeight() + 4, // Adjusted height to make the border wider
+                        border: '2px solid red',
+                        borderRadius: $targetRow.css('borderRadius'), // Match the border radius of the row
+                        pointerEvents: 'none', // Allow clicking through the overlay
+                        zIndex: 9999 // Ensure the overlay appears above other content
+                    }).appendTo('body');
+
+                    // Fade out the border overlay
+                    $borderOverlay.fadeOut(2000, function() {
+                        // Remove the overlay after fading out
+                        $(this).remove();
+                    });
+                });
+            } else {
+                console.log('No matching row found for ID: ' + id);
+            }
+        }
+
+
+        /* *********************************************************************************************************
+        *   Alphabetical Contents Sidebar
+        ********************************************************************************************************* */
         const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
         const lastScrolledIndex = {};
 
