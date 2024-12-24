@@ -831,18 +831,34 @@
         ]
     },
     {
-        "id" : "pound",
+        "id" : "elite",
         "tag" : ["tagFront","[","£","]"],
         "tag_extra" : "",
         "flag" : ["",""],
-        "name" : "",
-        "gametype" : ["Basic","?"],
+        "name" : "Elite",
+        "gametype" : ["0a"],
         "tier" : ["B","",""],
         "date" : ["isUncertain","","isUncertain","","isCertain",""],
-        "founder" : [""],
+        "founder" : ["CannaBanana"],
         "members" : [
             {
                 "membergroup" : [
+                    {
+                        "membergroupLabel" : ["", ""],
+                        "pidPlusName" : ["canna","[£]CannaBanana"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["", ""],
+                        "pidPlusName" : ["anax","[£]Anax"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
                     {
                         "membergroupLabel" : ["", ""],
                         "pidPlusName" : ["member","[£]"],
@@ -995,7 +1011,7 @@
         ],
         "matches" : [
             {
-                "match" : ["","","","","","","discussed 1 match (maybe vs TSS or PNK or even HK) but I dont think anything was played","isDiscussed"]
+                "match" : ["tss_vs_yen","tss","[TSS]","","2004-10","discussed 1 match (maybe vs TSS or PNK or even HK) but I dont think anything was played in the month and a half that we existed","isDiscussed"]
             }
         ],
         "websites" : [
@@ -13651,7 +13667,7 @@
         ],
         "forums" : [
             {
-                "forum" : ["hosted on [S], no threads survivedm, 2001","https://web.archive.org/web/20020127173304/http://forums.deusexleague.com:80/forumdisplay.php?fid=28","index"]
+                "forum" : ["hosted on [S], no threads survived, 2001","https://web.archive.org/web/20020127173304/http://forums.deusexleague.com:80/forumdisplay.php?fid=28","index"]
             },
             {
                 "forum" : ["their own exboard, 2002<br />http://web.archive.org/web/20020713045342/pub82.ezboard.com/bcgclandxmpforum95142","https://web.archive.org/web/20020828195053/http://pub82.ezboard.com:80/fcgclandxmpforum95142frm1","featured"]
@@ -27542,7 +27558,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["serialkiller_edh","{E.d.H}SerialKiller"],
+                        "pidPlusName" : ["serialkiller_edh","{E.d.H}SerialKiller 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -27594,7 +27610,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["jackbaro93)","{E.d.H}(JackBaro93)"],
+                        "pidPlusName" : ["jackbaro93)","{E.d.H}(JackBaro93) 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -27666,7 +27682,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["predator_edh","{E.d.H}Predator"],
+                        "pidPlusName" : ["predator_edh","{E.d.H}Predator 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -27794,7 +27810,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["moonknight","{E.d.H}MoonKnight"],
+                        "pidPlusName" : ["moonknight","{E.d.H}MoonKnight 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -27842,7 +27858,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["alessio93","{E.d.H}Alessio93"],
+                        "pidPlusName" : ["alessio93","{E.d.H}Alessio93 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -27870,7 +27886,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["","Generation 2008"],
-                        "pidPlusName" : ["stex","{E.d.H}Stex"],
+                        "pidPlusName" : ["stex","{E.d.H}Stex 🇮🇹"],
                         "aliases" : ["Stexi"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -27926,7 +27942,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["fabiodj","{E.d.H}FabioDj"],
+                        "pidPlusName" : ["fabiodj","{E.d.H}FabioDj 🇮🇹"],
                         "aliases" : ["Pein"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -27942,7 +27958,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["daaka","{E.d.H}daaka"],
+                        "pidPlusName" : ["daaka","{E.d.H}daaka 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -28006,7 +28022,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["gta4jcd","{E.d.H}GTA4JCD"],
+                        "pidPlusName" : ["gta4jcd","{E.d.H}GTA4JCD 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -28054,7 +28070,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["ozwizard","{E.d.H}OzWizard"],
+                        "pidPlusName" : ["ozwizard","{E.d.H}OzWizard 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -28110,7 +28126,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["kingslayer","{E.d.H}KingSlayer"],
+                        "pidPlusName" : ["kingslayer","{E.d.H}KingSlayer 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -28126,7 +28142,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["davidator","{E.d.H}DAVIDATOR"],
+                        "pidPlusName" : ["davidator","{E.d.H}DAVIDATOR 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -28214,7 +28230,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["napoletano","{E.d.H}Napoletano"],
+                        "pidPlusName" : ["napoletano","{E.d.H}Napoletano 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -28222,7 +28238,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["xander","{E.d.H}Xander"],
+                        "pidPlusName" : ["xander","{E.d.H}Xander 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -28398,7 +28414,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["jackkiller","{E.d.H}Jack Killer"],
+                        "pidPlusName" : ["jackkiller","{E.d.H}Jack Killer 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -28462,7 +28478,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["bludies","{E.d.H}Bludies"],
+                        "pidPlusName" : ["bludies","{E.d.H}Bludies 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -28574,7 +28590,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["flegias666","{E.d.H}Flegias666"],
+                        "pidPlusName" : ["flegias666","{E.d.H}Flegias666 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -28582,7 +28598,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["lacrimini10","{E.d.H}Lacrimini10"],
+                        "pidPlusName" : ["lacrimini10","{E.d.H}Lacrimini10 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -28590,7 +28606,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["marco_edh","{E.d.H}Marco"],
+                        "pidPlusName" : ["marco_edh","{E.d.H}Marco 🇮🇹"],
                         "aliases" : ["Dragon"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -28598,11 +28614,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["valerio","{E.d.H}Valerio"],
-                        "aliases" : ["Death"],
+                        "pidPlusName" : ["valex","{E.d.H}Valerio 🇮🇹"],
+                        "aliases" : ["Death","Valex"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["","Italia"]
+                        "stats" : ["Later in various other clans like PtX, A!B, EL","Italia"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -28654,7 +28670,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["raffy","{E.d.H}Raffy"],
+                        "pidPlusName" : ["raffy","{E.d.H}Raffy 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -28686,7 +28702,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["judo","{E.d.H}JUDO"],
+                        "pidPlusName" : ["judo","{E.d.H}JUDO 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -28694,7 +28710,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["drizerlc","{E.d.H}drizerLC"],
+                        "pidPlusName" : ["drizerlc","{E.d.H}drizerLC 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -28702,7 +28718,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["ezequiel","{E.d.H}Ezequiel"],
+                        "pidPlusName" : ["ezequiel","{E.d.H}Ezequiel 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -28850,7 +28866,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["","Generation 2010"],
-                        "pidPlusName" : ["cobalt13","{E.d.H}Cobalt13"],
+                        "pidPlusName" : ["cobalt13","{E.d.H}Cobalt13 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -28906,7 +28922,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["jcdenton_edh2","{E.d.H}JCDenton"],
+                        "pidPlusName" : ["jcdenton_edh2","{E.d.H}JCDenton 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -29074,7 +29090,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["nicola","{E.d.H}Nicola"],
+                        "pidPlusName" : ["nicola","{E.d.H}Nicola 🇮🇹"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -32282,7 +32298,7 @@
     },
     {
         "id" : "fb",
-        "tag" : ["tagFront",">","FB","<"],
+        "tag" : ["tagFront","&gt;","FB","&lt;"],
         "tag_extra" : "",
         "flag" : ["",""],
         "name" : "Fatal Brutality",
@@ -41139,7 +41155,7 @@
     },
     {
         "id" : "kickass",
-        "tag" : ["tagFront","<","Kickass",">"],
+        "tag" : ["tagFront","&lt;","Kickass","&gt;"],
         "tag_extra" : "",
         "flag" : ["",""],
         "name" : "",
@@ -58260,7 +58276,7 @@
     },
     {
         "id" : "smr",
-        "tag" : ["tagFront","<","SMR",">"],
+        "tag" : ["tagFront","&lt;","SMR","&gt;"],
         "tag_extra" : "",
         "flag" : ["",""],
         "name" : "",
