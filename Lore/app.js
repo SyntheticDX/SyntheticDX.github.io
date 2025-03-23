@@ -1844,6 +1844,89 @@ $(document).ready(function() {
 **  STATS 
 ****************************************************************************************** */
 
+// Function to fetch and display statistics
+function loadStatistics() {
+    $.getJSON('clanlist.json', function(data) {
+        let founders = [];
+        let tagOccurrences = {};
+        let playerPastClans = {};
+        
+        // Extract founders, tags, and players with past clans
+        data.forEach(clan => {
+            if (Array.isArray(clan.founder)) {
+                founders.push(...clan.founder.filter(name => name));
+            }
+            
+            if (Array.isArray(clan.tag) && clan.tag.length > 2) {
+                let tagValue = clan.tag[2];
+                tagOccurrences[tagValue] = (tagOccurrences[tagValue] || 0) + 1;
+            }
+            
+            if (Array.isArray(clan.members)) {
+                clan.members.forEach(memberGroup => {
+                    if (Array.isArray(memberGroup.membergroup)) {
+                        memberGroup.membergroup.forEach(member => {
+                            if (Array.isArray(member.pastClanIDs)) {
+                                let pastClanCount = member.pastClanIDs.filter(id => id).length;
+                                playerPastClans[member.pidPlusName[0]] = pastClanCount;
+                            }
+                        });
+                    }
+                });
+            }
+        });
+        
+        // Count occurrences of founders
+        let founderCounts = {};
+        founders.forEach(name => {
+            founderCounts[name] = (founderCounts[name] || 0) + 1;
+        });
+        
+        // Sort data
+        let sortedFounders = Object.entries(founderCounts).sort((a, b) => b[1] - a[1]);
+        let sortedTags = Object.entries(tagOccurrences).sort((a, b) => b[1] - a[1]);
+        let sortedPlayers = Object.entries(playerPastClans).sort((a, b) => b[1] - a[1]);
+        
+        // Get top 3 founders and tags
+        let topFounders = sortedFounders.slice(0, 3);
+        let topTags = sortedTags.slice(0, 3);
+        let topPlayers = sortedPlayers.slice(0, 3);
+        
+        // Construct HTML output for first #listcontainer
+        let statsHtml = "<p><strong>Top 3 Founders:</strong></p><ul>";
+        topFounders.forEach(([name, count]) => {
+            statsHtml += `<li>${name}: ${count} times</li>`;
+        });
+        statsHtml += "</ul>";
+        
+        statsHtml += "<p><strong>Top 3 Tag Values:</strong></p><ul>";
+        topTags.forEach(([tag, count]) => {
+            statsHtml += `<li>${tag}: ${count} times</li>`;
+        });
+        statsHtml += "</ul>";
+        
+        // Insert into the first #listcontainer
+        $('#listcontainer').html(statsHtml);
+        
+        // Construct HTML output for #playerStats
+        let playerHtml = "<p><strong>Top 3 Players with Most Past Clans:</strong></p><ul>";
+        topPlayers.forEach(([player, count]) => {
+            playerHtml += `<li>${player}: ${count} clans</li>`;
+        });
+        playerHtml += "</ul>";
+        
+        // Insert into #playerStats
+        $('#playerStats').html(playerHtml);
+    });
+}
+
+// Load statistics when visiting #pagestats
+if (window.location.hash === "#pagestats") {
+    loadStatistics();
+}
+
+
+
 // Placeholder functions for calculating specific statistics
 function calculateMostFrequentTag(data) {
     // Your logic here
