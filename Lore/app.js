@@ -1333,7 +1333,7 @@ $(document).ready(function() {
                     // Create a border overlay div
                     const $borderOverlay = $('<div class="border-overlay"></div>').css({
                         position: 'absolute',
-                        top: $targetRow.offset().top - 2, // Adjusted top position with a little padding
+                        top: $targetRow.offset().top - 26, // Adjusted top position with a little padding
                         left: $targetRow.offset().left - 2, // Adjusted left position with a little padding
                         width: $targetRow.outerWidth() + 4, // Adjusted width to make the border wider
                         height: $targetRow.outerHeight() + 4, // Adjusted height to make the border wider
@@ -1844,86 +1844,91 @@ $(document).ready(function() {
 **  STATS 
 ****************************************************************************************** */
 
-// Function to fetch and display statistics
-function loadStatistics() {
-    $.getJSON('clanlist.json', function(data) {
-        let founders = [];
-        let tagOccurrences = {};
-        let playerPastClans = {};
-        
-        // Extract founders, tags, and players with past clans
-        data.forEach(clan => {
-            if (Array.isArray(clan.founder)) {
-                founders.push(...clan.founder.filter(name => name));
-            }
+    // Function to fetch and display statistics
+    function loadStatistics() {
+        $.getJSON('clanlist.json', function(data) {
+            let founders = [];
+            let tagOccurrences = {};
+            let playerCounts = {};
             
-            if (Array.isArray(clan.tag) && clan.tag.length > 2) {
-                let tagValue = clan.tag[2];
-                tagOccurrences[tagValue] = (tagOccurrences[tagValue] || 0) + 1;
-            }
+            // Extract founders, tags, and count occurrences of players
+            data.forEach(clan => {
+                if (Array.isArray(clan.founder)) {
+                    let processedFounders = clan.founder.map(name => name.split(" ")[0]); // Ignore anything after space
+                    founders.push(...processedFounders.filter(name => name));
+                }
+                
+                if (typeof clan.id === "string") {
+                    let baseId = clan.id.split("_")[0]; // Ignore anything after underscore
+                    let capitalizedId = baseId.charAt(0).toUpperCase() + baseId.slice(1);
+                    tagOccurrences[capitalizedId] = (tagOccurrences[capitalizedId] || 0) + 1;
+                }
+                
+                if (Array.isArray(clan.members)) {
+                    clan.members.forEach(memberGroup => {
+                        if (Array.isArray(memberGroup.membergroup)) {
+                            memberGroup.membergroup.forEach(member => {
+                                if (Array.isArray(member.pidPlusName) && member.pidPlusName.length > 0) {
+                                    let playerName = member.pidPlusName[0]; // Use first value from pidPlusName array
+                                    let isDuplicate = member.membergroupLabel && member.membergroupLabel[0] === "duplicate";
+                                    
+                                    if (!isDuplicate && playerName.toLowerCase() !== "member") {
+                                        let capitalizedPlayerName = playerName.charAt(0).toUpperCase() + playerName.slice(1);
+                                        playerCounts[capitalizedPlayerName] = (playerCounts[capitalizedPlayerName] || 0) + 1;
+                                    }
+                                }
+                            });
+                        }
+                    });
+                }
+            });
             
-            if (Array.isArray(clan.members)) {
-                clan.members.forEach(memberGroup => {
-                    if (Array.isArray(memberGroup.membergroup)) {
-                        memberGroup.membergroup.forEach(member => {
-                            if (Array.isArray(member.pastClanIDs)) {
-                                let pastClanCount = member.pastClanIDs.filter(id => id).length;
-                                playerPastClans[member.pidPlusName[0]] = pastClanCount;
-                            }
-                        });
-                    }
-                });
-            }
+            // Count occurrences of founders
+            let founderCounts = {};
+            founders.forEach(name => {
+                founderCounts[name] = (founderCounts[name] || 0) + 1;
+            });
+            
+            // Sort data
+            let sortedFounders = Object.entries(founderCounts).sort((a, b) => b[1] - a[1]);
+            let sortedTags = Object.entries(tagOccurrences).sort((a, b) => b[1] - a[1]);
+            let sortedPlayers = Object.entries(playerCounts).sort((a, b) => b[1] - a[1]);
+            
+            // Get top 3 founders, tags, and players
+            let topFounders = sortedFounders.slice(0, 3);
+            let topTags = sortedTags.slice(0, 3);
+            let topPlayers = sortedPlayers.slice(0, 3);
+            
+            // Construct formatted output
+            let statsHtml = "<p><strong>Most common founder:</strong> " + 
+                `${topFounders[0][0]} (${topFounders[0][1]} times), followed by ${topFounders[1][0]} (${topFounders[1][1]}) and ${topFounders[2][0]} (${topFounders[2][1]})` + "</p>";
+            
+            statsHtml += "<p><strong>Most common tag value:</strong> " + 
+                `${topTags[0][0]} (${topTags[0][1]} times), followed by ${topTags[1][0]} (${topTags[1][1]}) and ${topTags[2][0]} (${topTags[2][1]})` + "</p>";
+            
+            // Insert into the first #listcontainer
+            $('#listcontainer').html(statsHtml);
+            
+            // Construct formatted output for #playerStats
+            let playerHtml = "<p><strong>Player found in the most clans:</strong> " + 
+                `${topPlayers[0][0]} (${topPlayers[0][1]} times), followed by ${topPlayers[1][0]} (${topPlayers[1][1]}) and ${topPlayers[2][0]} (${topPlayers[2][1]})` + "</p>";
+            
+            // Insert into #playerStats
+            $('#playerStats').html(playerHtml);
         });
-        
-        // Count occurrences of founders
-        let founderCounts = {};
-        founders.forEach(name => {
-            founderCounts[name] = (founderCounts[name] || 0) + 1;
-        });
-        
-        // Sort data
-        let sortedFounders = Object.entries(founderCounts).sort((a, b) => b[1] - a[1]);
-        let sortedTags = Object.entries(tagOccurrences).sort((a, b) => b[1] - a[1]);
-        let sortedPlayers = Object.entries(playerPastClans).sort((a, b) => b[1] - a[1]);
-        
-        // Get top 3 founders and tags
-        let topFounders = sortedFounders.slice(0, 3);
-        let topTags = sortedTags.slice(0, 3);
-        let topPlayers = sortedPlayers.slice(0, 3);
-        
-        // Construct HTML output for first #listcontainer
-        let statsHtml = "<p><strong>Top 3 Founders:</strong></p><ul>";
-        topFounders.forEach(([name, count]) => {
-            statsHtml += `<li>${name}: ${count} times</li>`;
-        });
-        statsHtml += "</ul>";
-        
-        statsHtml += "<p><strong>Top 3 Tag Values:</strong></p><ul>";
-        topTags.forEach(([tag, count]) => {
-            statsHtml += `<li>${tag}: ${count} times</li>`;
-        });
-        statsHtml += "</ul>";
-        
-        // Insert into the first #listcontainer
-        $('#listcontainer').html(statsHtml);
-        
-        // Construct HTML output for #playerStats
-        let playerHtml = "<p><strong>Top 3 Players with Most Past Clans:</strong></p><ul>";
-        topPlayers.forEach(([player, count]) => {
-            playerHtml += `<li>${player}: ${count} clans</li>`;
-        });
-        playerHtml += "</ul>";
-        
-        // Insert into #playerStats
-        $('#playerStats').html(playerHtml);
+    }
+    
+    // Load statistics on initial page load if hash is #pagestats
+    if (window.location.hash === "#pagestats") {
+        loadStatistics();
+    }
+    
+    // Detect hash changes and reload statistics if navigating to #pagestats
+    $(window).on('hashchange', function() {
+        if (window.location.hash === "#pagestats") {
+            loadStatistics();
+        }
     });
-}
-
-// Load statistics when visiting #pagestats
-if (window.location.hash === "#pagestats") {
-    loadStatistics();
-}
 
 
 
