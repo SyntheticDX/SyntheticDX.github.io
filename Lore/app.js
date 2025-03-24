@@ -1216,64 +1216,6 @@ $(document).ready(function() {
         renderClans(data);
 
 
-        // Display statistics when the user navigates to #pagestats
-        function displayStatistics() {
-            const totalClans = data.length;
-            const atdmClans = data.filter(clan => /ATDM/i.test(clan.type)).length;
-            const zeroAugClans = data.filter(clan => /0A|Zero-Aug/i.test(clan.type)).length;
-            const basicClans = data.filter(clan => /Basic/i.test(clan.type)).length;
-            const modClans = data.filter(clan => /Mod/i.test(clan.type)).length;
-
-            // Calculate other statistics as needed
-            const mostFrequentTag = calculateMostFrequentTag(data);
-            const mostFrequentNamePart = calculateMostFrequentNamePart(data);
-            const liveLinks = calculateLiveLinks(data);
-            const mostChallengedClan = calculateMostChallengedClan(data);
-
-            // Reuse cached player count value
-            const clannedPlayers = filteredPlayerCountElement.text().trim(); // Reuse the cached value
-            const atdmPlayers = calculatePlayersByType(data, 'ATDM');
-            const zeroAugPlayers = calculatePlayersByType(data, 'Zero-Aug');
-            const basicPlayers = calculatePlayersByType(data, 'Basic');
-            const modPlayers = calculatePlayersByType(data, 'Mod');
-            const mostFrequentName = calculateMostFrequentName(data);
-            const mostPastClans = calculateMostPastClans(data);
-
-            // Insert statistics into the HTML
-            $('#pagestats .listitem:nth-child(1) div:nth-child(2)').text(totalClans);
-            $('#pagestats .listitem:nth-child(2) div:nth-child(2)').text(atdmClans);
-            $('#pagestats .listitem:nth-child(2) div:nth-child(3)').text(zeroAugClans);
-            $('#pagestats .listitem:nth-child(2) div:nth-child(4)').text(basicClans);
-            $('#pagestats .listitem:nth-child(2) div:nth-child(5)').text(modClans);
-
-            $('#pagestats .listitem:nth-child(3) div:nth-child(2)').text(mostFrequentTag);
-            $('#pagestats .listitem:nth-child(4) div:nth-child(2)').text(mostFrequentNamePart);
-            $('#pagestats .listitem:nth-child(5) div:nth-child(2)').text(liveLinks);
-            $('#pagestats .listitem:nth-child(6) div:nth-child(2)').text(mostChallengedClan);
-
-            $('#pagestats .listitem:nth-child(8) div:nth-child(2)').text(clannedPlayers);
-            $('#pagestats .listitem:nth-child(9) div:nth-child(2)').text(atdmPlayers);
-            $('#pagestats .listitem:nth-child(9) div:nth-child(3)').text(zeroAugPlayers);
-            $('#pagestats .listitem:nth-child(9) div:nth-child(4)').text(basicPlayers);
-            $('#pagestats .listitem:nth-child(9) div:nth-child(5)').text(modPlayers);
-
-            $('#pagestats .listitem:nth-child(10) div:nth-child(2)').text(mostFrequentName);
-            $('#pagestats .listitem:nth-child(11) div:nth-child(2)').text(mostPastClans);
-        }
-
-        // Trigger displayStatistics when navigating to #pagestats
-        $(window).on('hashchange', function() {
-            if (window.location.hash === '#pagestats') {
-                displayStatistics();
-            }
-        });
-
-        // Optionally call the function if the page is loaded directly with #pagestats
-        if (window.location.hash === '#pagestats') {
-            displayStatistics();
-        }
-
-
         /* ***************************************************************************************************
         *   Minibanners Scrolling Bottombar Linking 
         *************************************************************************************************** */
@@ -1844,99 +1786,148 @@ $(document).ready(function() {
 **  STATS 
 ****************************************************************************************** */
 
-    // Function to fetch and display statistics
-    function loadStatistics() {
-        $.getJSON('clanlist.json', function(data) {
-            let founders = [];
-            let tagOccurrences = {};
-            let playerCounts = {};
-            
-            // Extract founders, tags, and count occurrences of players
-            data.forEach(clan => {
-                if (Array.isArray(clan.founder)) {
-                    let processedFounders = clan.founder.map(name => name.split(" ")[0]); // Ignore anything after space
-                    founders.push(...processedFounders.filter(name => name));
-                }
-                
-                if (typeof clan.id === "string") {
-                    let baseId = clan.id.split("_")[0]; // Ignore anything after underscore
-                    let capitalizedId = baseId.charAt(0).toUpperCase() + baseId.slice(1);
-                    tagOccurrences[capitalizedId] = (tagOccurrences[capitalizedId] || 0) + 1;
-                }
-                
-                if (Array.isArray(clan.members)) {
-                    clan.members.forEach(memberGroup => {
-                        if (Array.isArray(memberGroup.membergroup)) {
-                            memberGroup.membergroup.forEach(member => {
-                                if (Array.isArray(member.pidPlusName) && member.pidPlusName.length > 0) {
-                                    let playerName = member.pidPlusName[0]; // Use first value from pidPlusName array
-                                    let isDuplicate = member.membergroupLabel && member.membergroupLabel[0] === "duplicate";
-                                    
-                                    if (!isDuplicate && playerName.toLowerCase() !== "member") {
-                                        let capitalizedPlayerName = playerName.charAt(0).toUpperCase() + playerName.slice(1);
-                                        playerCounts[capitalizedPlayerName] = (playerCounts[capitalizedPlayerName] || 0) + 1;
-                                    }
+function loadStatistics() {
+    $.getJSON('clanlist.json', function(data) {
+        let totalClans = data.length;
+        let uniquePlayers = new Set();
+        let founders = [];
+        let tagOccurrences = {};
+        let playerCounts = {};
+        let clanSizes = [];
+        let gametypeCounts = {};
+        let gametypeUniquePlayers = {};
+        let founderCounts = {};
+
+        data.forEach(clan => {
+            // Count Founders
+            if (Array.isArray(clan.founder)) {
+                let processedFounders = clan.founder.map(name => name.split(" ")[0]);
+                founders.push(...processedFounders.filter(name => name));
+            }
+
+            // Count Tags
+            if (typeof clan.id === "string") {
+                let baseId = clan.id.split("_")[0]; // Remove anything after "_"
+                tagOccurrences[baseId] = (tagOccurrences[baseId] || 0) + 1;
+            }
+
+            // Count Gametypes & Track Unique Players
+            if (Array.isArray(clan.gametype) && clan.gametype.length > 0) {
+                clan.gametype.forEach(type => {
+                    let formattedGametype = type.toLowerCase() === "augs" ? "Advanced Augs" : 
+                                            type.toLowerCase() === "0a" ? "Basic Non-Aug" : 
+                                            type.toLowerCase() === "basic" ? "Basic Augs" : 
+                                            type;
+
+                    gametypeCounts[formattedGametype] = (gametypeCounts[formattedGametype] || 0) + 1;
+
+                    if (!gametypeUniquePlayers[formattedGametype]) {
+                        gametypeUniquePlayers[formattedGametype] = new Set();
+                    }
+                });
+            }
+
+            // Count Players & Clan Sizes
+            if (Array.isArray(clan.members)) {
+                let validMemberCount = 0;
+                clan.members.forEach(memberGroup => {
+                    if (Array.isArray(memberGroup.membergroup)) {
+                        memberGroup.membergroup.forEach(member => {
+                            let isDuplicate = member.membergroupLabel && member.membergroupLabel[0] === "duplicate";
+                            if (!isDuplicate && Array.isArray(member.pidPlusName) && member.pidPlusName.length > 0) {
+                                let playerName = member.pidPlusName[0].trim();
+                                let capitalizedPlayerName = playerName.charAt(0).toUpperCase() + playerName.slice(1);
+
+                                if (playerName.toLowerCase() !== "member") {
+                                    playerCounts[capitalizedPlayerName] = (playerCounts[capitalizedPlayerName] || 0) + 1;
+                                    uniquePlayers.add(playerName);
                                 }
-                            });
-                        }
-                    });
+
+                                // Assign Player to Gametype
+                                if (Array.isArray(clan.gametype)) {
+                                    clan.gametype.forEach(type => {
+                                        let formattedType = type.toLowerCase() === "augs" ? "Advanced Augs" : 
+                                                            type.toLowerCase() === "0a" ? "Basic Non-Aug" : 
+                                                            type.toLowerCase() === "basic" ? "Basic Augs" : 
+                                                            type;
+
+                                        if (gametypeUniquePlayers[formattedType]) {
+                                            gametypeUniquePlayers[formattedType].add(capitalizedPlayerName);
+                                        }
+                                    });
+                                }
+                                validMemberCount++;
+                            }
+                        });
+                    }
+                });
+
+                if (validMemberCount > 0) {
+                    clanSizes.push({ name: clan.name, count: validMemberCount });
                 }
-            });
-            
-            // Count occurrences of founders
-            let founderCounts = {};
-            founders.forEach(name => {
-                founderCounts[name] = (founderCounts[name] || 0) + 1;
-            });
-            
-            // Sort data
-            let sortedFounders = Object.entries(founderCounts).sort((a, b) => b[1] - a[1]);
-            let sortedTags = Object.entries(tagOccurrences).sort((a, b) => b[1] - a[1]);
-            let sortedPlayers = Object.entries(playerCounts).sort((a, b) => b[1] - a[1]);
-            
-            // Get top 3 founders, tags, and players
-            let topFounders = sortedFounders.slice(0, 3);
-            let topTags = sortedTags.slice(0, 3);
-            let topPlayers = sortedPlayers.slice(0, 3);
-            
-            // Construct formatted output
-            let statsHtml = "<p><strong>Most common founder:</strong> " + 
-                `${topFounders[0][0]} (${topFounders[0][1]} times), followed by ${topFounders[1][0]} (${topFounders[1][1]}) and ${topFounders[2][0]} (${topFounders[2][1]})` + "</p>";
-            
-            statsHtml += "<p><strong>Most common tag value:</strong> " + 
-                `${topTags[0][0]} (${topTags[0][1]} times), followed by ${topTags[1][0]} (${topTags[1][1]}) and ${topTags[2][0]} (${topTags[2][1]})` + "</p>";
-            
-            // Insert into the first #listcontainer
-            $('#listcontainer').html(statsHtml);
-            
-            // Construct formatted output for #playerStats
-            let playerHtml = "<p><strong>Player found in the most clans:</strong> " + 
-                `${topPlayers[0][0]} (${topPlayers[0][1]} times), followed by ${topPlayers[1][0]} (${topPlayers[1][1]}) and ${topPlayers[2][0]} (${topPlayers[2][1]})` + "</p>";
-            
-            // Insert into #playerStats
-            $('#playerStats').html(playerHtml);
+            }
         });
-    }
-    
-    // Load statistics on initial page load if hash is #pagestats
+
+        // Count occurrences of founders
+        founders.forEach(name => {
+            founderCounts[name] = (founderCounts[name] || 0) + 1;
+        });
+
+        // Sort & Extract Top 3 Values for Each Statistic
+        let sortedPlayers = Object.entries(playerCounts).sort((a, b) => b[1] - a[1]).slice(0, 3);
+        let sortedGametypes = Object.entries(gametypeCounts).sort((a, b) => b[1] - a[1]);
+        let sortedGametypesWithPlayers = sortedGametypes.map(([type, count]) => [type, count, gametypeUniquePlayers[type]?.size || 0]);
+        let topGametypes = sortedGametypesWithPlayers.slice(0, 3);
+        let sortedFounders = Object.entries(founderCounts).sort((a, b) => b[1] - a[1]).slice(0, 3);
+        let sortedTags = Object.entries(tagOccurrences).sort((a, b) => b[1] - a[1]).map(([tag, count]) => [tag.toUpperCase(), count]).slice(0, 3);
+        let sortedClans = clanSizes.sort((a, b) => b.count - a.count).slice(0, 3);
+
+        // Insert Data into `#listcontainer`
+        let statsHtml = `<p>We list <strong>${totalClans}</strong> discovered clans or clan-like groups with 
+        <strong>${uniquePlayers.size}</strong> identified players</p>`;
+
+        statsHtml += "<p><strong>Most popular gametype:</strong> " +
+            `${topGametypes[0]?.[0] || "N/A"} (${topGametypes[0]?.[1] || "0"} clans, ${topGametypes[0]?.[2] || "0"} players), followed by ` +
+            `${topGametypes[1]?.[0] || "N/A"} (${topGametypes[1]?.[1] || "0"} clans, ${topGametypes[1]?.[2] || "0"} players) and ` +
+            `${topGametypes[2]?.[0] || "N/A"} (${topGametypes[2]?.[1] || "0"} clans, ${topGametypes[2]?.[2] || "0"} players)` + "</p>";
+
+        statsHtml += "<p><strong>Most common tag:</strong> " +
+            `${sortedTags[0]?.[0] || "N/A"} (${sortedTags[0]?.[1] || "0"} times), followed by ` +
+            `${sortedTags[1]?.[0] || "N/A"} (${sortedTags[1]?.[1] || "0"} times) and ` +
+            `${sortedTags[2]?.[0] || "N/A"} (${sortedTags[2]?.[1] || "0"} times)` + "</p>";
+
+        statsHtml += "<p><strong>Most common founder:</strong> " +
+            `${sortedFounders[0]?.[0] || "N/A"} (${sortedFounders[0]?.[1] || "0"} times), followed by ` +
+            `${sortedFounders[1]?.[0] || "N/A"} (${sortedFounders[1]?.[1] || "0"} times) and ` +
+            `${sortedFounders[2]?.[0] || "N/A"} (${sortedFounders[2]?.[1] || "0"} times)` + "</p>";
+
+        statsHtml += "<p><strong>Largest Clan:</strong> " +
+            `${sortedClans[0]?.name || "N/A"} (${sortedClans[0]?.count || "0"} members), followed by ` +
+            `${sortedClans[1]?.name || "N/A"} (${sortedClans[1]?.count || "0"} members) and ` +
+            `${sortedClans[2]?.name || "N/A"} (${sortedClans[2]?.count || "0"} members)` + "</p>";
+
+        $('#listcontainer').html(statsHtml);
+
+        // Insert Player Data into `#playerStats`
+        let playerHtml = "<p><strong>Player found in the most clans:</strong> " +
+            `${sortedPlayers[0]?.[0] || "N/A"} (${sortedPlayers[0]?.[1] || "0"} times), followed by ` +
+            `${sortedPlayers[1]?.[0] || "N/A"} (${sortedPlayers[1]?.[1] || "0"} times) and ` +
+            `${sortedPlayers[2]?.[0] || "N/A"} (${sortedPlayers[2]?.[1] || "0"} times)` + "</p>";
+
+        $('#playerStats').html(playerHtml);
+    });
+}
+
+if (window.location.hash === "#pagestats") {
+    loadStatistics();
+}
+
+$(window).on('hashchange', function() {
     if (window.location.hash === "#pagestats") {
         loadStatistics();
     }
-    
-    // Detect hash changes and reload statistics if navigating to #pagestats
-    $(window).on('hashchange', function() {
-        if (window.location.hash === "#pagestats") {
-            loadStatistics();
-        }
-    });
+});
 
-
-
-// Placeholder functions for calculating specific statistics
-function calculateMostFrequentTag(data) {
-    // Your logic here
-    return "Example Tag"; // Replace with actual logic
-}
 
 function calculateMostFrequentNamePart(data) {
     // Your logic here
@@ -1953,24 +1944,10 @@ function calculateMostChallengedClan(data) {
     return "Example Clan"; // Replace with actual logic
 }
 
-function calculateClannedPlayers(data) {
-    // Your logic here
-    return "Number of Clanned Players"; // Replace with actual logic
-}
-
-function calculatePlayersByType(data, type) {
-    // Your logic here
-    return `Number of ${type} Players`; // Replace with actual logic
-}
 
 function calculateMostFrequentName(data) {
     // Your logic here
     return "Most Frequent Name"; // Replace with actual logic
-}
-
-function calculateMostPastClans(data) {
-    // Your logic here
-    return "Player with Most Past Clans"; // Replace with actual logic
 }
 
 
