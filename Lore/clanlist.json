@@ -17956,7 +17956,7 @@
                 "forum" : ["First forums, advertised July 22, 2002, index is here https://web.archive.org/web/20021029012639/http://pub27.ezboard.com/bdcsb","https://web.archive.org/web/20050124052723/http://p211.ezboard.com:80/fdcsbfrm1.showMessage?topicID=32.topic","featured"]
             },
             {
-                "forum" : ["2002-12-21 Mole has pinned new forums, likely as people were community-wide were getting fed up with slow and ad-ridden ezboards","https://web.archive.org/web/20030214181206/http://www.dxcows.com:80/cgi-bin/yabb/YaBB.cgi/YaBB.cgi?action=recent","featured"]
+                "forum" : ["2002-12-21 Mole has pinned new forums, likely as people community-wide were getting fed up with slow and ad-ridden ezboards","https://web.archive.org/web/20030214181206/http://www.dxcows.com:80/cgi-bin/yabb/YaBB.cgi/YaBB.cgi?action=recent","featured"]
             },
             {
                 "forum" : ["earlier view of last forums at peak of DXMP strength","https://web.archive.org/web/20050319125242/http://www.dcsb.co.uk/forum/","featured"]
@@ -18765,6 +18765,14 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["nomad_us","[DeFc]Nomad"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Da_Terminator states that Nomad was in this clan, along with what he called 'many' other registered users",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
                         "pidPlusName" : ["member","[DeFc]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
@@ -18789,10 +18797,10 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "A late first year clan of a well-known clanhopper, it seems Will made his own clan for a brief time, listed as ready for League with 1 player (himself?). The league had 1v1 ladder format and up, meaning some groups likely formed just for the sake of participating in it. As a war with Common Ground clan was in talks we can assume he probably had at least one member.",
+        "description" : "A late first year clan of a well-known clanhopper, it seems Will made his own clan for a brief time, listed as ready for League with 1 player (himself?). The league had 1v1 ladder format and up, meaning some groups likely formed just for the sake of participating in it. As a war with Common Ground clan was in talks and apparently their quite a few members merged into TSW to form DEM which fell apart.",
         "background" : [
             {
-                "backgroundStory" : ["","","",""]
+                "backgroundStory" : ["Found in our stories section, titled 'On Will, [Defc], [TSW], [DEM], DXL'","daterminator","Da_Terminator","Will went on to start his [Defc] clan and i believe Nomad here, as well as many other members were with him then. I myself merge myself with [CG] and was often talking back and forth with Will and even had a few clan matches. I do recall Will merged his clan with the [TSW] of Tiger/WhiteTiger into the name of [DEM] which unfornutely fell apart shortly after that, Will did went back to try bringing back up [Defc] but sopposively didn't go too well."]
             }
         ],
         "news" : [
