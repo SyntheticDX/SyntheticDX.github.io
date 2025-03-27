@@ -1335,7 +1335,7 @@ $(document).ready(function() {
         function highlightElement($element) {
             const $borderOverlay = $('<div class="border-overlay"></div>').css({
                 position: 'absolute',
-                top: $element.offset().top - 2,
+                top: $element.offset().top - 25,
                 left: $element.offset().left - 2,
                 width: $element.outerWidth() + 4,
                 height: $element.outerHeight() + 4,
