@@ -1796,6 +1796,57 @@
         ]
     },
     {
+        "id" : "2mc",
+        "tag" : ["tagFront","[","2MC","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Augs"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2002-02-01","isUncertain","2002-05-01","isCertain",""],
+        "founder" : ["Trancekiller ?"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["", ""],
+                        "pidPlusName" : ["trancekiller","[2MC]Trancekiller"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["fal","tn","apC","DXIN","A","X"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Obscure clan from after the failed [X] clan collapse--an evolution of [A]ssassins, it is possibly Trancekiller's own clan with perhaps a friend or two, or another short-lived group of that kind, he would revive A again soon.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
         "id" : "triad",
         "tag" : ["tagFront","[","3","]"],
         "tag_extra" : "",
@@ -1834,7 +1885,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["shogun","[3]Sh0gun"],
+                        "pidPlusName" : ["shogun","[3]Sh0gun 🇬🇧"],
                         "aliases" : [""],
                         "pastClanIDs" : ["a"],
                         "membership" : ["2002-01-28","2002-01-30",""],
@@ -1932,7 +1983,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["revolution","[3]Révòlütíòn"],
                         "aliases" : ["Dementia"],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["a"],
                         "membership" : ["2002-03-29","2004-07-26",""],
                         "stats" : ["","Rank: Clan match organizer, Daimyo (4)<br />CLAN MATCHES: 7<br />SERVED DAYS: 850<br /><br />NEW MEMBER ~ REVOLUTION: After the small conversations on dx and in a one v one with this guy, we decided to take him in. Everybody, beware Revo&apos;s dragon tooth&apos;s sword! Good to have you with us, represent the tag with pride."]
                     },
@@ -3441,7 +3492,7 @@
     {
         "id" : "a",
         "tag" : ["tagFront","[","A","]"],
-        "tag_extra" : "[!A!]",
+        "tag_extra" : ["]A[","!A!"],
         "flag" : ["",""],
         "name" : "Assassins",
         "gametype" : ["Augs"],
@@ -3453,7 +3504,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["devil","[A]DeViL"],
+                        "pidPlusName" : ["devil","[A]DeViL 🇦🇺"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["Founder","","Reviver - quit July 5, 2002"],
@@ -3461,7 +3512,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["trancekiller","[A]Trancekiller"],
+                        "pidPlusName" : ["trancekiller","[A]Trancekiller 🇩🇪"],
                         "aliases" : ["DerKönig"],
                         "pastClanIDs" : ["fal","tn","apc","dxin"],
                         "membership" : ["","",""],
@@ -3469,15 +3520,15 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["shogun","[A]sh0gun"],
+                        "pidPlusName" : ["shogun","[A]sh0gun 🇬🇧"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["i"],
                         "membership" : ["","",""],
-                        "stats" : ["'sh0gun does not spawn kill, mouse wrote false stuff'","Rank: "]
+                        "stats" : ["'sh0gun does not spawn kill, mouse wrote false stuff'<br />From London","Rank: "]
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["leon","[A]Leon"],
+                        "pidPlusName" : ["leon","[A]Leon 🇩🇪"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -3485,7 +3536,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["tazard","[A]Tazard"],
+                        "pidPlusName" : ["tazard","[A]Tazard 🇦🇺"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["before Oct 5, 2001","",""],
@@ -3493,7 +3544,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["hittman","[A]Hittman"],
+                        "pidPlusName" : ["hittman","[A]Hittman 🇦🇺"],
                         "aliases" : ["Leon"],
                         "pastClanIDs" : [""],
                         "membership" : ["before Oct 5, 2001","",""],
@@ -3517,7 +3568,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["robo","[A]RoBo"],
+                        "pidPlusName" : ["robo","[A]RoBo 🇦🇺"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["Oct 5, 2001","",""],
@@ -3560,8 +3611,8 @@
                         "pidPlusName" : ["revolution","[A]Revolution"],
                         "aliases" : ["Dementia"],
                         "pastClanIDs" : [""],
-                        "membership" : ["before Oct 5, 2001","",""],
-                        "stats" : ["",""]
+                        "membership" : ["before Oct 5, 2001","by March 29, 2002",""],
+                        "stats" : ["Joins Triad end of March 2002 and stays there for years",""]
                     }
                 ]
             },
@@ -3569,7 +3620,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["duplicate","Roster of Revived [A]"],
-                        "pidPlusName" : ["trancekiller","[A]Trancekiller"],
+                        "pidPlusName" : ["trancekiller","[A]Trancekiller 🇩🇪"],
                         "aliases" : [""],
                         "pastClanIDs" : ["fal","tn","apc","dxin","a","x","2mc"],
                         "membership" : ["","",""],
@@ -3577,15 +3628,15 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["b0ttledwater","[A]B0ttledwater"],
+                        "pidPlusName" : ["b0ttledwater","[A]B0ttledwater 🇬🇧"],
                         "aliases" : [""],
                         "pastClanIDs" : ["fal","tn","apc"],
                         "membership" : ["Before May 23, 2002","",""],
                         "stats" : ["m, b~'86","Rank: member<br />Country: London, UK"]
                     },
                     {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["leon","[A]Leon"],
+                        "membergroupLabel" : ["duplicate",""],
+                        "pidPlusName" : ["leon","[A]Leon 🇩🇪"],
                         "aliases" : [""],
                         "pastClanIDs" : ["a"],
                         "membership" : ["","",""],
@@ -3593,7 +3644,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["hezza","[A]HeZZa"],
+                        "pidPlusName" : ["hezza","[A]HeZZa 🇬🇧"],
                         "aliases" : [""],
                         "pastClanIDs" : ["gato", "dk"],
                         "membership" : ["","",""],
@@ -3601,7 +3652,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["loveweapon","[A]LoveWeapon"],
+                        "pidPlusName" : ["loveweapon","[A]LoveWeapon 🇬🇧"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -3609,11 +3660,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["nemesis","[A]Nemesis"],
+                        "pidPlusName" : ["nemesis","[A]Nemesis 🇬🇧"],
                         "aliases" : [""],
                         "pastClanIDs" : ["dk","cg"],
-                        "membership" : ["","",""],
-                        "stats" : ["May 22 was still in [CG]<br />m, b~'86","Rank: <br />Country: Scotland, UK"]
+                        "membership" : ["","around August 2002",""],
+                        "stats" : ["May 22 was still in [CG], applying sometime first half of August<br />m, b~'86","Rank: <br />Country: Scotland, UK"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -3624,8 +3675,8 @@
                         "stats" : ["m","Rank: member (status: away)"]
                     },
                     {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["robo","[A]Robo"],
+                        "membergroupLabel" : ["duplicate",""],
+                        "pidPlusName" : ["robo","[A]Robo 🇦🇺"],
                         "aliases" : [""],
                         "pastClanIDs" : ["a"],
                         "membership" : ["soon after revival","",""],
@@ -3633,27 +3684,27 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["theveteran","[A]TheVeteran"],
+                        "pidPlusName" : ["theveteran","[A]TheVeteran 🇩🇪"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["tn"],
                         "membership" : ["","",""],
                         "stats" : ["m","Rank: member<br />Country: Germany"]
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["slocu","[A]SLO_Cu"],
+                        "pidPlusName" : ["slocu","[A]SLO_Cu 🇸🇮"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["around Sept 6, 2002","",""],
-                        "stats" : ["m","Rank: member<br />Country: Slovenia?"]
+                        "stats" : ["m","Rank: member<br />Country: Slovenia"]
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["playaz","[A]Playaz"],
+                        "pidPlusName" : ["playaz","[A]Playaz 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["","Rank: member<br />Country: Florida, US"]
+                        "membership" : ["","early september 2002",""],
+                        "stats" : ["September 12 Da_Terminator congratulates Playaz on getting in","Rank: member<br />Country: Florida, US"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -3674,7 +3725,7 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["unknown","UnKnOwN[A]"],
-                        "aliases" : ["Pickles"],
+                        "aliases" : ["Pickles", "UnKnOwN_AsSaSiN"],
                         "pastClanIDs" : [""],
                         "membership" : ["mid 2002","autumn 2002",""],
                         "stats" : ["news article that he quit clan",""]
@@ -3685,7 +3736,7 @@
                         "aliases" : ["Rumpfy87"],
                         "pastClanIDs" : [""],
                         "membership" : ["before June, 2002","quit after a while",""],
-                        "stats" : ["news article that he quit clan","Location :: Australia<br />Occupation :: student<br />Hobbies :: PLAYING SOME DXMP<br />Personal Bio :: i am one of the only guys in the skool to plays the maddest game on earth Deus Ex"]
+                        "stats" : ["Registered on forums May 29, later news article that he quit clan","Location :: Australia<br />Occupation :: student<br />Hobbies :: PLAYING SOME DXMP<br />Personal Bio :: i am one of the only guys in the skool to plays the maddest game on earth Deus Ex"]
                     }
                 ]
             },
@@ -3757,7 +3808,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["flaw","[A]Flaw"],
+                        "pidPlusName" : ["flaw","[A]Flaw 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -3773,11 +3824,23 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["drfumanchu","[A]DrFuManChu"],
+                        "pidPlusName" : ["drfumanchu","[A]DrFuManChu 🇩🇪"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","July 5, 2002",""],
-                        "stats" : ["Trance announces the member has quit dx",""]
+                        "stats" : ["Trance announces the member has quit dx; judging by email he is probably from Germany",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["","2004"],
+                        "pidPlusName" : ["goku","[A]Goku ?"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["ta","tcn","be"],
+                        "membership" : ["","",""],
+                        "stats" : ["Was trying to join end of January 2004, assuming he probably got in unless clan was dead",""]
                     }
                 ]
             }
@@ -3790,19 +3853,19 @@
                 "match" : ["a_v_dk","dk","[DK]","","2001-11-01","[A]ssassins will be fighting the Dread Knights [DK] in one month. . .","isDiscussed"]
             },
             {
-                "match" : ["a_v_cg","cg","[CG]","Win","Jul 2002","Smuggler Cathedral CMD, --presumably they won it--","isCertain"]
+                "match" : ["a_v_cg","cg","[CG]","Win","Jul 2002","Smuggler Cathedral CMD, --presumably they won it; around July 25-26--","isCertain"]
             },
             {
                 "match" : ["a_v_aid","aid","[AiD]","","Jul 31, 2002","this probably never happened, Kao joins [A] in few weeks","isDiscussed"]
             },
             {
-                "match" : ["a_v_da","da","[DA]","","Aug 28, 2002","","isDiscussed"]
+                "match" : ["a_v_da","da","[DA]","","Aug 28, 2002","Posted by Trancekiller and replied by Hezza, its not clear if challenge is announced or results themselves are already posted, in which case it might be confirmed match","isDiscussed"]
             },
             {
-                "match" : ["a_v_phantom","phantom","[Phantom]","","Aug 28, 2002","","isDiscussed"]
+                "match" : ["a_v_phantom","phantom","[Phantom]","","Aug 28, 2002","Like with DA its information post made by Trancekiller and single reply from Hezza, not clear if perhaps summing up the results and thus making it confirmed match","isDiscussed"]
             },
             {
-                "match" : ["a_v_btj","btj","[BTJ]","","Aug 29, 2002","NaKED (Aug 25, during [DA] challenge): 'we gotta war with btj this sat i think, we can fit another one in thast weekend easily, but i would prefer the following weekend when nemesis is in action'","isUncertain"]
+                "match" : ["a_v_btj","btj","[BTJ]","","Aug 29, 2002","NaKED (Aug 25, during [DA] challenge): 'we gotta war with btj this sat i think, we can fit another one in thast weekend easily, but i would prefer the following weekend when nemesis is in action'<br />Posts show that on Aug 22 BadDawg was interested in if match was scheduled","isUncertain"]
             },
             {
                 "match" : ["a_v_dk_2","dk","[DK]","","Sept 7, 2002","","isDiscussed"]
@@ -3832,6 +3895,9 @@
             },
             {
                 "website" : ["","https://web.archive.org/web/20030425093740/http://www.assassins.de:80/","dead"]
+            },
+            {
+                "website" : ["Possibly held content for the assassins.de domain by Trancekiller","https://web.archive.org/web/*/http://home.t-online.de/home/Don-Juan/*","dead"]
             }
         ],
         "forums" : [
@@ -3842,10 +3908,10 @@
                 "forum" : ["Their new forums, looking for https://web.archive.org/web/*/http://pub96.ezboard.com/fassassinclanfrm1.showMessage* doesnt yield results either","https://web.archive.org/web/*/http://pub96.ezboard.com/bassassinclan*","dead"]
             },
             {
-                "forum" : ["Revived [A] forums before moving to YaBB forums two months later<br />Here is forum memerlist with urls https://web.archive.org/web/20030211092658/http://32.rapidforum.com:80/top100","https://web.archive.org/web/20030212042608/http://32.rapidforum.com:80/area=4","index"]
+                "forum" : ["Revived [A] forums from May 2002 before moving to YaBB forums two months later; taken down by Feb 2003<br />Here is forum memerlist with urls https://web.archive.org/web/20030211092658/http://32.rapidforum.com:80/top100","https://web.archive.org/web/20030212042608/http://32.rapidforum.com:80/area=4","index"]
             },
             {
-                "forum" : ["May onwards, login-locked from late 2002 on<br /><br />You'll want to see this also: https://web.archive.org/web/20020914212055/http://a-clan.netfirms.com:80/cgi-bin/YaBB.cgi?action=recent","https://web.archive.org/web/20020911121345/http://a-clan.netfirms.com:80/cgi-bin/YaBB.cgi?board=news","index"]
+                "forum" : ["May to July onwards its announced July 6, login-locked from late 2002 on<br /><br />You'll want to see this also: https://web.archive.org/web/20020914212055/http://a-clan.netfirms.com:80/cgi-bin/YaBB.cgi?action=recent","https://web.archive.org/web/20020911121345/http://a-clan.netfirms.com:80/cgi-bin/YaBB.cgi?board=news","index"]
             },
             {
                 "forum" : ["Pre- and Post-Alliance boards","https://web.archive.org/web/20050321132903/http://assassins.deusex-online.com:80/forums/","index"]
@@ -3854,7 +3920,7 @@
                 "forum" : ["[A]Dae gives their then forums address around 2006 as:","https://web.archive.org/web/*/http://assassins.servegame.com*","dead"]
             }
         ],
-            "description" : "Competitive early clan formed reportedly early 2001 and that at some point turns into [X] Factor and back to [A] again, and merges with [TN] - possibly around November 2002 when neither clan is any longer listed - and comes back only to merge with [A]lpha an then come back as [A] again. The last, post-alliance revival would get absorbed into post-triad clan A!B. Unsure whose older alias Hittman was, maybe Trancekiller's but not all data matches - expect couple duplicates in roster. First German DXMP clan [GDoTS] reports emegence of second clan from the region thats formed May 24, happily links their homepage somewhere in menu but otherwise doesn't say anything else in newspost - since it would still be some 3 months until DXIN formation then this <em>could</em> be [A].",
+            "description" : "Competitive early clan with a lot of Australians, it formed reportedly early 2001 and that at some point turns into [X] Factor and back to [A] again, and merges with [TN] - possibly around November 2002 when neither clan is any longer listed - and comes back only to merge with [A]lpha an then come back as [A] again. The last, post-alliance revival would get absorbed into post-triad clan A!B. Expect couple duplicates in roster. Not clear if or to what extent this group might be related to the AU and later DU.",
         "background" : [
             {
                 "backgroundStory" : ["in flash format here https://web.archive.org/web/20150729222002/http://a-ssassin.tripod.com/history.swf","a","","The [A]ssassins clan was founded by DeViL in early 2001 however it started to fade later that year from lack of dedicated members. The remaining members decided on a second-generation clan identified only as [X] Faction. Relatively early in February 2002, [A]ssassins was reimbursed by the ex [A] leader and clan founder DeViL. Other leaders trancekiller and TheSeal were all given a third power over the clan, which was soon coming to an end due to TheSeal's negativity, towards the clan, resulting in multi-clanning. Recruiting was initiated immediately after it's reimbursement with new members snipemastaKEV, asterisk, and an ex [A]ssassin member, RoBo... Not very long after this, DeViL decided to retire from DXMP, we are still hoping one day he will make a comeback..."]
@@ -4200,7 +4266,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["leon","[A]Leon"],
+                        "pidPlusName" : ["leon","[A]Leon 🇩🇪"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -4944,7 +5010,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["system","System[AE]"],
+                        "pidPlusName" : ["system","System[Æ]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -4952,7 +5018,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["dustin","[AE]Dustin"],
+                        "pidPlusName" : ["dustin","[Æ]Dustin"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -4960,7 +5026,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["ruiner","[AE]Ruiner ?"],
+                        "pidPlusName" : ["ruiner","[Æ]Ruiner ?"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -8670,7 +8736,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "A second year German community clan of apparently non-aug focus, found on [GATO] sshots approx 2002 (perhaps early weeks of January, if not incorrectly dated and actually from 2001) as well as mentioned by IMPAC member, a clan formed from SINC and BFS merge.",
+        "description" : "A second year German community clan of apparently non-aug focus, found on [GATO] sshots approx 2002 (perhaps early weeks of January, if not incorrectly dated and actually from 2001) as well as mentioned by IMPAC member, a clan formed from SINC and BFS merge. The first German DXMP clan [GDoTS] reports emegence of second clan from the region thats formed May 24, happily links their homepage somewhere in menu but otherwise doesn't say anything else in newspost - it would still be some 3 months until DXIN formation and two weeks from BHK, so BFS could also be a candidate here.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -8990,7 +9056,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "Third German DXMP clan of 5 members and with a simple but now lost website that GDoTS knows of. Tag is guessed because person reporting it at the time only knew the clan name and not the tag.",
+        "description" : "Third German DXMP clan of 5 members and with a simple but now lost website that GDoTS knows of. Tag is guessed because person reporting it at the time only knew the clan name and not the tag. ",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -13286,8 +13352,8 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["nemesis","[CG]Nemesis"],
-                        "aliases" : ["JediMaster"],
+                        "pidPlusName" : ["nemesis","[CG]Nemesis 🇬🇧"],
+                        "aliases" : ["JediMaster", "LoveWeapon"],
                         "pastClanIDs" : [""],
                         "membership" : ["before May 2002 5","",""],
                         "stats" : ["Somepoint in [DK] and later in [A], Marvin's brother-in-law but he calls him his brother; marking this same person as JediMaster although not 100%",""]
@@ -13679,7 +13745,7 @@
                 "forum" : ["Only some 3 posts have preserved on this one, some memberlists too, index https://web.archive.org/web/20061102034701/http://www.cg.aquinasdesigns.net:80/forums/","https://web.archive.org/web/20071027044815/http://www.cg.aquinasdesigns.net:80/forums/viewtopic.php?p=9823&sid=0ad61774c85ea287a711e59d5126a059","index"]
             }
         ],
-        "description" : "Large fairly stable US clan from late first year of DXMP, formed of more mature players. It went through a couple cycles with the first instance dying with new and short-lived [P]hoenix clan. Returning sometime 2003 and with a more active presence from around 2006, the activity finally fizzled out around time of server attacks of 2007.",
+        "description" : "Large fairly stable US clan from late first year of DXMP, formed of more mature players. It went through a couple cycles as the first instance converted into a new and short-lived [P]hoenix clan. Returning sometime 2003 and with a more active presence from around 2006, the activity finally fizzled out around time of server attacks of 2007.",
         "background" : [
             {
                 "backgroundStory" : ["","cg","","On November 16th, 2001 the Common Ground [CG] Clan was formed and grew into a respectable and talented group of very diversase individuals dedicated to fair play, honing their gaming skills, and promoting the enjoyment of the game. On December 31st, 2002 [CG] ceased to be.<br /><br />From the ashes of the [CG] clan, the Phoenix Clan was born.<br /><br />Certain members of [CG] chose to not let the spirit of [CG] disppear into the annals of Deus Ex history but instead they chose to re-emerge as a new, independent clan that would owe it's birth to the death of a truly great clan.<br />From there, these members set for themselves a goal of creating a talented group of DX players who were willing to learn from every frag and join in the fraternity with their fellow clan members, as well as members of other clans in the DX community.<br /><br />They chose as their symbol the Phoenix- a legendary bird which according to one account lived 500 years, burned itself to ashes on a pyre, and rose alive from the ashes to live another period. The pyre was [CG] and THIS is the beginning of our 500 years."]
@@ -32305,6 +32371,65 @@
         ]
     },
     {
+        "id" : "fal",
+        "tag" : ["tagFront","[","FAL","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Augs"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2001-04-01","isUncertain","2001-06-01","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["trancekiller","[FAL]Trancekiller 🇩🇪"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["around April-May 2001?","around May-July 2001?",""],
+                        "stats" : ["Later in TN which dies by August 1 2001, apC, DXIN which dies by January 2002, A and then its follow-up X, 2MC, and again A; b~'80",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["b0ttledwater","[FAL]b0ttledWater 🇬🇧"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["around April-May 2001?","around May-July 2001?",""],
+                        "stats" : ["Later in TN which dies by August 1 2001, apC which dies around March 2002 , A; b~'86",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Obscure clan listed as past clan by Trancekiller and b0ttledWater of Assassins, it must've been from around Spring-Summer of 2001.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
         "id" : "fb",
         "tag" : ["tagFront","&gt;","FB","&lt;"],
         "tag_extra" : "",
@@ -32512,7 +32637,7 @@
                     {
                         "membergroupLabel" : ["","Mar 07, 2004"],
                         "pidPlusName" : ["nemesis","[FC]JediMaster 🇬🇧"],
-                        "aliases" : ["Nemesis"],
+                        "aliases" : ["Nemesis", "LoveWeapon"],
                         "pastClanIDs" : ["cg","dk","a"],
                         "membership" : ["","",""],
                         "stats" : ["Marvin's brother in law","Clan Leader"]
@@ -34801,6 +34926,14 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["marc","Marc[GATO]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["hezza","HeZZa[GATO]"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -38413,7 +38546,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["shogun","[I]Sh0gun"],
+                        "pidPlusName" : ["shogun","[I]Sh0gun 🇬🇧"],
                         "aliases" : [""],
                         "pastClanIDs" : ["a"],
                         "membership" : ["","",""],
@@ -51527,11 +51660,11 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["","Original"],
-                        "pidPlusName" : ["piss","(phantom)Piss"],
+                        "pidPlusName" : ["piss","(phantom)Piss 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Guthrie, Oklahoma",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -57776,7 +57909,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "First year German clan from the second half of the year of decent size, it proceeds to merge with <span data-id='bfs'>BFS</span> to form <span data-id='impac'>IMPAC</span>.",
+        "description" : "First year German clan from the second half of the year of decent size, it proceeds to merge with <span data-id='bfs'>BFS</span> to form <span data-id='impac'>IMPAC</span>. The first German DXMP clan [GDoTS] reports emegence of second clan from the region thats formed May 24, happily links their homepage somewhere in menu but otherwise doesn't say anything else in newspost - it would still be some 3 months until DXIN formation and two weeks from BHK, so it could be either IMPAC or BFS or even SDM that probably predates GDoTS without them even knowing it.",
         "background" : [
             {
                 "backgroundStory" : ["http://web.archive.org/web/20010901101728/http://pub80.ezboard.com:80/fkissclanfrm9.showMessage?topicID=2.topic&index=4","sinc","","Description : German DX-Clan<br />Clan : Snipers Inc. [SINC]; Clanleader : none; Clanmembers : (5): Durango, Gargol, LeClair, Wolfgott, Yze19<br /><br />URL : www.sinc.de.vu<br />email : SINC-DX@t-online.de<br />Recruiting : possible (send us an email)<br />Description : German DX-Clan<br />Edited by: SINC1 at: 8/22/01 2:54:26 am"]
@@ -60353,9 +60486,9 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["leon","[T]Leøn"],
+                        "pidPlusName" : ["leon","[T]Leøn 🇩🇪"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["a","tn"],
                         "membership" : ["","",""],
                         "stats" : ["Likely from Assassins",""]
                     },
@@ -63632,7 +63765,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["b0ttledwater","[TN]B0ttled Water"],
+                        "pidPlusName" : ["b0ttledwater","[TN]B0ttled Water 🇬🇧"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -63828,11 +63961,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["theveteran","[TN]The Veteran"],
+                        "pidPlusName" : ["theveteran","[TN]The Veteran 🇩🇪"],
                         "aliases" : [""],
                         "pastClanIDs" : ["a"],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["later in A",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -68852,7 +68985,7 @@
         "tag" : ["tagFront","[","X","]"],
         "tag_extra" : "",
         "flag" : ["",""],
-        "name" : "",
+        "name" : "X Factor",
         "gametype" : ["Augs"],
         "tier" : ["B","A",""],
         "date" : ["isUncertain","2001-07-01","isUncertain","2001-12-01","isCertain",""],
@@ -68867,6 +69000,18 @@
                         "pastClanIDs" : ["dxm"],
                         "membership" : ["","",""],
                         "stats" : ["",""]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["trancekiller","[X]Trancekiller"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["fal","tn","apc","a"],
+                        "membership" : ["","",""],
+                        "stats" : ["moves to 2MC after X, might be his own clan; not clear if this is the correct X clan that A turned into, but likely is",""]
                     }
                 ]
             }
@@ -68886,7 +69031,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "Obscure clan roughly from the first year of which only indirect evidence exist and that is easily confused with the second year clan eX, although its not clear whether those two clans are related in spite of GoTTi being in both. Some comments we're made that X was involved in the League / Tournament organization.",
+        "description" : "Obscure clan roughly from the first year of which only indirect evidence exist and that is easily confused with the second year clan eX, although its not clear whether those two clans are related in spite of GoTTi being in both. Some comments we're made that X was involved in the League / Tournament organization, and it might be actually the short-lived [X] Factor that was formed from [A].",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
