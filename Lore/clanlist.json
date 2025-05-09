@@ -2149,7 +2149,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["baddawg","[3]Sygnum 🇺🇸"],
+                        "pidPlusName" : ["ddm","[3]Sygnum 🇺🇸"],
                         "aliases" : ["Mithotyn","Mayhem","DdM"],
                         "pastClanIDs" : ["r2r","a","dk"],
                         "membership" : ["2003-12-08","2004-03-03",""],
@@ -5054,7 +5054,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["baddawg","DdM|AE|?"],
+                        "pidPlusName" : ["ddm","DdM|AE|?"],
                         "aliases" : ["Mithotyn","Mayhem","DdM","Sygnum"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -11100,7 +11100,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["baddawg","[Buddha]Hopper 🇺🇸"],
+                        "pidPlusName" : ["ddm","[Buddha]Hopper 🇺🇸"],
                         "aliases" : ["Mithotyn","Mayhem","ÐdM","Sygnum","Hopper", "John"],
                         "pastClanIDs" : ["evo","ug","tdh"],
                         "membership" : ["May 07, 2003","",""],
@@ -16008,7 +16008,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["","Later years"],
-                        "pidPlusName" : ["baddawg","[D12]ddm"],
+                        "pidPlusName" : ["ddm","[D12]ddm"],
                         "aliases" : ["Mithotyn","Mayhem","ÐdM","Sygnum","Hopper", "John"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -16242,7 +16242,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["baddawg","[DA]Mithotyn"],
+                        "pidPlusName" : ["ddm","[DA]Mithotyn"],
                         "aliases" : ["Mithotyn","Mayhem"],
                         "pastClanIDs" : [""],
                         "membership" : ["Nov 14, 2002","Nov 22, 2002",""],
@@ -17832,7 +17832,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["baddawg",".:ÐÇsß:.JOHN"],
+                        "pidPlusName" : ["ddm",".:ÐÇsß:.JOHN"],
                         "aliases" : ["Mithotyn","Mayhem","DdM"],
                         "pastClanIDs" : ["triad","d12"],
                         "membership" : ["by Dec 24, 2004","",""],
@@ -18666,7 +18666,7 @@
                         "membergroupLabel" : ["","Ex-Members"],
                         "pidPlusName" : ["hitokiri","HiTokiRi[DEA]"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["cg","s"],
                         "membership" : ["","",""],
                         "stats" : ["Was in the clan at some point in time",""]
                     }
@@ -19274,7 +19274,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["","September 2 Roster"],
-                        "pidPlusName" : ["baddawg","¤ÐÐMzØrZ¤.ÐÊS."],
+                        "pidPlusName" : ["ddm","¤ÐÐMzØrZ¤.ÐÊS."],
                         "aliases" : ["Mithotyn","Mayhem","ÐdM","Sygnum","Hopper", "John"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -19547,10 +19547,10 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["hittman","Hittman[DEV]"],
-                        "aliases" : ["Leon"],
+                        "aliases" : [""],
                         "pastClanIDs" : ["a"],
-                        "membership" : ["","",""],
-                        "stats" : ["Australia?",""]
+                        "membership" : ["by Feb 2002","before April 2002",""],
+                        "stats" : ["Active with the tag late Feb 2002, later under U tag. Australia",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -21468,7 +21468,7 @@
                         },
                         {
                             "membergroupLabel" : ["",""],
-                            "pidPlusName" : ["baddawg","[DK]Hopper 🇺🇸"],
+                            "pidPlusName" : ["ddm","[DK]Hopper 🇺🇸"],
                             "aliases" : ["Mithotyn","Mayhem","ÐdM","Sygnum","Hopper", "John"],
                             "pastClanIDs" : ["evo","ug","tdh","buddha","el"],
                             "membership" : ["April 4, 2003","","May 07, 2003"],
@@ -30437,7 +30437,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["baddawg","[EL]Mayhem"],
+                        "pidPlusName" : ["ddm","[EL]Mayhem"],
                         "aliases" : ["Mithotyn","Mayhem","ÐdM","Sygnum","Hopper", "John"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -31696,7 +31696,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["baddawg","{EVO}DdM"],
+                        "pidPlusName" : ["ddm","{EVO}DdM"],
                         "aliases" : ["Mithotyn","Mayhem","ÐdM","Sygnum","Hopper", "John"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -38522,11 +38522,11 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["","2001"],
-                        "pidPlusName" : ["merlin","[I]Merlin"],
+                        "pidPlusName" : ["merlin","[I]Merlin 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : ["dmi","tco","r"],
                         "membership" : ["Founder","",""],
-                        "stats" : ["","Leader"]
+                        "stats" : ["Tracy / Santa Clara , California","Leader"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -38534,7 +38534,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : ["dmi"],
                         "membership" : ["","",""],
-                        "stats" : ["","Leader"]
+                        "stats" : ["Kansas, US","Leader"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -38652,9 +38652,9 @@
                         "membergroupLabel" : ["","2002"],
                         "pidPlusName" : ["hitokiri","[I]Hitokiri"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["CG","S","DEA"],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["","Los Angeles, CA"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -38662,15 +38662,15 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Active in April 2002<br />the Shrike<br /><br />'Holy cows make the best hamburger.'",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["jaster","[I]Jaster"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["U", "D", "DEA", "DXA"],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["In roster for 2003 as well<br />b~'87","PA, USA"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -38684,9 +38684,9 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["rocketman","[I]Rocketman"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["dmi","dk"],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["b~'87","NY, USA"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -38716,9 +38716,9 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["arthur","[I]Arthur"],
                         "aliases" : ["Bond"],
-                        "pastClanIDs" : ["dk"],
+                        "pastClanIDs" : ["dk","dea"],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["b~'86","Wisconsin, USA"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -38764,9 +38764,57 @@
                         "membergroupLabel" : ["","2003"],
                         "pidPlusName" : ["system","[I]System"],
                         "aliases" : [""],
-                        "pastClanIDs" : ["dea"],
+                        "pastClanIDs" : ["cg","u","ae","dea"],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["b~'77","Old man<br />Maine, USA"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["eagle","[I]Eagle"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["dev","s","dxa"],
+                        "membership" : ["","",""],
+                        "stats" : ["b~'87","Leader<br />Sydney, Australia"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["nomad_us","[I]Mondez"],
+                        "aliases" : ["Nomad"],
+                        "pastClanIDs" : ["t","s","dxa"],
+                        "membership" : ["","",""],
+                        "stats" : ["b~'86","California, USA"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["strider","[I]Strider"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["du","dea","vet"],
+                        "membership" : ["","",""],
+                        "stats" : ["b~'84","Michigan, USA"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["ddm","[I]Mayhem"],
+                        "aliases" : ["DdM", "John"],
+                        "pastClanIDs" : ["AOD", "BTJ", "OUTLAW", "AK", "W", "EL", "B"],
+                        "membership" : ["","",""],
+                        "stats" : ["","Michigan, USA"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["mirage","[I]Mirage"],
+                        "aliases" : ["WHODAT"],
+                        "pastClanIDs" : ["CG", "U", "EX", "S", "NA"],
+                        "membership" : ["","",""],
+                        "stats" : ["b~'86","NYC, USA"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["teammossad","[I]TeamMossad"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["T", "DEA"],
+                        "membership" : ["","",""],
+                        "stats" : ["b~'85","Ohio, USA"]
                     }
                 ]
             },
@@ -38781,12 +38829,28 @@
                         "stats" : ["'Yeah... I got sick of DX... All the politics, all the people. There have been no major changes in years to that game, there have been no new faces to that game (atleast no significant additions). I don't want this to turn into a flame thread, so here's the bottom line... I don't like DX, I don't like [I], and I don't want to be bugged about it.'<br />Goes to play MOHAA with TCN in August 2004 as |GHOST|Pfc.Sausage",""]
                     },
                     {
-                        "membergroupLabel" : ["","2004"],
+                        "membergroupLabel" : ["",""],
                         "pidPlusName" : ["hawkmoon","[I]Hawkmoon"],
                         "aliases" : [""],
                         "pastClanIDs" : ["dwk","void"],
                         "membership" : ["","",""],
                         "stats" : ["'I was the last active member of [I]...and they kicked me out :lol:'",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["triadjhizzle","[I]InternalMedicine"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Not clear whose alias this is, WaR also joined around this time; triadjhizzle","Former Clans: Too many to list<br />Elizabeth, PA, USA"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["ricci","[I]Ricci"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["Phantom", "EL", "B"],
+                        "membership" : ["","",""],
+                        "stats" : ["tool_869","Canada"]
                     }
                 ]
             }
@@ -50680,7 +50744,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["baddawg","[OUTLAW]BadDawg"],
+                        "pidPlusName" : ["ddm","[OUTLAW]BadDawg"],
                         "aliases" : ["Mithotyn","Mayhem"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -59614,7 +59678,7 @@
                         "aliases" : ["NOMAD"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["bluephire.gif","Leader and Founder. Speciality - Dragon Sword / Sniper"]
+                        "stats" : ["Merlin knows him as Nomad.SV before some drama with Immortal where supposedly he conspired with Will; bluephire.gif","Leader and Founder. Speciality - Dragon Sword / Sniper"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -60418,7 +60482,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["baddawg","[T]John"],
+                        "pidPlusName" : ["ddm","[T]John"],
                         "aliases" : ["Mithotyn","Mayhem","ÐdM","Sygnum","Hopper", "John"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -65470,10 +65534,10 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["nomad","[U]Nomad"],
-                        "aliases" : [""],
+                        "aliases" : ["Nevermind"],
                         "pastClanIDs" : [""],
                         "membership" : ["2002-03-01","",""],
-                        "stats" : ["(multiclanned or shifted between [T] and [U])",""]
+                        "stats" : ["(multiclanned or shifted between [T] and [U]); Nomad.SV",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -66306,7 +66370,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["baddawg","[UG]DDM"],
+                        "pidPlusName" : ["ddm","[UG]DDM"],
                         "aliases" : ["Mithotyn","Mayhem","DdM","Sygnum","Hopper", "John"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
