@@ -9734,7 +9734,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["ice","[BK]ICE 🇩🇪"],
+                        "pidPlusName" : ["ice","[BK]ICE 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -15444,9 +15444,9 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["war","[Đ]War"],
+                        "pidPlusName" : ["epidemic","[Đ]War"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["dk","bk"],
                         "membership" : ["","",""],
                         "stats" : ["","D vs DA war"]
                     },
@@ -18883,7 +18883,7 @@
         "name" : "Deus Ex Hotmem (Deus Ex Hitmen)",
         "gametype" : ["Basic"],
         "tier" : ["B","",""],
-        "date" : ["isUncertain","2003-04-01","isUncertain","2003-12-10","isCertain",""],
+        "date" : ["isUncertain","2003-02-01","isUncertain","2003-12-10","isCertain",""],
         "founder" : ["Cypher"],
         "members" : [
             {
@@ -18913,6 +18913,18 @@
                         "stats" : ["Seems to have cyphered even his name and clan name for a listing",""]
                     }
                 ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["leon","[~DeH~]_LeOn"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Registered on N/A forums with the tag around and before 13th of February, 2003",""]
+                    }
+                ]
             }
         ],
         "matches" : [
@@ -18930,7 +18942,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "JTB-listed third year clan of an unknown gametype, likely aug-capable but possibly already zero-aug, marked as Basic to be safe. Leader seemed to enjoy cyphering his names. Unlikely to have lasted long or grown too much.",
+        "description" : "JTB-listed third year clan of an unknown gametype, likely aug-capable but possibly already zero-aug, marked as Basic to be safe. Leader seemed to enjoy cyphering his names. Unlikely to have lasted long or grown too much. [~DeH~]_LeOn registered on N/A forums early February 2003.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -23077,6 +23089,17 @@
                         "pastClanIDs" : ["gato","dk","a","tn"],
                         "membership" : ["","",""],
                         "stats" : ["visits DK forums April 2003",""]
+                    }
+                ]
+            },{
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["ritalin","RitaliN[DS]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["by April 17, 2003","",""],
+                        "stats" : ["Possible alias of existing member, sends greetings to N/A forums from this clan on April 17",""]
                     }
                 ]
             }
@@ -31791,7 +31814,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["changed tag to [U]  May 2 2002, which is some kind of evolution of [eX]",""]
+                        "stats" : ["changed tag to [U]  May 2 2002, which is some kind of evolution of [eX], May 9 he is in NA",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -46556,7 +46579,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : ["ex","u"],
                         "membership" : ["2002-05-09","",""],
-                        "stats" : ["?<br />Wayne b'72","Country: USA<br /><br />Favorites:<br />Default map: Cathedral<br />User map: Nucleus<br />Weapon: Assault Shotgun<br />Augmentation: ?<br />Opponent: ? <br /><br />Rank: Retired<br />Favorite Augmentation: Speed Enhancement<br /><br />Rating: 1.24<br />Record: 2/7/0<br />Points: 4<br />Kills/Deaths: 68/152<br />Kill %: 31"]
+                        "stats" : ["changed tag to [U]  May 2 2002, which is some kind of evolution of [eX], May 9 early May 10 he is welcomed to NA, including by his U boss who is under TCN tag<br />Wayne b'72","Country: USA<br /><br />Favorites:<br />Default map: Cathedral<br />User map: Nucleus<br />Weapon: Assault Shotgun<br />Augmentation: ?<br />Opponent: ? <br /><br />Rank: Retired<br />Favorite Augmentation: Speed Enhancement<br /><br />Rating: 1.24<br />Record: 2/7/0<br />Points: 4<br />Kills/Deaths: 68/152<br />Kill %: 31"]
                     }
                     
                 ]
@@ -46613,7 +46636,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["2002-08-07","",""],
-                        "stats" : ["Lars Has Survived Boot Camp : That's right folks, after surviving a brutal two weeks as a recruit, Lars has earned his stripes and is now a full-fledged member of [N/A]. Congrats Lars!<br />Lawrence, b '76","Rank: Retired<br />Location: USA<br /><br />Favorite Default Map: Smuggler<br />Favorite User Map: Towers<br />Favorite Weapon: Throwing Knife<br />Favorite Augmentation: Speed Enhancement<br /><br />Rating: 0<br />Record: 0/1/0<br />Points: 0<br />Kills/Deaths: 4/23<br />Kill %: 15"]
+                        "stats" : ["Lars Has Survived Boot Camp : That's right folks, after surviving a brutal two weeks as a recruit, Lars has earned his stripes and is now a full-fledged member of [N/A]. Congrats Lars!<br />Lawrence, b '76","Rank: Retired<br />Location: Texas, USA<br /><br />Favorite Default Map: Smuggler<br />Favorite User Map: Towers<br />Favorite Weapon: Throwing Knife<br />Favorite Augmentation: Speed Enhancement<br /><br />Rating: 0<br />Record: 0/1/0<br />Points: 0<br />Kills/Deaths: 4/23<br />Kill %: 15"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -46634,7 +46657,7 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["trauma","[N/A]tRauMa 🇺🇸"],
-                        "aliases" : [""],
+                        "aliases" : ["ColdBlood"],
                         "pastClanIDs" : [""],
                         "membership" : ["around October 2002","not listed later on",""],
                         "stats" : ["Rolling the Dice: We've decided to take a risk and accept tRauMa as a recruit. Due to his documented fear of commitment he must pass a three month recruit phase, but nonetheless, he's been given the chance. We sincerely hope he finally decides to make a permanent home for himself.<br /><br /> To those who doubt our intentions and think we only took him on for our upcoming clan matches - recruits aren't permitted to play in clan matches.<br /><br />Congratulations, tRauMa, we really hope you like it here. <br /><br />Matthew b '88<br /><br />--He signs his name as Joseph elsewhere--","Country: USA, NYC"]
@@ -46653,7 +46676,7 @@
                         "aliases" : ["WHODAT"],
                         "pastClanIDs" : ["cg","ex","s"],
                         "membership" : ["2002-11-19","",""],
-                        "stats" : ["[N/A] Beefs Up: Two new recruits to report today. One is a retired spammer, the other is a returning vet. Please put your hands together for Mirage and WhiteTiger.<br /><br />-- Mirage is coming from collapsed [S] revival, with a stop in [eX] before that, later years also resurfaces in {HK} --<br />Chris, b '84","Rank: Veteran<br />Location: USA<br /><br />Favorite Default Map: Silo<br />Favorite User Map: Outpost<br />Favorite Weapon: Crowbar<br />Favorite Augmentation: Light<br /><br />Rating: 12.86<br />Record: 9/2/0<br />Points: 18<br />Kills/Deaths: 155/62<br />Kill %: 71"]
+                        "stats" : ["[N/A] Beefs Up: Two new recruits to report today. One is a retired spammer, the other is a returning vet. Please put your hands together for Mirage and WhiteTiger.<br /><br />-- Mirage is coming from collapsed [S] revival, with a stop in [eX] before that, later years also resurfaces in {HK} --<br />Chris, b '84","Rank: Veteran<br />Location: NYC, USA<br /><br />Favorite Default Map: Silo<br />Favorite User Map: Outpost<br />Favorite Weapon: Crowbar<br />Favorite Augmentation: Light<br /><br />Rating: 12.86<br />Record: 9/2/0<br />Points: 18<br />Kills/Deaths: 155/62<br />Kill %: 71"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -46665,11 +46688,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["ice","[N/A]ICE 🇩🇪"],
+                        "pidPlusName" : ["ice","[N/A]ICE 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : ["bk","tn"],
                         "membership" : ["2002-12-27","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Previously marked with a German flag, so there might be a namesake active around same time, or a mistake","York, Pennsylvania"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -46762,10 +46785,10 @@
         ],
         "forums" : [
             {
-                "forum" : ["Contains 2 threads (only interesting one linked here) as well as very interesting general board view https://web.archive.org/web/20020930075918/http://pub82.ezboard.com:80/fnotapplicableforumsfrm1<br />Only other board view is of help section (and post by derianx)","https://web.archive.org/web/20020930080028/http://pub82.ezboard.com:80/fnotapplicableforumsfrm1.showMessage?topicID=43.topic&index=2","featured"]
+                "forum" : ["Second forums; contains 2 threads (only interesting one linked here) as well as very interesting general board view https://web.archive.org/web/20020930075918/http://pub82.ezboard.com:80/fnotapplicableforumsfrm1<br />Only other board view is of help section (and post by derianx)","https://web.archive.org/web/20020930080028/http://pub82.ezboard.com:80/fnotapplicableforumsfrm1.showMessage?topicID=43.topic&index=2","featured"]
             },
             {
-                "forum" : ["June 22, 2002, new (and main) forums, unfortunately this seems to be the only thread thats preserved, couple board views also exist and index","https://web.archive.org/web/20050116060255/http://na.clanned.net:80/forums/viewtopic.php?p=13195%26amp","featured"]
+                "forum" : ["June 22, 2002, third (and main) forums, unfortunately this seems to be the only thread thats preserved, couple board views also exist and index","https://web.archive.org/web/20050116060255/http://na.clanned.net:80/forums/viewtopic.php?p=13195%26amp","featured"]
             }
         ],
         "description" : "Second year prominent and competitive auged clan formed by three [DMI] veterans and growing steadily, thus offering competition to the other dominant groups. They were overwhelmingly from the states and with slightly older members, akin to [DEA] whose select veteran members would also begin to arrive to this clan as their clan reaches its end.",
@@ -51635,7 +51658,7 @@
         "id" : "pg",
         "tag" : ["tagFront","{~","PG","~}"],
         "tag_extra" : "",
-        "flag" : ["",""],
+        "flag" : ["🇩🇪",""],
         "name" : "Psychotic Gamers",
         "gametype" : ["0a"],
         "tier" : ["B","A",""],
@@ -53212,7 +53235,7 @@
                         "aliases" : ["sidewinder"],
                         "pastClanIDs" : ["bk"],
                         "membership" : ["September 5th, 2001","",""],
-                        "stats" : ["(came from BK)<br /><br />We welcome a new member today, welcome ICE[R]. Wear the R with the pride that you worked for. See you at training. Check out his profile for more info.","C  L  A  N       G  E  N  E  R  A  L  S<br />Squad: Demise"]
+                        "stats" : ["(came from BK; not clear why he has DE tag when the N/A ICE with similar history attributed is verified to be from PA, US)<br /><br />We welcome a new member today, welcome ICE[R]. Wear the R with the pride that you worked for. See you at training. Check out his profile for more info.","C  L  A  N       G  E  N  E  R  A  L  S<br />Squad: Demise"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -53285,6 +53308,13 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["Under some name, perhaps duplicate or briefly",""]
+                    },{
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["priest","JOKE[R]"],
+                        "aliases" : ["Priest"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Presumably not already listed under another name, he is later in [3] as  Priest",""]
                     }
                 ]
             }
@@ -64033,7 +64063,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["ice","[TN]ICE 🇩🇪"],
+                        "pidPlusName" : ["ice","[TN]ICE 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : ["bk"],
                         "membership" : ["","",""],
@@ -65520,8 +65550,8 @@
                         "pidPlusName" : ["nocontrol","[ U ]C.L.NoControl"],
                         "aliases" : ["downTime","Mr.Spacely"],
                         "pastClanIDs" : ["r"],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "membership" : ["","before 10-05-2002",""],
+                        "stats" : ["'Come forth bear witness, see the profits from your loss, beg for forgiveness only after you tally the cost'<br /><br />Was wearing TCN tag by May 10, 2002",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -65624,7 +65654,7 @@
                         "pidPlusName" : ["dookie","[U]DOOKIE"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
-                        "membership" : ["","",""],
+                        "membership" : ["02-05-2002","09-05-2002",""],
                         "stats" : ["(changes tag from [eX] to [U] May 2002)",""]
                     },
                     {
@@ -65697,7 +65727,7 @@
                 "forum" : ["Earliest has no posts https://web.archive.org/web/*/http://pub64.ezboard.com/fuprising78449frm*<br />Last(?) has nothing https://web.archive.org/web/*/http://pub227.ezboard.com/fuprising78449frm*<br />Linked has much more, but posts are all admin notices with no discussion https://web.archive.org/web/*/http://p216.ezboard.com/fuprising78449frm*","https://web.archive.org/web/20050505032000/http://p216.ezboard.com:80/fuprising78449frm9.showMessage?topicID=9.topic","index"]
             }
         ],
-        "description" : "From the death of [R]. Apparently Will gave forum access to [I]Merlin and [U] died sometime after https://web.archive.org/web/20020928172051/http://pub82.ezboard.com:80/fcgclandxmpforum95142frm1.showMessage?topicID=69.topic&index=20",
+        "description" : "From the death of [R]. Apparently Will gave forum access to [I]Merlin and [U] died sometime <a href='https://web.archive.org/web/20020928172051/http://pub82.ezboard.com:80/fcgclandxmpforum95142frm1.showMessage?topicID=69.topic&index=20' class='pagelink'>after</a>. 9th of May NC wears TCN tag and Dookie switches to N/A, so this clan probably didn't reach 3 months mark.",
         "background" : [
             {
                 "backgroundStory" : ["","u_1","","The [U]prising began out of the ashes of the [R]eactor clan.  Unlike many past situations in the DXMP community, we did not have a split in our membership that caused the clan to break up.  Because of this we were quite able to quickly move on through the transition period and are now ahead of where we started.<br /><br />We are a like minded group of people who share the common bonds of this game and are all friends.  In order to keep the fun of the game alive for all of us, we decided to start this new clan together.  Starting over was necessary, so we can now go far beyond our previous limitations."]
@@ -67735,6 +67765,57 @@
         "news" : [
             {
                 "article" : ["https://web.archive.org/web/20040128220101/http://www.dxmp.net:80/forums/viewtopic.php?p=11769%26amp","May 15, 2003","COME ONE COME ALL!!!","Strider","To the brand-spankin-new [VET] forums!!! Although these are probably only temporary until we get off our lazy asses and make something of our own, you're all welcome to come complain to your hearts desire. You will, of course, be banned on the spot.<br /><br />The new forums are actually the old dxleague forums, so if any of you registered there, you won't need to again (I know a lot of you did).<br />Oh, and if you wish to play on the VET servers, you'll need to register and apply for membership to the 'Closer Server Members' Usergroup, much like you have to do here","clan"]
+            }
+        ]
+    },
+    {
+        "id" : "vl",
+        "tag" : ["tagFront","[","vL","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["Augs"],
+        "tier" : ["","A",""],
+        "date" : ["isUncertain","2003-06-01","isUncertain","2003-07-01","isCertain",""],
+        "founder" : [""],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["epidemic","[vL][(WaR)]"],
+                        "aliases" : ["Epidemic","SomeGuy","alKoHoLiK", "Ares"],
+                        "pastClanIDs" : ["dk","bk","d","dk"],
+                        "membership" : ["","",""],
+                        "stats" : ["Sometime after his stay in revived DK and probably before EL; not clear if related to the ancient SomeGuy[AU]",""]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "Unknown third year clan advertised on N/A boards by [(WaR)], possibly his own short-lived project before ending up in DK.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
             }
         ]
     },
