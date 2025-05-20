@@ -5482,25 +5482,25 @@
         "tag" : ["tagFront","[","AK","]"],
         "tag_extra" : "",
         "flag" : ["",""],
-        "name" : "",
+        "name" : "Augmented Killers",
         "gametype" : ["Augs","Mod","0a"],
         "tier" : ["B","A",""],
-        "date" : ["isUncertain","2002-09-01","isUncertain","2003-12-01","isCertain","2005-01-01"],
+        "date" : ["isUncertain","2002-08-01","isUncertain","2004-02-01","isCertain","2005-01-01"],
         "founder" : ["DestroyerZero"],
         "members" : [
             {
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["GXC warns this is not the complete list","September 2002 Roster"],
-                        "pidPlusName" : ["destroyerzero","[AK]DestroyerZero"],
+                        "pidPlusName" : ["destroyerzero","[AK]DestroyerZero 🇺🇸"],
                         "aliases" : ["Setsunayaki"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Boston, MAssachusetts<br /><br />Joins [3] in January 2003","Leader of Clan"]
+                        "stats" : ["Boston, MAssachusetts, b~'80<br /><br />Joins [3] in January 2003","Leader of Clan"]
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["daedalusgxc","[AK]DeadalusGXC_"],
+                        "pidPlusName" : ["daedalusgxc","[AK]DeadalusGXC_ 🇱🇻"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -5580,7 +5580,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["anarchy","[ÅK][~ÅñÅrçHÿÆ]"],
+                        "pidPlusName" : ["anarchy","[ÅK][~ÅñÅrçHÿÆ] 🇺🇸"],
                         "aliases" : ["Xsdemon14"],
                         "pastClanIDs" : [""],
                         "membership" : ["September 2002","",""],
@@ -5592,7 +5592,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["The US-Canadian clan Alien Intelligence by Treinkonov also had a member Sam, for now Ive separated the ID",""]
+                        "stats" : ["The US-Canadian clan Alien Intelligence by Treinkonov also had a member Sam, for now Ive separated the ID; this one was looking to re-apply in September 2002, asking of DZ remembers him (likely from Summer 2002)",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -5604,11 +5604,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["preventerwind","[AK]PreventerWind"],
+                        "pidPlusName" : ["preventerwind","[AK]PreventerWind 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Texas","Head Bussa"]
+                        "stats" : ["Texas, b~'84","Head Bussa"]
                     }
                 ]
             },
@@ -5696,7 +5696,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Las Vegas, NV",""]
+                        "stats" : ["In clan around December 2002, Las Vegas, NV",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -5840,7 +5840,7 @@
                 "forum" : ["main 2003 forums with 447 registered users","https://web.archive.org/web/20040730061458/http://clanak.deusex-online.com/Forums/","featured"]
             }
         ],
-        "description" : "Second year growing and competitive clan that at some point included Ste and Conceited. Most of the clan seems to have been absorbed by the [EL] according to their report around mid 2003. DZ was later involved with '05 UE rebound after he tried to bring AK back over what mightve been 2004 Christmas and early next year. Clan definitely must've played several matches but that have not preserved.",
+        "description" : "Second year growing and competitive clan that at some point included Ste and Conceited. Born sometime mid 2002, most of the clan seems to have been absorbed by the [EL] according to their report around mid 2003. DZ was later involved with '05 UE rebound after he tried to bring AK back over what mightve been 2004 Christmas and early next year. Clan definitely must've played several matches but that have not preserved.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -60309,7 +60309,7 @@
                         "membergroupLabel" : ["https://web.archive.org/web/20041010061333/http://transcend.liquidkill.com/index.php?page=members","2003 revival"],
                         "pidPlusName" : ["weeirdoo","[T]WeEiRdOo"],
                         "aliases" : ["Yahweh"],
-                        "pastClanIDs" : ["dk","w"],
+                        "pastClanIDs" : ["dk","w", "ak"],
                         "membership" : ["","",""],
                         "stats" : ["","USA<br />(lead)"]
                     },
