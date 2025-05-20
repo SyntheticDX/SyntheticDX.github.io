@@ -1081,20 +1081,20 @@ $(document).ready(function() {
                     // Scroll to the #pagetimeline section
                     $('html, body').animate({
                         scrollTop: targetSection.offset().top
-                    }, 300, function() {
+                    }, 200, function() {
                         // Focus on the specific popover after scrolling
                         const popoverButton = $(`#Pop_${popoverId}`);
                         if (popoverButton.length) {
                             // Scroll to the popover button
                             $('html, body').animate({
-                                scrollTop: popoverButton.offset().top - 20 // Adjust scroll position
+                                scrollTop: popoverButton.offset().top - 120 // Adjust scroll position
                             }, 200, function() {
                                 // Apply a temporary red border overlay to the popover button
                                 const $borderOverlay = $('<div class="border-overlay"></div>').css({
                                     position: 'absolute',
-                                    top: popoverButton.offset().top - 2,
-                                    left: popoverButton.offset().left - 2,
-                                    width: popoverButton.outerWidth() + 4,
+                                    top: popoverButton.offset().top - 27,
+                                    left: popoverButton.offset().left - 5,
+                                    width: popoverButton.outerWidth() + 11,
                                     height: popoverButton.outerHeight() + 4,
                                     border: '2px solid red',
                                     borderRadius: popoverButton.css('borderRadius'),
@@ -1270,7 +1270,7 @@ $(document).ready(function() {
                 // Scroll to the target row with padding
                 $('html, body').animate({
                     scrollTop: $targetRow.offset().top - paddingTop
-                }, 500, function() {
+                }, 200, function() {
                     // Animation complete callback
                     // Create a border overlay div
                     const $borderOverlay = $('<div class="border-overlay"></div>').css({
@@ -1309,15 +1309,45 @@ $(document).ready(function() {
 
             $link.on('click', function(e) {
                 e.preventDefault();
-                const lastIndex = lastScrolledIndex[letter];
-                const $target = findNextMatchingRow(letter, lastIndex);
-                if ($target.length) {
-                    lastScrolledIndex[letter] = $(`tr[data-id^="${letter.toLowerCase()}"]`).index($target);
-                    scrollToTarget($target, 200);
+
+                // Store special scroll intent in sessionStorage
+                sessionStorage.setItem('scrollToAlphabetLetter', letter);
+                sessionStorage.setItem('lastScrolledIndex', lastScrolledIndex[letter]);
+
+                // Navigate to #pageclans if not already there
+                if (window.location.hash !== '#pageclans') {
+                    window.location.href = './index.html#pageclans';
+                } else {
+                    scrollToNextAlphabetRow(letter);
                 }
             });
+
             $clanlistContents.append($link);
         });
+
+        // Function to scroll to the target row after the page is loaded
+        $(window).on('load hashchange', function () {
+            if (window.location.hash === '#pageclans') {
+                const letter = sessionStorage.getItem('scrollToAlphabetLetter');
+                const lastIndex = sessionStorage.getItem('lastScrolledIndex');
+
+                if (letter !== null) {
+                    scrollToNextAlphabetRow(letter, parseInt(lastIndex));
+                    sessionStorage.removeItem('scrollToAlphabetLetter');
+                    sessionStorage.removeItem('lastScrolledIndex');
+                }
+            }
+        });
+
+        function scrollToNextAlphabetRow(letter, lastIndex = -1) {
+            const $rows = $(`tr[data-id^="${letter.toLowerCase()}"]`);
+            const $target = (lastIndex >= $rows.length - 1) ? $rows.first() : $rows.eq(lastIndex + 1);
+
+            if ($target.length) {
+                lastScrolledIndex[letter] = $rows.index($target);
+                scrollToTarget($target, 100);
+            }
+        }
 
         function findNextMatchingRow(letter, lastIndex) {
             const rows = $(`tr[data-id^="${letter.toLowerCase()}"]`);
@@ -1327,7 +1357,7 @@ $(document).ready(function() {
         function scrollToTarget($target, padding) {
             $htmlBody.animate({
                 scrollTop: $target.offset().top - padding
-            }, 500, function() {
+            }, 200, function() {
                 highlightElement($target);
             });
         }
@@ -1746,22 +1776,6 @@ $(document).ready(function() {
         };
     }
 
-    /*
-
-    // Scroll back up when any div, .clan_addedrows, or #longread loses focus, except for links inside those elements
-    $('body').on('blur', 'div:not(.matchOpponent), .clan_addedrows, #longread', debounce(function(event) {
-        if ($(event.relatedTarget).is('a, button')) {
-            // If the next focused element is a link or button, do not scroll
-            return;
-        }
-        var padding = 200; // Adjust this value to set the desired padding
-        var scrollPosition = $(this).offset().top - padding;
-        $('html, body').animate({
-            scrollTop: scrollPosition
-        }, 200);
-    }, 250)); // Debounce for 250 milliseconds
-
-    */
 
     /* *********************** TOOLTIPS ******************************************************************************************************************** */
 
