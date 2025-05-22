@@ -2153,7 +2153,7 @@
                         "aliases" : ["Mithotyn","Mayhem","DdM"],
                         "pastClanIDs" : ["r2r","a","dk"],
                         "membership" : ["2003-12-08","2004-03-03",""],
-                        "stats" : ["later in DCSB, this is probably DdM, although I mixed him up with Myang who is presumably DZ","Rank: Operative (7)<br />CLAN MATCHES: 0<br />SERVED DAYS: 87<br /><br />NEW RECRUIT ~ SYGNUM: We made a poll about him and with the majority of the clan&apos;s votes, he stepped in to the Brotherhood of Triad. Let the garnage start and welcome to the clan. Good to have you with us, represent the tag with pride.<br /><br />SYGNUM LEAVES THE CLAN: Sygnum decided to leave the clan due to personal problems. Good luck in future.<br /><br />SERVER MESS: The server was hacked with the adminlogin by two players. One of the IPs matched closely with Sygnum aka DdM, the other one traced close to Merlin. The IP matching to Sygnum was not a surprise since the server was messed up with the adminlogin that Sygnum had due to his ex-membership to the clan. Supposedly, he decided to give out the password to Merlin to use it against us for his personal anger about something.<br /><br />Sygnum also gave the private forum access to Merlin while being in the clan. The reason remains unknown.<br /><br />Shame, a good friend became a two-faced enemy."]
+                        "stats" : ["later in DCSB, this is probably DdM, although I mixed him up with Myang who is actually DZ","Rank: Operative (7)<br />CLAN MATCHES: 0<br />SERVED DAYS: 87<br /><br />NEW RECRUIT ~ SYGNUM: We made a poll about him and with the majority of the clan&apos;s votes, he stepped in to the Brotherhood of Triad. Let the garnage start and welcome to the clan. Good to have you with us, represent the tag with pride.<br /><br />SYGNUM LEAVES THE CLAN: Sygnum decided to leave the clan due to personal problems. Good luck in future.<br /><br />SERVER MESS: The server was hacked with the adminlogin by two players. One of the IPs matched closely with Sygnum aka DdM, the other one traced close to Merlin. The IP matching to Sygnum was not a surprise since the server was messed up with the adminlogin that Sygnum had due to his ex-membership to the clan. Supposedly, he decided to give out the password to Merlin to use it against us for his personal anger about something.<br /><br />Sygnum also gave the private forum access to Merlin while being in the clan. The reason remains unknown.<br /><br />Shame, a good friend became a two-faced enemy."]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -2301,7 +2301,7 @@
                 "article" : ["","2002-02-23","CLAN MATCH WITH &#x005B;SNA&#x005D;","","Nice and positive attitude &#x005B;SNA&#x005D;, let&apos;s get a rematch soon. Thank you &#x005B;SNA&#x005D; for the good game!","wars"]
             },
             {
-                "article" : ["","2002-03-01","PEACE BETWEEN TRIAD &amp; &#x005B;TCN&#x005D;","","After all kind of arguements, mean stuff between us and the &#x005B;TCN&#x005D; clan, we have somehow gained some peace between our clans. We do not wish to have grudges or anything like that towards anyone and that is why this is a good thing for both of us. Let&apos;s forget the stuff that have been said about each other and continue with peaceful mind.","clan"]
+                "article" : ["","2002-03-01","PEACE BETWEEN TRIAD %26amp; &#x005B;TCN&#x005D;","","After all kind of arguements, mean stuff between us and the &#x005B;TCN&#x005D; clan, we have somehow gained some peace between our clans. We do not wish to have grudges or anything like that towards anyone and that is why this is a good thing for both of us. Let&apos;s forget the stuff that have been said about each other and continue with peaceful mind.","clan"]
             },
             {
                 "article" : ["","2002-03-02","NEW MEMBER ~ SILENTASSASSIN","","We saw him on the game when he was asking what kind of clan &#x005B;U&#x005D; is. Triad offered him a spot in our clan and after the map ended, we talked about it on AIM. And today we have a big honour to announce that this 'Masta Assassin' has joined us and made us extremely strong skillwise. Good to have you with us, represent the tag with pride.","members"]
@@ -5485,7 +5485,7 @@
         "name" : "Augmented Killers",
         "gametype" : ["Augs","Mod","0a"],
         "tier" : ["B","A",""],
-        "date" : ["isUncertain","2002-08-01","isUncertain","2004-02-01","isCertain","2005-01-01"],
+        "date" : ["isUncertain","2002-08-01","isCertain","2004-07-01","isCertain","2005-01-01"],
         "founder" : ["DestroyerZero"],
         "members" : [
             {
@@ -5581,7 +5581,7 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["anarchy","[ÅK][~ÅñÅrçHÿÆ] 🇺🇸"],
-                        "aliases" : ["Xsdemon14"],
+                        "aliases" : ["Xsdemon14", "Spectre"],
                         "pastClanIDs" : [""],
                         "membership" : ["September 2002","",""],
                         "stats" : ["Colorado<br /><br />Not listed Dec 7. but shows as mod on forums still, possibly incomplete work with roster again","War Organizer"]
@@ -5628,7 +5628,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Vegito0201",""]
+                        "stats" : ["Vegito0201; active around Summer 2003",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -5712,11 +5712,11 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["legolas","[AK]Legolas"],
+                        "pidPlusName" : ["legolas","[AK]Legolas 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Admin on last forums","Boston, US"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -5788,6 +5788,22 @@
                         "pastClanIDs" : ["dwk","void","std","ue","hk","t"],
                         "membership" : ["","",""],
                         "stats" : ["Probably during later revival, ca 2005",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["raiden","[Ak]Raiden"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["in the clan by April 2004",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["stalker","[AK]STALK3R"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["dk"],
+                        "membership" : ["","",""],
+                        "stats" : ["butrosbent; high likelyhood its the same STALKER from DK",""]
                     }
                 ]
             },
@@ -7437,11 +7453,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["ricci","[B]Ricci"],
+                        "pidPlusName" : ["ricci","[B]Ricci 🇨🇦"],
                         "aliases" : ["SerialKilla"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Mike? If I am not mixing him up with another member, but I think its correct","Canada"]
+                        "stats" : ["Mike? If I am not mixing him up with another member, but I think its correct","Toronto, Canada"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -7625,12 +7641,18 @@
         ],
         "websites" : [
             {
+                "website" : ["Likely the original site or one of them, linked by Ricci in 2003 with url being actually this www.bclandx.cjb.net","https://web.archive.org/web/*/http://www.geocities.com/swatbye/*","dead"]
+            },
+            {
                 "website" : ["Revived [B] 2007 forums it seems like, assuming they used the portal front end as website, clan was noted to not have a website by mid 2004","https://web.archive.org/web/20071210075552/http://z3.invisionfree.com/DXMP_B_Clan_Forum/index.php?act=site","dead"]
             }
         ],
         "forums" : [
             {
                 "forum" : ["Mid 2003 linked forums by [B]SerialKilla","https://web.archive.org/web/20240000000000*/http://ug.totalconversions.com/bye/phpBB2/index.php","dead"]
+            },
+            {
+                "forum" : ["Board hosted on DestroyerZero's [AK] forums from end of 2003","https://web.archive.org/web/20040710174155/http://clanak.deusex-online.com:80/Forums/viewforum.php?f=75%26amp","featured"]
             },
             {
                 "forum" : ["Most likely this is DestroyerZero's paid domain of 2006-2007 era and thus he mustve hosted the revived [B]","http://clanb.deus-ex.net/vb","dead"]
@@ -8052,7 +8074,7 @@
         "id" : "ba",
         "tag" : ["tagFront","[","BA","]"],
         "tag_extra" : "",
-        "flag" : ["",""],
+        "flag" : ["","🇺🇸"],
         "name" : "Brutal Assassins",
         "gametype" : ["0a"],
         "tier" : ["B","A",""],
@@ -8068,6 +8090,22 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["His 7 members are a mystery, but likely core nMe members.",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["spermy","[BA]Spermy 🇺🇸"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Active late Feb 2004","Long Beach Cali"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["theshadowknight","[BA]ShadowKnight"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["ak"],
+                        "membership" : ["","",""],
+                        "stats" : ["Active Feb 2004, its presumably after he was in AK",""]
                     }
                 ]
             },
@@ -8075,7 +8113,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["majestic_nz","[BA]Majestic"],
+                        "pidPlusName" : ["majestic_nz","[BA]Majestic 🇳🇿"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -10940,7 +10978,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["cajun","[BTJ]Cajun"],
+                        "pidPlusName" : ["cajun","[BTJ]Cajun 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["early 2003","",""],
@@ -10972,11 +11010,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["stun","[BTJ]S*T*U*N"],
+                        "pidPlusName" : ["stun","[BTJ]S*T*U*N 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["later 2003","",""],
-                        "stats" : ["",""]
+                        "stats" : ["","Los Angeles"]
                     }  
                 ]
             }
@@ -11029,7 +11067,7 @@
                 "forum" : ["2003-2004 era posts","https://web.archive.org/web/20040612032201/http://btj.deusex-online.com:80/forums/viewforum.php?f=2%26amp","featured"]
             }
         ],
-        "description" : "Large beginner to intermediate clan. Might've re-surfaced briefly circa 2006ish. Imperial was attempting to revive various old clans such as MTX around that time, maybe JTB, and I remember Kryss of BTJ reappearing. Founded by Belgians.",
+        "description" : "Large beginner to intermediate clan. Might've re-surfaced briefly circa 2006ish. Imperial was attempting to revive various old clans such as MTX around that time, maybe JTB, and I remember Kryss of BTJ reappearing. Founded by Belgians. Kryss had made a clan with TCN Buttercup before, but its not clear which one that was.",
         "background" : [
             {
                 "backgroundStory" : ["","btj","","[BTJ] was created on February 2002 by two childhood friends (Kryss and Kross).<br /><br />[BTJ] clan is dedicated to fun, fair-play and mutual respect cause this is only a game(probably the best one but only a game!) where feeble minded morons who bark insults are not at their place.<br /><br />We don't like cheaters because we don't see where the fun is to play against them.<br /><br />We only want to emprove our skills and tactics day after day we play even if we must die virtually often.<br /><br />[BTJ] create maps and mods (check our forum for more details) for the enjoyment of all DXMP players :)"]
@@ -13320,7 +13358,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["malachai","[CG]Malachai"],
+                        "pidPlusName" : ["malachai","[CG]Malachai 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -13444,7 +13482,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["duplicate","2006 Roster"],
-                        "pidPlusName" : ["malachai","[CG]Malachai"],
+                        "pidPlusName" : ["malachai","[CG]Malachai 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -17524,7 +17562,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["aurnie","[DCSB]Aurnie"],
+                        "pidPlusName" : ["aurnie","[DCSB]Aurnie 🇨🇦"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","2002-11-16",""],
@@ -18890,7 +18928,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["cypher","[~DeH~]_[~MН$FНT~]"],
+                        "pidPlusName" : ["cypher","[~DeH~]_[~MН$FНT~] 🇦🇺"],
                         "aliases" : ["Cypher"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -20135,7 +20173,7 @@
                 "match" : ["df_v_m","m","}{M}{","Win 2:1","2004-08-16","[DF] vs }{M}{We fought }{M}{ on 16th August 2004.<br />1st round }{M}{ Won<br />2nd round [DF] won<br />3rd round [DF] won<br />A rematch is being organised because there were lag problems.","isCertain"]
             },
             {
-                "match" : ["df_v_tt","tt","[TT]","Loss","2004-08-20","April 7, 2005: To be announced.<br /><br />June 19, 2004 - [TT]Raiden: Hey guys, some of you might know me and some of you might not. I get along with ur leader quite well [DF]BobodaKnifa. But anyway do you guys want a war with us? As soon as possible, that would be great.<br /><br />4v4<br />GHOST server ( JOLT )<br />Lams or No - lams its up to you.<br />And all we need is a time and date for you. Fridays oe the weekends are good for me. If they aint for you we can sort it out.<br />But plz guys, you havent played us before and we havent played you. So this should be good. <br /><br />[DF]hAx0r: aiight 3 vs 3 would be better Umm Lams but keep the lam rate down what u think sheep? Ahhh next week on saturday is best 4 me Umm 4:00 pm English time<br />Sma: GG guys hope we can have another game soon. wp both teams. we played 2 maps on my server and 2 on spikes server. <a href='https://web.archive.org/web/20041012021553/http://fc.claymorenation.com:80/viewtopic.php?p=3619&amp'>thread</a>","isCertain"]
+                "match" : ["df_v_tt","tt","[TT]","Loss","2004-08-20","April 7, 2005: To be announced.<br /><br />June 19, 2004 - [TT]Raiden: Hey guys, some of you might know me and some of you might not. I get along with ur leader quite well [DF]BobodaKnifa. But anyway do you guys want a war with us? As soon as possible, that would be great.<br /><br />4v4<br />GHOST server ( JOLT )<br />Lams or No - lams its up to you.<br />And all we need is a time and date for you. Fridays oe the weekends are good for me. If they aint for you we can sort it out.<br />But plz guys, you havent played us before and we havent played you. So this should be good. <br /><br />[DF]hAx0r: aiight 3 vs 3 would be better Umm Lams but keep the lam rate down what u think sheep? Ahhh next week on saturday is best 4 me Umm 4:00 pm English time<br />Sma: GG guys hope we can have another game soon. wp both teams. we played 2 maps on my server and 2 on spikes server. <a href='https://web.archive.org/web/20041012021553/http://fc.claymorenation.com:80/viewtopic.php?p=3619%26amp'>thread</a>","isCertain"]
             }
         ],
         "websites" : [
@@ -21398,7 +21436,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Not clear if the later AK STALK3R, but likely so",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -23046,10 +23084,18 @@
         "gametype" : ["Augs"],
         "tier" : ["B","A",""],
         "date" : ["isUncertain","2003-03-01","isUncertain","2003-05-01","isCertain",""],
-        "founder" : [""],
+        "founder" : ["Hezza"],
         "members" : [
             {
                 "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["hezza","[ DS ] Insomnia"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["gato","dk","a","tn"],
+                        "membership" : ["","",""],
+                        "stats" : ["visits DK forums April 2003",""]
+                    },
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["nick","Disciple[DS]"],
@@ -23081,14 +23127,6 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["Likely an alias or partial name",""]
-                    },                    
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["hezza","[ DS ] Insomnia"],
-                        "aliases" : [""],
-                        "pastClanIDs" : ["gato","dk","a","tn"],
-                        "membership" : ["","",""],
-                        "stats" : ["visits DK forums April 2003",""]
                     }
                 ]
             },{
@@ -23119,10 +23157,10 @@
                 "forum" : ["","https://web.archive.org/web/*/http://ug.totalconversions.com:80/ss/cgi-bin/YaBB/YaBB.cgi*","dead"]
             }
         ],
-        "description" : "Seemingly a third year spring clan of a few members, seemingly appearing after a bunch of large clans experienced destructive merges. By host it is also listed as [SS] clan so possibly changed tag / name later for some reason.",
+        "description" : "A third year spring clan that appeared after a bunch of large clans experienced destructive merges, and according to a July 2003 post on AK forums its said to be created by Hezza after she left TCN. By host it is also listed as [SS] clan so possibly changed tag / name later for some reason.",
         "background" : [
             {
-                "backgroundStory" : ["","","",""]
+                "backgroundStory" : ["In a July 2003 rant about TCN https://web.archive.org/web/20040725093136/http://clanak.deusex-online.com:80/Forums/viewtopic.php?t=582&amp","dz","DestroyerZero: ","Hezza also left and she made her own clan too which was [DS] a long time ago"]
             }
         ],
         "news" : [
@@ -23747,11 +23785,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["jjbomber","{DWK}_JJBomber"],
+                        "pidPlusName" : ["jjbomber","{DWK}_JJBomber 🇺🇸"],
                         "aliases" : ["BIGGAYAL","jAcKaL","HERPES","DudeInAThong","CuriousGeorge"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Probably Void same time or soon after it formed",""]
+                        "stats" : ["Probably Void same time or soon after it formed"," Los Angeles"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -25936,7 +25974,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["","Deus EX Revolution [DXR] Clan Leader"]
                     }
                 ]
             }
@@ -30601,11 +30639,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["legolas","~[EL]~LËGÖLÄS"],
+                        "pidPlusName" : ["legolas","~[EL]~LËGÖLÄS 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : ["ak"],
                         "membership" : ["","",""],
-                        "stats" : ["Relative of Gab, was in [AK]",""]
+                        "stats" : ["Relative of Gab, was in [AK]","Boston"]
                     }
                 ]
             },
@@ -32093,10 +32131,10 @@
         "tag" : ["tagFront","[","F","]"],
         "tag_extra" : "",
         "flag" : ["",""],
-        "name" : "",
+        "name" : "Faction",
         "gametype" : ["Augs"],
         "tier" : ["","A",""],
-        "date" : ["isUncertain","2004-07-01","isUncertain","2004-08-18","isCertain",""],
+        "date" : ["isUncertain","2004-06-01","isUncertain","2004-08-18","isCertain",""],
         "founder" : ["Ricci?"],
         "members" : [
             {
@@ -32104,10 +32142,18 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["ricci","[F]Ricci"],
-                        "aliases" : [""],
+                        "aliases" : ["SerialKilla"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["nick","[F]Nick ?"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Seen as a member of Faction forum group on AK boards",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -32116,6 +32162,46 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["Someones alias",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["alias","[F]~Flo!~"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Someones alias",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["lazystoner","[F]LazY-StoneR ?"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["High probability hes in the clan, not clear if Raiden was also",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["kazanski","[F]Kazanski ?"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Seen as a member of Faction forum group on AK boards",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["legolas","[F]Legolas ?"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Seen as a member of Faction forum group on AK boards, not clear if because he was admin, or more reasonably: maybe he joined after AK shut down mid 2004",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["destroyerzero","[F]DestroyerZero ?"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["He is moderator of the Faction group on his forums, not clear if an admin like him just likes to see his name there, or maybe he joined after AK shut down mid 2004 -- another AK member Legolas is als listed among Faction members",""]
                     }
                 ]
             }
@@ -32135,7 +32221,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "Smaller aug clan of the fourth year involving Ricci, likely formed around the that time [I] where many revived [DK] went to died again or became inactive. After some games together with [DES] leader in August 18, 2004, Ricci joins [DES] and most likely the [F] clan is over.",
+        "description" : "Seemingly short-lived aug clan of the fourth year involving Ricci, likely formed around the that time [I] where many revived [DK] went to died again or became inactive. After some games together with [DES] leader in August 18, 2004, Ricci joins [DES] and most likely the [F] clan is over. The group seems to involve other volatile community members of the time, and had its forum section provided by DZ of [AK].",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -34231,7 +34317,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["cypher","Cypher[FUEL]"],
+                        "pidPlusName" : ["cypher","Cypher[FUEL] 🇦🇺"],
                         "aliases" : ["Taskmaster"],
                         "pastClanIDs" : ["deh"],
                         "membership" : ["1st September 2002","",""],
@@ -49715,11 +49801,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["coldwave","{0}Coldwave"],
-                        "aliases" : [""],
+                        "pidPlusName" : ["coldwave","{0}Coldwave 🇺🇸"],
+                        "aliases" : ["Samunami"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["","active member"]
+                        "stats" : ["She is from OK, US","active member"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -49984,6 +50070,14 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["zenmaster","{0}ZenMaster"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["active Feb 2004",""]
                     }
                 ]
             }
@@ -54673,7 +54767,7 @@
                 "forum" : ["It appears the forums contain large number of shouts and posts","https://web.archive.org/web/20071207171022/http://dxrenegades.gravity-world.com:80/index.php/topic,128.0.html","featured"]
             }
         ],
-        "description" : "Top European non-aug clan with some auging capacity from the sixth year, it combined select top players from various top non-aug clans on the scene earlier, and avoided recruiting Americans for a reason that became evident the one time it made an exception and lost a war. In total the clan played 13 non-aug wars, 12 of which were won, 1 was lost by 1 frag. Group survived server attacks but closed down almost three years after its birth due to the lack of competitive activity in the game. Core consisted of old (GS) founder, a competitive player from {EoD}[DF] until his departure, [NEM] founder, one of top [V] members, [TT] founder, one of the most experienced [DCSB] members, and various other talents and vets, such as friends of Chaos from his Italian clans as well as friends of mine from my past clans, all trained into top shape together with much never players clan saw show promise in server. Currently, 3 wars from 2008 onward are missing confirmation in stats.",
+        "description" : "Top European non-aug clan with some auging capacity from the sixth year, it combined select top players from various top non-aug clans on the scene earlier, and avoided recruiting Americans for a reason that became evident the one time it made an exception and lost a war. In total the clan played 13 non-aug wars, 12 of which were won, 1 was lost by 1 frag. Group survived server attacks but closed down almost three years after its birth due to the lack of competitive activity in the game. Core consisted of old (GS) founder, a competitive player from {EoD}[DF] until his departure, [NEM] founder, one of top [V] members, [TT] founder, one of the most experienced [DCSB] members, and various other talents and vets, such as friends of Chaos from his Italian clans as well as friends of mine from my past clans, all trained into top shape together with a few much newer players who showed promise in server. Currently, 3 wars from 2008 onward are missing confirmation in stats.",
         "background" : [
             {
                 "backgroundStory" : ["https://web.archive.org/web/20080206010136/http://dxrenegades.gravity-world.com/index.php?page=clan_history","ren","","Chaos and Shadow start the clan somewhere within 19th and 20th of April. Chaos had the idea of making a clan called Renegades for a longer time but gathering good members in DXMP is a difficult task. Shadow liked the idea and so the clan was born.<br />First member to join was Random, later known as Undead (synthetic), who took up the task of creating forums for the clan. Soon [TT] veteran Trollied was recruited. Few days after the clan was founded we challenged [Shen], on 22nd of April. The members were all incognito, under visually similar aliases, the cover lasted only for a short period of time."]
@@ -60295,7 +60389,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["aurnie","[T]Aurnie"],
+                        "pidPlusName" : ["aurnie","[T]Aurnie 🇨🇦"],
                         "aliases" : [""],
                         "pastClanIDs" : ["w","dcsb"],
                         "membership" : ["","",""],
@@ -60372,7 +60466,7 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["jjbomber","[T]DudeInAThong"],
-                        "aliases" : ["JJBOMBER","BIGGAYAL","jAcKaL","HERPES","CuriousGeorge"],
+                        "aliases" : ["JJBOMBER","BIGGAYAL","jAcKaL","HERPES","CuriousGeorge","Sentinel"],
                         "pastClanIDs" : ["dwk","void","ue","std","hk"],
                         "membership" : ["","",""],
                         "stats" : ["Presumably coming from HK and likely with several of its members, in [AK] some point, possibly later",""]
@@ -60463,11 +60557,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["jackoff","[T]Jackoff"],
+                        "pidPlusName" : ["jackoff","[T]Jackoff 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : ["bk","d","w"],
                         "membership" : ["","",""],
-                        "stats" : ["Possibly joining from W, admin with jEj and Shaun",""]
+                        "stats" : ["Possibly joining from W, admin with jEj and Shaun","California, USA "]
                     },
 
                     {
@@ -61400,7 +61494,7 @@
                         "aliases" : ["Monkee","SecretSquirrel","Bluemurder"],
                         "pastClanIDs" : [""],
                         "membership" : ["","2002-03-17",""],
-                        "stats" : ["Later in [3] and possibly [I] before that, eventually makes A!B clan. Interestingly enough still listed in TCN roster three months after he's joined 3.",""]
+                        "stats" : ["JB (replying to DZ): 'Bubbles was kicked from TCNDK twice. This was due to the same reason you were kicked from Triad. He gave out the admin pass and private information - basically betraying the clan trust. Everyone knows this.' <br /><br />Later in [3] and possibly [I] before that, eventually makes A!B clan. Interestingly enough still listed in TCN roster three months after he's joined 3.",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -62241,7 +62335,7 @@
         "description" : "Incomplete entry, also may have been mistyped as TDN",
         "background" : [
             {
-                "backgroundStory" : ["","","",""]
+                "backgroundStory" : ["joining Nukem vs 15 thread","cajun","Cajun: ","Nukem TDH sucks get over it your clan will never be good and stop saying TDH can kick Ak, 15 and B ass i think TDH has only won like 4 wars out of 20 ."]
             }
         ],
         "news" : [
@@ -62456,22 +62550,38 @@
     },
     {
         "id" : "tek",
-        "tag" : ["tagFront","[","TEK","]"],
-        "tag_extra" : "",
+        "tag" : ["tagFront","{","TEK","}"],
+        "tag_extra" : "{K}",
         "flag" : ["",""],
-        "name" : "Totall Extreme Killers",
+        "name" : "Tactical Evil Killers / Totall Extreme Killers",
         "gametype" : ["0a"],
         "tier" : ["B","",""],
-        "date" : ["isUncertain","2004-01-01","isUncertain","2004-05-01","isCertain",""],
-        "founder" : [""],
+        "date" : ["isUncertain","2004-02-01","isUncertain","2004-05-01","isCertain",""],
+        "founder" : ["ryankiller ?"],
         "members" : [
             {
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["member","[TEK]"],
+                        "pidPlusName" : ["ryankiller","{TEK}ryankiller, and roadkill"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["tdh"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["tomkiller","{TEK}tomkiller and "],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["tdh"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["roadkill","{TEK}roadkill"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["tdh"],
                         "membership" : ["","",""],
                         "stats" : ["",""]
                     }
@@ -62485,7 +62595,7 @@
         ],
         "websites" : [
             {
-                "website" : ["","",""]
+                "website" : ["http://www.tek-clan.vze.com","http://www.freewebs.com/tek-clan-site/","dead"]
             }
         ],
         "forums" : [
@@ -62493,10 +62603,22 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "Incomplete entry",
+        "description" : "Early fourth year clan thats sprouted out of [TDH], and of the likely non-aug disposition they claimed to have re-invented dx, as well as supposedly had 50 members which Onyx of DCSB doubts.",
         "background" : [
             {
-                "backgroundStory" : ["","","",""]
+                "backgroundStory" : ["","","","<h1>(T)actical * (E)vil * (K)illers</h1><br /><br />a new voice has risen in DX a clan that came out of no ware now has the abbility to take over DX<br /><br />the clan started out bing called noobs but now we take away that athority by growing into the largest clan in DX! with the help of menny allie's we are becomin an unstopibul force"]
+            },
+            {
+                "backgroundStory" : ["https://web.archive.org/web/20040724165830/http://clanak.deusex-online.com:80/Forums/viewtopic.php?t=2640&amp","nukem","[TDH]Nukem: ","TEK used to be K and K is some of the noobs of TDH, ie ryankiller,tomkiller and roadkill..so pretty much im guessing tek is a part of tdh =\\ icon_confused.gif icon_confused.gif icon_confused.gif"]
+            },
+            {
+                "backgroundStory" : ["Apparently they went god mode on Onyx in their clan server","onyx","OnYx(DCSB): ","Right, over @ DCSB we like to help new clans, hell we host forums for 2 of em (one of which being [TEC] not to be confused with these {TEK} wannabe's) but these guys are something else...<br />They claim to have re-invented DX (Well, they would if they could spell it)<br /><br />Check out their site - http://www.tek-clan.vze.com<br /><br />my favourite part from their site<br />is... (inserted clan description from above)<br />..........What can I say?<br />ahahahahahahah<br /><br />athority,menny,allie's,unstopibul???<br />Thought my spelling was bad.<br />SOMEONE BUY THIS GUY A DICTIONARY!!!<br /><br />If any of em are reading this forum, CHALLENGE US!!! I would love to hand your asses to you, and all 50 imaginary members.<br /><br />Dont take this the wrong way, I have spent hours, nay, days training new players and helping them out but when someone appears on the scene with this arrogance it annoys me.<br />I joined their server other night, melee sniped 3/4 of them before they all switched on god mod.... icon_confused.gif<br /><br />Soooo.... EVERYONE KICK THEIR ASSES!<br />(I'll be suprised if they see out march anyways)"]
+            },
+            {
+                "backgroundStory" : ["Another DCSB member and the later leader adding to the above","mole","Mole: ","I think Kar sturm lego and a few others had their own experience with them doin somethin similar the otha day.<br /><br />I also herd yesterday that DCSB are their allies, first Ive herd of it! icon_confused.gif<br /><br />Nah good luck to em, dx needs all the competition it can get, just without the attitude!"]
+            },
+            {
+                "backgroundStory" : ["Another DCSB member adding to the above","sturmovik","Sturmovik: ","yea they were cheating the other night in a non mtl server supposidly a clan war with TEC...Kar can tell u more cause she types more sense icon_biggrin.gif"]
             }
         ],
         "news" : [
@@ -62710,6 +62832,14 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["dartanian","DArtanian[TGU]"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["My instinct is to win, eliminate anyone who is in competition, destroy my enemy, and move on without any kind of hesitation at all; lightbringerthe1",""]
                     }
                 ]
             }
@@ -63510,12 +63640,32 @@
         "tag" : ["tagFront","[","TM","]"],
         "tag_extra" : "",
         "flag" : ["",""],
-        "name" : "",
-        "gametype" : ["0a"],
-        "tier" : ["B","A",""],
-        "date" : ["isUncertain","2004-01-01","isUncertain","2005-12-01","isCertain",""],
-        "founder" : ["Majestic ?"],
+        "name" : "The Mafia",
+        "gametype" : ["Augs"],
+        "tier" : ["","A",""],
+        "date" : ["isUncertain","2003-04-01","isUncertain","2003-06-01","isCertain",""],
+        "founder" : ["Buttercup", "Stigmata"],
         "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["buttercup","[TM]Buttercup"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["tcn"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["nick","[TM]Stigmata"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["d"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    }
+                ]
+            },
             {
                 "membergroup" : [
                     {
@@ -63547,7 +63697,7 @@
         "description" : "Obscure clan known only from previous clans Majestic from NZ had been in, most likely non-aug as rest of his clans, and perhaps even made by himself or a friend. It existed most likely sometime fourth and fifth year, but its not clear.",
         "background" : [
             {
-                "backgroundStory" : ["","","",""]
+                "backgroundStory" : ["On AK forums, Jul 2003","johnnybravo","JohnnyBravo[TCNdk]:","Buttercup left TCNDK to join up with Stigmata to make a clan called [TM] - The Mafia. After that had nothing to do with us. Buttercup left on good terms and is still good mates with us."]
             }
         ],
         "news" : [
@@ -64075,7 +64225,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Not clear if this is Deus from the 2003 AK roster, probably not; Vegito 0201",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -64270,7 +64420,7 @@
         "description" : "Some sort of clan of at least a few people from either late second year or early first year, if past clans chronology for Josh is correct, seemingly fairly short-lived and not very impactful. For some reason the initial notes mark the founding year of this clan 1999 01 01, which is either some kind of error or has been found from a now unavailable source, but for this list we go with the approximate time that the few known members were in it. It also cannot be ruled out that these are two distinct clans, although both likely equally obscure. On occasion [TN] members wore additional [T] next to tag to distinguish trainee or trial status.",
         "background" : [
             {
-                "backgroundStory" : [" Sat Jun 21, 2003 5:38 am https://web.archive.org/web/20040726194100/http://dk.deusex-online.com:80/board/viewtopic.php?p=2723&amp","maximus","GabberNYC:","Hey buddy, I don't know if you remember me, but i was Maximus[TNT], remember that pathetic failure clan? biggrin.gif I haven't seen you around, but i heard that you joined DK, and Dae said that you post here a lot. So i just want to say hi again."]
+                "backgroundStory" : [" Sat Jun 21, 2003 5:38 am https://web.archive.org/web/20040726194100/http://dk.deusex-online.com:80/board/viewtopic.php?p=2723%26amp","maximus","GabberNYC:","Hey buddy, I don't know if you remember me, but i was Maximus[TNT], remember that pathetic failure clan? biggrin.gif I haven't seen you around, but i heard that you joined DK, and Dae said that you post here a lot. So i just want to say hi again."]
             }
         ],
         "news" : [
@@ -65266,7 +65416,7 @@
                 "match" : ["dcsb_v_tt","dcsb",".:DcsB:.","Loss 0:2","2004-10-30","OnYx: 'Silo - Before Tang GPF Final Score DCSB 147 - 137 [TT] , Silo Smuggler  CMD <br />Stats: .:DCSB:. 424 - 380 [TT]<br /><br />Name - Kills - Deaths<br /><br />.:DCSB:.<br />Mole - 94 - 90<br />System - 89 - 61<br />OnYx - 84 - 67<br />Forsaken - 60 - 53<br />Tang - 53 - 58<br />BFG - 44 - 60<br /><br />[TT]<br />Trollied - 86 - 78<br />Smarties - 68 - 70<br />AlexDenton - 64 - 108<br />D4le - 61 - 89<br />BeanSociety (HeZZa) - 50 - 59<br />Raiden - 48 - 44<br /><br />Overall Final Scores<br /><br />.:DCSB:.<br />System +28<br />OnYx +17<br />Forsaken +7<br />Mole +4<br />Tang -5<br />BFG -16<br /><br />[TT]<br />Trollied +8<br />Raiden +4<br />Smarties -2<br />BeanSociety -9<br />D4le -28<br />AlexDenton -44'<br /><br /><br />https://web.archive.org/web/20041221235440/http://www.dcsb.co.uk:80/forum/index.php?showtopic=543","isCertain"]
             },
             {
-                "match" : ["df_v_tt","df","[DF]","Win ","2004-08-20","April 7, 2005: To be announced.<br /><br />June 19, 2004 - [TT]Raiden: Hey guys, some of you might know me and some of you might not. I get along with ur leader quite well [DF]BobodaKnifa. But anyway do you guys want a war with us? As soon as possible, that would be great.<br /><br />4v4<br />GHOST server ( JOLT )<br />Lams or No - lams its up to you.<br />And all we need is a time and date for you. Fridays oe the weekends are good for me. If they aint for you we can sort it out.<br />But plz guys, you havent played us before and we havent played you. So this should be good. <br /><br />[DF]hAx0r: aiight 3 vs 3 would be better Umm Lams but keep the lam rate down what u think sheep? Ahhh next week on saturday is best 4 me Umm 4:00 pm English time<br />Sma: GG guys hope we can have another game soon. wp both teams. we played 2 maps on my server and 2 on spikes server. <a href='https://web.archive.org/web/20041012021553/http://fc.claymorenation.com:80/viewtopic.php?p=3619&amp'>thread</a>","isCertain"]
+                "match" : ["df_v_tt","df","[DF]","Win ","2004-08-20","April 7, 2005: To be announced.<br /><br />June 19, 2004 - [TT]Raiden: Hey guys, some of you might know me and some of you might not. I get along with ur leader quite well [DF]BobodaKnifa. But anyway do you guys want a war with us? As soon as possible, that would be great.<br /><br />4v4<br />GHOST server ( JOLT )<br />Lams or No - lams its up to you.<br />And all we need is a time and date for you. Fridays oe the weekends are good for me. If they aint for you we can sort it out.<br />But plz guys, you havent played us before and we havent played you. So this should be good. <br /><br />[DF]hAx0r: aiight 3 vs 3 would be better Umm Lams but keep the lam rate down what u think sheep? Ahhh next week on saturday is best 4 me Umm 4:00 pm English time<br />Sma: GG guys hope we can have another game soon. wp both teams. we played 2 maps on my server and 2 on spikes server. <a href='https://web.archive.org/web/20041012021553/http://fc.claymorenation.com:80/viewtopic.php?p=3619%26amp'>thread</a>","isCertain"]
             },
             {
                 "match" : ["mtx_v_tt","mtx","[MTX]","","2003-06-04","challenge by YERMAw, is ignored on old boards, very likely clan migrated","isDiscussed"]
@@ -65288,7 +65438,7 @@
                 "forum" : ["Index is here https://web.archive.org/web/20030409055238/http://theterminators.deusex-online.com:80/cgi-bin/yabb/YaBB.cgi<br />No more posts here","https://web.archive.org/web/20030409083539/http://theterminators.deusex-online.com:80/cgi-bin/yabb/YaBB.cgi?action=recent","featured"]
             },
             {
-                "forum" : ["This board has lot of threads","https://web.archive.org/web/20041012021553/http://fc.claymorenation.com:80/viewtopic.php?p=3619&amp","featured"]
+                "forum" : ["This board has lot of threads","https://web.archive.org/web/20041012021553/http://fc.claymorenation.com:80/viewtopic.php?p=3619%26amp","featured"]
             }
         ],
         "description" : "Third year non-aug clan with a notable Scottish core that evolves through years to top tier, the clan also played augs but at a lesser level. Clan would occasionally turn into [FC] only to be brought back again.",
@@ -66077,11 +66227,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["blaze","~[UE]~BLAZE"],
+                        "pidPlusName" : ["blaze","~[UE]~BLAZE 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["","MA, US"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -66182,6 +66332,26 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["","(not active forums)"]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["asscrack","(-UE-)asscrack"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["system_2","[-UE-]System"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
                     }
                 ]
             },
