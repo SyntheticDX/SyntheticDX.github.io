@@ -1330,6 +1330,14 @@
                         "pastClanIDs" : ["tt",""],
                         "membership" : ["2003-09-30","",""],
                         "stats" : ["If Conceited remembers his clan mate correctly here after two decades, then Trollied likely joined after [TT] was dying alongside the increasingly inactive game, and later when [15] was dead he revived [TT].","Country: Scotland, UK"]
+                    },
+                    {
+                        "membergroupLabel" : ["", ""],
+                        "pidPlusName" : ["bmw","[15]BMW-M3"],
+                        "aliases" : ["",""],
+                        "pastClanIDs" : ["",""],
+                        "membership" : ["Before Nov 2003","",""],
+                        "stats" : ["Later in DCSB and its followup clans like AAGP and another; iirc from UK",""]
                     }
                 ]
             }
@@ -2202,7 +2210,7 @@
                 "match" : ["triad_v_da","da","[DA]","Win","2002-06-28","The clan match was supposed to be on 1st July but we moved it to 28th June. We had a nice 3 v 3 on DarkShadows server after the &#x005B;DEA&#x005D; server crashed because of the lag. We played Area51Bunker and Smuggler. Thanks for the nice time &#x005B;DA&#x005D;!","isCertain"]
             },
             {
-                "match" : ["triad_v_jtb","jtb","[JTB]","Disputed","2002-07-14","Thanks for the very nice clan match &#x005B;JTB&#x005D;, it was a pleasure for us to play the match with '&#x005B;JTB&#x005D; server style'. Good game everyone, let&apos;s do it again sometime.<br /><br />-- It appears [3] lost one map by a frag and won second map with 14 point lead, seemingly in a 2 x A51 format - so this could actually be seen as a Draw, unless both sides agreed to count frags. Game type is 0a. I am unable to verify with the other clan whether they accepted [3] interpretation of this being a win on frags in this unusual 2 map war. Most likely they intended to play just 1 map, which they then lost to JTB. --<br /><br />Maps were with [3] scores 28-29, 35-21; A51 twice","isCertain"]
+                "match" : ["triad_v_jtb","jtb","[JTB]","Disputed","2002-07-14","Thanks for the very nice clan match &#x005B;JTB&#x005D;, it was a pleasure for us to play the match with '&#x005B;JTB&#x005D; server style'. Good game everyone, let&apos;s do it again sometime.<br /><br />-- It appears [3] lost one map by a frag and won second map with 14 point lead, seemingly in a 2 x A51 format - so this could actually be seen as a Draw, unless both sides agreed to count frags. Game type is 0a. I am unable to verify with the other clan whether they accepted [3] interpretation of this being a win on frags in this unusual 2 map war. Most likely they intended to play just 1 map, which they then lost to JTB. Site records equalize Disputed and Draw status, so it doesnt matter which one I mark here--win by frags is an unusual condition that would have to be greenlit by the JTB leadership, meanwhile this clan has a track record of claiming victories one-sidedly--<br /><br />Maps were with [3] scores 28-29, 35-21; A51 twice","isCertain"]
             },
             {
                 "match" : ["triad_v_i","i","[I]","Win","2002-09-06","After searching a good server for us, we finally found one from Strider&#x005B;DEA&#x005D; (thanks). The match was challenging and fun. Both teams were filled with skill that made the game even more exciting. You can check the shots at the &apos;Wars&apos; section if you wish to see them. Thank you &#x005B;I&#x005D; for a goood match.","isCertain"]
@@ -8078,26 +8086,18 @@
         "name" : "Brutal Assassins",
         "gametype" : ["0a"],
         "tier" : ["B","A",""],
-        "date" : ["isUncertain","2004-01-01","isCertain","2004-03-20","isCertain",""],
+        "date" : ["isUncertain","2003-12-01","isCertain","2004-03-20","isCertain",""],
         "founder" : ["Aztek23"],
         "members" : [
             {
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["aztek","[BA]Aztek"],
-                        "aliases" : [""],
+                        "pidPlusName" : ["aztek","[BA]Aztek 🇺🇸"],
+                        "aliases" : ["Spermy"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["His 7 members are a mystery, but likely core nMe members.",""]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["spermy","[BA]Spermy 🇺🇸"],
-                        "aliases" : [""],
-                        "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["Active late Feb 2004","Long Beach Cali"]
+                        "stats" : ["His 7 members are a mystery, but likely core nMe members.","Long Beach Cali"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -8106,6 +8106,14 @@
                         "pastClanIDs" : ["ak"],
                         "membership" : ["","",""],
                         "stats" : ["Active Feb 2004, its presumably after he was in AK",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["bolero","[BA]bOLeRo"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Active christmas 2003, involved in getting the [BA] vs [UE] war going",""]
                     }
                 ]
             },
@@ -8124,7 +8132,7 @@
         ],
         "matches" : [
             {
-                "match" : ["","","","","","",""]
+                "match" : ["ba_v_ue","ue","[UE]","","30-12-2003","[BA]bOLeRo is trying to push [UE] into playing the war, [UE]System attempting to get server for the 30th of December from Hydra(ulic) or--accidentally-- from Hydro due to similar names; war seems so poorly organized that albeit pending any hour now it may have failed to play. Clans merge later","isUncertain"]
             }
         ],
         "websites" : [
@@ -13366,11 +13374,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["shoe","[CG]Shoe!"],
+                        "pidPlusName" : ["shoe","[CG]Shoe! 🇨🇦"],
                         "aliases" : ["Riff-Raff"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["","North Bay Ontario Canada<br /><br />'No matter where you go, there you are' (Buckaroo Banzai)"]
+                        "stats" : ["stopthengo","North Bay Ontario Canada<br /><br />'No matter where you go, there you are' (Buckaroo Banzai)"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -13626,7 +13634,7 @@
                     },
                     {
                         "membergroupLabel" : ["duplicate",""],
-                        "pidPlusName" : ["shoe","[CG]Shoe!"],
+                        "pidPlusName" : ["shoe","[CG]Shoe! 🇨🇦"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","","Jan 14, 2007"],
@@ -17768,7 +17776,7 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["system_2",".:ÐÇsß:.System"],
                         "aliases" : [""],
-                        "pastClanIDs" : [""],
+                        "pastClanIDs" : ["ue"],
                         "membership" : ["possibly well before March 16, 2004","",""],
                         "stats" : ["I dont aim... I feel.",""]
                     },
@@ -17854,7 +17862,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["murcielago",".:ÐÇsß:.Murcielago"],
+                        "pidPlusName" : ["bmw",".:ÐÇsß:.Murcielago"],
                         "aliases" : ["BMW-M3"],
                         "pastClanIDs" : [""],
                         "membership" : ["","ex-member by June 2006",""],
@@ -19298,9 +19306,9 @@
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["dob"," ¤[ÐÈS]Ðøß¤"],
                         "aliases" : [""],
-                        "pastClanIDs" : ["dk"],
+                        "pastClanIDs" : ["dk","w"],
                         "membership" : ["","",""],
-                        "stats" : ["e-mail seems to indicate ex-DK membership so ive risked to add it here. Later active in re-[B], possibly returning there<br /><br />b~'74","Age: 30<br />Location: Africa!<br />Time playing: None<br />Style: Doggy-style"]
+                        "stats" : ["e-mail seems to indicate ex-DK membership so ive risked to add it here, he is also wearing [W] tag in February. Later active in re-[B], possibly returning there<br /><br />b~'74","Age: 30<br />Location: Africa!<br />Time playing: None<br />Style: Doggy-style"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -20334,7 +20342,7 @@
                         "aliases" : ["Flip"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Pretty sure its Flip/MajikMaker of overlapping TCF and the later DXR","Age:13<br />Location:UK,England,leeds<br />Fave Map:Area51Bunker<br />Weapon Of Choice:Sniper Rifle<br />Rank:Leader/Founder"]
+                        "stats" : ["Pretty sure its Flip/MajikMaker of overlapping TCF and the later DXR<br / >chrisisdabombuk","Age:13<br />Location:UK,England,leeds<br />Fave Map:Area51Bunker<br />Weapon Of Choice:Sniper Rifle<br />Rank:Leader/Founder"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -21986,7 +21994,11 @@
         "matches" : [
             {
                 "match" : ["dl_v_na","na","[N/A]","Loss 0:3","2003-05-04","Result: Victory<br />MVP: AleX<br /><br />Smuggler: 58 - 8<br />CMD: 61 - 3<br />Silo: 73 - 11<br />Total: 192 - 22","isCertain"]
+            },
+                        {
+                "match" : ["dl_v_ue","ue","[UE]","","2003-08","UE played wars during this discussion and last post is by ACID, a later nMe member he is in DL at the time","isUncertain"]
             }
+            
         ],
         "websites" : [
             {
@@ -22564,7 +22576,7 @@
                 "forum" : ["Its really locked board but contains marginally more information than just login screen","https://web.archive.org/web/20040606014144/http://godsangels.hyperboards2.com/","index"]
             }
         ],
-        "description" : "Likely one of the first in a series of clans by the US zero-auger Devilsnight it would soon next year turn into [UE], probably after founder's heart surgery. The clan likely had quite a lot of members later found in UE. He would last attempt a comeback in early 2005 supported by few members of [AK] but that roster largely retires into my [NEM] clan revival by the second half of year.",
+        "description" : "One in a series of clans by the US zero-auger Devilsnight it would over the summer of the next year turn into [UE], and then dies every few months as it goes through failed merges and the founder's heart surgery. The clan likely had quite a lot of members later found in UE, so these two clans have some overlap. He would last attempt a comeback in early 2005 supported by few members of [AK] but that roster largely retires into my [NEM] clan revival by the second half of year.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -30526,7 +30538,7 @@
                         "aliases" : ["JamesEarlJones"],
                         "pastClanIDs" : ["b"],
                         "membership" : ["","",""],
-                        "stats" : ["The things I'd do for 30 pieces of silver!<br /><br />February 6th. 1976 ",""]
+                        "stats" : ["The things I'd do for 30 pieces of silver!<br /><br />February 6th. 1976<br />tourette69",""]
                     }
                     ,
                     {
@@ -59526,10 +59538,10 @@
         "tag_extra" : "",
         "flag" : ["",""],
         "name" : "Sexually Transmitted Disease",
-        "gametype" : ["0a"],
+        "gametype" : ["0a","augs"],
         "tier" : ["B","",""],
-        "date" : ["isUncertain","2004-05-01","isUncertain","2004-06-01","isCertain",""],
-        "founder" : [""],
+        "date" : ["isUncertain","2004-04-01","isUncertain","2004-06-01","isCertain",""],
+        "founder" : ["JJBomber ?"],
         "members" : [
             {
                 "membergroup" : [
@@ -59567,7 +59579,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "Fourth year first half obscure clan listed by EoD with marked date 11 May 19 2004. Guessed to be non-aug clan.",
+        "description" : "Fourth year first half obscure clan listed by EoD with marked date 11 May 19 2004 but seen with tag registered as early as 8-April 04. Guessed to be non-aug clan, but with JJ in it, it likely was able to play augs.",
         "background" : [
             {
                 "backgroundStory" : ["https://web.archive.org/web/20040904151446/http://www.plougsgaard.dk:80/other_clans.htm","","",""]
@@ -63694,7 +63706,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "Obscure clan known only from previous clans Majestic from NZ had been in, most likely non-aug as rest of his clans, and perhaps even made by himself or a friend. It existed most likely sometime fourth and fifth year, but its not clear.",
+        "description" : "Obscure clan known only from previous clans Majestic from NZ had been in, as well as from forum posts that describe one or more members leaving TCN around the time of merges.",
         "background" : [
             {
                 "backgroundStory" : ["On AK forums, Jul 2003","johnnybravo","JohnnyBravo[TCNdk]:","Buttercup left TCNDK to join up with Stigmata to make a clan called [TM] - The Mafia. After that had nothing to do with us. Buttercup left on good terms and is still good mates with us."]
@@ -66188,7 +66200,7 @@
         "name" : "Unreal Entities",
         "gametype" : ["0a","Augs"],
         "tier" : ["B","A",""],
-        "date" : ["isUncertain","2003-05-01","isUncertain","2004-03-20","isCertain","2005-05-01 ✝ 2005-07-01"],
+        "date" : ["isUncertain","2003-07-01","isUncertain","2004-03-20","isCertain","2005-05-01 ✝ 2005-07-01"],
         "founder" : ["DevilsNight"],
         "members" : [
             {
@@ -66251,7 +66263,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["nethacker","[UE]NetHacker"],
+                        "pidPlusName" : ["nethacker","[UE]NetHacker 🇦🇺"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -66263,7 +66275,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Active spring 2004","(inconsistent playing)"]
+                        "stats" : ["Profit269<br />Active spring 2004; b~'86","(inconsistent playing)"]
                     }
                 ]
             },
@@ -66283,7 +66295,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["active April 2004",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -66350,8 +66362,8 @@
                         "pidPlusName" : ["system_2","[-UE-]System"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
-                        "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "membership" : ["","before April 4, 2004",""],
+                        "stats" : ["On public forums, when people discover hes left: ';) Im not going to go into the real reason i quit'<br />He is later in that year found in DCSB, possibly with a shorter pitstop in another clan",""]
                     }
                 ]
             },
@@ -66372,6 +66384,14 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["Later in DF",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["anthror","~[UE]~Anthror"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["Unfamilar name, not clear of alias; registered 31-March 04 with one post",""]
                     }
                 ]
             },
@@ -66433,10 +66453,16 @@
                 "match" : ["tdh_v_ue","tdh","[TDH]","Win","2003-08","TDH v [UE] WIN August 31 2003","isCertain"]
             },
             {
+                "match" : ["dl_v_ue","dl","[DL]","","2003-08","UE played wars during this discussion and last post is by ACID, a later nMe member he is in DL at the time, but its not clear if war took place","isUncertain"]
+            },
+            {
                 "match" : ["a_v_ue","","[A]","","2003-10","[A]Boo challenges [UE] October 2 2003 ","isDiscussed"]
             },
             {
                 "match" : ["ue_v_void","","","","","{Ø}ColdWave challenges blaze of UE July 21 2003 ","isDiscussed"]
+            },
+            {
+                "match" : ["ba_v_ue","ba","[BA]","","30-12-2003","[BA]bOLeRo is trying to push [UE] into playing the war, [UE]System attempting to get server for the 30th of December from Hydra(ulic) or--accidentally-- from Hydro due to similar names; war seems so poorly organized that albeit pending any hour now it may have failed to play. Clans merge later","isUncertain"]
             },
             {
                 "match" : ["io_v_ue","io","[IO]","Win 2:0","2005-06-08","IO vs UE WIN 2005<br />Unreal Entities won Illuminated Ones in USA vs USA match <br />3 vs 3 with score 138 - 59 <br />2 maps out of 3 were played and after being annihilated on Silo IO withdraw and A51 was never played. IO gave us a nice game. Sadly IO was closed down the day after the defeat. RIP IO ","isCertain"]
@@ -66470,7 +66496,7 @@
                 "forum" : ["","https://web.archive.org/web/20050617032632/http://plougsgaard.dk/ue/modules.php?name=Forums","dead"]
             }
         ],
-        "description" : "Third year evolution of AoD, DnA, UG clans that focused increasingly more on non-augs, likely formed after the collapse of the UG-PN-DL chain of clans or in parallel with DL. It would later merge with BA to form nMe clan, although some signs of activity exist April 2004 when they appear to have stretched out across multiple games. The group makes a comeback in the spring 2005 and then retires into the roster of NEM clan.",
+        "description" : "Third year evolution of AoD, DnA, UG clans that focused increasingly more on non-augs, likely formed after the collapse of the UG-PN-DL chain of clans or in parallel with DL. While clan was tagged DnA in June 11 still, by July 24 2003 it was already UE and they seemed to have wiped users and likely rest of forum data. It would later merge with BA to form nMe clan, although some signs of activity exist April 2004 when they appear to have stretched out across multiple games. The group makes a comeback in the spring 2005 and then retires into the roster of NEM clan.",
         "background" : [
             {
                 "backgroundStory" : ["","ken","Ken:","I was in during the 2005 rebound, it had DZ of [AK], Creamy, Mystic, JJ, then Raiden joined; i think nMe Acid also, playing augs and 0a. Me and at least one of my friends Laurens joined them from NEM after I put it on a pause, and somehow we ended up bringing most of UE roster back into NEM where they all remained inactive."]
@@ -68564,6 +68590,14 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["","on leave** (just gave birth)"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["dob","[W]DoB"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["dk"],
+                        "membership" : ["","",""],
+                        "stats" : ["Registered with the name on UE 18-February 04. Not clear if he is from DK, if his e-mail is anything to go by, and later found in DES, B",""]
                     }
                 ]
             }
@@ -69444,7 +69478,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["11 August 1988",""]
                     },
                     {
                         "membergroupLabel" : ["",""],

@@ -1299,6 +1299,8 @@ width: fit-content;
 
 .clanlistStats:hover {
     top: 29%;
+    padding-right: 30px;
+    padding-top: 20px;
     font-weight: bolder;
     transform: scale(1.6); /* Scale up the element */
     color: rgba(255, 255, 255, 0.9); /* Optionally make it slightly brighter */
