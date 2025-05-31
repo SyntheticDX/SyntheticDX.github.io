@@ -16176,7 +16176,7 @@
                     {
                         "membergroupLabel" : ["","Early [DA]"],
                         "pidPlusName" : ["darkshadow","[DA]DarkShadow(S)"],
-                        "aliases" : ["Kibbles"],
+                        "aliases" : ["Kibbles", "Majik"],
                         "pastClanIDs" : ["mg"],
                         "membership" : ["Founder","with clan",""],
                         "stats" : ["Live In Your World, Play in Mine<br /><br />Shared [MG] clan with [DD]Unimatrix030 seemingly much earlier date, either early 2002 or even 2001 - likely before DA takeoff","Leader<br />Ohio, US"]
@@ -51991,8 +51991,8 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["duplicate",""],
-                        "pidPlusName" : ["ricci","(phantom)Ricci"],
-                        "aliases" : [""],
+                        "pidPlusName" : ["ricci","SerialKiller(Phantom)"],
+                        "aliases" : ["Ricci"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["Marked as duplicate he is possibly listed already as one of the above names",""]

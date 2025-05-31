@@ -433,7 +433,13 @@ $(document).ready(function() {
                 data.forEach(post => {
                     // Cache DOM selections for popover contents
                     var popoverContent = $(`#popover_${post.popoverId}_Content`);
-                    popoverContent.append(post.content);
+                    var backLink = `
+                        <div style="position: absolute; top: 8px; right: 15px;">
+                            <a href="#pageclans" class="back-to-clanlist" data-clan-id="${post.clanId}" title="Back to clan list 📚">📚</a>
+                        </div>
+                    `;
+
+                    popoverContent.append(backLink + post.content);
                     // Check if the popover content has already been inserted
                     if (!popoverContent.data('popoverInitialized')) {
                         initializePopover($(`#Pop_${post.popoverId}`), popoverContent);
@@ -1112,6 +1118,17 @@ $(document).ready(function() {
 
                     // Update the URL to reflect the new section
                     window.location.hash = `#pagetimeline`;
+                });
+                $('body').on('click', '.back-to-clanlist', function(e) {
+                    e.preventDefault();
+
+                    const targetClanId = $(this).data('clan-id');
+
+                    // Store scroll target in sessionStorage
+                    sessionStorage.setItem('scrollTarget', targetClanId);
+
+                    // Navigate to the clanlist page section
+                    window.location.href = './index.html#pageclans';
                 });
             });
         }
@@ -1887,6 +1904,30 @@ function loadStatistics() {
             founderCounts[name] = (founderCounts[name] || 0) + 1;
         });
 
+        // ✅ Count most common words in clan names
+        let nameWordCounts = {};
+        const ignoredWords = ["the", "of", "clan", "to"];
+
+        data.forEach(clan => {
+            if (typeof clan.name === "string") {
+                let lowerName = clan.name.toLowerCase();
+
+                // Remove the full phrase "deus ex" if it appears
+                lowerName = lowerName.replace(/\bdeus\s+ex\b/g, "");
+
+                // Extract individual words
+                let words = lowerName.match(/\b\w+\b/g);
+                if (words) {
+                    words.forEach(word => {
+                        if (!ignoredWords.includes(word)) {
+                            nameWordCounts[word] = (nameWordCounts[word] || 0) + 1;
+                        }
+                    });
+                }
+            }
+        });
+
+        let sortedNameWords = Object.entries(nameWordCounts).sort((a, b) => b[1] - a[1]).slice(0, 3);
         // Sort & Extract Top 3 Values for Each Statistic
         let sortedPlayers = Object.entries(playerCounts).sort((a, b) => b[1] - a[1]).slice(0, 3);
         let sortedGametypes = Object.entries(gametypeCounts).sort((a, b) => b[1] - a[1]);
@@ -1895,6 +1936,10 @@ function loadStatistics() {
         let sortedFounders = Object.entries(founderCounts).sort((a, b) => b[1] - a[1]).slice(0, 3);
         let sortedTags = Object.entries(tagOccurrences).sort((a, b) => b[1] - a[1]).map(([tag, count]) => [tag.toUpperCase(), count]).slice(0, 3);
         let sortedClans = clanSizes.sort((a, b) => b.count - a.count).slice(0, 3);
+
+        function capitalize(word) {
+            return word ? word.charAt(0).toUpperCase() + word.slice(1) : '';
+        }
 
         // Insert Data into `#listcontainer`
         let statsHtml = `<p>We list <strong>${totalClans}</strong> discovered clans or clan-like groups with 
@@ -1909,6 +1954,12 @@ function loadStatistics() {
             `${sortedTags[0]?.[0] || "N/A"} (${sortedTags[0]?.[1] || "0"} times), followed by ` +
             `${sortedTags[1]?.[0] || "N/A"} (${sortedTags[1]?.[1] || "0"} times) and ` +
             `${sortedTags[2]?.[0] || "N/A"} (${sortedTags[2]?.[1] || "0"} times)` + "</p>";
+
+        statsHtml += "<p data-toggle='tooltip' data-html='true' data-placement='top' title='That isnt: The, Of, To, Deus Ex, Clan'><strong>Most common word in a clan's name:</strong> " +
+            `${capitalize(sortedNameWords[0]?.[0])} (${sortedNameWords[0]?.[1]} times), followed by ` +
+            `${capitalize(sortedNameWords[1]?.[0])} (${sortedNameWords[1]?.[1]} times) and ` +
+            `${capitalize(sortedNameWords[2]?.[0])} (${sortedNameWords[2]?.[1]} times)` + "</p>";
+
 
         statsHtml += "<p><strong>Most common founder:</strong> " +
             `${sortedFounders[0]?.[0] || "N/A"} (${sortedFounders[0]?.[1] || "0"} times), followed by ` +
