@@ -7506,14 +7506,14 @@
         "gametype" : ["Augs","0a"],
         "tier" : ["B","A",""],
         "date" : ["isUncertain","2003-06-01","isUncertain","2004-07-01","isCertain","2007"],
-        "founder" : ["Edub"],
+        "founder" : ["ZigZag"],
         "members" : [
             {
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["","2003 Roster"],
-                        "pidPlusName" : ["edub","[B]Edub"],
-                        "aliases" : [""],
+                        "pidPlusName" : ["zigzag","[B]Edub"],
+                        "aliases" : ["ZigZag"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["Son of EL BigDawg, related to ZigZag also, maybe others",""]
@@ -7620,8 +7620,8 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["duplicate","2006 Revival"],
-                        "pidPlusName" : ["edub","[B]Edub"],
-                        "aliases" : [""],
+                        "pidPlusName" : ["zigzag","[B]Edub"],
+                        "aliases" : ["ZigZag"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
@@ -7716,10 +7716,7 @@
         ],
         "websites" : [
             {
-                "website" : ["Likely the original site or one of them, linked by Ricci in 2003 with url being actually this www.bclandx.cjb.net","https://web.archive.org/web/*/http://www.geocities.com/swatbye/*","dead"]
-            },
-            {
-                "website" : ["Revived [B] 2007 forums it seems like, assuming they used the portal front end as website, clan was noted to not have a website by mid 2004","https://web.archive.org/web/20071210075552/http://z3.invisionfree.com/DXMP_B_Clan_Forum/index.php?act=site","dead"]
+                "website" : ["Likely the original site or one of them, linked by Ricci in 2003 with url being actually this www.bclandx.cjb.net; Kago notes mid 2004 they have no site","https://web.archive.org/web/*/http://www.geocities.com/swatbye/*","dead"]
             }
         ],
         "forums" : [
@@ -17849,7 +17846,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["sturmovik",".:ÐÇsß:.Sturmovik"],
+                        "pidPlusName" : ["sturmovik",".:ÐÇsß:.Sturmovik 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : ["void"],
                         "membership" : ["Feb 22, 2004","ex-member by June 2006",""],
@@ -30549,10 +30546,10 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["zigzag","[EL]ZigZag"],
-                        "aliases" : [""],
+                        "aliases" : ["Edub"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Son of BD.",""]
+                        "stats" : ["Eric, son of BD.",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -50127,7 +50124,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["sturmovik","{0}Sturmovik"],
+                        "pidPlusName" : ["sturmovik","{0}Sturmovik 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","before 22-02-2004",""],
@@ -59261,6 +59258,57 @@
             }
         ],
         "description" : "A lesser known clan from approximately the second year, marked here as Basic as it's not clear what gametype they played. Another similar tag was picked up from a separate source and most likely represents a different clan entirely, merged into single entry here.",
+        "background" : [
+            {
+                "backgroundStory" : ["","","",""]
+            }
+        ],
+        "news" : [
+            {
+                "article" : ["","","","","",""]
+            }
+        ]
+    },
+    {
+        "id" : "sos",
+        "tag" : ["tagFront","[","SOS","]"],
+        "tag_extra" : "",
+        "flag" : ["",""],
+        "name" : "",
+        "gametype" : ["0a"],
+        "tier" : ["B","",""],
+        "date" : ["isUncertain","2003-11-01","isUncertain","2003-12-01","isCertain",""],
+        "founder" : ["Starfire"],
+        "members" : [
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["starfire","[SOS]~¤Stãrfíre¤~ 2005 🇺🇸"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["my fav of all favs is darkstalkers and kinshin<br />(i bet u guyz aint even heard d of darkstalkers------well....probibly so.....)<br /><br />Registered on AK boards 05 Nov 2003<br />VolcanicExplosion; SealJoop; starfire.jpg","(clan leader)<br />Location: the United States............:|"]
+                    }
+                ]
+            }
+        ],
+        "matches" : [
+            {
+                "match" : ["","","","","","",""]
+            }
+        ],
+        "websites" : [
+            {
+                "website" : ["","",""]
+            }
+        ],
+        "forums" : [
+            {
+                "forum" : ["","",""]
+            }
+        ],
+        "description" : "An obscure late third year clan by a user titled as the leader of it on AK forums; typically I'd want to add it to Basic gametype as we know so little, but it's practically certainly a non-aug clan.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
