@@ -1296,8 +1296,8 @@
                         "pidPlusName" : ["conceited","[15]Schism"],
                         "aliases" : ["Conceited",""],
                         "pastClanIDs" : ["ak","dd"],
-                        "membership" : ["2003-09-30","",""],
-                        "stats" : ["","Country: UK"]
+                        "membership" : ["2003-09-30","04-12-2003",""],
+                        "stats" : ["Dec 04 accepted to B","Country: UK"]
                     },
                     {
                         "membergroupLabel" : ["", ""],
@@ -1305,7 +1305,7 @@
                         "aliases" : ["IceCold","ScoobyDoo"],
                         "pastClanIDs" : ["dem","triad","tcn","tsw"],
                         "membership" : ["2003-09-30","",""],
-                        "stats" : ["","Country: Wiltshire, UK"]
+                        "stats" : ["I just thought I would drop by and give you the good news that we now have our own forums! We also have a new website but it isn't working at the moment but drop by later on today and it should work! The forums have been setup by BlackPanther and the website has been made by DarkShadow. Thank you guys so much!<br /><br />Special thanks to Myang for letting us use his forums for quite a while. Without him [15] would have been lost a long time ago. I will move over a few topics to the new forums and then you can delete the ones on your boards. Thank you very much Myang! icon_biggrin.gif","Country: Wiltshire, UK"]
                     },
                     {
                         "membergroupLabel" : ["", ""],
@@ -1360,7 +1360,7 @@
         ],
         "forums" : [
             {
-                "forum" : ["missing original forums",""]
+                "forum" : ["Original forums were hosted by DZ on [AK]",""]
             },
             {
                 "forum" : ["2nd forums on a new host that never got finished (alongside new site)","https://web.archive.org/web/20040611125707/http://fists.parallaxed.net:80/Forum/","index"]
@@ -4160,8 +4160,8 @@
                         "pidPlusName" : ["conceited","[A]Conceited"],
                         "aliases" : ["Schism"],
                         "pastClanIDs" : ["ak","dd","fists"],
-                        "membership" : ["","",""],
-                        "stats" : ["Likely left to join [DCSB] sometime late 2004","Country: UK"]
+                        "membership" : ["before Sept 2004","",""],
+                        "stats" : ["Around Sept 2004; likely left to join [DCSB] sometime late 2004","Country: UK"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -4380,7 +4380,7 @@
                         "pidPlusName" : ["conceited","[A]Conceited"],
                         "aliases" : [""],
                         "pastClanIDs" : ["ak","dd","fists"],
-                        "membership" : ["","",""],
+                        "membership" : ["Before Sept 2004","",""],
                         "stats" : ["","Country: UK"]
                     }
                 ]
@@ -5799,7 +5799,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Perhaps before DD, 15, B, T clans?",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -7613,6 +7613,14 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["Possibly already listed under another alias",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["conceited","[B]ioharzard"],
+                        "aliases" : ["Conceited","Schism"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["04-12-2003","before Jul 2004",""],
+                        "stats" : ["Shown with [T] tag by July next year",""]
                     }
                 ]
             },
@@ -7693,10 +7701,10 @@
         ],
         "matches" : [
             {
-                "match" : ["triad_v_b","triad","[3]","Loss","2003-07-31","Opponent's news post: 'A clan match for a long long time. We started off with jolt.co server provided by Marvin (thanks) and played the first two maps with our Europe - team. After smuggler, we moved to dxmp.net to play the other 2 maps.<br /><br />Good game [B], let&apos;s do it again.'","isCertain"]
+                "match" : ["b_v_t","t","[T]","Win","Feb 2003?","(Feb 14, 2004) KaGo: 'Currently we're trying to attain a server I have had no contact whatsoever with T but i have been in contact with JeJ and Ricci saying there doing somethig (I think) to get a server. Did i make that sound hopeless ? ah well i think thi smatch is going to happen you tell me ? maybe...'<br /><br />[B] War finished: Final Scores were undeterminable, but it was a [B] Victory<br /><br />'[T] vs [B] from like 03 or something.'<br /><br />SS<br />Capone<br />Majik<br />TITANK<br /><br />Vs<br /><br />SoS<br />KaGo<br />Ricci<br />jEj","isCertain"]
             },
             {
-                "match" : ["b_v_t","t","[T]","Win","2003?","","isCertain"]
+                "match" : ["triad_v_b","triad","[3]","Loss","2003-07-31","Opponent's news post: 'A clan match for a long long time. We started off with jolt.co server provided by Marvin (thanks) and played the first two maps with our Europe - team. After smuggler, we moved to dxmp.net to play the other 2 maps.<br /><br />Good game [B], let&apos;s do it again.'","isCertain"]
             },
             {
                 "match" : ["b_v_fgs","fgs","[FGS]","","","FGS vs B","isDiscussed"]
@@ -17833,7 +17841,7 @@
                         "pidPlusName" : ["conceited",".:ÐÇsß:.Conceited"],
                         "aliases" : [""],
                         "pastClanIDs" : ["ak","dd","fists","alliance"],
-                        "membership" : ["","",""],
+                        "membership" : ["late 2004","",""],
                         "stats" : ["",""]
                     },
                     {
@@ -35926,7 +35934,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["","USA"]
+                        "stats" : ["Jan 2, 2004 he has set location as England; jackassm16","USA"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -49813,7 +49821,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "Thirteenth year clan attempt of likely non-aug focus that has all the markings of being another tag created by serial clan maker AEON from Australia, looking at timeframe and the 333 ping in Europe. Its unlikely to have had many of any other members, and probably was replaced with another new tag soon after.",
+        "description" : "Thirteenth year clan attempt of likely non-aug focus that has all the markings of being another tag created by serial clan maker AEON from Australia, looking at the timeframe and the 333 ping in Europe. Its unlikely to have had many of any other members, and probably was replaced with another new tag soon after. We can hypothesize that NZ in the tag relates to New Zealand, being close to AU; AI tells me it could also stand for New Zealand Killers, which is not a bad guess.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -60688,6 +60696,14 @@
                         "pastClanIDs" : ["i","a2","des"],
                         "membership" : ["2004","",""],
                         "stats" : ["Likely joined from his [DES] clan in 2004, ended year already in [eN], possibly same time",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["conceited","[T]Conceited"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["dd","15","b"],
+                        "membership" : ["Before July 2004","",""],
+                        "stats" : ["Likely joined from [B] clan joined end of 2003, moved to [T] and-or [eN] in some or other order",""]
                     }
                 ]
             },
@@ -60850,7 +60866,7 @@
                 "match" : ["fbf_v_t","fbf","[FBF]","Win","2001-12","A scrim between couple members of each clan (likely 2v2) to determine who has the right to wear [FBF] tag which [T] was also branded as then.","isCertain"]
             },
             {
-                "match" : ["b_v_t","b","[B]","Loss","2003?","[B] War finished: Final Scores were undeterminable, but it was a [B] Victory<br /><br />'[T] vs [B] from like 03 or something.'<br /><br />SS<br />Capone<br />Majik<br />TITANK<br /><br />Vs<br /><br />SoS<br />KaGo<br />Ricci<br />jEj","isCertain"]
+                "match" : ["b_v_t","b","[B]","Loss","Feb 2003?","(Feb 14, 2004) KaGo: 'Currently we're trying to attain a server I have had no contact whatsoever with T but i have been in contact with JeJ and Ricci saying there doing somethig (I think) to get a server. Did i make that sound hopeless ? ah well i think thi smatch is going to happen you tell me ? maybe...'<br /><br />[B] War finished: Final Scores were undeterminable, but it was a [B] Victory<br /><br />'[T] vs [B] from like 03 or something.'<br /><br />SS<br />Capone<br />Majik<br />TITANK<br /><br />Vs<br /><br />SoS<br />KaGo<br />Ricci<br />jEj","isCertain"]
             },
             {
                 "match" : ["f_v_t","f","[F]","Loss 109-157","2004-","Was a great game. We lost unfortunately. Final outcome was 157-109 in [F]s Favor.","isCertain"]
@@ -68063,7 +68079,7 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["nick","See Me Now[VET] 🇨🇦"],
-                        "aliases" : [""],
+                        "aliases" : ["Nick"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
