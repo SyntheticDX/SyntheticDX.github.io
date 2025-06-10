@@ -1286,15 +1286,15 @@
                     {
                         "membergroupLabel" : ["", ""],
                         "pidPlusName" : ["labtec","[15]Spirit"],
-                        "aliases" : ["Labtec",""],
+                        "aliases" : ["Labtec","ChrisDeBurgh"],
                         "pastClanIDs" : ["dd",""],
                         "membership" : ["2003-09-30","",""],
-                        "stats" : ["","Country: UK"]
+                        "stats" : ["Next year in [T]","Country: UK"]
                     },
                     {
                         "membergroupLabel" : ["", ""],
                         "pidPlusName" : ["conceited","[15]Schism"],
-                        "aliases" : ["Conceited",""],
+                        "aliases" : ["Conceited","Biohazard"],
                         "pastClanIDs" : ["ak","dd"],
                         "membership" : ["2003-09-30","04-12-2003",""],
                         "stats" : ["Dec 04 accepted to B","Country: UK"]
@@ -5695,7 +5695,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["Vegito0201; active around Summer 2003",""]
+                        "stats" : ["Vegito0201; kenshiro_14; active around Summer 2003",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -5814,7 +5814,7 @@
                         "aliases" : [""],
                         "pastClanIDs" : ["aid","a"],
                         "membership" : ["","",""],
-                        "stats" : ["likely from Assassins, possibly even [DK] but supposedly got kicked, Active in community as AK member July 2003",""]
+                        "stats" : ["likely from Assassins, possibly even [DK] but supposedly got kicked, Active in community as AK member July 2003<br />moomookao7; kaosays07",""]
                     },   
                     {
                         "membergroupLabel" : ["",""],
@@ -5871,6 +5871,14 @@
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["labtec","[Ak]ChrisDeBurgh 🇬🇧"],
+                        "aliases" : ["Labtec","Spirit"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["in the clan before June 1, 2004, by mid July in [T]",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -9648,11 +9656,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["jackoff","[BK]Jackoff"],
+                        "pidPlusName" : ["jackoff","[BK]Jackoff 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["","California, USA"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -15586,11 +15594,11 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["jackoff","[Ð]JackOff"],
+                        "pidPlusName" : ["jackoff","[Ð]JackOff 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : ["bk"],
                         "membership" : ["","",""],
-                        "stats" : ["Later in [T], perhaps after this clan together with AlCapone",""]
+                        "stats" : ["Later in [T], perhaps after this clan together with AlCapone","California, USA"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -17771,7 +17779,7 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["labtec",".:ÐÇsß:.Labtec"],
-                        "aliases" : [""],
+                        "aliases" : ["ChrisDeBurgh"],
                         "pastClanIDs" : ["dd","fists"],
                         "membership" : ["trial by October 2003","Feb 9, 2004",""],
                         "stats" : ["","kicked for botting Feb 9, 2004"]
@@ -18302,7 +18310,7 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["labtec","[DD]TheSpiRiT 🇬🇧"],
-                        "aliases" : [""],
+                        "aliases" : ["Labtec","ChrisDeBurgh"],
                         "pastClanIDs" : [""],
                         "membership" : ["Before May 5, 2003","before September 30, 2003",""],
                         "stats" : ["Active with tag in May, leaves to form [15] Fists","London, England"]
@@ -36945,7 +36953,7 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["labtec","[h3rB]Labtec? 🇬🇧"],
-                        "aliases" : [""],
+                        "aliases" : ["ChrisDeBurgh"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
@@ -37744,7 +37752,7 @@
                     {
                         "membergroupLabel" : ["",""],
                         "pidPlusName" : ["labtec","~(HK)LabTec~"],
-                        "aliases" : [""],
+                        "aliases" : ["ChrisDeBurgh"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
@@ -38958,19 +38966,19 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["","2003"],
+                        "pidPlusName" : ["eagle","[I]Eagle"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["dev","s","dxa"],
+                        "membership" : ["","",""],
+                        "stats" : ["'Some people play tennis, I erode the human soul.'<br /><br />Marked as 'Immortal [I] Clan Leader' first half of 2004<br />b~'87","Leader<br />Sydney, Australia"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
                         "pidPlusName" : ["system","[I]System"],
                         "aliases" : [""],
                         "pastClanIDs" : ["cg","u","ae","dea"],
                         "membership" : ["","",""],
                         "stats" : ["b~'77","Old man<br />Maine, USA"]
-                    },
-                    {
-                        "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["eagle","[I]Eagle"],
-                        "aliases" : [""],
-                        "pastClanIDs" : ["dev","s","dxa"],
-                        "membership" : ["","",""],
-                        "stats" : ["b~'87","Leader<br />Sydney, Australia"]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -60704,6 +60712,14 @@
                         "pastClanIDs" : ["dd","15","b"],
                         "membership" : ["Before July 2004","",""],
                         "stats" : ["Likely joined from [B] clan joined end of 2003, moved to [T] and-or [eN] in some or other order",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["labtec","[T]ChrisDeBurgh"],
+                        "aliases" : ["Labtec"],
+                        "pastClanIDs" : ["dd","15",""],
+                        "membership" : ["Before July 2004","",""],
+                        "stats" : ["",""]
                     }
                 ]
             },
