@@ -912,7 +912,7 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["", ""],
-                        "pidPlusName" : ["ken","'¥'Rand12oM"],
+                        "pidPlusName" : ["ken","'¥'Rand12oM 🇪🇪"],
                         "aliases" : ["UNDEAD","Synthetic","rand12om","Ken"],
                         "pastClanIDs" : ["tss"],
                         "membership" : ["2004-09-01","",""],
@@ -920,7 +920,7 @@
                     },
                     {
                         "membergroupLabel" : ["", ""],
-                        "pidPlusName" : ["laurens","'¥'Laurens"],
+                        "pidPlusName" : ["laurens","'¥'Laurens 🇧🇪"],
                         "aliases" : ["Devilzspeed"],
                         "pastClanIDs" : ["tss"],
                         "membership" : ["2004-09-01","",""],
@@ -928,7 +928,7 @@
                     },
                     {
                         "membergroupLabel" : ["", ""],
-                        "pidPlusName" : ["laurie","'¥'Laurie"],
+                        "pidPlusName" : ["laurie","'¥'Laurie 🇬🇧"],
                         "aliases" : ["Vesper"],
                         "pastClanIDs" : ["tss"],
                         "membership" : ["2004-09-01","",""],
@@ -936,7 +936,7 @@
                     },
                     {
                         "membergroupLabel" : ["", ""],
-                        "pidPlusName" : ["sidewinder","'¥'Sidewinder"],
+                        "pidPlusName" : ["sidewinder","'¥'Sidewinder 🇬🇧"],
                         "aliases" : ["Handsworth"],
                         "pastClanIDs" : [""],
                         "membership" : ["2004-09-01","",""],
@@ -944,11 +944,11 @@
                     },
                     {
                         "membergroupLabel" : ["", ""],
-                        "pidPlusName" : ["foppa","'¥'Foppa"],
+                        "pidPlusName" : ["foppa","'¥'Foppa 🇸🇪"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["","Country: Sweden"]
+                        "stats" : ["(Some chance he was from Norway instead, but my memory says he and his godmoding brother were Swe)","Country: Sweden"]
                     },
                     {
                         "membergroupLabel" : ["", ""],
@@ -956,15 +956,15 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["Might've been UK",""]
                     },
                     {
                         "membergroupLabel" : ["", ""],
-                        "pidPlusName" : ["casper","'¥'Casper"],
+                        "pidPlusName" : ["casper","'¥'Casper 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : ["dk"],
                         "membership" : ["","",""],
-                        "stats" : ["","Country: US"]
+                        "stats" : ["Creating lists of clans is a thing in community, but Casper's list was among first ones I saw that really motivated me to make everything you see here--alongside the Triad Adv. marathons","Country: US"]
                     },
                     {
                         "membergroupLabel" : ["", ""],
@@ -980,31 +980,31 @@
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["",""]
+                        "stats" : ["I'd guess he was from UK or Lowlands",""]
                     },
                     {
                         "membergroupLabel" : ["", ""],
-                        "pidPlusName" : ["esnight","'¥'Esnight"],
+                        "pidPlusName" : ["esnight","'¥'Esnight 🇦🇺"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["","Country: Australia"]
+                        "stats" : ["The guy to beat the hardest mode minesweeper before asking girl out (successfully), also awesome guy all around, and a friend--to a point that at least one person mixed us two up","Country: Australia"]
                     },
                     {
                         "membergroupLabel" : ["", ""],
-                        "pidPlusName" : ["imawoman","'¥'ImAWoman"],
+                        "pidPlusName" : ["imawoman","'¥'ImAWoman 🇺🇸"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["","Country: US"]
+                        "stats" : ["Hailey could've kicked lot of the keyboard warrior butts irl, but never said as much","Country: US"]
                     },
                     {
                         "membergroupLabel" : ["", ""],
-                        "pidPlusName" : ["sly","'¥'Crypt"],
+                        "pidPlusName" : ["sly","'¥'Crypt 🇺🇸"],
                         "aliases" : ["Sly"],
                         "pastClanIDs" : ["tdh"],
                         "membership" : ["","",""],
-                        "stats" : ["","Country: US"]
+                        "stats" : ["One of the troublesome TDH boys, with us for a week if that: I got along with him well until I kicked him for some reason--I think--probably for causing trouble","Country: US"]
                     }
                 ]
             }
@@ -1305,7 +1305,7 @@
                         "aliases" : ["IceCold","ScoobyDoo"],
                         "pastClanIDs" : ["dem","triad","tcn","tsw"],
                         "membership" : ["2003-09-30","",""],
-                        "stats" : ["I just thought I would drop by and give you the good news that we now have our own forums! We also have a new website but it isn't working at the moment but drop by later on today and it should work! The forums have been setup by BlackPanther and the website has been made by DarkShadow. Thank you guys so much!<br /><br />Special thanks to Myang for letting us use his forums for quite a while. Without him [15] would have been lost a long time ago. I will move over a few topics to the new forums and then you can delete the ones on your boards. Thank you very much Myang! icon_biggrin.gif","Country: Wiltshire, UK"]
+                        "stats" : ["","Country: Wiltshire, UK"]
                     },
                     {
                         "membergroupLabel" : ["", ""],
@@ -1373,6 +1373,9 @@
             }
         ],
         "news" : [
+            {
+                "article" : ["AK forums Timeline","2003-11-15","[15] New Forums!","Mahou","I just thought I would drop by and give you the good news that we now have our own forums! We also have a new website but it isn't working at the moment but drop by later on today and it should work! The forums have been setup by BlackPanther and the website has been made by DarkShadow. Thank you guys so much!<br /><br />Special thanks to Myang for letting us use his forums for quite a while. Without him [15] would have been lost a long time ago. I will move over a few topics to the new forums and then you can delete the ones on your boards. Thank you very much Myang! icon_biggrin.gif","site"]
+            },
             {
                 "article" : ["","2004-02-29","Feburary 29, 2004","","New website and Forum boards are finally released. The site is still under some minor construction but should be finished shortly. Enjoy. Happy Leap Year.","site"]
             }
@@ -3556,7 +3559,7 @@
         "name" : "Assassins",
         "gametype" : ["Augs"],
         "tier" : ["B","A","S"],
-        "date" : ["isUncertain","2001-05-24","isUncertain","2001-12-01","isUncertain","2002-05-01 † 2002-09-01<br />R 2004-01-01 † 2004-03-01<br />R 2005-04-28 † 2005-08-01"],
+        "date" : ["isUncertain","2001-05-24","isUncertain","2001-10-01","isUncertain","2002-02-01 † 2002-09-01<br />R 2004-01-01 † 2004-03-01<br />R 2005-04-28 † 2005-08-01"],
         "founder" : ["DeViL"],
         "members" : [
             {
@@ -4387,6 +4390,9 @@
             }
         ],
         "matches" : [
+            {
+                "match" : ["alliance_v_mud","mud","(MUD))","Win","2004-07","Big loss to Alliance clan which led to the (mud) reforming under a new tag [nMa]<br><br>(MUD)Shiva: That's why we got destroyed by [A]. If I recall it was a clan war with augs on CMD. We rarely played augs","isCertain"]
+            },
             {
                 "match" : ["a_v_des","des","[DES]","Practice","2004-08-16","[A] vs. [DES] scrimmage screenshots today from both TComet's and [A]GeneralJoey's servers.","isCertain"]
             },
@@ -5312,7 +5318,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "Sixth year Zero-aug clan possibly related to the French DXMP scene and maybe to the [nMa] or (mud) clans, with the former almost certainly a pun at the American [nMe] clan.",
+        "description" : "Sixth year Zero-aug clan, possibly with no other members, or perhaps with just one or two.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
@@ -5878,7 +5884,7 @@
                         "aliases" : ["Labtec","Spirit"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
-                        "stats" : ["in the clan before June 1, 2004, by mid July in [T]",""]
+                        "stats" : ["deusexslipknot; TimeSplitterNSF; in the clan before June 1, 2004, by mid July in [T]",""]
                     },
                     {
                         "membergroupLabel" : ["",""],
@@ -7513,7 +7519,7 @@
         "name" : "Beginning To Your End",
         "gametype" : ["Augs","0a"],
         "tier" : ["B","A",""],
-        "date" : ["isUncertain","2003-06-01","isUncertain","2004-07-01","isCertain","2007"],
+        "date" : ["isUncertain","2003-06-01","isUncertain","2004-07-01","isCertain","2007-11-01"],
         "founder" : ["ZigZag"],
         "members" : [
             {
@@ -9481,7 +9487,7 @@
         "name" : "Blitzkriegers",
         "gametype" : ["Augs"],
         "tier" : ["B","A",""],
-        "date" : ["isCertain","2001-03-25","isCertain","2002-09-24","isCertain","2003-05-31"],
+        "date" : ["isCertain","2001-03-25","isCertain","2002-09-24","isCertain","2003-05-31 ✝ 2003-08-01"],
         "founder" : ["DrDeath"],
         "members" : [
             {
@@ -15360,7 +15366,7 @@
                 "backgroundStory" : ["","cyd","","Out of the realms of desperate fighters a few of well trained warriors loaded up there weapons and augmentations.<br /><br />They joined forces to take control as a organised group of leathl soldiers. Trained in stealth, all manner of weapons and brute force. We use our skill to follow our belief, that the weak are crushed by the strong.<br /><br />We fear nobody! We take no prisoners we show no mercy. No life is important none shall be spared but those who fight with us to destroy the weak.<br /><br />We are a group of warriors that venture round the world of deus ex we are known only by CYD...<br /><br />CONSIDER YOURSELF DEAD !<br /><br />Recruiting: 'only very good players as our list is already BIG enough.'"]
             },
             {
-                "backgroundStory" : ["","vebluten","Verbluten:","<h1>CYD, future....</h1><p>lately in my life has changed allot, and i am unable t orun a clan of this size anymore, this is mainly due to the huge amounts of school work :(<br /><br />i wish i didn't have to do this but i am sorry but i am!<br /><br />i think i might start up a new clan, smaller and probably a maximum number of players as 10, i need a name for it (a cool one i think, ideas?) and would like some of the members from CYD (the best and ones that have contributed the most). the new clan will have its own site, but it will be much simpler, consisting of a intro, members list, and forum. If you choose to move from CYD to the new clan i will also have to ask you to give a bit more commitment (i know you all ready do give lots) as i wont be able to do as much.<br />If/When we get the new clan set up we can re-arrange the wars with APC (i can't be bothered with the likes of TCN, hehe) and maybe some other clans!<br /><br />However if you wish to stay with CYD then i will give the password to anyong that wants to take charge, and they can update the site, etc.<br /><br />well sorry about this guys :( and i would hope you would start a new clan with me<br /><br />:( Verb</p>"]
+                "backgroundStory" : ["","verbluten","Verbluten:","<h1>CYD, future....</h1><p>lately in my life has changed allot, and i am unable t orun a clan of this size anymore, this is mainly due to the huge amounts of school work :(<br /><br />i wish i didn't have to do this but i am sorry but i am!<br /><br />i think i might start up a new clan, smaller and probably a maximum number of players as 10, i need a name for it (a cool one i think, ideas?) and would like some of the members from CYD (the best and ones that have contributed the most). the new clan will have its own site, but it will be much simpler, consisting of a intro, members list, and forum. If you choose to move from CYD to the new clan i will also have to ask you to give a bit more commitment (i know you all ready do give lots) as i wont be able to do as much.<br />If/When we get the new clan set up we can re-arrange the wars with APC (i can't be bothered with the likes of TCN, hehe) and maybe some other clans!<br /><br />However if you wish to stay with CYD then i will give the password to anyong that wants to take charge, and they can update the site, etc.<br /><br />well sorry about this guys :( and i would hope you would start a new clan with me<br /><br />:( Verb</p>"]
             },
             {
                 "backgroundStory" : ["","ste","Ste:","This was run by a guy called Verbluten. That clan soon died because he had to study."]
@@ -15436,7 +15442,7 @@
         "id" : "d_s",
         "tag" : ["tagFront","[","D.S","]"],
         "tag_extra" : "",
-        "flag" : ["",""],
+        "flag" : ["🇮🇹","Advertised in Italian but not clear if exclusive to it"],
         "name" : "D10S-S4NT0S",
         "gametype" : ["Basic"],
         "tier" : ["B","",""],
@@ -16761,8 +16767,8 @@
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["member","[DA]"],
-                        "aliases" : [""],
+                        "pidPlusName" : ["specx","[DA]GeneralPatrik"],
+                        "aliases" : ["SpecX","PatrikParmar"],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
                         "stats" : ["",""]
@@ -46109,19 +46115,47 @@
     {
         "id" : "mud",
         "tag" : ["tagFront","(","mud",")"],
-        "tag_extra" : "",
-        "flag" : ["🇫🇷","Probably 100%"],
-        "name" : "",
+        "tag_extra" : "[MUD]",
+        "flag" : ["🇫🇷","100%"],
+        "name" : "Master Unit Death",
         "gametype" : ["0a"],
         "tier" : ["B","",""],
-        "date" : ["isUncertain","2004-01-01","isUncertain","2004-12-01","isCertain",""],
-        "founder" : [""],
+        "date" : ["isCertain","2004-02-29","isCertain","2004-07-30","isCertain",""],
+        "founder" : ["Devlyn, Ronan"],
         "members" : [
             {
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["member","(mud)"],
+                        "pidPlusName" : ["devlyn","(mud)Devlyn 🇫🇷"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","Founder"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["ronan","(mud)Ronan 🇫🇷"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["","Founder"]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["shiva","(mud)Shiva 🇫🇷"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["First member to join",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["plakto88","(mud)Plakto88 🇫🇷"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -46129,7 +46163,47 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["member","(mud)"],
+                        "pidPlusName" : ["tueurdelombre","(mud)TueurDeLombre 🇫🇷"],
+                        "aliases" : ["TueurDivin"],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["babble","(mud)Babble 🇫🇷"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["quent155","(mud)Quent155 🇫🇷"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["slayer_fr","(mud)Slayer 🇫🇷"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","2004-07-30",""],
+                        "stats" : ["Didnt make it to nMa most likely",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["hitman_fr","(mud)Hitman 🇫🇷"],
+                        "aliases" : [""],
+                        "pastClanIDs" : [""],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["txt_fr","(mud)txt 🇫🇷"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -46144,22 +46218,28 @@
             },
             {
                 "match" : ["e3_1_v_mud","e3_1","[E3]","Loss 0:3","2004-06-08","June 8th 2004, (E3) vs (mud)<br /><br />Match 1 (DXMP_CMD): E3: 30 (mud): 15<br />Match 2 (DXMP_Smuggler): E3: 30 (mud): 20<br />Match 3 (DXMP_Area51Bunker): -- (mud) quit from the server --<br />Have to clarify if it was the Swedish auged E3 playing v mud, or more likely the 0auged E3 - currently seems to be marked as the auged clan","isCertain"]
+            },
+            {
+                "match" : ["alliance_v_mud","alliance","[A]","Loss","2004-07","Big loss to Alpha clan which led to the (mud) reforming under a new tag [nMa]<br><br>(MUD)Shiva: That's why we got destroyed by [A]. If I recall it was a clan war with augs on CMD. We rarely played augs","isCertain"]
             }
         ],
         "websites" : [
             {
-                "website" : ["","",""]
+                "website" : ["initial website","https://web.archive.org/web/20040228000243/http://mud-clan.skyblog.com:80/","index"]
+            },
+            {
+                "website" : ["had a website created by Devlyn","http://monsite.wanadoo.fr/mudclan","dead"]
             }
         ],
         "forums" : [
             {
-                "forum" : ["","",""]
+                "forum" : ["none, used forums instead","",""]
             }
         ],
-        "description" : "Obscure fourth year non-aug clan possibly from France if memory serves. The exMUD listed by Hasharin could also be perhaps related, currently not marked as a separate clan yet. Their war record shows clan had a habit of walking away.",
+        "description" : "French 0aug clan approximately from the early fourth year. The exMUD listed by Hasharin could also be perhaps related, currently not marked as a separate clan yet. Their war record shows clan had a habit of walking away, and after a defeat to [A] the clan evolved into [nMa], copying the [nMe] clan tag.",
         "background" : [
             {
-                "backgroundStory" : ["","","",""]
+                "backgroundStory" : ["Discord, 2025","(MUD)Shiva","shiva_fr","[MUD] Master Unit Death was a french clan created by Devlyn and Ronan. I joined quickly after the creation. There was also Plakto88, TueurDeLombre, Babble, Quent155 in this team. I remember a clan war vs [A]. It was crazy. [A] destroyed us in a clanwar. Quent155 is now a streamer. We had a website. Devlyn was kind of a developer. It was showing the team members. It had a logo from a metal band (I think it was a metal... few years ago, i saw this logo somewhere). (Forums?) Nope, we discussed on MSN 😄. <br />Yes, I know nMa. I was part of it. Once MUD started to grow, we wanted to reduce the size with more 'elite' players. I know [AG] Ancient Gods, yes. I did play with Anubis. I wish I could play with him again. Haha. MoD rings me a bell. (nMA) Same people. Devlyn and Ronan. I can't say much about nMa. At that time, i was playing a little more Unreal Tournament. Maybe Quent155 knows. I found the logo on the website of MUD aha (thanks to GPT, i could explain how was the logo). extremely accurate from my memory. Emperor band. I think many years ago, i still had the link to the website. The clan was really huge. The clan was created in 8th May 2004--Ok, I have the final date of MUD creation : 29th of february. it was older. I have the messages there (Hitman?) I don't know, slayer was a friend of hitman, i was just a friend of slayer ). The clan was dissolved at the end of July 2004. nMa was created around end of July : p<br />That's why we got destroyed by [A]. If I recall it was a clan war with augs on CMD. We rarely played augs. That's the clanwar i remember the most. (who didnt make it to nma?) Definitely not slayer, he was extremely toxic."]
             }
         ],
         "news" : [
@@ -48703,18 +48783,86 @@
         "id" : "nma",
         "tag" : ["tagFront","[","nMa","]"],
         "tag_extra" : "",
-        "flag" : ["🇫🇷",""],
-        "name" : "",
+        "flag" : ["🇫🇷","100%"],
+        "name" : "New Model Army",
         "gametype" : ["0a"],
-        "tier" : ["B","",""],
-        "date" : ["isUncertain","2005-01-01","isUncertain","2005-01-01","isCertain",""],
-        "founder" : ["TueurDivin ?"],
+        "tier" : ["B","A",""],
+        "date" : ["isUncertain","2004-09-01","isUncertain","2005-12-01","isCertain",""],
+        "founder" : ["Devlyn, Ronan"],
         "members" : [
             {
                 "membergroup" : [
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["tueurdivin","(nMa)TueurDivin"],
+                        "pidPlusName" : ["devlyn","[nMa]Devlyn 🇫🇷"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["mud"],
+                        "membership" : ["","",""],
+                        "stats" : ["","Founder"]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["ronan","[nMa]Ronan 🇫🇷"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["mud"],
+                        "membership" : ["","",""],
+                        "stats" : ["","Founder"]
+                    }
+                ]
+            },
+            {
+                "membergroup" : [
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["shiva","(nMa)Shiva 🇫🇷"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["mud"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["plakto88","(nMa)Plakto88 🇫🇷"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["mud"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["tueurdelombre","(nMa)TueurDivin 🇫🇷"],
+                        "aliases" : ["TueurDeLombre"],
+                        "pastClanIDs" : ["mud"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["quent155","(nMa)Quent155 🇫🇷"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["mud"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["shadow_fr","[nma]Shadow 🇫🇷"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["mud"],
+                        "membership" : ["","",""],
+                        "stats" : ["Possibly an alias of someone already in roster",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["babble","(nMa)Babble 🇫🇷"],
+                        "aliases" : [""],
+                        "pastClanIDs" : ["mud"],
+                        "membership" : ["","",""],
+                        "stats" : ["",""]
+                    },
+                    {
+                        "membergroupLabel" : ["",""],
+                        "pidPlusName" : ["hitman_fr","(mud)Hitman 🇫🇷"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -48722,7 +48870,7 @@
                     },
                     {
                         "membergroupLabel" : ["",""],
-                        "pidPlusName" : ["shadow_fr","[nma]Shadow"],
+                        "pidPlusName" : ["txt_fr","(mud)txt 🇫🇷"],
                         "aliases" : [""],
                         "pastClanIDs" : [""],
                         "membership" : ["","",""],
@@ -48738,18 +48886,18 @@
         ],
         "websites" : [
             {
-                "website" : ["","",""]
+                "website" : ["If it existed, probably a repurposed MUD site or a redesign, likely by Devlyn again","",""]
             }
         ],
         "forums" : [
             {
-                "forum" : ["","",""]
+                "forum" : ["likely again just msn","",""]
             }
         ],
-        "description" : "A seemingly French smaller clan of around fifth year that focused likely on non-aug and perhaps some mods, and wears a tag suspiciously similar to the American non-aug clan [nMe] Enemy, making me ponder the possibilities of what the French name might've meant, and whether this group was trolling them. Not clear if they had connection to (mud) or [AG] which should be similarly tiny French groups of roughly same era.",
+        "description" : "A smaller French clan of around fifth year, evolution of (MUD) from the previous year, that focused on non-aug and perhaps some mods, and has a tag suspiciously similar to the American non-aug clan [nMe] Enemy, reading the same way but with a funnier meaning, perhaps indicating some kind of beef with the nMe brothers.",
         "background" : [
             {
-                "backgroundStory" : ["","","",""]
+                "backgroundStory" : ["Discord in 2025","(MUD)Shiva","shiva_fr","Yes, I know nMa. I was part of it. Once MUD started to grow, we wanted to reduce the size with more 'elite' players. (nMA) Same people. Devlyn and Ronan. I can't say much about nMa. At that time, i was playing a little more Unreal Tournament. Maybe Quent155 knows.<br />(Tag?) Devlyn told me once, I don't remember. Maybe it will come back to my mind soon aha. (En-Em-Ah?) It is lol. (Beef with Aztek and his brother?) I remember Ronan was 13 when he created MUD with Devlyn. Devlyn was... 15 maybe. So beef is highly possible: 'D<br />nMa must be around october/november 2004. What a pleasure, I can see Devlyn saying he kept the best players from MUD and there is my name ^<br />I think only 4 or 5 from MUD moved to nMa. The point of nMa was to keep the best. Definitely not slayer, he was extremely toxic"]
             }
         ],
         "news" : [
@@ -69508,10 +69656,10 @@
         "tag" : ["tagFront","[","X","]"],
         "tag_extra" : "",
         "flag" : ["",""],
-        "name" : "X Factor",
+        "name" : "X Factor / X Faction",
         "gametype" : ["Augs"],
         "tier" : ["B","A",""],
-        "date" : ["isUncertain","2001-07-01","isUncertain","2001-12-01","isCertain",""],
+        "date" : ["isUncertain","2001-10-01","isUncertain","2002-02-01","isCertain",""],
         "founder" : [""],
         "members" : [
             {
@@ -69554,7 +69702,7 @@
                 "forum" : ["","",""]
             }
         ],
-        "description" : "Obscure clan roughly from the first year of which only indirect evidence exist and that is easily confused with the second year clan eX, although its not clear whether those two clans are related in spite of GoTTi being in both. Some comments we're made that X was involved in the League / Tournament organization, and it might be actually the short-lived [X] Factor that was formed from [A].",
+        "description" : "Evolution of [A]ssassins clan after it began fading in late 2001, it would likely die early February 2002 when [A] is revived. Easily confused with the second year clan eX, although its not clear whether those two clans are related in spite of GoTTi being in both. Some comments we're made that X was involved in the League / Tournament organization, and while [A] news states that the tag stands for X Faction we keep a differently sourced name version X Factor here for now as well.",
         "background" : [
             {
                 "backgroundStory" : ["","","",""]
